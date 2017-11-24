@@ -1,0 +1,26 @@
+body {
+	font: 12px verdana,sans-serif;
+	background-color: black;
+	color: white;
+}
+a, a:visited {
+	color: #A2C617;
+	color: #009A93;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+span.c33c3 {
+	display: inline-block;
+}
+.c33c3 {
+/*
+	https://css-tricks.com/snippets/css/reversing-text/
+	http://stackoverflow.com/a/5409373
+	http://stackoverflow.com/a/10471191
+*/
+	transform:rotateY(180deg);
+	unicode-bidi:bidi-override;
+	direction:rtl;
+	transform:rotate(182deg) scale(1,-1) translate(0,17px);
+}
