@@ -72,5 +72,5 @@ curl --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agen
 
 sh wiki.sh
 
-# git add . && git commit -a -m '🐳'
+git add . && git commit -a -m '🐳'
 
