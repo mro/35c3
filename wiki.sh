@@ -12,20 +12,28 @@ dir=wiki
 
 rm -rf "${dir}"
 
-for page in Static:Main_Page Static:Crawling Static:Assemblies Static:Lightning_Talks Static:Projects "Static:Self-organized_Sessions" Static:Design Lightning:Datenreichtum_beim_Denkmalamt:_Aus_PDF_wird_RDF Session:We_Fix_the_Net
+for page in \
+  Static:Main_Page \
+  Static:Crawling \
+  Static:Assemblies \
+  Static:Lightning_Talks \
+  Static:Projects \
+  "Static:Self-organized_Sessions" \
+  Static:Design
 do
   url="https://events.ccc.de/congress/2017/${dir}/${page}"
   dst="${dir}/${page}/index.html"
-  curl --create-dirs --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
+  curl --silent --create-dirs --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     echo postproc
   }
 done
 
-for css in "mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles"
+for css in \
+  "mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles"
 do
   url="https://events.ccc.de/congress/2017/wiki/load.php?debug=false&amp;lang=en&amp;modules=${css}*&amp;only=styles&amp;skin=vector&amp;*"
   dst="${dir}/${css}.css"
-  curl --create-dirs --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
+  curl --silent --create-dirs --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     echo postproc
   }
   sed -i -e "s|https://events.ccc.de/|/|g" "${dir}"/*/*.html
