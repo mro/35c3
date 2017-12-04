@@ -13,11 +13,11 @@ dir=Fahrplan
 url="https://${dir}.events.ccc.de/congress/2017/${dir}/version"
 dst="${dir}.version"
 
-curl --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
+curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
   url="$(fgrep "URL: " < "${dst}" | cut -d ' ' -f 2)"
   dst="${dir}.tar.gz"
 
-  curl --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
+  curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     rm -rf "${dir}"
     tar -xzf "${dst}" && mv 34c3 "${dir}"
     sed -i -e "s:/congress/2017/${dir}/:./:g" "${dir}"/*.html
@@ -40,7 +40,7 @@ for part in everything workshops
 do
   dst="${dir}/${part}.schedule.xml"
   url="https://${dir}.events.ccc.de/congress/2017/${dst}"
-  curl --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
+  curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     {
       echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
       fgrep -v "<?xml version=" "${dst}"
@@ -60,11 +60,11 @@ dir="wiki"
 url="https://events.ccc.de/congress/2017/${dir}/version"
 dst="${dir}.version"
 
-curl --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
+curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
   url="$(fgrep "URL: " < "${dst}" | cut -d ' ' -f 2)"
   dst="${dir}.tbz"
 
-  curl --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
+  curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     rm -rf "${dir}"
     tar -xjf "${dst}"
   }
