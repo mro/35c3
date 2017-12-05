@@ -48,10 +48,10 @@ do
   }
 done
 
-# purge images and other binaries with few benefit and large footprint
+# purge images and other binaries with few benefit but large footprint
 find . \( -name "*.gif" -o -name "*.jpeg" -o -name "*.jpg" -o -name "*.JPG" -o -name "*.mp4" -o -name "*.odp" -o -name "*.pdf" -o -name "*.png" -o -name "*.PNG" \) -exec rm "{}" \;
 
-# git add . && git commit -a -m '🚀'
+git add . && git commit -a -m '🚀'
 
 
 dir="wiki"
@@ -73,4 +73,3 @@ curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --
 sh wiki.sh
 
 git add . && git commit -a -m '🐳'
-
