@@ -43,13 +43,8 @@ do
 done
 
 sed --in-place --regexp-extended \
-  -e 's|[^-]+- -total|foo - -total|g' \
-  -e 's|[^-]+- Template:Assembly/CenterList|foo - Template:Assembly/CenterList|g' \
-  -e 's|[^-]+- Template:Assembly/TableEntry|foo - Template:Assembly/TableEntry|g' \
-  -e 's|[^-]+- Template:Assembly/TagLinks|foo - Template:Assembly/TagLinks|g' \
-  -e 's|[^-]+- Template:List/End|foo - Template:List/End|g' \
-  -e 's|[^-]+- Template:List/Start|foo - Template:List/Start|g' \
-  -e 's|[^-]+- Template:Refresh|foo - Template:Refresh|g' \
+  -e 's|[^-]+ - -total|foo% bar - -total|g' \
+  -e 's|[^-]+ - Template:|foo% bar - Template:|g' \
   -e 's|<script>.+window\.RLQ=window\.RLQ[^<]+|<script>/* script purged */|g' \
   -e 's|and timestamp [0-9]+ and revision id [0-9]*|and timestamp foo and revision bar|g' \
   -e 's|Cached time:\s+[0-9]+|Cached time: foo|g' \
