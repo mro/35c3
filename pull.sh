@@ -13,6 +13,12 @@ dir=Fahrplan
 url="https://${dir}.events.ccc.de/congress/2017/${dir}/version"
 dst="${dir}.version"
 
+curl --output "${dir}/schedule.xml" --location https://fahrplan.events.ccc.de/congress/2017/Fahrplan/schedule.xml
+{
+  echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
+  fgrep -v "<?xml version=" "${dir}/schedule.xml"
+} | xmllint --output "${dir}"/schedule2.xml --relaxng assets/schedule.rng --format --encode utf-8 -
+
 curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
   url="$(fgrep "URL: " < "${dst}" | cut -d ' ' -f 2)"
   dst="${dir}.tar.gz"
@@ -22,8 +28,6 @@ curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --
     tar -xzf "${dst}" && mv 34c3 "${dir}"
     sed -i -e "s:/congress/2017/${dir}/:./:g" "${dir}"/*.html
     sed -i -e "s:/congress/2017/${dir}/:../:g" "${dir}"/*/*.html
-
-    curl --output "${dir}/schedule.xml" --location https://fahrplan.events.ccc.de/congress/2017/Fahrplan/schedule.xml
 
     {
       echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
