@@ -23,6 +23,8 @@ curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --
     sed -i -e "s:/congress/2017/${dir}/:./:g" "${dir}"/*.html
     sed -i -e "s:/congress/2017/${dir}/:../:g" "${dir}"/*/*.html
 
+    curl --output "${dir}/schedule.xml" --location https://fahrplan.events.ccc.de/congress/2017/Fahrplan/schedule.xml
+
     {
       echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
       fgrep -v "<?xml version=" "${dir}/schedule.xml"
