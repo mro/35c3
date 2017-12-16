@@ -748,14 +748,14 @@ In unserem Talk diskutieren wir aktuelle blidungspolitische Entwicklungen im Kon
         <start>19:45</start>
         <duration>01:00</duration>
         <room>Saal Borg</room>
-        <slug>34c3-9106-divided_discourse</slug>
+        <slug>34c3-9106-pointing_fingers_at_the_media</slug>
         <url>//fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9106.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
         </recording>
-        <title>Divided Discourse</title>
-        <subtitle>The Bundestagswahl 2017 in online posts and print media</subtitle>
+        <title>Pointing Fingers at 'The Media'</title>
+        <subtitle>The Bundestagswahl 2017 and Rise of the AfD</subtitle>
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>en</language>
@@ -827,45 +827,13 @@ A deeper analysis of NotPetya's cryptography revealed several rookie mistakes th
         <track>Security</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>Trusted Execution Environments (TEEs), like those based on ARM
-TrustZone or Intel SGX, intend to provide a secure way to run
-code beyond the typical reach of a computer's operating system.
-However, when trusted and untrusted code runs on shared hardware,
-it opens the door to the same microarchitectural attacks that
-have been exploited for years. This talk provides an overview of
-these attacks as they have been applied to TEEs, and it additionally
-demonstrates how to mount these attacks on common TrustZone
-implementations. Finally, we identify new techniques which allow us
-to peer within TrustZone TEEs with greater resolution than ever
-before.</abstract>
-        <description>The goals of this talk are twofold. First, it will build up an
-understanding of microarchitectural attacks, Trusted Execution
-Environments, and the existing research into the two. The talk
-assumes only basic knowledge of processor operation, and presents
-the information needed to understand the many variants of
-attacks against the cache and more. We will also cover key
-similarities and differences between ARM TrustZone and Intel SGX
-technologies and how these can be abused by microarchitectural
-attacks. This is a relatively new field of research, but it is
-growing quickly, and we hope to explain the significant
-contributions and accomplishments that have been achieved already.
-&lt;br&gt;&lt;br&gt;
-The second goal of the talk is to demonstrate how to perform these
-attacks in practice. We will take the TrustZone-based TEE
-implementation on the Nexus 5X as an example and explain how to write
-software which performs these side-channel attacks. We then push
-beyond the existing research and develop new methods to perform attacks
-on ARM TrustZone with greater precision than seen before. Our setup is
-relatively easy to implement, and we aim for this demonstration to
-encourage and enable further research into the software running within
-these trusted environments.
-&lt;br&gt;&lt;br&gt;
-By the end of the talk, the audience will recognize the risks presented
-by microarchitectural attacks and the ease with which issues can be
-exploited. We hope to leave the audience appreciating the tension
-between processor security and performance and understanding the
-difficulty of truly securing a Trusted Execution Environment from this
-powerful class of attack.</description>
+        <abstract>Trusted Execution Environments (TEEs), like those based on ARM TrustZone or Intel SGX, intend to provide a secure way to run code beyond the typical reach of a computer’s operating system.
+However, when trusted and untrusted code runs on shared hardware, it opens the door to the same microarchitectural attacks that have been exploited for years. This talk provides an overview of these attacks as they have been applied to TEEs, and it additionally demonstrates how to mount these attacks on common TrustZone implementations. Finally, we identify new techniques which allow us to peer within TrustZone TEEs with greater resolution than ever before.</abstract>
+        <description>The goals of this talk are twofold. First, it will build up an understanding of microarchitectural attacks, Trusted Execution Environments, and the existing research into the two. The talk assumes only basic knowledge of processor operation, and presents the information needed to understand the many variants of attacks against the cache and more. We will also cover key similarities and differences between ARM TrustZone and Intel SGX technologies and how these can be abused by microarchitectural attacks. This is a relatively new field of research, but it is growing quickly, and we hope to explain the significant contributions and accomplishments that have been achieved already.
+
+The second goal of the talk is to demonstrate how to perform these attacks in practice. We will take the TrustZone-based TEE implementation on the Nexus 5X as an example and explain how to write software which performs these side-channel attacks. We then push beyond the existing research and develop new methods to perform attacks on ARM TrustZone with greater precision than seen before. Our setup is relatively easy to implement, and we aim for this demonstration to encourage and enable further research into the software running within these trusted environments.
+
+By the end of the talk, the audience will recognize the risks presented by microarchitectural attacks and the ease with which issues can be exploited. We hope to leave the audience appreciating the tension between processor security and performance and understanding the difficulty of truly securing a Trusted Execution Environment from this powerful class of attack.</description>
         <logo/>
         <persons>
           <person id="7706">Keegan Ryan</person>
@@ -1130,9 +1098,7 @@ In our talk, we will outline the discourse on strategic citation with examples, 
         <track>Security</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>This presentation is a detailed write-up of the exploit
-development process for the vulnerability in Cisco Cluster Management
-Protocol that allows a full takeover of the device.</abstract>
+        <abstract>Year 2017 was rich in vulnerabilities discovered for Cisco networking devices. At least 3 vulnerabilities leading to a remote code execution were disclosed. This talk will give an insight on exploit development process for Cisco IOS for two of the mentioned critical vulnerabilities. Both lead to a full takeover of the target device. Both PowerPC and MIPS architectures will be covered. The presentation will feature an SNMP server exploitation demo.</abstract>
         <description>On March 17th, Cisco Systems Inc. made a public announcement
 that over 300 of the switches it manufactures are prone to a critical
 vulnerability that allows a potential attacker to take full control of
@@ -1149,22 +1115,28 @@ remediation for this vulnerability was available with the initial
 advisory and patched versions of IOS software were announced on May 8th
 2017.
 
+I decided to reproduce the steps necessary to create a fully working tool to
+get remote code execution on Cisco switches mentioned in the public announcement.
+
+Another big vulnerability was disclosed in June 2017. This was a remote
+code execution vulnerability in an SNMP service affecting multiple Cisco
+routers and switches. 
+
+I will share the techniques and tools I used while researching vulnerable
+Cisco switches and routers. Reverse engineering and debugging IOS under PowerPC 
+and MIPS architectures will be the focus of this talk. 
+
 We all heard about modern exploit mitigation techniques such as
 Data Execution Prevention, Layout Randomization. But just how hardened
 is the network equipment? And how hard is it to find critical
-vulnerabilities?
-
-To answer that question I decided to reproduce the steps
-necessary to create a fully working tool to get remote code execution on
-Cisco switches mentioned in the public announcement.
-</description>
+vulnerabilities in network devices?</description>
         <logo/>
         <persons>
           <person id="7744">Artem Kondratenko</person>
         </persons>
         <links>
           <link href="https://twitter.com/artkond">Twitter</link>
-          <link href="https;//artkond.com">Blog</link>
+          <link href="https://artkond.com">Blog</link>
         </links>
         <attachments>
 </attachments>
@@ -1809,7 +1781,7 @@ I will explain BGP, the protocol that knits the internet together, also covering
           <optout>false</optout>
         </recording>
         <title>Die göttliche Informatik</title>
-        <subtitle>Die Informatik löst formalisierbare Probleme ganz vorzüglich – doch nun soll sie alle anderen Probleme auch noch lösen</subtitle>
+        <subtitle>Die Informatik löst traditionell formale (mathematisch modellierbare) Probleme ganz vorzüglich – doch nun soll sie alle anderen Probleme auch noch lösen</subtitle>
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>de</language>
@@ -1823,7 +1795,7 @@ Derartige Diskussionen sich jedoch mitnichten rein akademisch oder philosophisch
 Für eine Digitalisierung im Sinne der Freiheit und der gesellschaftlichen Weiterentwicklung müssen die Erwartungen an die Informatik folglich neu justiert werden und das im Zusammenhang mit wirtschaftlichen und politischen Machtverhältnissen. Debatten und Widerspruch sind streng erwünscht, dafür wird genug Zeit sein.</description>
         <logo>/system/events/logos/000/008/998/large/360px-J%C3%BCdischer_friedhof_berlin_wei%C3%9Fensee_Joseph_Weizenbaum.jpg?1508103790</logo>
         <persons>
-          <person id="1642">Rainer</person>
+          <person id="1642">Rainer Rehak</person>
         </persons>
         <links>
           <link href="https://www.fiff.de/publikationen/fiff-kommunikation/fk-2016/fk-2016-2/fk-2016-2-content/fk-2-16-p45.pdf">Kurzer Artikel: Die Macht der Vermenschlichung und die Ohnmacht der Begriffe</link>
@@ -2251,10 +2223,11 @@ The event will be in German, we hope to have live translation again.</descriptio
         <type>lecture</type>
         <language>en</language>
         <abstract>Lightning Talks are short lectures (almost) any congress participant may give! Bring your infectious enthusiasm to an audience with a short attention span! Discuss a program, system or technique! Pitch your projects and ideas or try to rally a crew of people to your party or assembly! Whatever you bring, make it quick!</abstract>
-        <description>To get involved and learn more about what is happening please visit the Lightning Talks Wikipage.</description>
-        <logo/>
+        <description>To get involved and learn more about what is happening please visit the Lightning Talks Wikipage at &lt;a href="https://events.ccc.de/congress/2017/wiki/index.php/Static:Lightning_Talks"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Static:Lightning_Talks&lt;/a&gt;</description>
+        <logo>/system/events/logos/000/009/256/large/tuwat_lt.png?1513277521</logo>
         <persons>
           <person id="5263">gedsic</person>
+          <person id="4601">bigalex</person>
         </persons>
         <links>
 </links>
@@ -2799,7 +2772,7 @@ this way people who can not afford it are not excluded from learning how to sold
 We will show how we used data mining, OSINT and traditional investigative techniques to analyse the World-Check database and discover the human impact of this Kafkaesque system, which is used by almost every major bank and many other institutions including law enforcement agencies. The resulting story made front page news in the UK, Germany, Belgium, Italy, the Netherlands and the USA.
 
 We will also ask whether we really want banks to be held responsible for the crimes of their customers? Are Financial Intelligence Units a sensible precaution, or are they pre-crime agencies?</description>
-        <logo/>
+        <logo>/system/events/logos/000/009/070/large/worldcheck-4-1498254190.gif?1513378145</logo>
         <persons>
           <person id="7784">Tom Wills</person>
         </persons>
@@ -3204,23 +3177,23 @@ While the declared scope of avatar² the is analysis of embedded firmware, this 
         <start>19:45</start>
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
-        <slug>34c3-9077-humans_as_software_extensions</slug>
+        <slug>34c3-9077-will_you_be_my_plugin</slug>
         <url>//fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9077.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
         </recording>
-        <title>Humans as software extensions</title>
-        <subtitle/>
+        <title>Will You Be My Plugin?</title>
+        <subtitle>Humans as software extensions</subtitle>
         <track>Art &amp; Culture</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>While technology is often described as an extension of our bodies, this talk will explore a reversed relationship: Bodies and minds of digital laborers (you and me and basically everybody else) as software extensions that can be easily plugged in, rewired, and discarded.</abstract>
+        <abstract>While technology is often described as an extension of our bodies, this talk will explore a reversed relationship: Bodies and minds of digital laborers (you and me and basically everybody else) as software extensions that can be easily plugged in, rewired, and discarded. I will approach this topic from an artist's point of view.</abstract>
         <description>From CAPTCHAS as micro jobs for training AI to people having to pretend to be bots, from gig work to APIs for programming people – we are extending computational systems by offering our bodies, our senses, and our cognition.
 
 To some degree, this has been true for most kind of work for a long time. However, with software creeping into every aspect of our lives, and with algorithmic systems modulating and optimizing flows constantly, being plugged in and then generating data, or being modulated by data analysis, has become ubiquitous (workers never leaving the factory?).
 
-In this talk I will approach the condition of being a software extension from various perspectives, e.g. the survival creativity of gig workers on hyper-competitive online platforms; the surveilled workplace; AI as a global assembly line.
+In this talk, I will address the condition of being a software extension within the framework of my artistic practice and research by introducing artworks and discussing e.g. the survival creativity of gig workers on hyper-competitive online platforms; the surveilled workplace; AI as a global assembly line.
 
 Against this backdrop, I will also speculate about possible interventions inside these environments.</description>
         <logo/>
@@ -3768,7 +3741,7 @@ https://media.ccc.de/v/29c3-5037-de-en-nougatbytes10_h264
 http://nougatbytes.de</description>
         <logo>/system/events/logos/000/008/993/large/Nougatbytes_logo_text_quadrat.png?1508096370</logo>
         <persons>
-          <person id="1642">Rainer</person>
+          <person id="1642">Rainer Rehak</person>
           <person id="3834">Benks</person>
         </persons>
         <links>
@@ -3798,10 +3771,11 @@ http://nougatbytes.de</description>
         <type>lecture</type>
         <language>en</language>
         <abstract>Lightning Talks are short lectures (almost) any congress participant may give! Bring your infectious enthusiasm to an audience with a short attention span! Discuss a program, system or technique! Pitch your projects and ideas or try to rally a crew of people to your party or assembly! Whatever you bring, make it quick!</abstract>
-        <description>To get involved and learn more about what is happening please visit the Lightning Talks Wikipage.</description>
-        <logo/>
+        <description>To get involved and learn more about what is happening please visit the Lightning Talks Wikipage at &lt;a href="https://events.ccc.de/congress/2017/wiki/index.php/Static:Lightning_Talks"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Static:Lightning_Talks&lt;/a&gt;</description>
+        <logo>/system/events/logos/000/009/257/large/tuwat_lt.png?1513277584</logo>
         <persons>
           <person id="5263">gedsic</person>
+          <person id="4601">bigalex</person>
         </persons>
         <links>
 </links>
@@ -4875,6 +4849,7 @@ We hope to create the opportunity for you to join our research project and start
         <logo>/system/events/logos/000/008/940/large/PI_logo.jpg?1512384539</logo>
         <persons>
           <person id="7759">Eva Blum--Dumontet</person>
+          <person id="7899">Millie Wood</person>
         </persons>
         <links>
 </links>
@@ -4929,10 +4904,8 @@ On the day of the referendum it was expected that the Spanish police will close 
         <track>Security</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>Lots of research are arising from the fairly unexplored world of automative communications.
-Cars are no longer becoming computers, they are fully connected networks where every ECU exchanges and operates the vehicles at some point.
-Here is an introduction of my immersion and discussions with my car, and how I finally managed to drift (a bit) with my mom's FWD Fiat 500c.
-</abstract>
+        <abstract>Lots of research are arising from the fairly unexplored world of automative communications. Cars are no longer becoming computers, they are fully connected networks where every ECU exchanges and operates the vehicles at some point.
+Here is an introduction of my immersion and discussions with my car, and how I finally managed to drift (a bit) with my mom's FWD Fiat 500c.</abstract>
         <description>This talk is not only about security, but about hacking and video games. Many video games are about driving cars, whether it is for racing, or heisting and escaping the police. In this talk, we will explain how the user experience could actually be improved by connecting a car to a video game and turning it into a game controller.
 
 We will discuss about these connected systems, how car components interact with one another, the different protocols, or anything that came to us during this journey.
@@ -4953,11 +4926,11 @@ Minor details about how to create a custom game controller
 OBD dongle reverse engineering</description>
         <logo>/system/events/logos/000/008/758/large/IMG_0505.JPG?1506513641</logo>
         <persons>
+          <person id="7994">Guillaume Heilles</person>
           <person id="7546">P1kachu</person>
         </persons>
         <links>
-          <link href="https://p1kachu.pluggi.fr/13579/canhack/#/">Unfinished slides</link>
-        </links>
+</links>
         <attachments>
 </attachments>
       </event>
@@ -5106,6 +5079,7 @@ Es geht darum ein verständliches Bild zu zeichnen von dem, was in Hamburg währ
         <logo/>
         <persons>
           <person id="7828">Daniel Möring</person>
+          <person id="7002">h01ger</person>
         </persons>
         <links>
           <link href="https://fcmc.tv/">FC/MC</link>
@@ -5409,9 +5383,10 @@ Im Zuge von noch mehr Transparenz, Kritik &amp; Selbstkritik und kontinuierliche
         <type>lecture</type>
         <language>en</language>
         <abstract>Lightning Talks are short lectures (almost) any congress participant may give! Bring your infectious enthusiasm to an audience with a short attention span! Discuss a program, system or technique! Pitch your projects and ideas or try to rally a crew of people to your party or assembly! Whatever you bring, make it quick!</abstract>
-        <description>To get involved and learn more about what is happening please visit the Lightning Talks Wikipage.</description>
-        <logo/>
+        <description>To get involved and learn more about what is happening please visit the Lightning Talks Wikipage at &lt;a href="https://events.ccc.de/congress/2017/wiki/index.php/Static:Lightning_Talks"&gt;https://events.ccc.de/congress/2017/wiki/index.php/Static:Lightning_Talks&lt;/a&gt;</description>
+        <logo>/system/events/logos/000/009/258/large/tuwat_lt.png?1513277604</logo>
         <persons>
+          <person id="5263">gedsic</person>
           <person id="4601">bigalex</person>
         </persons>
         <links>
@@ -5957,7 +5932,7 @@ A lot of effort for a switching on a blue light ;)
 
 This talk will both scrutinize the DRM-regime of MQA and the sound-quality narrative. 
 
-In the context of the latter we will look at MQAs assertion that the Shannon-Nyquist theorem is inadequate for audio-sampling as it purportedly introduces “temporal inaccuracies.” MQA claims to have incorporated “new psychoacoustic research” and advances beyond Shannon-Nyquist in sampling theory. The exact nature of this innovations remain unclear as MQA technology is proprietary and not independent third-party research available.
+In the context of the latter we will look at MQAs assertion that the Shannon-Nyquist theorem is inadequate for audio-sampling as it purportedly introduces “temporal inaccuracies.” MQA claims to have incorporated “new psychoacoustic research” and advances beyond Shannon-Nyquist in sampling theory. The exact nature of this innovations remain unclear as MQA technology is proprietary and no independent third-party research is available.
 
 We will discuss these claims and show the status of the numerous MQA reverse-engineering efforts. So far it is know that MQA is PCM-based, uses minimum-phase filters and destructive compression for parts of the spectrum. It also lowers the available dynamic range and exhibits no behaviour proving any of their claims made in the marketing material. Still MQA at least managed to get the almost unequivocal support of the audio-press and at the same time is hotly debated online.
 
@@ -5969,6 +5944,7 @@ Finally we will discuss the systemic dimension of MQA in the context of music-st
         <logo/>
         <persons>
           <person id="3160">Christoph Engemann</person>
+          <person id="7996">Anton.schlesinger@studio-singer.de</person>
         </persons>
         <links>
           <link href="https://en.wikipedia.org/wiki/Master_Quality_Authenticated">MQA Wikipedia</link>
