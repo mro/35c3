@@ -868,7 +868,7 @@ The audience will get a good understanding of hardware and software design in th
 <logo></logo>
 <persons>
 <person id='1643'>Michael Steil</person>
-<person id='7976'>hessi</person>
+<person id='7976'>Christian Hessmann</person>
 </persons>
 <links>
 </links>
@@ -2079,54 +2079,17 @@ Together with the talk we&#39;re planning to make available detailed notes on re
 <track>Security</track>
 <type>lecture</type>
 <language>en</language>
-<abstract>&lt;p&gt;
-Lattices are an extremely useful mathematical tool for cryptography.
-This talk will explain the basics of lattices in cryptography and
-cryptanalysis.
-&lt;/p&gt;</abstract>
-<description>&lt;p&gt;
-It&#39;s an exciting time for public-key cryptography.  With the threat of
-practical quantum computers looming in the next few decades, it&#39;s
-high time to replace the systems that can be broken by a quantum
-computer with ones that remain secure even if the attacker has a
-quantum computer. However, this is easier said than done -- there is
-no consensus what replacements should be chosen and how secure the
-systems are. NIST has just started a 5-7 year competition with the
-target to recommend a portfolio of post-quantum encryption and
-signature schemes. Considerations will be speed, bandwidth, and of
-course security.
-&lt;/p&gt;
+<abstract>Lattices are an extremely useful mathematical tool for cryptography.
+This talk will explain the basics of lattices in cryptography and cryptanalysis.</abstract>
+<description>It’s an exciting time for public-key cryptography. With the threat of practical quantum computers looming in the next few decades, it’s high time to replace the systems that can be broken by a quantum computer with ones that remain secure even if the attacker has a quantum computer. However, this is easier said than done – there is no consensus what replacements should be chosen and how secure the systems are. NIST has just started a 5-7 year competition with the target to recommend a portfolio of post-quantum encryption and signature schemes. Considerations will be speed, bandwidth, and of course security.
 
-&lt;p&gt;
-Several of the submissions are based on lattices.  At our current
-level of understanding, lattice-based cryptography offers relatively
-small public keys for both encryption and signatures, while having
-good performance and reasonably sized ciphertexts and signatures.  While
-these features are nice and make us want to know more about lattices,
-that world can be a scary place full of discussions of Minkowski
-bounds, Gaussian distributions, and orthogonalized bases.  We will
-show how these schemes work in accessible terms.
-&lt;/p&gt;
+Several of the submissions are based on lattices. At our current level of understanding, lattice-based cryptography offers relatively small public keys for both encryption and signatures, while having good performance and reasonably sized ciphertexts and signatures. While these features are nice and make us want to know more about lattices, that world can be a scary place full of discussions of Minkowski bounds, Gaussian distributions, and orthogonalized bases. We will show how these schemes work in accessible terms.
 
-&lt;p&gt;
-Lattices have been used in cryptography for more than 30 years, but
-for most of that only as a tool to attack systems, starting with
-knapsack systems in the early 80&#39;s. Lattices can also be used to break
-conventional public-key cryptosystems such as RSA or Diffie-Hellman when
-they are incorrectly implemented.  This talk will explain these fun
-attacks in concrete terms, with code you can run at home.
-&lt;/p&gt;
+Lattices have been used in cryptography for more than thirty years, but for most of that only as a tool to attack systems, starting with knapsack systems in the early 80’s. Lattices can also be used to break conventional public-key cryptosystems such as RSA or Diffie-Hellman when they are incorrectly implemented. This talk will explain these fun attacks in concrete terms, with code you can run at home.
 
-&lt;p&gt;
-Algorithms will be presented as Python/Sage code snippets and will 
-already be online before the talk at https://latticehacks.cr.yp.to.
-&lt;/p&gt;
+Algorithms will be presented as Python/Sage code snippets and will already be online before the talk at https://latticehacks.cr.yp.to.
 
-&lt;p&gt;
-This is a joint presentation
-by Daniel J. Bernstein, Nadia Heninger, and Tanja Lange,
-surveying work by many people.
-&lt;/p&gt;</description>
+This is a joint presentation by Daniel J. Bernstein, Nadia Heninger, and Tanja Lange, surveying work by many people.</description>
 <logo></logo>
 <persons>
 <person id='3538'>djb</person>
@@ -2134,6 +2097,7 @@ surveying work by many people.
 <person id='3547'>Nadia Heninger</person>
 </persons>
 <links>
+<link href='https://latticehacks.cr.yp.to'>https://latticehacks.cr.yp.to</link>
 </links>
 <attachments>
 </attachments>
@@ -3524,7 +3488,7 @@ In the first part of this talk, we explore the challenge of non-destructively co
 <logo></logo>
 <persons>
 <person id='4835'>Moritz</person>
-<person id='7995'>Alex Glaser</person>
+<person id='7995'>ALX</person>
 </persons>
 <links>
 </links>
@@ -3792,8 +3756,8 @@ http://nougatbytes.de</description>
 <license>CC BY 4.0</license>
 <optout>false</optout>
 </recording>
-<title>“Nabovarme&quot; opensource heating infrastructure in Christiania</title>
-<subtitle> Freetown Christiania´s digitally controlled/surveyed heating system. 350 users</subtitle>
+<title>“Nabovarme” opensource heating infrastructure in Christiania</title>
+<subtitle>Freetown Christiania´s digitally controlled/surveyed heating system. 350 users</subtitle>
 <track>Hardware &amp; Making</track>
 <type>lecture</type>
 <language>en</language>
@@ -3813,13 +3777,13 @@ A society embracing OpenSource before the term was declared
 Communities going together and creating a common heating solution to lower the environmental impact and risk of fire and increase the level of autonomy. 
 The creation of a custom fitted, self administered payment model.
 
-We have liberated devices controlling the production of heat (NBE Pellet system, Kamstrup meter systems) and made devices (MeterLogger) used for metering heat and electricity consumption using open source. We are in the process of bringing easy readable consumption data to the focus of christiania citizens - for all of us to take climate action</description>
+We have liberated devices controlling the production of heat (NBE Pellet system, Kamstrup meter systems) and made devices (MeterLogger) used for metering heat and electricity consumption using open source. We are in the process of bringing easy readable consumption data to the focus of christiania citizens - for all of us to take climate action.</description>
 <logo>/system/events/logos/000/008/989/large/IMG_20171014_174810_2.jpg?1508009000</logo>
 <persons>
 <person id='7798'>“Nabovarme” - Freetown Christiania´s digitally controlled/surveyed heating system. 350 users</person>
 </persons>
 <links>
-<link href='https://docs.google.com/document/d/1HbU9BQdX9aDQFFhaIE-LHPEXsxjTXKCthxqVx95gIMk/edit?usp=drivesdk'>Nabovarme application document</link>
+<link href='https://docs.google.com/document/d/1HbU9BQdX9aDQFFhaIE-LHPEXsxjTXKCthxqVx95gIMk/edit?usp=drivesdk'>Nabovarme application document (Google docs)</link>
 </links>
 <attachments>
 <attachment href='/system/event_attachments/attachments/000/003/265/original/Final_Abstract_%281%29.pdf?1508009001'>Application pdf</attachment>
@@ -3981,65 +3945,48 @@ Vital | Flows is an ongoing work drawing knowledge about food from multiple sour
 <event guid='8b136e88-ea36-4398-bac2-13cf2a509d5e' id='9184'>
 <date>2017-12-29T18:30:00+01:00</date>
 <start>18:30</start>
-<duration>00:30</duration>
+<duration>01:00</duration>
 <room>Saal Borg</room>
-<slug>34c3-9184-climate_change_-_what_do_we_know_and_how_do_we_know_it</slug>
+<slug>34c3-9184-a_hacker_s_guide_to_climate_change_-_what_do_we_know_and_how_do_we_know_it</slug>
 <url>//fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9184.html</url>
 <recording>
 <license>CC BY 4.0</license>
 <optout>false</optout>
 </recording>
-<title>Climate Change - what do we know and how do we know it?</title>
-<subtitle>An introduction to the basics of climate research</subtitle>
+<title>A hacker&#39;s guide to Climate Change - What do we know and how do we know it?</title>
+<subtitle>An introduction to the basics of climate research and what we can do about climate change</subtitle>
 <track>Science</track>
 <type>lecture</type>
 <language>en</language>
-<abstract>This talk will give an introduction to the basics of climate science and climate change.</abstract>
-<description>What do we know about the workings of climate? How do we know? How reliable is our knowledge in detail and what are open questions? 
-After discussing the basics we also look at the main leverage point humanity has over the planet and consider climate engineering.
+<abstract>Climate change has long ceased to be news to many people, but it is increasingly shaping humanity&#39;s reality.
 
-You should leave this talk empowered and inspired to add your contribution towards solving the climate issue. </description>
+This talk sheds light on the changes in the climate system and their consequences.
+
+We introduce the basics and discuss possible actions in response.</abstract>
+<description>I. Understanding the Climate System
+
+We begin with the physical basics, guided by visualizations rather than focussing on the math.
+
+What do we know about the workings of climate? How do we know?
+We also consider the reliability of our knowledge in detail, as well as open questions yet to answer.
+
+What are the bio-physical consequences? What are the socio-economic ones?
+
+II. Hacking the Climate
+
+Next, we discuss leverage points to hack the climate system itself - climate engineering.
+
+Many ideas have been proposed, such as removing greenhouse gases or changing the radiative budget with other means.
+Most of these attempts are not more than a workaround.
+
+Nevertheless, some of these are discussed much more seriously among climate scientist than the public realizes.
+
+III. Hacking the System
+
+We conclude with examples of what could be effective solutions to the climate problem and what we can do – hacking our political and economic system rather than the earth system. How can individuals contribute? What societal changes do we need?</description>
 <logo></logo>
 <persons>
 <person id='7763'>seyru</person>
-</persons>
-<links>
-</links>
-<attachments>
-</attachments>
-</event>
-<event guid='91f07aa8-a573-4f3c-8bf1-ce211faed9cb' id='9140'>
-<date>2017-12-29T19:00:00+01:00</date>
-<start>19:00</start>
-<duration>00:30</duration>
-<room>Saal Borg</room>
-<slug>34c3-9140-a_hacker_s_guide_to_climate_change</slug>
-<url>//fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9140.html</url>
-<recording>
-<license>CC BY 4.0</license>
-<optout>false</optout>
-</recording>
-<title>A hacker&#39;s guide to climate change</title>
-<subtitle></subtitle>
-<track>Science</track>
-<type>lecture</type>
-<language>en</language>
-<abstract>Climate change has long ceased to be news to many people but it is increasingly shaping humanity&#39;s reality. This talk tries to view the changes in the climate system and its consequences from the perspective of a hacker: keen to open the box of the unknown, to understand, and to alter things to the better.
-</abstract>
-<description>&lt;h3&gt;Introduction&lt;/h3&gt;
-
-So how do we open the box? The talk begins with the most simple climate model, which is advanced step by step explaning the basic processes. This will be guided by visualizations rather than focussing on the mathematical formulas, from the bio-physical consequences to the socio-economic ones. We will give an insight about modeling is done in the field and how everyone can play around to understand the climate using open software. Finally, where are emissions headed, based on the latest developments in the UN climate negotiations process
-
-&lt;h3&gt;Hacking the Climate&lt;/h3&gt;
-
-In a second part, we discuss attempts to hack the climate system itself. Under the urgent pressure of mitigating the impacts that are expected to arise from climate change a plethora of ideas like negative emissions technology or solar radiation management have been proposed. Most of these attempts are however not more than just a &quot;workaround&quot;. Nevertheless some of these are discussed much more seriously among climate scientist than the public realizes.
-
-&lt;h3&gt;Hacking the System&lt;/h3&gt;
-
-The talk concludes with some proposals and examples of what could be effective solutions to the climate problem, hacking our political and economic system rather than the earth system. What societal changes do we need? How can information technology help? How can we all become hackers changing not the climate but our global community to the better?
-</description>
-<logo></logo>
-<persons>
 <person id='7877'>Sven Willner</person>
 <person id='7878'>Robert Gieseke</person>
 </persons>
@@ -5167,7 +5114,7 @@ As a tenant, you are subordinated to increase in rent or eventually being thrown
 <track>Ethics, Society &amp; Politics</track>
 <type>lecture</type>
 <language>de</language>
-<abstract>Wie umgehen mit politischer Ohnmacht? Das Informationsfreiheitsgesetz bietet einige Ansätze: Sie macht es auch für juristische Laien möglich, gegen Behörden vorzugehen, die das Recht brechen. Wir kämpfen gegen die Ohnmacht: Dieses Jahr haben wir alle Gesetzentwürfe aller Bundesministerien und Lobby-Stellungnahmen dazu befreit. Wir haben uns mit der Berliner Partypolizei angelegt - prost! - und 13 Behörden verklagt, darunter die Polizei Köln, das Innenministerium und das Verteidigungsministerium. Und wir haben einen Weg gefunden, zwei Behörden zu verklagen, die eigentlich sonst keine Auskunft geben ...</abstract>
+<abstract>Wie umgehen mit politischer Ohnmacht? Das Informationsfreiheitsgesetz bietet einige Ansätze: Es macht es auch für juristische Laien möglich, gegen Behörden vorzugehen, die das Recht brechen. Wir kämpfen gegen die Ohnmacht: Dieses Jahr haben wir alle Gesetzentwürfe aller Bundesministerien und Lobby-Stellungnahmen dazu befreit. Wir haben uns mit der Berliner Partypolizei angelegt - prost! - und 13 Behörden verklagt, darunter die Polizei Köln, das Innenministerium und das Verteidigungsministerium. Und wir haben einen Weg gefunden, zwei Behörden zu verklagen, die eigentlich sonst keine Auskunft geben ...</abstract>
 <description></description>
 <logo>/system/events/logos/000/008/714/large/fragdenstaat_square.png?1511170446</logo>
 <persons>
