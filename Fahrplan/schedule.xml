@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <schedule>
-<version>Eidelstedter Bürgerhaus</version>
+<version>Bikinihaus</version>
 <conference>
 <acronym>34c3</acronym>
 <title>34th Chaos Communication Congress</title>
@@ -2222,6 +2222,54 @@ The event will be in German, we hope to have live translation again.</descriptio
 </persons>
 <links>
 <link href='https://bleu255.com/~marloes/'>Texts and projects</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='3ab79865-b681-4d61-8ac5-6d8aa4678d08' id='8806'>
+<date>2017-12-28T14:30:00+01:00</date>
+<start>14:30</start>
+<duration>00:30</duration>
+<room>Saal Borg</room>
+<slug>34c3-8806-the_seizure_of_the_iuventa</slug>
+<url>//fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8806.html</url>
+<recording>
+<license>CC BY 4.0</license>
+<optout>false</optout>
+</recording>
+<title>The seizure of the Iuventa</title>
+<subtitle>How search and rescue in the mediterranean was criminalized</subtitle>
+<track>Ethics, Society &amp; Politics</track>
+<type>lecture</type>
+<language>en</language>
+<abstract>The ship „Iuventa“ of the organization „Jugend Rettet“ was seized on August 2nd 2017 by the Italian authorities. The accusations: facilitating illegal immigration, organized crime and possession of weapons. What followed was a smear campaign that had seldomly been seen before. Against „Jugend Rettet“ and all the other NGOs that do search and rescue (SAR) in the mediterranean sea.</abstract>
+<description>After a short introduction in which we will explain what the civil search and rescue fleet does, we will describe the events that culminated in the seizure of the „Iuventa“. Which surveillance and intelligence techniques were used by the authorities to gather evidence. Evidence that has not been found, because it does not exist. We will describe who initiated the investigation against „Jugend Rettet“ and show how fascists, secret service and police worked hand in hand to stop the „Iuventa“ from saving people from drowning.
+
+The seizure of the „Iuventa“ was neither the begin nor the end of a
+smear campaign to discredit the work done by the civil search and rescue fleet. It was a small part in much bigger game played by the european union to discredit the work of the NGOs working in the mediterranean. In our talk we will explain why there is such a big interest by the European states to hinder their work and how the European Union is actually breaking international law to do so.
+
+Starting with a Frontex strategy paper from January 2016 we will describe how the European Union tries to externalize their borders onto the African continent. To places where there are no cameras or eye witnesses to show the European public the deadliness of their borders.
+
+Finally we’d like to discuss what is still possible despite the growing pressure by the european states. How can we fight fortress Europe? How do we defend us against the accusations? What have we reached? What can we still reach?
+
+Kathrin has been operating in search &amp; rescue projects in the Aegean and Mediterranean for the last 21 months, since August 2016 she is supporting Jugend Rettet as Field Coordinator, RHIB driver and Head of Mission. 2017 she trained and briefed all crews that operated on the Iuventa and joined a number of missions off the Libyan coast - including the last one in which the ship was seized.
+
+She was confronted not only with the fact that Jugend Rettet had been subject to surveillance by Italian authorities over months but also with the confiscation of her personal belongings including laptop and cell phones. Ever since she continued fighting along with Jugend Rettet against a legal, political and media campaign that aims to criminalise civil search and rescue organisations. 
+
+Hendrik has been on rescue missions with different NGOs since autumn 2016. He joined Jugend Rettet in June and July 2017 for two consecutive missions as RHIB driver and RHIB team lead. He was part of one of the missions where an undercover investigator raised accusations against the crew.
+
+Since the seizure of the Iuventa he is busy working with the team that is fighting the accusations and the media campaign against civil search and rescue organisations.</description>
+<logo></logo>
+<persons>
+<person id='7629'>Hendrik</person>
+<person id='8018'>Kathrin</person>
+</persons>
+<links>
+<link href='https://jugendrettet.org/'>Jugend Rettet</link>
+<link href='https://blamingtherescuers.org/'>Blaming the rescuers - Criminalising solidarity,re-enforcing deterrence</link>
+<link href='https://deathbyrescue.org/'>Death By Rescue - The lethal effects of the EU&#39;s policy of non-assictance</link>
+<link href='http://www.forensic-architecture.org/case/left-die-boat/'>The left to die boat - The deadly drift of a migrants’ boat in the Central Mediterranean</link>
+<link href='https://missingmigrants.iom.int/region/mediterranean'>Missing Migrants - Tracking deaths along migratory routes</link>
 </links>
 <attachments>
 </attachments>
@@ -4665,7 +4713,6 @@ Ich werde mehrere Mikroskope mitbringen, um einiges vom oben genannten direkt au
 <link href='https://github.com/ufrisk/pcileech-fpga/'>PCILeech FPGA</link>
 </links>
 <attachments>
-<attachment href='/system/event_attachments/attachments/000/003/295/original/fpga_dma_attacks_abstract_outline.txt?1508091751'>outline and abstract</attachment>
 </attachments>
 </event>
 </room>
@@ -5039,20 +5086,20 @@ Es geht darum ein verständliches Bild zu zeichnen von dem, was in Hamburg währ
 <start>23:30</start>
 <duration>01:00</duration>
 <room>Saal Dijkstra</room>
-<slug>34c3-9288-wemakemachinesnotart</slug>
+<slug>34c3-9288-deconstructing_a_socialist_lawnmower</slug>
 <url>//fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9288.html</url>
 <recording>
 <license></license>
 <optout>false</optout>
 </recording>
-<title>#wemakemachinesnotart</title>
-<subtitle>How to, DYI &amp; Beautiful High-Tech Garbage</subtitle>
+<title>Deconstructing a Socialist Lawnmower</title>
+<subtitle>Obsolete Technologies + Critical Material Studies in Media Art</subtitle>
 <track>Art &amp; Culture</track>
 <type>lecture</type>
 <language>en</language>
 <abstract>Darsha Hewitt is a Canadian artist working in new media and sound. She is known for her examinations of communication technology in the domestic sphere and her use of DIY aesthetics and practices as an artistic method. She makes electromechanical sound installations, drawings, audio-visual works, how-to videos and experimental performances with handmade electronics. Through deconstruction and experimentation with failed and obsolete technology, her work demystifies hidden systems within machines as a way to trace-out structures of economy, power and control embedded throughout capitalist culture.</abstract>
 <description>Alongside her artistic practice, Darsha is presently a fellow at the Berlin Centre for Advanced Studies in Arts and Sciences (BAS) in the Graduate School at the Art University of Berlin and a Guest Professor in New Media and Sound Art at the Karlsruhe University of Art and Design. From 2015-16 she shared a joint guest professorship in New Media with Aram Bartholl at the Art University of Kassel. She is also a Lecturer in the Media Arts Environments  Research Chair at the Bauhaus University Weimar. Her do-it-yourself electronics workshops are an integral part of her discipline and are presented internationally. Her work in this field was a subject in the Music, Digitization, Mediation: Towards Interdisciplinary Music Studies project based in the Faculty of Music at Oxford University. Darsha is a collaborating facilitator of the Music Makers Hack Lab with Create Digital Music .</description>
-<logo></logo>
+<logo>/system/events/logos/000/009/288/large/Screen_Shot_2017-11-27_at_21.00.25.png?1513536151</logo>
 <persons>
 <person id='4121'>Darsha Hewitt</person>
 </persons>
