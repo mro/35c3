@@ -43,6 +43,7 @@ do
 done
 
 sed --in-place --regexp-extended \
+  -e 's|/index\.php/|/|g' \
   -e 's|[^-]+ - -total|foo% bar - -total|g' \
   -e 's|[^-]+ - Template:|foo% bar - Template:|g' \
   -e 's|<script>.+window\.RLQ=window\.RLQ[^<]+|<script>/* script purged */|g' \
