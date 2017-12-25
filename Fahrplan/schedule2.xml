@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>
 <schedule>
-  <version>Bikinihaus</version>
+  <version>HAKP</version>
   <conference>
     <acronym>34c3</acronym>
     <title>34th Chaos Communication Congress</title>
@@ -549,35 +549,33 @@ Check out the code of &lt;a href="https://github.com/emmericp/ixy"&gt;ixy on Git
           <license>CC BY 4.0</license>
           <optout>false</optout>
         </recording>
-        <title>Uncovering British spies' web of sockpuppet social media personas</title>
+        <title>Uncovering British spies’ web of sockpuppet social media personas</title>
         <subtitle/>
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>The Joint Threat Research Intelligence Group (JTRIG), a unit in one of Britain's intelligence agencies, is tasked with creating sockpuppet accounts and fake content on social media, in order to use "dirty tricks" to "destroy, deny, degrade [and] disrupt" enemies by "discrediting" them. In this talk, we reveal some of that content, in relation to infiltrating activists groups around the world, including during the Arab spring and Iranian revolution.</abstract>
-        <description>In 2011, I was unknowingly messaged on an IRC channel by a covert agent from the UK's Government Communications Headquarters (GCHQ), who was investigating the hacktivist groups of Anonymous and LulzSec. Later that year, I was arrested (and banned from the Internet) for my involvement in LulzSec. Then, in 2014, I discovered through a new Snowden leak[1] that GCHQ had targeted Anonymous and LulzSec, and the person that messaged me was a covert GCHQ employee, pretending to be a hacktivist.
+        <abstract>The Joint Threat Research Intelligence Group (JTRIG), a unit in one of Britain’s intelligence agencies, is tasked with creating sockpuppet accounts and fake content on social media, in order to use "dirty tricks" to "destroy, deny, degrade [and] disrupt" enemies by "discrediting" them. In this talk, we reveal some of that content, in relation to infiltrating activists groups around the world, including during the Arab spring and Iranian revolution.</abstract>
+        <description>In 2011, I was unknowingly messaged on an IRC channel by a covert agent from the UK’s Government Communications Headquarters (GCHQ), who was investigating the hacktivist groups of Anonymous and LulzSec. Later that year, I was arrested (and banned from the Internet) for my involvement in LulzSec. Then, in 2014, I discovered through a new Snowden leak[1] that GCHQ had targeted Anonymous and LulzSec, and the person that messaged me was a covert GCHQ employee, pretending to be a hacktivist.
 
 Because I was myself targeted in the past, I was aware of a key detail, a honeypot URL shortening service setup by GCHQ, that was actually redacted in the Snowden documents published in 2014. This URL shortening service enabled GCHQ to deanonymize another hacktivist and discover his real name and Facebook account, according to the leaked document.
 
-Using this key detail, I was able to discover a network of sockpuppet Twitter accounts and websites setup by GCHQ, pretending to be activists during the Arab spring of 2011 and Iranian revolution of 2009, and we published an article about it last summer in Motherboard as a piece of investigative journalism (https://motherboard.vice.com/en_us/article/78kw7z/gchq-url-shortener-twitter-honeypot-arab-spring).
+Using this key detail, I was able to discover a network of sockpuppet Twitter accounts and websites setup by GCHQ, pretending to be activists during the Arab spring of 2011 and Iranian revolution of 2009, and we published an article about it last summer in Motherboard as a piece of investigative journalism.
 
 This talk will:
 - go into detail about how and why GCHQ setup a network of fake social media accounts, blogs, honeypot proxies and news sites during revolutionary events;
 - reveal new details about other fake websites that GCHQ setup in other parts of the world for different purposes.
 
-The people responsible, the Joint Threat Research Intelligence Group (JTRIG), is a group within GCHQ that has the aim of "using online techniques to make something happen in the real or cyber world". To fulfil this aim, a wide but basic array of technological tools and software are used at JTRIG's disposal, as detailed in the published document titled "JTRIG tools and techniques"[2]. These tools include "DEADPOOL", described as a "URL shortening service", and "HUSK", a "secure one-to-one web based dead-drop messaging platform".
+The people responsible, the Joint Threat Research Intelligence Group (JTRIG), is a group within GCHQ that has the aim of "using online techniques to make something happen in the real or cyber world". To fulfill this aim, a wide but basic array of technological tools and software are used at JTRIG’s disposal, as detailed in the published document titled "JTRIG tools and techniques"[2]. These tools include "DEADPOOL", described as a "URL shortening service", and "HUSK", a "secure one-to-one web based dead-drop messaging platform".
 
-How can seemingly innocent web services be used as honeypots to conduct signal intelligence, being part of something more sinister?
-
-[1] https://www.nbcnews.com/feature/edward-snowden-interview/exclusive-snowden-docs-show-uk-spies-attacked-anonymous-hackers-n21361
-[2] https://www.eff.org/files/2014/07/14/jtrigall.pdf</description>
+How can seemingly innocent web services be used as honeypots to conduct signal intelligence, being part of something more sinister?</description>
         <logo/>
         <persons>
           <person id="4905">Mustafa Al-Bassam</person>
         </persons>
         <links>
-          <link href="https://motherboard.vice.com/en_us/article/78kw7z/gchq-url-shortener-twitter-honeypot-arab-spring">British Spies Used a URL Shortener to Honeypot Arab Spring Dissidents</link>
-          <link href="https://www.nbcnews.com/feature/edward-snowden-interview/exclusive-snowden-docs-show-uk-spies-attacked-anonymous-hackers-n21361">Exclusive: Snowden Docs Show UK Spies Attacked Anonymous, Hackers</link>
+          <link href="https://motherboard.vice.com/en_us/article/78kw7z/gchq-url-shortener-twitter-honeypot-arab-spring">Motherboard: British Spies Used a URL Shortener to Honeypot Arab Spring Dissidents</link>
+          <link href="https://www.nbcnews.com/feature/edward-snowden-interview/exclusive-snowden-docs-show-uk-spies-attacked-anonymous-hackers-n21361">[1] Exclusive: Snowden Docs Show UK Spies Attacked Anonymous, Hackers</link>
+          <link href="https://www.eff.org/files/2014/07/14/jtrigall.pdf">[2] JTRIG tools and techniques (pdf)</link>
         </links>
         <attachments>
 </attachments>
@@ -662,13 +660,13 @@ There are a lot of things that you can do with a formal specification: binary an
         <track>Hardware &amp; Making</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>Did you ever want to run your own IoT cloud on your IoT devices? Or did you ever wonder what data your vacuum cleaning robot is transmiting to the vendor? Why a vacuum cleaning robot needs tcpdump?
-Nowadays IoT devices are getting more and more powerful and contain a lot of sensors. As most devices are connected directly to the vendor and transmit all data encrypted to the cloud, this might lead to privacy issues. An IoT device with no internet connection lacks a lot of features or is even unusable. We want to change that.
+        <abstract>Did you ever want to run your own IoT cloud on your IoT devices? Or did you ever wonder what data your vacuum cleaning robot is transmitting to the vendor? Why a vacuum cleaning robot needs tcpdump?
+Nowadays IoT devices are getting more and more powerful and contain a lot of sensors. As most devices are connected directly to the vendor and transmit all data encrypted to the cloud, this may result in privacy issues. An IoT device with no internet connection lacks numerous features or is even unusable. We want to change that.
 
-We show you how to root a vacuum cleaning robot in order to get access to the underlying Linux operating system. Furthermore we will have a look into the vendors cloud interface and its commands, and will show you how to deattach the device from the cloud and connect it to your local Smart Home system. Finally we will show how to run Smart Home software directly on the vacuum cleaning robot itself.</abstract>
-        <description>We will give you a detailed tour through the hardware and software components of the vacuum robot. We will also publish a non-invasive method to get root access to your vacuum robot. 
+We show you how to root a Xiaomi vacuum cleaning robot in order to get access to the underlying Linux operating system. Furthermore, we will have a look into the vendors cloud interface and its commands, and will show you how to de-attach the device from the cloud and connect it to your local Smart Home system. Finally, we will demonstrate how to run Smart Home software directly on the vacuum cleaning robot itself.</abstract>
+        <description>We will give you a detailed tour through the hardware and software components of the Xiaomi vacuum robot (generation 1). We will also publish a non-invasive method to get root access to your vacuum robot. 
 
-After talking about the rooting procedure, we will discuss the internals of the robot. For example, the robot uses a so called SLAM (Simultaneous Localization and Mapping) system with LIDAR (Light Detection And Ranging) and various other sensors to create maps of your apartment. These maps used, among other things, to calculate the best cleaning path. We will show you what these maps look like and how they are stored in the robot. At the end, we will discuss which data is created and uploaded to the vendor, and why this might be a big privacy issue. We will also prove why it is a bad idea to leave IoT devices in an unconfigured state.
+After talking about the rooting procedure, we will discuss the internals of the robot. For example, the robot uses a so called SLAM (Simultaneous Localization and Mapping) system with LIDAR (Light Detection And Ranging) and various other sensors to create maps of your apartment. These maps are used, among other things, to calculate the best cleaning path. We will show you what these maps look like and how they are stored in the robot. At the end, we will discuss which data are created and uploaded to the vendor, and why this may be a big privacy issue. We will also prove why it is a bad idea to leave IoT devices in an unconfigured state.
 
 We conclude with an overview of other interesting Smart Home devices from the vendor.</description>
         <logo/>
@@ -677,7 +675,8 @@ We conclude with an overview of other interesting Smart Home devices from the ve
           <person id="6553">DanielAW</person>
         </persons>
         <links>
-</links>
+          <link href="http://dontvacuum.me">http://dontvacuum.me</link>
+        </links>
         <attachments>
 </attachments>
       </event>
@@ -1233,6 +1232,7 @@ Democratizing novel sensing technology opens the way to better collaborations an
         </persons>
         <links>
           <link href="https://github.com/OpenEIT">on Github</link>
+          <link href="http://www.mindseyebiomedical.com">Mailing List</link>
         </links>
         <attachments>
 </attachments>
@@ -1792,8 +1792,8 @@ I will explain BGP, the protocol that knits the internet together, also covering
         <language>en</language>
         <abstract>Computer science seems to be the new divine element that can solve climate change, crime, our lack of knowledge about the brain, global terror, urban traffic, our energy issues and world poverty; with blockchain, with artificial intelligence, with the cloud and big data. But to what extent is computer science even able to address such problems of high social relevance? In this lecture an attempt will be made to reconcile parts of the huge wish list to computer science with its actual current possibilities and to include the economic motivations and conditions.
 
-Die Informatik ist scheinbar das neue Göttliche, das den Klimawandel, die Kriminalität, unser fehlendes Wissen über das Gehirn, den globalen Terror, dichter werdenden Stadtverkehr, die Energieprobleme und die Armut der Welt lösen kann; und zwar mit der Blockchain, mit künstlicher Intelligenz, mit der Cloud und mit Big-Data. Doch inwiefern ist die Informatik überhaupt in der Lage, derartige Probleme hoher gesellschaftlicher Relevanz anzugehen? In diesem Vortrag soll versucht werden, Teile der riesigen Wunschliste an die Informatik mit ihren tatsächlichen aktuellen Möglichkeiten in Einklang zu bringen sowie die ökonomischen Motivationen und Rahmenbedingungen einzubeziehen.</abstract>
-        <description>EN (&lt;a href="#de"&gt;DE below&lt;/a&gt;): The well-known computer pioneer and society critic Prof. Dr. Joseph Weizenbaum once said, "Once upon a time, a problem was presented to the computer after it was understood. Today it's the other way around." Reasons for this seem to be an almost magical belief in technology, a strange misunderstanding of the functioning of today's computers, an ever-increasing financial pressure on the public sector and a widespread, technically-reduced – one could almost say 'cybernetic' – world view and concept of what's human.
+&lt;span style="color:grey;"&gt;Die Informatik ist scheinbar das neue Göttliche, das den Klimawandel, die Kriminalität, unser fehlendes Wissen über das Gehirn, den globalen Terror, dichter werdenden Stadtverkehr, die Energieprobleme und die Armut der Welt lösen kann; und zwar mit der Blockchain, mit künstlicher Intelligenz, mit der Cloud und mit Big-Data. Doch inwiefern ist die Informatik überhaupt in der Lage, derartige Probleme hoher gesellschaftlicher Relevanz anzugehen? In diesem Vortrag soll versucht werden, Teile der riesigen Wunschliste an die Informatik mit ihren tatsächlichen aktuellen Möglichkeiten in Einklang zu bringen sowie die ökonomischen Motivationen und Rahmenbedingungen einzubeziehen.&lt;/span&gt;</abstract>
+        <description>EN (&lt;a href="#langderr"&gt;DE below&lt;/a&gt;): The well-known computer pioneer and society critic Prof. Dr. Joseph Weizenbaum once said, "Once upon a time, a problem was presented to the computer after it was understood. Today it's the other way around." Reasons for this seem to be an almost magical belief in technology, a strange misunderstanding of the functioning of today's computers, an ever-increasing financial pressure on the public sector and a widespread, technically-reduced – one could almost say 'cybernetic' – world view and concept of what's human.
 
 Not only since Google's artificial intelligence Alpha-Go won against the professional South Korean Go player Lee Sedol many techno-optimists celebrate the inferiority of the human brain. But Sedol metabolized a few cups of coffee for the match whereas Alpha-Go needed the energy of a small town; this shows that the matter is slightly more complicated. Similar misleading inaccuracies can be found regarding the 'famous' secret language of the Facebook bots or regarding the possibilities of "smart contracts" in the blockchain. These are examples of how misunderstood computer abilities and faulty ascription prevent a meaningful debate on the benefits of globally networked computer systems.
 
@@ -1802,13 +1802,13 @@ However, such discussions are by no means purely academic or philosophical; they
 For a Digitalization supporting freedom and social development, expectations of information technology must be readjusted in the context of economic and political power relations.
 
 
-&lt;span id="de"&gt;DE&lt;/span&gt;: Der bekannte Computerpionier und Gesellschaftskritiker Prof. Dr. Joseph Weizenbaum sagte einst sinngemäß: „Früher übergab man ein Problem dem Computer, wenn man es verstanden hatte. Heute ist es anders herum“. Gründe dafür scheinen eine geradezu magische Technikgläubigkeit, ein merkwürdiges Missverständnis der Funktionsweise heutiger Computer, ein immer größer werdender finanzieller Druck auf die öffentliche Hand und ein weit verbreitetes, technisch-reduziertes – man könnte fast sagen 'kybernetisches' – Welt- und Menschenbild zu sein.
+&lt;span style="color:grey;"&gt;&lt;strong id="langderr"&gt;DE&lt;/strong&gt;: Der bekannte Computerpionier und Gesellschaftskritiker Prof. Dr. Joseph Weizenbaum sagte einst sinngemäß: „Früher übergab man ein Problem dem Computer, wenn man es verstanden hatte. Heute ist es anders herum“. Gründe dafür scheinen eine geradezu magische Technikgläubigkeit, ein merkwürdiges Missverständnis der Funktionsweise heutiger Computer, ein immer größer werdender finanzieller Druck auf die öffentliche Hand und ein weit verbreitetes, technisch-reduziertes – man könnte fast sagen 'kybernetisches' – Welt- und Menschenbild zu sein.
 
 Da gewinnt Googles künstliche Intelligenz Alpha-Go gegen den professionellen südkoreanischen Go-Spieler Lee Sedol und schon wird der Abgesang auf das menschliche Gehirn angestimmt. Doch dass Sedol für das Match ein paar Tassen Kaffee verstoffwechselte, aber Alpha-Go die Energie einer Kleinstadt, zeigt, dass die Lage geringfügig komplizierter ist. Ähnliche fehlleitende Ungenauigkeiten finden sich auch bezüglich der berühmten Geheimsprache der Facebook-Bots bis hin zu den Möglichkeiten von „smart contracts“ in der Blockchain. Dies sind Beispiele, wie missverstandene Computerfähigkeiten und Fehlzuschreibungen eine tatsächlich sinnvolle Diskussion über den Nutzen weltweit vernetzter Computersysteme verhindern.
 
 Derartige Diskussionen sich jedoch mitnichten rein akademisch oder philosophisch, sondern in der Wirkung gesellschaftlich hoch brisant. Denn wie an der aktuellen Predictive-Policing-Thematik zu erkennen ist, erzeugt der Glaube an die Überlegenheit der Technik nunmehr harte soziale Realitäten für die betroffenen 'Datenopfer', aber keine nennenswerten positiven Ergebnisse für die Sicherheit. Gleiches gilt für die automatisierte, sogenannte „intelligente“, Videoüberwachung mit Verhaltenserkennung, die perspektivisch flächendeckend in Deutschland angedacht ist: der Glaube an solche Systeme vergrößert zwar immens den Kassenstand der Hersteller und Anbieter, aber verkleinert in gleicher Weise die Freiheit und Freiräume eines jeden Menschen im öffentlichen Raum. Genau das sind die tatsächlichen Auswirkungen eines unwidersprochenen, blinden Computeroptimismus', der zudem von finanziellen Motivationen getrieben ist und in der Folge kontinuierlich unsere Gesellschaft umprägt.
 
-Für eine Digitalisierung im Sinne der Freiheit und der gesellschaftlichen Weiterentwicklung müssen die Erwartungen an die Informatik folglich neu justiert werden und das im Zusammenhang mit wirtschaftlichen und politischen Machtverhältnissen.</description>
+Für eine Digitalisierung im Sinne der Freiheit und der gesellschaftlichen Weiterentwicklung müssen die Erwartungen an die Informatik folglich neu justiert werden und das im Zusammenhang mit wirtschaftlichen und politischen Machtverhältnissen.&lt;/span&gt;</description>
         <logo>/system/events/logos/000/008/998/large/Clarion_Alley_by_Oren_Rozen.jpg?1514026545</logo>
         <persons>
           <person id="1642">Rainer Rehak</person>
@@ -2364,6 +2364,39 @@ For example: Currently manufacturers take care primarily of their business to br
         <attachments>
 </attachments>
       </event>
+      <event guid="2dd1ed02-2a4f-4c15-93e5-6d171fea74df" id="9297">
+        <date>2017-12-28T18:30:00+01:00</date>
+        <start>18:30</start>
+        <duration>01:00</duration>
+        <room>Saal Borg</room>
+        <slug>34c3-9297-the_snowden_refugees_under_surveillance_in_hong_kong</slug>
+        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9297.html</url>
+        <recording>
+          <license/>
+          <optout>false</optout>
+        </recording>
+        <title>The Snowden Refugees under Surveillance in Hong Kong</title>
+        <subtitle>A Rapidly Emerging Police State and Imminent Deportation to Sri Lanka and Philippines</subtitle>
+        <track>Ethics, Society &amp; Politics</track>
+        <type>lecture</type>
+        <language>en</language>
+        <abstract>The Snowden Refugees’ actions to protect the world’s most significant whistle blower of the 21st Century, amounts to an expression of Political Opinion. Since September 2016, the Snowden Refugees have been systematically targeted and persecuted by the Hong Kong government based on that political opinion.</abstract>
+        <description>After the Oliver Stone film “Snowden” was released in September 2016, the world learned about Edward Snowden having been provided a safe haven and refuge in Hong Kong by the destitute “Snowden Refugees”.
+Instead of being recognized as brave individuals who selflessly protected Mr Snowden, the Hong Kong government launched a systematic campaign to harass, oppress and punish the Snowden Refugees, with a view to deport them from Hong Kong as quickly as possible.
+By October 2017, the Hong Kong government had utilized the Social Welfare Department, its Swiss based Contractor International Social Services, and the Immigration Department to target and punish the Snowden Refugees. These well-planned systemic efforts escalated with the Hong Kong police targeting the Snowden Refugees, instead of providing protection to them.
+The Hong Kong government has been aggressively seeking to rapidly remove Vanessa and her stateless daughter to the Philippines under conditions of a nation-wide state of emergency, martial law in Mindanao and a recently catalyzed nation-wide civil war with the National People’s Army. In the name of a war on drugs, President Duterte directed the well-planned and systematic use of torture, arbitrary arrest and detention, enforced disappearances and extra-judicial killings of tens of thousands of innocent civilians including politicians, with no end in sight. His actions amount to crimes against humanity.
+The Hong Kong government also seeks to deport the Sri Lankan Snowden Refugees to a country accused of having committed war crimes, crimes against humanity and genocide, with its current Prime Minister Ranil Wickremesinghe accused of being complicit in war crimes and crimes against humanity. Today Sri Lanka is plagued by systemic use of torture, arbitrary arrest and detention, enforced disappearances and extrajudicial killings with no end in sight. 
+In the above context, the Hong Kong government has failed to protect the Snowden Refugees and in fact have taken steps to put them in harms’ way both in Hong Kong and their countries of origin.</description>
+        <logo/>
+        <persons>
+          <person id="7259">Robert Tibbo</person>
+          <person id="8026">Edward Snowden</person>
+        </persons>
+        <links>
+</links>
+        <attachments>
+</attachments>
+      </event>
       <event guid="7308816a-1e3d-4dc6-99e8-b512da95bcf1" id="8730">
         <date>2017-12-28T19:45:00+01:00</date>
         <start>19:45</start>
@@ -2714,7 +2747,7 @@ At the end I will demonstrate how to create your own bitstream by hand, implemen
 
 A lot of work on both Hardware and Software was done in CCC erfas namely shackspace, chaosdorf and metalab.
 
-The kit is used in workshops since 1.5 years at the chaos macht schule events and is very successful in its purpose. Creating this project was a plenty of work and there is so much to show and tell around it, it will blow your mind.</abstract>
+The kit is used in workshops since 1.5 years at the chaos macht schule events and is very successful in its purpose. Creating this project was plenty of work and there is so much to show and tell around it, it will blow your mind.</abstract>
         <description>In 2016 we made BLINKENROCKET fly.
 
 In this talk you'll learn about our journey, the lessons we learned and get insights that you can leverage to skyrocket your own soldering kit.
@@ -3163,39 +3196,49 @@ This talk aims to explain how particle accelerators and in particular light sour
         <attachments>
 </attachments>
       </event>
-      <event guid="0dbbb546-38e6-499f-bb93-a5539d114d1d" id="9195">
+      <event guid="275f85de-d612-4440-8755-85dee5912f12" id="8758">
         <date>2017-12-28T18:30:00+01:00</date>
         <start>18:30</start>
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
-        <slug>34c3-9195-avatar</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9195.html</url>
+        <slug>34c3-8758-how_to_drift_with_any_car</slug>
+        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8758.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
         </recording>
-        <title>avatar²</title>
-        <subtitle>Towards an open source binary firmware analysis framework</subtitle>
+        <title>How to drift with any car</title>
+        <subtitle>(without your mom yelling at you)</subtitle>
         <track>Security</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>Avatar² is an open source framework for dynamic instrumentation and analysis of binary firmware, which was released in June 2017.
-This talk does not only introduce avatar², but also focuses on the motivation and challenges for such a tool.</abstract>
-        <description>Dynamic binary instrumentation and analysis are valuable assets for security analysis and testing, and while a variety of tools exist for desktop software, the tooling landscape for analysing low-level binary firmware directly interacting with hardware is relatively empty.
+        <abstract>Lots of research are arising from the fairly unexplored world of automative communications. Cars are no longer becoming computers, they are fully connected networks where every ECU exchanges and operates the vehicles at some point.
+Here is an introduction of my immersion and discussions with my car, and how I finally managed to drift (a bit) with my mom's FWD Fiat 500c.</abstract>
+        <description>This talk is not only about security, but about hacking and video games. Many video games are about driving cars, whether it is for racing, or heisting and escaping the police. In this talk, we will explain how the user experience could actually be improved by connecting a car to a video game and turning it into a game controller.
 
-This talk will first outline the key problems for developing dynamic firmware analysis tools and pinpoint different approaches to overcome those problems.
-The core of this talk, however, focuses on avatar², an open source framework built to ease firmware reversing and security analysis.
+We will discuss about these connected systems, how car components interact with one another, the different protocols, or anything that came to us during this journey.
 
-In more detail, avatar² utilizes partial emulation to enable transparent analysis of firmware, and while the main firmware is executed inside the emulator, I/O operations to and from the hardware are commonly relayed to the actual hardware or the emulator. To realize this complex orchestration, avatar² enables communication and state synchronization between a variety of popular tools, such as Qemu, OpenOCD, GDB, PANDA and angr.
+However there was one important constraint during all that experience: no car could be dismantled nor modified. The main goal of this analysis was to try doing something out of the data which could be freely recovered while plugging itself to the OBD-II port of a car. As mentioned, this resulted in the possibility of controlling a video game car through the real car, like a simulator, without the need of modifying anything in the car itself.
 
-While the declared scope of avatar² the is analysis of embedded firmware, this talk will also show that the framework can also be useful in other contexts, such as scripting gdb in python from outside gdb, or loading the state of a concretely executed binary into angr.</description>
-        <logo/>
+Unfortunately, this requires a lot of gasoline to have the engine powered on and run. Moreover, gasoline is really expensive in France. So we looked for a way to reduce that cost. We actually found a nice device on the Internet to optimize the amount of gasoline used by the engine. Apparently, it works by connecting to the OBD-II port and reconfigures the engine’s ECU. We looked into that to understand what was actually going on… and try to reduce the cost of the drifting.
+
+The following points will be mentioned during the presentation:
+ECUs
+CAN bus
+OBD-II (DTCs/PIDs)
+On-top-of-CAN protocols
+UDS (Diagnostic/Security session)
+Reverse engineering: the meanings of CAN messages
+Using a real car as a simulator, for poories
+Minor details about how to create a custom game controller
+OBD dongle reverse engineering</description>
+        <logo>/system/events/logos/000/008/758/large/IMG_0505.JPG?1506513641</logo>
         <persons>
-          <person id="7837">nsr</person>
+          <person id="7994">Guillaume Heilles</person>
+          <person id="7546">P1kachu</person>
         </persons>
         <links>
-          <link href="https://github.com/avatartwo">avatar2 - the source code</link>
-        </links>
+</links>
         <attachments>
 </attachments>
       </event>
@@ -3204,14 +3247,14 @@ While the declared scope of avatar² the is analysis of embedded firmware, this 
         <start>19:45</start>
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
-        <slug>34c3-9077-will_you_be_my_plugin</slug>
+        <slug>34c3-9077-humans_as_software_extensions</slug>
         <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9077.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
         </recording>
-        <title>Will You Be My Plugin?</title>
-        <subtitle>Humans as software extensions</subtitle>
+        <title>Humans as software extensions</title>
+        <subtitle>Will You Be My Plugin?</subtitle>
         <track>Art &amp; Culture</track>
         <type>lecture</type>
         <language>en</language>
@@ -3618,39 +3661,9 @@ Finally, we will discuss what people can do to keep themselves informed, and sta
         <attachments>
 </attachments>
       </event>
-      <event guid="fa2a2506-f54d-4e3f-9fc2-e808d0a580b6" id="8896">
+      <event guid="956cf3ed-c342-4c1d-b636-29ec3d4578d2" id="8968">
         <date>2017-12-29T19:45:00+01:00</date>
         <start>19:45</start>
-        <duration>01:00</duration>
-        <room>Saal Adams</room>
-        <slug>34c3-8896-tiger_drucker_und_ein_mahnmal</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8896.html</url>
-        <recording>
-          <license>CC BY 4.0</license>
-          <optout>false</optout>
-        </recording>
-        <title>Tiger, Drucker und ein Mahnmal</title>
-        <subtitle>Neues vom Zentrum für Politische Schönheit</subtitle>
-        <track>Ethics, Society &amp; Politics</track>
-        <type>lecture</type>
-        <language>de</language>
-        <abstract>Flüchtlingsfressende Tiger in Berlin, zum Diktatorensturz aufrufende Flugblätter in Istanbul und ein Mahnmal das den Rechtsextremisten Björn Höcker in seinem Thüringer Dorf heimsucht: Viel ist geschehen, seit das Zentrum für Politische Schönheit vor 3 Jahren auf dem Kongress gesprochen hat. </abstract>
-        <description>Grund genug mal wieder Bericht zu erstatten, aus dem Nähkästchen zu plaudern und unveröffentlichtes Material mit euch zu begutachten. Aber Vorsicht: das ZPS ist die einzige Organisation die von Björn Höcke das Gütesiegel "terroristische Vereinigung" verliehen bekommen hat. Es könnte also lustig werden.
-</description>
-        <logo/>
-        <persons>
-          <person id="5261">Stefan Pelzer</person>
-          <person id="5266">Philipp Ruch</person>
-          <person id="8004">Morius Enden</person>
-        </persons>
-        <links>
-</links>
-        <attachments>
-</attachments>
-      </event>
-      <event guid="956cf3ed-c342-4c1d-b636-29ec3d4578d2" id="8968">
-        <date>2017-12-29T21:00:00+01:00</date>
-        <start>21:00</start>
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8968-are_all_bsds_created_equally</slug>
@@ -3679,6 +3692,36 @@ I end the presentation with some results and conclusions. I will list what the o
         <attachments>
           <attachment href="/system/event_attachments/attachments/000/003/262/original/bsd_kern_vulns.pptx?1507999268">bsd_kern_vulns.pptx</attachment>
         </attachments>
+      </event>
+      <event guid="fa2a2506-f54d-4e3f-9fc2-e808d0a580b6" id="8896">
+        <date>2017-12-29T21:00:00+01:00</date>
+        <start>21:00</start>
+        <duration>01:00</duration>
+        <room>Saal Adams</room>
+        <slug>34c3-8896-tiger_drucker_und_ein_mahnmal</slug>
+        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8896.html</url>
+        <recording>
+          <license>CC BY 4.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>Tiger, Drucker und ein Mahnmal</title>
+        <subtitle>Neues vom Zentrum für Politische Schönheit</subtitle>
+        <track>Ethics, Society &amp; Politics</track>
+        <type>lecture</type>
+        <language>de</language>
+        <abstract>Flüchtlingsfressende Tiger in Berlin, zum Diktatorensturz aufrufende Flugblätter in Istanbul und ein Mahnmal das den Rechtsextremisten Björn Höcker in seinem Thüringer Dorf heimsucht: Viel ist geschehen, seit das Zentrum für Politische Schönheit vor 3 Jahren auf dem Kongress gesprochen hat. </abstract>
+        <description>Grund genug mal wieder Bericht zu erstatten, aus dem Nähkästchen zu plaudern und unveröffentlichtes Material mit euch zu begutachten. Aber Vorsicht: das ZPS ist die einzige Organisation die von Björn Höcke das Gütesiegel "terroristische Vereinigung" verliehen bekommen hat. Es könnte also lustig werden.
+</description>
+        <logo/>
+        <persons>
+          <person id="5261">Stefan Pelzer</person>
+          <person id="5266">Philipp Ruch</person>
+          <person id="8004">Morius Enden</person>
+        </persons>
+        <links>
+</links>
+        <attachments>
+</attachments>
       </event>
       <event guid="8c303809-3c7c-4532-ab1e-c9a4e7c38245" id="8965">
         <date>2017-12-29T22:15:00+01:00</date>
@@ -3946,25 +3989,19 @@ Some questions still remain: Is it possible to transfer power wireless over such
         <language>en</language>
         <abstract>Airborne wind energy is the attempt to bring the digital revolution to the production of energy. It means that we convert the power of high-altitude winds into electricity by autonomously controlled aircraft which are connected to the ground via a tether.
 This technology can be a key element to finally power the world by clean energy only. In this talk we will explain the physical foundations, give an overview of the current status and show you how to build an experimental system by yourself: it involves hacking an off-the-shelf model aircraft and its autopilot based on the open and free Ardupilot framework.</abstract>
-        <description>It is hard to argue that energy is not the very heart of humankind’s
-major challenge. Up to now it is largely unscratched by a digital
-revolution -- the main power sources of the world are remarkably dumb.
+        <description>It is hard to argue that energy is not the very heart of humankind’s major challenge. Up to now it is largely unscratched by a digital revolution -- the main power sources of the world are remarkably dumb.
 
-We are about to change this. In this talk, we will present what we think will disrupt energy production. We're not talking about retrofitting the power grid with yet some more insecure 'smart' component. This is about predictably available renewable energy called Airborne Wind Energy (AWE): autonomous flying drones at high altitudes can harvest the wind’s energy cheaper than any wind turbine, and most importantly:
-it can be done almost everywhere and almost all the time, solving the two major technological and geopolitical challenges of sustainable
-energy production, which has rattled the world for decades. We are
-convinced that humans should power the world by clean energy only, and we think AWE can be a key element to do just that. In
-this talk, we will cover the physical foundations, introduce a few of the control algorithms and the challenges associated with very strong forces acting on very light objects. We will also shed a light on the progress of leaders in the field such as Ampyx Power and Google Makani.
+We are about to change this. In this talk, we will present what we think will disrupt energy production. We're not talking about retrofitting the power grid with yet some more insecure 'smart' component. This is about predictably available renewable energy called Airborne Wind Energy (AWE): autonomous flying drones at high altitudes can harvest the wind’s energy cheaper than any wind turbine, and most importantly: it can be done almost everywhere and almost all the time, solving the two major technological and geopolitical challenges of sustainable energy production, which has rattled the world for decades. We are convinced that humans should power the world by clean energy only, and we think AWE can be a key element to do just that. In this talk, we will cover the physical foundations, introduce a few of the control algorithms and the challenges associated with very strong forces acting on very light objects. We will also shed a light on the progress of leaders in the field such as Ampyx Power and Google Makani.
  
 But there is more to it: Using the `AWEsome' project, we will show you how to build an open source wind drone for yourself by hacking a model plane and its autopilot based on the open and free Ardupilot framework. While its energy production will be rather limited, it serves a lot of useful purposes: For example, it paves the way to test crazy new ideas of start, landing and flight modes on a cheap disposable platform and is a training playground for flight operations.
-Maybe by the time of the next Chaos Communication Camp, you will have joined us and we can fly our wind energy harvesting robots together -- and save the world, all at the same time.
-</description>
+
+Maybe by the time of the next Chaos Communication Camp, you will have joined us and we can fly our wind energy harvesting robots together -- and save the world, all at the same time.</description>
         <logo/>
         <persons>
           <person id="7710">Christoph</person>
         </persons>
         <links>
-          <link href="awesome.physik.uni-bonn.de">AWEsome webpage</link>
+          <link href="http://awesome.physik.uni-bonn.de">AWEsome webpage</link>
         </links>
         <attachments>
 </attachments>
@@ -4719,8 +4756,8 @@ Ich werde mehrere Mikroskope mitbringen, um einiges vom oben genannten direkt au
         <track>Hardware &amp; Making</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>Most thought Direct Memory Access (DMA) attacks were a thing of the past after CPU vendors introduced IOMMUs and OS vendors blocked Firewire DMA. At least until the PCILeech direct memory access attack toolkit was presented a year ago and quickly became popular amongst red teamers and governments alike. A year later the situation has improved but some firmware and operating systems still remain vulnerable by default. The hardware used to perform the attacks was however limited both in capabilities and supply. FPGA support was introduced and made available to the public to overcome these problems. In this talk I will subvert kernels, defeat full disk encryption and spawn system shells - all by using affordable publically available FPGAs and open source software!</abstract>
-        <description/>
+        <abstract>Most thought Direct Memory Access (DMA) attacks were a thing of the past after CPU vendors introduced IOMMUs and OS vendors blocked Firewire DMA. At least until the PCILeech direct memory access attack toolkit was presented a year ago and quickly became popular amongst red teamers and governments alike.</abstract>
+        <description>A year later the situation has improved but some firmware and operating systems still remain vulnerable by default. The hardware used to perform the attacks was however limited both in capabilities and supply. FPGA support was introduced and made available to the public to overcome these problems. In this talk I will subvert kernels, defeat full disk encryption and spawn system shells - all by using affordable publically available FPGAs and open source software!</description>
         <logo/>
         <persons>
           <person id="6851">Ulf Frisk</person>
@@ -4897,49 +4934,39 @@ On the day of the referendum it was expected that the Spanish police will close 
         <attachments>
 </attachments>
       </event>
-      <event guid="275f85de-d612-4440-8755-85dee5912f12" id="8758">
+      <event guid="0dbbb546-38e6-499f-bb93-a5539d114d1d" id="9195">
         <date>2017-12-29T16:30:00+01:00</date>
         <start>16:30</start>
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
-        <slug>34c3-8758-how_to_drift_with_any_car</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8758.html</url>
+        <slug>34c3-9195-avatar</slug>
+        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9195.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
         </recording>
-        <title>How to drift with any car</title>
-        <subtitle>(without your mom yelling at you)</subtitle>
+        <title>avatar²</title>
+        <subtitle>Towards an open source binary firmware analysis framework</subtitle>
         <track>Security</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>Lots of research are arising from the fairly unexplored world of automative communications. Cars are no longer becoming computers, they are fully connected networks where every ECU exchanges and operates the vehicles at some point.
-Here is an introduction of my immersion and discussions with my car, and how I finally managed to drift (a bit) with my mom's FWD Fiat 500c.</abstract>
-        <description>This talk is not only about security, but about hacking and video games. Many video games are about driving cars, whether it is for racing, or heisting and escaping the police. In this talk, we will explain how the user experience could actually be improved by connecting a car to a video game and turning it into a game controller.
+        <abstract>Avatar² is an open source framework for dynamic instrumentation and analysis of binary firmware, which was released in June 2017.
+This talk does not only introduce avatar², but also focuses on the motivation and challenges for such a tool.</abstract>
+        <description>Dynamic binary instrumentation and analysis are valuable assets for security analysis and testing, and while a variety of tools exist for desktop software, the tooling landscape for analysing low-level binary firmware directly interacting with hardware is relatively empty.
 
-We will discuss about these connected systems, how car components interact with one another, the different protocols, or anything that came to us during this journey.
+This talk will first outline the key problems for developing dynamic firmware analysis tools and pinpoint different approaches to overcome those problems.
+The core of this talk, however, focuses on avatar², an open source framework built to ease firmware reversing and security analysis.
 
-However there was one important constraint during all that experience: no car could be dismantled nor modified. The main goal of this analysis was to try doing something out of the data which could be freely recovered while plugging itself to the OBD-II port of a car. As mentioned, this resulted in the possibility of controlling a video game car through the real car, like a simulator, without the need of modifying anything in the car itself.
+In more detail, avatar² utilizes partial emulation to enable transparent analysis of firmware, and while the main firmware is executed inside the emulator, I/O operations to and from the hardware are commonly relayed to the actual hardware or the emulator. To realize this complex orchestration, avatar² enables communication and state synchronization between a variety of popular tools, such as Qemu, OpenOCD, GDB, PANDA and angr.
 
-Unfortunately, this requires a lot of gasoline to have the engine powered on and run. Moreover, gasoline is really expensive in France. So we looked for a way to reduce that cost. We actually found a nice device on the Internet to optimize the amount of gasoline used by the engine. Apparently, it works by connecting to the OBD-II port and reconfigures the engine’s ECU. We looked into that to understand what was actually going on… and try to reduce the cost of the drifting.
-
-The following points will be mentioned during the presentation:
-ECUs
-CAN bus
-OBD-II (DTCs/PIDs)
-On-top-of-CAN protocols
-UDS (Diagnostic/Security session)
-Reverse engineering: the meanings of CAN messages
-Using a real car as a simulator, for poories
-Minor details about how to create a custom game controller
-OBD dongle reverse engineering</description>
-        <logo>/system/events/logos/000/008/758/large/IMG_0505.JPG?1506513641</logo>
+While the declared scope of avatar² the is analysis of embedded firmware, this talk will also show that the framework can also be useful in other contexts, such as scripting gdb in python from outside gdb, or loading the state of a concretely executed binary into angr.</description>
+        <logo/>
         <persons>
-          <person id="7994">Guillaume Heilles</person>
-          <person id="7546">P1kachu</person>
+          <person id="7837">nsr</person>
         </persons>
         <links>
-</links>
+          <link href="https://github.com/avatartwo">avatar2 - the source code</link>
+        </links>
         <attachments>
 </attachments>
       </event>
