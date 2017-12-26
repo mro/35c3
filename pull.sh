@@ -24,7 +24,7 @@ for evt in $(fgrep '<url>' Fahrplan/schedule2.xml | cut -c 14-26)
 do 
   dst_evt="./${dir}/${evt}.html"
   url_evt="https://fahrplan.events.ccc.de/congress/2017/${dst_evt}"
-  curl --max-time=3 --silent --create-dirs --remote-time --time-cond "${dst_evt}" --output "${dst_evt}" "${url_evt}"
+  curl --max-time=3 --silent --create-dirs --location --remote-time --time-cond "${dst_evt}" --output "${dst_evt}" "${url_evt}"
 done
 
 curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {

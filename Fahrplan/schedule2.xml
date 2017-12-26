@@ -668,7 +668,7 @@ We show you how to root a Xiaomi vacuum cleaning robot in order to get access to
 After talking about the rooting procedure, we will discuss the internals of the robot. For example, the robot uses a so called SLAM (Simultaneous Localization and Mapping) system with LIDAR (Light Detection And Ranging) and various other sensors to create maps of your apartment. These maps are used, among other things, to calculate the best cleaning path. We will show you what these maps look like and how they are stored in the robot. At the end, we will discuss which data are created and uploaded to the vendor, and why this may be a big privacy issue. We will also prove why it is a bad idea to leave IoT devices in an unconfigured state.
 
 We conclude with an overview of other interesting Smart Home devices from the vendor.</description>
-        <logo/>
+        <logo>/system/events/logos/000/009/147/large/Unbenannt.png?1514317242</logo>
         <persons>
           <person id="7869">Dennis Giese</person>
           <person id="6553">DanielAW</person>
@@ -945,6 +945,35 @@ Most of the proofs performed by riscv-formal are bounded proofs, i.e. it is only
         </links>
         <attachments>
 </attachments>
+      </event>
+      <event guid="c9ae7564-9156-4d31-9f8a-168793a1bb18" id="9027">
+        <date>2017-12-27T13:30:00+01:00</date>
+        <start>13:30</start>
+        <duration>00:30</duration>
+        <room>Saal Clarke</room>
+        <slug>34c3-9027-the_work_of_art_in_the_age_of_digital_assassination</slug>
+        <url>./events/9027.html</url>
+        <recording>
+          <license>CC BY 4.0</license>
+          <optout>false</optout>
+        </recording>
+        <title>The Work of Art in the Age of Digital Assassination</title>
+        <subtitle/>
+        <track>Art &amp; Culture</track>
+        <type>lecture</type>
+        <language>en</language>
+        <abstract>My talk explores the interconnected nature of war and culture. It does so through the context of technology and political discourse in contemporary art. With a view from the battle fields of the Middle East, both real and imagined, I attempt to dissect how the political discourse of academia and the art world trickles down to everyday discussions. A simple word such as "assassination" becomes rife with racism when its etymology can be linked to anti-Muslim propaganda that originated during the Crusades. And today assassination is the primary political tool of the West to negotiate with Muslim radicals, even violating their own rules of citizenship, constitutional, and human rights protections in the process. With this backdrop, we see how the artistic works of such diverse artists such as Chris Marker, Chris Burden, Haroun Farouki, Anish Kapoor, and Banksy have evolved to reflect the political discourse of the moment. The digital advancements of the war zone, I argue, are reflected in the diametrically opposed peaceful spaces of the gallery, museum, or art house cinema. As the digital defeats analogue, the act of killing becomes disconnected from the killer, with democracies spreading thei blame over systemic failures rather than facing the reality of death.     </abstract>
+        <description/>
+        <logo>/system/events/logos/000/009/027/large/Title_screen_Dig_Assassination.001.jpeg?1508057316</logo>
+        <persons>
+          <person id="6169">Saud Al-Zaid</person>
+        </persons>
+        <links>
+          <link href="https://media.ccc.de/v/33c3-8419-the_clash_of_digitalizations">Previous Talk</link>
+        </links>
+        <attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/276/original/Title_screen_Dig_Assassination.001.jpeg?1508057420">Title_screen_Dig_Assassination.001.jpeg</attachment>
+        </attachments>
       </event>
       <event guid="0ff9c9c4-a561-4ec0-afa2-93647a740f26" id="8919">
         <date>2017-12-27T14:15:00+01:00</date>
@@ -4748,7 +4777,7 @@ Ich werde mehrere Mikroskope mitbringen, um einiges vom oben genannten direkt au
           <optout>false</optout>
         </recording>
         <title>Holography of Wi-Fi radiation</title>
-        <subtitle/>
+        <subtitle>Can we see the stray radiation of wireless devices and what would the world look like if we could?</subtitle>
         <track>Science</track>
         <type>lecture</type>
         <language>en</language>
@@ -4762,21 +4791,23 @@ When we think of wireless signals such as Wi-Fi or Bluetooth, we usually think o
 
 Interestingly, there is a second way to look at them. From a physicist's perspective, wireless radiation is just light, to be precise: coherent electromagnetic radiation. It is virtually the same as the beam of a laser, except that its wavelength is much longer (cm vs µm). 
 
-We have developed a way to visualize this radiation, providing a view of the world as it would look like for eyes sensitive to wireless radiation. 
+We have developed a way to visualize this radiation, providing a view of the world as it would look like if our eyes could see wireless radiation. 
 
 Our scheme is based on holography, a technique to record three-dimensional pictures by a phase-coherent recording of radiation in a two-dimensional plane. This technique is traditionally implemented using laser light. We have adapted it to work with wireless radiation, and recorded holograms of building interiors illuminated by the omnipresent stray field of wireless devices. In the resulting three-dimensional images we can see both emitters (appearing as bright spots) and absorbing objects (appearing as shadows in the beam). Our scheme does not require any knowledge of the data transmitted and works with arbitrary signals, including encrypted communication. 
 
-This result has several implications: it could provide a way to track wireless emitters in buildings, it could provide a new way for through-wall imaging of building infrastructure like water and power lines. As these applications are available even with encrypted communication, it opens up new questions about privacy."
+This result has several implications: it could provide a way to track wireless emitters in buildings, it could provide a new way for through-wall imaging of building infrastructure like water and power lines. As these applications are available even with encrypted communication, it opens up new questions about privacy.
 
 
 </abstract>
-        <description>I am running an Emmy Noether research group at the Technical University of Munich. We have had a publication on the above result this year (P. Holl, F. Reinhard, Phys. Rev. Lett. 118, 183901 (2017), https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.118.183901) which has triggered significant attention by the media, with reports in Science, Physics Focus, Heise Online and Russia Today, among many others. I believe that it could be of interest for a wider community, as it presents a new way to think about wireless communication, and could inspire various hacking projects. </description>
-        <logo/>
+        <description/>
+        <logo>/system/events/logos/000/009/024/large/Wi-fi_Holography_-_Augmented_Reality.jpg?1514315894</logo>
         <persons>
           <person id="7822">Friedemann Reinhard</person>
         </persons>
         <links>
-</links>
+          <link href="http://tinyurl.com/reinhardlab">Our lab</link>
+          <link href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.118.183901">Our article (open access)</link>
+        </links>
         <attachments>
 </attachments>
       </event>
