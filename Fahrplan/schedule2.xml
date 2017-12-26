@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>
 <schedule>
-  <version>HAKP</version>
+  <version>Altlandsberg</version>
   <conference>
     <acronym>34c3</acronym>
     <title>34th Chaos Communication Congress</title>
@@ -19,7 +19,7 @@
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-9292-eroffnung_tuwat</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9292.html</url>
+        <url>./events/9292.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -58,7 +58,7 @@ Wir reden über internationale Netzwerke – Kommunikationsrecht – Datenrecht 
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9270-dude_you_broke_the_future</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9270.html</url>
+        <url>./events/9270.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -91,7 +91,7 @@ In this talk, author Charles Stross will give a rambling, discursive, and angry 
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9092-ladeinfrastruktur_fur_elektroautos_ausbau_statt_sicherheit</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9092.html</url>
+        <url>./events/9092.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -131,7 +131,7 @@ Wer physischen Zugriff auf Ladestationen hat kann diese beliebig umkonfigurieren
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8874-gamified_control</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8874.html</url>
+        <url>./events/8874.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -162,7 +162,7 @@ China's SCS is seen as an extreme example of a tendency that has developed in mo
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9225-how_risky_is_the_software_you_use</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9225.html</url>
+        <url>./events/9225.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -190,7 +190,7 @@ China's SCS is seen as an extreme example of a tendency that has developed in mo
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9289-die_lauschprogramme_der_geheimdienste</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9289.html</url>
+        <url>./events/9289.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -218,7 +218,7 @@ China's SCS is seen as an extreme example of a tendency that has developed in mo
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9285-qualityland</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9285.html</url>
+        <url>./events/9285.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -245,7 +245,7 @@ China's SCS is seen as an extreme example of a tendency that has developed in mo
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9247-der_pc-wahl-hack</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9247.html</url>
+        <url>./events/9247.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -277,7 +277,7 @@ https://ccc.de/system/uploads/230/original/PC-Wahl_Bericht_CCC.pdf
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-8969-die_sprache_der_uberwacher</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8969.html</url>
+        <url>./events/8969.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -308,7 +308,7 @@ https://ccc.de/system/uploads/230/original/PC-Wahl_Bericht_CCC.pdf
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-8805-die_fabelhafte_welt_des_mobilebankings</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8805.html</url>
+        <url>./events/8805.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -345,7 +345,7 @@ Mit &lt;em&gt;Nomorp&lt;/em&gt; haben wir ein Werkzeug geschaffen, das die durch
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-9279-dprk_consumer_technology</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9279.html</url>
+        <url>./events/9279.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -375,7 +375,7 @@ We'll explain the current state of consumer technology in Korea in a bit more de
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9273-kracking_wpa2_by_forcing_nonce_reuse</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9273.html</url>
+        <url>./events/9273.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -407,7 +407,7 @@ Finally, we confirmed our findings in practice, and found that every Wi-Fi devic
         <duration>01:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-9091-all_creatures_welcome</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9091.html</url>
+        <url>./events/9091.html</url>
         <recording>
           <license>Proprietary!</license>
           <optout>true</optout>
@@ -443,7 +443,7 @@ Chaos Communication Choir and All Creatures Welcome.
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9188-hacking_disaster</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9188.html</url>
+        <url>./events/9188.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -484,45 +484,43 @@ Im CADUS-Makerspace in Berlin wird an diversen Lösungen bereits gebastelt. Der 
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-9159-demystifying_network_cards</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9159.html</url>
+        <url>./events/9159.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
         </recording>
         <title>Demystifying Network Cards</title>
-        <subtitle>Things you always wanted to know about your NIC</subtitle>
+        <subtitle>Things you always wanted to know about NIC drivers</subtitle>
         <track>Hardware &amp; Making</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>Network cards (NICs) are often seen as black boxes: you put data in a socket on one side and packets come out at the other end - or the other way around.
-Let's have a deeper look at how a network card actually works at the lower levels by writing a simple userspace driver from scratch for a 10 Gbit/s NIC.
-
-
-The first part of the talk looks at the evolution from 10 Mbit/s to 100 Gbit/s networks - both from a hardware perspective and how the software had to change from Linux pre-NAPI all the way to Linux XDP to keep up.
-Hundreds of thousands of lines of code are involved when handling a packet in a typical operating system.
-Reading and understanding so much code is quite tedious, so the obvious next question is: How hard can it be to implement a driver for a modern 10 Gbit/s NIC from scratch while ignoring all of the existing software layers?
-Turns out that it's not very hard: I've written &lt;a href="https://github.com/emmericp/ixy"&gt;ixy&lt;/a&gt;, a userspace driver for 10 Gbit/s NICs from the Intel 82599 family (X520, X540, X550) from scratch in just about 1000 lines of C code.
-The second part of the talk focuses on userspace drivers and the Intel 82599 architecture as it is easy to understand, has a great datasheet, and the core functionality is in the driver as opposed to a magic black-box firmware.
-You will not only learn about my driver implementation - the talk also discusses how it relates to similar network frameworks like DPDK or Snabb and seemingly similar frameworks like netmap, XDP, pf_ring, or pfq.
+        <abstract>Network cards are often seen as black boxes: you put data in a socket on one side and packets come out at the other end - or the other way around.
+Let's have a deeper look at how a network card actually works at the lower levels by writing a simple user space driver from scratch for a 10 Gbit/s NIC.
 </abstract>
         <description>Packet processing in software is currently undergoing a huge paradigm shift.
-Connection speeds of 10 Gbit/s and above created new problems and operating systems couldn't keep keep up.
+Connection speeds of 10 Gbit/s and beyond created new problems and operating systems couldn't keep keep up.
 Hence, there has been a rise of frameworks and libraries working around the kernel, sometimes referred to as kernel bypass or zero copy (the latter is a misnomer). Examples are DPDK, Snabb, netmap, XDP, pf_ring, and pfq.
-These new frameworks break with all traditional APIs and present new paradigms.
+The first part of the talk looks at the background and performance of the kernel network stack and what changes with these new frameworks.
+They break with all traditional APIs and present new paradigms.
 For example, they usually provide an application exclusive access to a network interface and exchange raw packets with the app.
 There are no sockets, they don't even offer a protocol stack.
 Hence, they are mostly used for low-level packet processing apps: routers, (virtual) switches, firewalls, and annoying middleboxes "optimizing" your connection.
-These frameworks have already changed how network research is done in academia by shifting the focus from hardware to software.
+
 It's now feasible to write quick prototypes of packet processing and forwarding apps that were restricted to dedicated hardware in the past, enabling everyone to build and test high-speed networking equipment with a low budget.
-
-These concepts are slowly creeping into operating systems: FreeBSD ships with netmap today, XDP is coming to Linux, Open vSwitch can be compiled with a DPDK backend, pfSense is adopting DPDK as well, ...
-We need to look at the architecture of all of these frameworks to better understand what is coming for us.
+These concepts are slowly creeping into operating systems and software routers/switches: FreeBSD ships with netmap today, XDP is coming to Linux, Open vSwitch can be compiled with a DPDK backend, pfSense is adopting DPDK as well, ...
+We need to look at the architecture of these frameworks to better understand what is coming for us.
 Most of these frameworks build on the original drivers that have been growing in complexity: a typical driver for a 10 or 40 Gbit/s NIC is in the order of 50,000 lines of code nowadays.
-This is why it's important to have a simple driver like &lt;a href="https://github.com/emmericp/ixy"&gt;ixy&lt;/a&gt;: for hacking and educational purposes.
-Core functionality of the driver, like handling DMA buffers, is never far away when writing an ixy app: you typically only need to look beneath one layer to see the guts of the driver. For example, when you send out a packet you call a transmit function that directly modifies a ring buffer of DMA descriptors.
 
-ixy is a full userspace driver: you get your raw packets delivered directly into your application and the operating system doesn't even know the NIC exists.
-Userspace drivers are also very hackable, you get direct access to the full hardware in your application in userspace making it really easy to test out new features, no pesky kernel code needed.
+
+Hundreds of thousands of lines of code are involved when handling a packet in a typical operating system, and tens of thousands when using one of these new frameworks.
+Reading and understanding so much code is quite tedious, so the obvious question is: How hard can it be to implement a driver for a modern 10 Gbit/s NIC from scratch while ignoring all of the existing software layers?
+Turns out that it's not very hard: I've written &lt;a href="https://github.com/emmericp/ixy"&gt;ixy&lt;/a&gt;, a user space driver for 10 Gbit/s NICs from the Intel 82599 family (X520, X540, X550) from scratch in about 1000 lines of C code.
+The second part of the talk focuses on user space drivers and the Intel 82599 architecture as it is easy to understand, has a great datasheet, and the core functionality is in the driver as opposed to a magic black-box firmware.
+
+&lt;a href="https://github.com/emmericp/ixy"&gt;ixy&lt;/a&gt; is a full user space driver: you get your raw packets delivered directly into your application and the operating system doesn't even know the NIC exists.
+User space drivers are also very hackable, you get direct access to the full hardware in your application in user space making it really easy to test out new features, no pesky kernel code needed.
+This is why it's important to have a simple driver like &lt;a href="https://github.com/emmericp/ixy"&gt;ixy&lt;/a&gt;: for hacking and educational purposes.
+Core functionality of the driver such as handling DMA buffers is never far away when writing an ixy app: you typically only need to look beneath one layer to see the guts of the driver. For example, when you send out a packet you call a transmit function that directly modifies a ring buffer of DMA descriptors.
 
 
 Check out the code of &lt;a href="https://github.com/emmericp/ixy"&gt;ixy on GitHub&lt;/a&gt;!
@@ -536,7 +534,8 @@ Check out the code of &lt;a href="https://github.com/emmericp/ixy"&gt;ixy on Git
           <link href="https://github.com/emmericp/ixy">ixy on GitHub</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/349/original/slides_v0.1.pdf?1514297793">Slides</attachment>
+        </attachments>
       </event>
       <event guid="544e7736-6b59-4c05-87a7-c013ef993688" id="9233">
         <date>2017-12-27T13:30:00+01:00</date>
@@ -544,7 +543,7 @@ Check out the code of &lt;a href="https://github.com/emmericp/ixy"&gt;ixy on Git
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-9233-uncovering_british_spies_web_of_sockpuppet_social_media_personas</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9233.html</url>
+        <url>./events/9233.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -586,7 +585,7 @@ How can seemingly innocent web services be used as honeypots to conduct signal i
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8916-der_netzpolitische_wetterbericht</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8916.html</url>
+        <url>./events/8916.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -613,7 +612,7 @@ How can seemingly innocent web services be used as honeypots to conduct signal i
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8915-how_can_you_trust_formally_verified_software</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8915.html</url>
+        <url>./events/8915.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -650,7 +649,7 @@ There are a lot of things that you can do with a formal specification: binary an
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-9147-unleash_your_smart-home_devices_vacuum_cleaning_robot_hacking</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9147.html</url>
+        <url>./events/9147.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -686,7 +685,7 @@ We conclude with an overview of other interesting Smart Home devices from the ve
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-8762-inside_intel_management_engine</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8762.html</url>
+        <url>./events/8762.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -719,7 +718,7 @@ Intel provides its engineers with the ability to perform ME debugging via JTAG, 
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9194-bildung_auf_dem_weg_ins_neuland</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9194.html</url>
+        <url>./events/9194.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -752,7 +751,7 @@ In unserem Talk diskutieren wir aktuelle blidungspolitische Entwicklungen im Kon
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9106-pointing_fingers_at_the_media</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9106.html</url>
+        <url>./events/9106.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -790,7 +789,7 @@ Denver McNeney (&lt;A HREF="https://twitter.com/denvermcTwitter/"&gt;@DenverMc&l
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-8724-defeating_not_petya_s_cryptography</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8724.html</url>
+        <url>./events/8724.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -820,7 +819,7 @@ A deeper analysis of NotPetya's cryptography revealed several rookie mistakes th
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-8950-microarchitectural_attacks_on_trusted_execution_environments</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8950.html</url>
+        <url>./events/8950.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -852,7 +851,7 @@ By the end of the talk, the audience will recognize the risks presented by micro
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9064-the_ultimate_apollo_guidance_computer_talk</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9064.html</url>
+        <url>./events/9064.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -887,7 +886,7 @@ The audience will get a good understanding of hardware and software design in th
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9271-lobby-schlacht_um_die_eprivacy-verordnung</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9271.html</url>
+        <url>./events/9271.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -916,7 +915,7 @@ Während digitale Bürgerrechtsorganisationen auf eine starke Regulierung hoffen
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8768-end-to-end_formal_isa_verification_of_risc-v_processors_with_riscv-formal</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8768.html</url>
+        <url>./events/8768.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -947,44 +946,13 @@ Most of the proofs performed by riscv-formal are bounded proofs, i.e. it is only
         <attachments>
 </attachments>
       </event>
-      <event guid="d35c155e-7a81-4122-afff-953a545e8699" id="9282">
-        <date>2017-12-27T13:30:00+01:00</date>
-        <start>13:30</start>
-        <duration>00:30</duration>
-        <room>Saal Clarke</room>
-        <slug>34c3-9282-the_enemy</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9282.html</url>
-        <recording>
-          <license/>
-          <optout>false</optout>
-        </recording>
-        <title>The Enemy</title>
-        <subtitle>face-to-face with combatants</subtitle>
-        <track>Art &amp; Culture</track>
-        <type>lecture</type>
-        <language>en</language>
-        <abstract>The Enemy brings you face-to-face with combatants from three conflict zones: with the Maras in Salvador, in the Democratic Republic of the Congo, and in Israel and Palestine. Their testimonies and confessions about their lives, experiences, and perspectives on war will allow you to better understand their motivations… and their humanity.</abstract>
-        <description>The Enemy by Karim Ben Khelifa, a groundbreaking interactive Virtual Reality (VR) exhibition and immersive experience, makes its North American premiere at the MIT Museum. Through 360-degree imaging and recordings, participants will encounter combatants on opposite sides of conflicts in Israel/Palestine, the Congo, and El Salvador. In their own words, each will offer personal perspectives on war, including thoughts on motivations, suffering, freedom, and the future.
-
-The exhibition incorporates concepts from artificial intelligence and cognitive science-based interaction models. Conceived by acclaimed photojournalist Karim Ben Khelifa, this ambitious project was further developed during a visiting artist residency at MIT hosted by MIT’s Center for Art, Science &amp; Technology (CAST) and in collaboration with MIT Professor D. Fox Harrell.
-</description>
-        <logo/>
-        <persons>
-          <person id="7970">Karim Ben Khelifa</person>
-        </persons>
-        <links>
-          <link href="http://theenemyishere.org/about">project page</link>
-        </links>
-        <attachments>
-</attachments>
-      </event>
       <event guid="0ff9c9c4-a561-4ec0-afa2-93647a740f26" id="8919">
         <date>2017-12-27T14:15:00+01:00</date>
         <start>14:15</start>
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8919-wtfrance</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8919.html</url>
+        <url>./events/8919.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1017,7 +985,7 @@ After giving a brief historical summary of the french anti-crypto legislation, t
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9055-science_is_broken</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9055.html</url>
+        <url>./events/9055.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1054,7 +1022,7 @@ How broken is science - and what can be done to make more scientific results tru
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9030-algorithmic_science_evaluation_and_power_structure_the_discourse_on_strategic_citation_and_citation_cartels</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9030.html</url>
+        <url>./events/9030.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1091,7 +1059,7 @@ In our talk, we will outline the discourse on strategic citation with examples, 
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8936-1-day_exploit_development_for_cisco_ios</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8936.html</url>
+        <url>./events/8936.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1150,7 +1118,7 @@ vulnerabilities in network devices?</description>
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8720-ios_kernel_exploitation_archaeology</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8720.html</url>
+        <url>./events/8720.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1177,7 +1145,7 @@ vulnerabilities in network devices?</description>
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8964-watching_the_changing_earth</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8964.html</url>
+        <url>./events/8964.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1207,7 +1175,7 @@ The objective of this presentation is not to discuss the last significant decima
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8948-low_cost_non-invasive_biomedical_imaging</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8948.html</url>
+        <url>./events/8948.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1243,7 +1211,7 @@ Democratizing novel sensing technology opens the way to better collaborations an
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8710-relativitatstheorie_fur_blutige_anfanger</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8710.html</url>
+        <url>./events/8710.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1272,7 +1240,7 @@ Die Relativitätstheorie und besonders die allgemeine Relativitätstheorie ist r
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9190-catch_me_if_you_can_internet_activism_in_saudi_arabia</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9190.html</url>
+        <url>./events/9190.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1311,7 +1279,7 @@ This talk strives to give some insight into the darkness of the current state of
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8908-doping_your_fitbit</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8908.html</url>
+        <url>./events/8908.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1343,7 +1311,7 @@ We also release a smartphone application supporting a subset of the demonstrated
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8974-practical_mix_network_design</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8974.html</url>
+        <url>./events/8974.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1386,7 +1354,7 @@ We believe a strong anonymity network is urgently needed so that individuals can
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9276-forensic_architecture</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9276.html</url>
+        <url>./events/9276.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -1422,7 +1390,7 @@ Weizman’s Forensic Architecture, stunning and shocking in its critical narrati
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8784-emmc_hacking_or_how_i_fixed_long-dead_galaxy_s3_phones</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8784.html</url>
+        <url>./events/8784.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1455,7 +1423,7 @@ Weizman’s Forensic Architecture, stunning and shocking in its critical narrati
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9021-squeezing_a_key_through_a_carry_bit</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9021.html</url>
+        <url>./events/9021.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1498,7 +1466,7 @@ Weizman’s Forensic Architecture, stunning and shocking in its critical narrati
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9034-bbss_and_early_internet_access_in_the_1990ies</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9034.html</url>
+        <url>./events/9034.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1538,7 +1506,7 @@ At the same time, the talk is a bit of a personal journey from
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8900-tightening_the_net_in_iran</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8900.html</url>
+        <url>./events/8900.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1582,7 +1550,7 @@ Apple is not officially present in Iran, and does not want to get involved in fi
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8789-lets_break_modern_binary_code_obfuscation</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8789.html</url>
+        <url>./events/8789.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1615,7 +1583,7 @@ Apple is not officially present in Iran, and does not want to get involved in fi
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9040-access_to_bodies</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9040.html</url>
+        <url>./events/9040.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1647,7 +1615,7 @@ In meinem Talk spreche ich über alternative Körpererweiterungen und Schönheit
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9278-ecstasy_10x_yellow_twitter_120mg_mdma</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9278.html</url>
+        <url>./events/9278.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1676,25 +1644,23 @@ In a more recent series of works !Mediengruppe Bitnik use the hacked online dati
         <start>21:15</start>
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
-        <slug>34c3-8797-social_cooling</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8797.html</url>
+        <slug>34c3-8797-social_cooling_-_big_data_s_unintended_side_effect</slug>
+        <url>./events/8797.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
         </recording>
-        <title>Social Cooling</title>
+        <title>Social Cooling - big data’s unintended side effect</title>
         <subtitle>How the reputation economy is creating data-driven conformity</subtitle>
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>What does it mean to be free in a world where surveillance is the dominant business model? Behind the scenes databrokers are turning our data into thousands of scores. This digital reputation is increasingly influencing our chances to find a job, a loan or even a date. Researchers are pointing out that, as people become aware of this reputation economy, it is generating a culture where self-censorship and risk aversion are the new normal.
+        <abstract>What does it mean to be free in a world where surveillance is the dominant business model? Behind the scenes databrokers are turning our data into thousands of scores. This digital reputation is increasingly influencing our chances to find a job, a loan or even a date. Researchers are pointing out that, as people become aware of this reputation economy, it is generating a culture where self-censorship and risk aversion are the new normal.</abstract>
+        <description>How do we deal with these chilling effects? I suggest we take the comparison of oil and data all the way: If oil leads to global warming, then data leads to Social Cooling.
 
-How do we deal with these chilling effects? I suggest we take the comparison of oil and data all the way: if oil leads to global warming, then data leads to Social Cooling.</abstract>
-        <description>What does it mean to be free in a world where surveillance is the dominant business model? More and more people are discovering that databrokers (a 200 billion dollar industry) are turning our data-trail into thousands of scores. This mostly invisible ‘digital reputation’ is starting to strongly effect our lives, influencing our chances to get a job, a cheap loan or even a nice date. 
+Social Cooling is an accessible narrative about the large scale chilling effects are starting to become visible, and whose effects countries like China are actively embracing. Here in the west studies show a rise in self-censorship and a growing culture of risk-aversion. For example, after the Snowden revelations fewer people visit Wikipedia pages about subjects like terrorism. We see doctors hesitating to operate on patients because a death will lower their score.
 
-As awareness spreads people are changing their behavior; studies show a rise in self-censorship and a growing culture of risk-aversion. For example, after the Snowden revelations fewer people visit Wikipedia pages about subjects like terrorism. We see doctors hesitating to operate on patients because a death will lower their score. China is embracing it: in 2020 all Chinese citizens will receive a ‘social credit score’ that basically reflects how well behaved they are, and that will affect every part of their life.
-
-This is the true cost of 'free': machine learning is mapping our weaknesses, and behavioral psychology is amplifying social pressure, creating powerful chilling effects and strong incentives to conform. I believe that as oil lead to Global Warming, data leads to Social Cooling. This comparison is not meant to scare, but to give us hope: our move away from oil offers us a valuable blueprint on how to deal with this issue. In this talk we'll go into the narratives we need. In a data-driven world, a good meme can be the best hack.</description>
+This comparison is not meant to scare, but to give us hope: our move away from oil offers us a valuable blueprint on how to deal with this issue. In this talk we’ll go into the narratives we need. In a data-driven world, a good story can still be the best hack.</description>
         <logo>/system/events/logos/000/008/797/large/socialcooling-ccc.png?1512667444</logo>
         <persons>
           <person id="7199">Tijmen Schep</person>
@@ -1711,7 +1677,7 @@ This is the true cost of 'free': machine learning is mapping our weaknesses, and
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9205-bootstomp_on_the_security_of_bootloaders_in_mobile_devices</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9205.html</url>
+        <url>./events/9205.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1742,7 +1708,7 @@ In this paper, we explore vulnerabilities in both the design and implementation 
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9072-bgp_and_the_rule_of_custom</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9072.html</url>
+        <url>./events/9072.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1780,13 +1746,13 @@ I will explain BGP, the protocol that knits the internet together, also covering
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8998-the_divine_computer_science_die_gottliche_informatik</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8998.html</url>
+        <url>./events/8998.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
         </recording>
         <title>The divine Computer Science / Die göttliche Informatik</title>
-        <subtitle>Computer science nicely solves formally modelled problems – now it is believed to solve everything else too / Die Informatik löst formale (mathematisch modellierbare) Probleme ganz vorzüglich – doch nun soll sie alle anderen Probleme auch noch lösen</subtitle>
+        <subtitle>Computer science nicely solves formally modelled problems – now it is believed to solve everything else too / Die Informatik löst formale (mathematisch modellierte) Probleme ganz vorzüglich – doch nun soll sie alle anderen Probleme auch noch lösen</subtitle>
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>en</language>
@@ -1829,7 +1795,7 @@ Für eine Digitalisierung im Sinne der Freiheit und der gesellschaftlichen Weite
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8879-mobile_data_interception_from_the_interconnection_link</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8879.html</url>
+        <url>./events/8879.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1865,7 +1831,7 @@ We first discuss the current status of interconnection or mobile telephony core 
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8811-beeinflussung_durch_kunstliche_intelligenz</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8811.html</url>
+        <url>./events/8811.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1898,7 +1864,7 @@ Ziel des Vortrages ist es, Möglichkeiten der Beeinflussung durch Künstliche In
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8860-deep_learning_blindspots</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8860.html</url>
+        <url>./events/8860.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -1937,7 +1903,7 @@ Deeppwning: https://github.com/cchio/deep-pwning
         <duration>02:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9262-jahresruckblick_des_ccc_2017</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9262.html</url>
+        <url>./events/9262.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -1967,7 +1933,7 @@ Deeppwning: https://github.com/cchio/deep-pwning
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9058-everything_you_want_to_know_about_x86_microcode_but_might_have_been_afraid_to_ask</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9058.html</url>
+        <url>./events/9058.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2007,7 +1973,7 @@ In this talk we will first start with a (short) crash course in CPU architecture
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8941-console_security_-_switch</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8941.html</url>
+        <url>./events/8941.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2043,7 +2009,7 @@ The talk will be technical, but we aim to make it enjoyable also for non-technic
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8782-intel_me_myths_and_reality</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8782.html</url>
+        <url>./events/8782.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2086,7 +2052,7 @@ Together with the talk we're planning to make available detailed notes on revers
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9075-latticehacks</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9075.html</url>
+        <url>./events/9075.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2125,7 +2091,7 @@ This is a joint presentation by Daniel J. Bernstein, Nadia Heninger, and Tanja L
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8955-all_computers_are_beschlagnahmt</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8955.html</url>
+        <url>./events/8955.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2158,7 +2124,7 @@ Neben den juristischen wird sie auch auf folgende Fragen eingehen: Was hat eine 
         <duration>02:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9007-hacker_jeopardy</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9007.html</url>
+        <url>./events/9007.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2192,7 +2158,7 @@ The event will be in German, we hope to have live translation again.</descriptio
         <duration>02:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9256-lightning_talks_day_2</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9256.html</url>
+        <url>./events/9256.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2220,7 +2186,7 @@ The event will be in German, we hope to have live translation again.</descriptio
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-9296-why_do_we_anthropomorphize_computers</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9296.html</url>
+        <url>./events/9296.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -2249,7 +2215,7 @@ The event will be in German, we hope to have live translation again.</descriptio
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8806-the_seizure_of_the_iuventa</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8806.html</url>
+        <url>./events/8806.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2297,7 +2263,7 @@ Since the seizure of the Iuventa he is busy working with the team that is fighti
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-8735-spy_vs_spy_a_modern_study_of_microphone_bugs_operation_and_detection</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8735.html</url>
+        <url>./events/8735.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2338,7 +2304,7 @@ As far as we know this work is one of the few on the topic of analyzing the real
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9193-internet_of_fails</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9193.html</url>
+        <url>./events/9193.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2370,7 +2336,7 @@ For example: Currently manufacturers take care primarily of their business to br
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9297-the_snowden_refugees_under_surveillance_in_hong_kong</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9297.html</url>
+        <url>./events/9297.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -2403,7 +2369,7 @@ In the above context, the Hong Kong government has failed to protect the Snowden
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-8730-taking_a_scalpel_to_qnx</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8730.html</url>
+        <url>./events/8730.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2439,7 +2405,7 @@ We subsequently uncover a variety of design issues and vulnerabilities in these 
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9287-trugerische_sicherheit</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9287.html</url>
+        <url>./events/9287.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -2467,7 +2433,7 @@ Welche Unterminierung der Sicherheit kann durch Überwachung eigentlich entstehe
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9207-opening_closed_systems_with_glitchkit</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9207.html</url>
+        <url>./events/9207.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2503,7 +2469,7 @@ This talk presents the theory behind firmware-disclosure glitching, and aims to 
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8938-home_distilling</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8938.html</url>
+        <url>./events/8938.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2530,7 +2496,7 @@ This talk presents the theory behind firmware-disclosure glitching, and aims to 
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8946-schnaps_hacking</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8946.html</url>
+        <url>./events/8946.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2569,7 +2535,7 @@ We will cover the relevant measuring equipment as well as the theory behind each
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9268-social_bots_fake_news_und_filterblasen</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9268.html</url>
+        <url>./events/9268.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2597,7 +2563,7 @@ Im Rahmen seinen Vortrages wird er die Ergebnisse, die Methoden, die Rohdaten un
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8885-we_should_share_our_secrets</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8885.html</url>
+        <url>./events/8885.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2664,7 +2630,7 @@ be helpful for this talk, but is not required.
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9237-reverse_engineering_fpgas</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9237.html</url>
+        <url>./events/9237.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2705,7 +2671,7 @@ At the end I will demonstrate how to create your own bitstream by hand, implemen
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8920-electromagnetic_threats_for_information_security</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8920.html</url>
+        <url>./events/8920.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2733,7 +2699,7 @@ At the end I will demonstrate how to create your own bitstream by hand, implemen
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8721-blinkenrocket</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8721.html</url>
+        <url>./events/8721.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2783,7 +2749,7 @@ this way people who can not afford it are not excluded from learning how to sold
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8725-inside_android_s_safetynet_attestation_attack_and_defense</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8725.html</url>
+        <url>./events/8725.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2810,7 +2776,7 @@ this way people who can not afford it are not excluded from learning how to sold
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9070-financial_surveillance</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9070.html</url>
+        <url>./events/9070.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2842,7 +2808,7 @@ We will also ask whether we really want banks to be held responsible for the cri
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9250-the_making_of_a_chip</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9250.html</url>
+        <url>./events/9250.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2883,7 +2849,7 @@ I won't touch IC development (none of the points mentioned &lt;a href=https://en
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9135-aslr_on_the_line</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9135.html</url>
+        <url>./events/9135.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2942,7 +2908,7 @@ rely on randomized virtual addresses as a building block.
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9029-uncovering_vulnerabilities_in_hoermann_bisecur</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9029.html</url>
+        <url>./events/9029.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -2982,7 +2948,7 @@ rely on randomized virtual addresses as a building block.
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9290-visceral_systems</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9290.html</url>
+        <url>./events/9290.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -3010,7 +2976,7 @@ rely on randomized virtual addresses as a building block.
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8814-making_experts_makers_and_makers_experts</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8814.html</url>
+        <url>./events/8814.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3041,7 +3007,7 @@ The project is completely open source and can be reproduced by users themselves 
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8865-digitale_bildung_in_der_schule</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8865.html</url>
+        <url>./events/8865.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3070,7 +3036,7 @@ Hierüber möchte ich euch gerne Näheres erzählen :)</description>
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8953-think_big_or_care_for_yourself</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8953.html</url>
+        <url>./events/8953.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3101,7 +3067,7 @@ In the second part of this talk the theoretical premises of main arguments again
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9196-may_contain_dtraces_of_freebsd</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9196.html</url>
+        <url>./events/9196.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3133,7 +3099,7 @@ I'm going to introduce DTrace and its D language by digging down into the inner 
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8980-netzpolitik_in_der_schweiz</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8980.html</url>
+        <url>./events/8980.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3171,7 +3137,7 @@ Im Anschluss an den Vortrag findet eine weiterführende Diskussions- und Fragese
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8832-free_electron_lasers</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8832.html</url>
+        <url>./events/8832.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3202,7 +3168,7 @@ This talk aims to explain how particle accelerators and in particular light sour
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8758-how_to_drift_with_any_car</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8758.html</url>
+        <url>./events/8758.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3248,7 +3214,7 @@ OBD dongle reverse engineering</description>
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9077-humans_as_software_extensions</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9077.html</url>
+        <url>./events/9077.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3281,7 +3247,7 @@ Against this backdrop, I will also speculate about possible interventions inside
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9275-afro_tech</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9275.html</url>
+        <url>./events/9275.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -3309,7 +3275,7 @@ Against this backdrop, I will also speculate about possible interventions inside
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9222-the_noise_protocol_framework</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9222.html</url>
+        <url>./events/9222.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3336,7 +3302,7 @@ Against this backdrop, I will also speculate about possible interventions inside
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9006-implementing_an_llvm_based_dynamic_binary_instrumentation_framework</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9006.html</url>
+        <url>./events/9006.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3373,7 +3339,7 @@ We also plan to open source our framework under a permissive free software licen
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9044-growing_up_software_development</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9044.html</url>
+        <url>./events/9044.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3439,7 +3405,7 @@ suggestions on what *you* may do.
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9150-robot_music</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9150.html</url>
+        <url>./events/9150.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3481,7 +3447,7 @@ For CCC we will bring two robots. One for performing and one for hacking. We are
         <duration>02:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8922-methodisch_inkorrekt</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8922.html</url>
+        <url>./events/8922.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3512,7 +3478,7 @@ Eigentlich ein Podcast, der alle 14 Tage erscheint. Gelegentlich aber auch auf B
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-9291-regulating_autonomous_weapons</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9291.html</url>
+        <url>./events/9291.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -3545,7 +3511,7 @@ The talk will discuss these pressing issues to support civil society in addressi
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-9095-antipatterns_und_missverstandnisse_in_der_softwareentwicklung</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9095.html</url>
+        <url>./events/9095.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3575,7 +3541,7 @@ Bei den Antipatterns geht es um Dinge, die aus den falschen Gründen gemacht wer
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8994-vintage_computing_for_trusted_radiation_measurements_and_a_world_free_of_nuclear_weapons</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8994.html</url>
+        <url>./events/8994.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3608,7 +3574,7 @@ In this talk, we demonstrate the performance of the inspection system in an actu
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9240-cryptocurrencies_smart_contracts_etc_revolutionary_tech</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9240.html</url>
+        <url>./events/9240.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3635,7 +3601,7 @@ In this talk, we demonstrate the performance of the inspection system in an actu
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9086-protecting_your_privacy_at_the_border</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9086.html</url>
+        <url>./events/9086.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3667,7 +3633,7 @@ Finally, we will discuss what people can do to keep themselves informed, and sta
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8968-are_all_bsds_created_equally</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8968.html</url>
+        <url>./events/8968.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3699,7 +3665,7 @@ I end the presentation with some results and conclusions. I will list what the o
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8896-tiger_drucker_und_ein_mahnmal</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8896.html</url>
+        <url>./events/8896.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3729,7 +3695,7 @@ I end the presentation with some results and conclusions. I will list what the o
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8965-decoding_contactless_card_payments</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8965.html</url>
+        <url>./events/8965.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3762,7 +3728,7 @@ In the end, we will take a short look at how contactless payments might influenc
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-9176-this_is_not_a_proposal_about_mass_surveillance</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9176.html</url>
+        <url>./events/9176.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3791,7 +3757,7 @@ In the end, we will take a short look at how contactless payments might influenc
         <duration>01:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-8993-nougatbytes_11</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8993.html</url>
+        <url>./events/8993.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3830,7 +3796,7 @@ http://nougatbytes.de</description>
         <duration>02:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9257-lightning_talks_day_3</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9257.html</url>
+        <url>./events/9257.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3858,7 +3824,7 @@ http://nougatbytes.de</description>
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8989-nabovarme_opensource_heating_infrastructure_in_christiania</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8989.html</url>
+        <url>./events/8989.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3906,7 +3872,7 @@ We have liberated devices controlling the production of heat (NBE Pellet system,
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8923-ooni_let_s_fight_internet_censorship_together</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8923.html</url>
+        <url>./events/8923.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3936,7 +3902,7 @@ OONI, the Open Observatory of Network Interference is a project for documenting 
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8869-saving_the_world_with_space_solar_power</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8869.html</url>
+        <url>./events/8869.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -3977,7 +3943,7 @@ Some questions still remain: Is it possible to transfer power wireless over such
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8877-drones_of_power_airborne_wind_energy</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8877.html</url>
+        <url>./events/8877.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4012,7 +3978,7 @@ Maybe by the time of the next Chaos Communication Camp, you will have joined us 
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-8851-don_t_stop_til_you_feel_it</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8851.html</url>
+        <url>./events/8851.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4049,7 +4015,7 @@ Vital | Flows is an ongoing work drawing knowledge about food from multiple sour
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9184-a_hacker_s_guide_to_climate_change_-_what_do_we_know_and_how_do_we_know_it</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9184.html</url>
+        <url>./events/9184.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4102,7 +4068,7 @@ We conclude with examples of what could be effective solutions to the climate pr
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9178-on_the_prospects_and_challenges_of_weather_and_climate_modeling_at_convection-resolving_resolution</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9178.html</url>
+        <url>./events/9178.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4138,7 +4104,7 @@ Leutwyler, D., Fuhrer, O., Lapillonne, X., Lüthi, D., and Schär, C., 2016: Tow
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8935-simulating_the_future_of_the_global_agro-food_system</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8935.html</url>
+        <url>./events/8935.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4170,7 +4136,7 @@ We will also showcase some interactive physical installations that have been dev
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-9138-closing_the_loop_reconnecting_social-technologial_dynamics_to_earth_system_science</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9138.html</url>
+        <url>./events/9138.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4197,7 +4163,7 @@ We will also showcase some interactive physical installations that have been dev
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-9063-ensuring_climate_data_remains_public</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9063.html</url>
+        <url>./events/9063.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4228,7 +4194,7 @@ In this talk I will describe the range of groups involved in data preservation e
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8967-digitalization_and_the_environment</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8967.html</url>
+        <url>./events/8967.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4277,7 +4243,7 @@ Zimmermann, H., Wolf, V., &amp; Baum, D. (2016). Sechs Thesen zur Digitalisierun
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8741-treibhausgasemissionen_einschatzen</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8741.html</url>
+        <url>./events/8741.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4322,7 +4288,7 @@ Hier werden keine kompletten, korrekten Ökobilanzen errechnet, sondern es geht 
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9047-taxation</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9047.html</url>
+        <url>./events/9047.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4357,7 +4323,7 @@ And the icing on the cake:  We will present you the Stachanow of Capitalism: The
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9056-bringing_linux_back_to_server_boot_roms_with_nerf_and_heads</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9056.html</url>
+        <url>./events/9056.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4392,7 +4358,7 @@ In this talk we'll provide an overview of the NERF project, the currently suppor
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8818-designing_pcbs_with_code</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8818.html</url>
+        <url>./events/8818.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4424,7 +4390,7 @@ We will cover the history of ideas of using code to describe electronic circuits
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9110-history_and_implications_of_drm</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9110.html</url>
+        <url>./events/9110.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4451,7 +4417,7 @@ We will cover the history of ideas of using code to describe electronic circuits
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9125-net_neutraliy_enforcement_in_the_eu</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9125.html</url>
+        <url>./events/9125.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4482,7 +4448,7 @@ This presentation is intended for everyone interested in net neutrality and part
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9036-open_source_estrogen</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9036.html</url>
+        <url>./events/9036.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4511,7 +4477,7 @@ This presentation is intended for everyone interested in net neutrality and part
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9182-upsat_-_the_first_open_source_satellite</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9182.html</url>
+        <url>./events/9182.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4540,7 +4506,7 @@ This presentation is intended for everyone interested in net neutrality and part
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9189-satnogs_crowd-sourced_satellite_operations</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9189.html</url>
+        <url>./events/9189.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4570,7 +4536,7 @@ We designed and created a global management interface to facilitate multiple gro
         <duration>02:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9253-inside_afd</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9253.html</url>
+        <url>./events/9253.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -4609,7 +4575,7 @@ Eine Koproduktion mit dem Polittbüro Hamburg</description>
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8952-running_gsm_mobile_phone_on_sdr</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8952.html</url>
+        <url>./events/8952.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4647,7 +4613,7 @@ Taking the known problems and limitations into account, and having a strong desi
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9025-electroedibles</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9025.html</url>
+        <url>./events/9025.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4679,7 +4645,7 @@ Taking the known problems and limitations into account, and having a strong desi
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9045-extended_dna_analysis</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9045.html</url>
+        <url>./events/9045.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4709,7 +4675,7 @@ If DNA analysis is to be implemented in Germany – and it very well might be �
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9134-es_sind_die_kleinen_dinge_im_leben_ii</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9134.html</url>
+        <url>./events/9134.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4746,7 +4712,7 @@ Ich werde mehrere Mikroskope mitbringen, um einiges vom oben genannten direkt au
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9111-public_fpga_based_dma_attacking</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9111.html</url>
+        <url>./events/9111.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4776,7 +4742,7 @@ Ich werde mehrere Mikroskope mitbringen, um einiges vom oben genannten direkt au
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9024-holography_of_wi-fi_radiation</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9024.html</url>
+        <url>./events/9024.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4820,7 +4786,7 @@ This result has several implications: it could provide a way to track wireless e
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9105-coming_soon_machine-checked_mathematical_proofs_in_everyday_software_and_hardware_development</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9105.html</url>
+        <url>./events/9105.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4873,7 +4839,7 @@ This result has several implications: it could provide a way to track wireless e
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8940-policing_in_the_age_of_data_exploitation</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8940.html</url>
+        <url>./events/8940.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4908,7 +4874,7 @@ We hope to create the opportunity for you to join our research project and start
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9028-internet_censorship_in_the_catalan_referendum</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9028.html</url>
+        <url>./events/9028.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4940,7 +4906,7 @@ On the day of the referendum it was expected that the Spanish police will close 
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9195-avatar</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9195.html</url>
+        <url>./events/9195.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -4976,7 +4942,7 @@ While the declared scope of avatar² the is analysis of embedded firmware, this 
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9142-resilienced_kryptographie</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9142.html</url>
+        <url>./events/9142.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5007,7 +4973,7 @@ Es gibt eine Reihe von einfachen mathematischen Hacks, um auch zukünftige Angri
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8842-zamir_transnational_network_und_zagreb_dairy</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8842.html</url>
+        <url>./events/8842.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5057,7 +5023,7 @@ Und darüber, was für mich und andere schließlich daraus geworden i</descripti
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9104-how_alice_and_bob_meet_if_they_don_t_like_onions</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9104.html</url>
+        <url>./events/9104.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5091,7 +5057,7 @@ We will see that once you understand your requirements, you can engineer your an
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9119-ein_festival_der_demokratie</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9119.html</url>
+        <url>./events/9119.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5133,7 +5099,7 @@ Es geht darum ein verständliches Bild zu zeichnen von dem, was in Hamburg währ
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9288-deconstructing_a_socialist_lawnmower</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9288.html</url>
+        <url>./events/9288.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -5165,7 +5131,7 @@ Es geht darum ein verständliches Bild zu zeichnen von dem, was in Hamburg währ
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-9031-mietshausersyndikat_den_immobilienmarkt_hacken</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9031.html</url>
+        <url>./events/9031.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5213,7 +5179,7 @@ Wie genau das ganze funktionieren kann, wird im Vortrag mit anschließender Disk
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-8714-schreibtisch-hooligans</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8714.html</url>
+        <url>./events/8714.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5240,7 +5206,7 @@ Wie genau das ganze funktionieren kann, wird im Vortrag mit anschließender Disk
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-8831-trustzone_is_not_enough</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8831.html</url>
+        <url>./events/8831.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5271,7 +5237,7 @@ We will also show a few clues to indicate how we could target multi-threaded/mul
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-8961-0en_1en_auf_dem_acker</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8961.html</url>
+        <url>./events/8961.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5300,7 +5266,7 @@ Die rasante Entwicklung in der Sensor- &amp; Datenverarbeitungstechnik in Verbin
         <duration>00:30</duration>
         <room>Saal Adams</room>
         <slug>34c3-9172-fuck_dutch_mass-surveillance_let_s_have_a_referendum</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9172.html</url>
+        <url>./events/9172.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5331,7 +5297,7 @@ Both edges of the political spectrum are supporting the initiative, which shows 
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8740-the_internet_in_cuba_a_story_of_community_resilience</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8740.html</url>
+        <url>./events/8740.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5366,7 +5332,7 @@ In describing these three systems, we'll draw lessons about what is necessary fo
         <duration>01:00</duration>
         <room>Saal Adams</room>
         <slug>34c3-8888-security_nightmares_0x12</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8888.html</url>
+        <url>./events/8888.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -5396,7 +5362,7 @@ Im Zuge von noch mehr Transparenz, Kritik &amp; Selbstkritik und kontinuierliche
         <duration>00:45</duration>
         <room>Saal Adams</room>
         <slug>34c3-9293-abschluss</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9293.html</url>
+        <url>./events/9293.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -5427,7 +5393,7 @@ Im Zuge von noch mehr Transparenz, Kritik &amp; Selbstkritik und kontinuierliche
         <duration>02:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9258-lightning_talks_day_4</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9258.html</url>
+        <url>./events/9258.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5455,7 +5421,7 @@ Im Zuge von noch mehr Transparenz, Kritik &amp; Selbstkritik und kontinuierliche
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-8937-briar</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8937.html</url>
+        <url>./events/8937.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5493,7 +5459,7 @@ Since Briar works peer-to-peer, there is no single universal truth in it. Each g
         <duration>00:30</duration>
         <room>Saal Borg</room>
         <slug>34c3-9295-privacy_shield_-_lipstick_on_a_pig</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9295.html</url>
+        <url>./events/9295.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -5520,7 +5486,7 @@ Since Briar works peer-to-peer, there is no single universal truth in it. Each g
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-8911-34c3_infrastructure_review</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8911.html</url>
+        <url>./events/8911.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5547,7 +5513,7 @@ Since Briar works peer-to-peer, there is no single universal truth in it. Each g
         <duration>01:00</duration>
         <room>Saal Borg</room>
         <slug>34c3-9281-tracking_transience</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9281.html</url>
+        <url>./events/9281.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -5577,7 +5543,7 @@ Since Briar works peer-to-peer, there is no single universal truth in it. Each g
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8853-international_image_interoperability_framework_iiif_kulturinstitutionen_schaffen_interoperable_schnittstellen_fur_digitalisiertes_kulturgut</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8853.html</url>
+        <url>./events/8853.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5612,7 +5578,7 @@ Leander Seige ist Bereichsleiter für Digitale Dienste der Universitätsbiblioth
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9014-whwp</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9014.html</url>
+        <url>./events/9014.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5665,7 +5631,7 @@ wurden im Backstagebereich der WikiPedia einige Überraschungen gefunden und ein
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9202-openpower_-_the_current_state_of_commercial_openness_in_cpu_development</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9202.html</url>
+        <url>./events/9202.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5692,7 +5658,7 @@ wurden im Backstagebereich der WikiPedia einige Überraschungen gefunden und ein
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9286-institutions_for_resolution_disputes</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9286.html</url>
+        <url>./events/9286.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -5720,7 +5686,7 @@ wurden im Backstagebereich der WikiPedia einige Überraschungen gefunden und ein
         <duration>00:30</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9087-organisational_structures_for_sustainable_free_software_development</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9087.html</url>
+        <url>./events/9087.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5747,7 +5713,7 @@ wurden im Backstagebereich der WikiPedia einige Überraschungen gefunden und ein
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-9085-uncertain_concern</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9085.html</url>
+        <url>./events/9085.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5776,7 +5742,7 @@ We find that managing privacy and immigration status disclosure, a responsibilit
         <duration>01:00</duration>
         <room>Saal Clarke</room>
         <slug>34c3-8848-type_confusion_discovery_abuse_and_protection</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8848.html</url>
+        <url>./events/8848.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5817,7 +5783,7 @@ The expected audience includes people interested in system software, reverse eng
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8949-library_operating_systems</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8949.html</url>
+        <url>./events/8949.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5846,7 +5812,7 @@ Examples (when appropriate) will be given using the MirageOS library operating s
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9094-modern_key_distribution_with_claimchain</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9094.html</url>
+        <url>./events/9094.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5879,7 +5845,7 @@ Evaluation of a prototype implementation indicates that ClaimChain can scale to 
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9148-italy_s_surveillance_toolbox</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9148.html</url>
+        <url>./events/9148.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -5924,7 +5890,7 @@ In this talk I'll show early results in:
         <duration>00:30</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9249-hardening_open_source_development</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9249.html</url>
+        <url>./events/9249.html</url>
         <recording>
           <license/>
           <optout>false</optout>
@@ -5956,7 +5922,7 @@ By sharing lessons learned from 15 years of building software in open-source and
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-9113-mqa_-_a_clever_stealth_drm-trojan</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9113.html</url>
+        <url>./events/9113.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -6013,7 +5979,7 @@ Finally we will discuss the systemic dimension of MQA in the context of music-st
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
         <slug>34c3-8956-scada_-_gateway_to_s_hell</slug>
-        <url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/8956.html</url>
+        <url>./events/8956.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
@@ -6029,7 +5995,7 @@ Finally we will discuss the systemic dimension of MQA in the context of music-st
 The talk will consist of a theoretical part, an introduction on how to reverse-engineer and find vulnerabilities in a firmware-blob of unknown format, and a practical part, showcasing a live ICS environment that utilizes gateways, from both the IP and  the field-bus side, to pivot through an industrial control system environment: Demonstrating how to potentially pivot from a station in the field up to the SCADA headquarters, permanently modifying the firmware of the gateways on the way.</description>
         <logo/>
         <persons>
-          <person id="7775">nezza</person>
+          <person id="7775">Thomas Roth</person>
         </persons>
         <links>
 </links>
