@@ -20,10 +20,10 @@ curl --output "${dir}/schedule.xml" --location https://fahrplan.events.ccc.de/co
 } | xmllint --output "${dir}"/schedule2.xml --relaxng assets/schedule.rng --format --encode utf-8 -
 sed -i -e "s|<url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/|<url>./events/|g" "${dir}"/schedule2.xml
 
-for evt in $(fgrep '<url>' Fahrplan/schedule2.xml | cut -c 75-78)
+for evt in $(fgrep '<url>' Fahrplan/schedule2.xml | cut -c 14-26)
 do 
-  dst_evt="./${dir}/events/${evt}.html"
-  url_evt="https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/${evt}.html"
+  dst_evt="./${dir}/${evt}.html"
+  url_evt="https://fahrplan.events.ccc.de/congress/2017/${dir}/${evt}.html"
   curl --silent --create-dirs --remote-time --time-cond "${dst_evt}" --output "${dst_evt}" "${url_evt}"
 done
 
