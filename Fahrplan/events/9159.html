@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 34th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2017/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2017/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2017/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 34th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2017/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/1.html">
+Wednesday
+ - 
+<span class="small-font">2017-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/2.html">
+Thursday
+ - 
+<span class="small-font">2017-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/3.html">
+Friday
+ - 
+<span class="small-font">2017-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/4.html">
+Saturday
+ - 
+<span class="small-font">2017-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/timeline.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.timeline">Timeline</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/booklet.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.booklet">Booklet</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Altlandsberg</p>
+<h2>lecture: Demystifying Network Cards</h2>
+<h3 class="title">Things you always wanted to know about NIC drivers</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2017/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png" alt="Event large"></div>
+<p class="abstract">Network cards are often seen as black boxes: you put data in a socket on one side and packets come out at the other end - or the other way around.
+<br>Let's have a deeper look at how a network card actually works at the lower levels by writing a simple user space driver from scratch for a 10 Gbit/s NIC.
+</p>
+<p class="description">Packet processing in software is currently undergoing a huge paradigm shift.
+<br>Connection speeds of 10 Gbit/s and beyond created new problems and operating systems couldn't keep keep up.
+<br>Hence, there has been a rise of frameworks and libraries working around the kernel, sometimes referred to as kernel bypass or zero copy (the latter is a misnomer). Examples are DPDK, Snabb, netmap, XDP, pf_ring, and pfq.
+<br>The first part of the talk looks at the background and performance of the kernel network stack and what changes with these new frameworks.
+<br>They break with all traditional APIs and present new paradigms.
+<br>For example, they usually provide an application exclusive access to a network interface and exchange raw packets with the app.
+<br>There are no sockets, they don't even offer a protocol stack.
+<br>Hence, they are mostly used for low-level packet processing apps: routers, (virtual) switches, firewalls, and annoying middleboxes "optimizing" your connection.</p>
+
+<p class="description">It's now feasible to write quick prototypes of packet processing and forwarding apps that were restricted to dedicated hardware in the past, enabling everyone to build and test high-speed networking equipment with a low budget.
+<br>These concepts are slowly creeping into operating systems and software routers/switches: FreeBSD ships with netmap today, XDP is coming to Linux, Open vSwitch can be compiled with a DPDK backend, pfSense is adopting DPDK as well, ...
+<br>We need to look at the architecture of these frameworks to better understand what is coming for us.
+<br>Most of these frameworks build on the original drivers that have been growing in complexity: a typical driver for a 10 or 40 Gbit/s NIC is in the order of 50,000 lines of code nowadays.</p>
+
+<p class="description">Hundreds of thousands of lines of code are involved when handling a packet in a typical operating system, and tens of thousands when using one of these new frameworks.
+<br>Reading and understanding so much code is quite tedious, so the obvious question is: How hard can it be to implement a driver for a modern 10 Gbit/s NIC from scratch while ignoring all of the existing software layers?
+<br>Turns out that it's not very hard: I've written <a href="https://github.com/emmericp/ixy">ixy</a>, a user space driver for 10 Gbit/s NICs from the Intel 82599 family (X520, X540, X550) from scratch in about 1000 lines of C code.
+<br>The second part of the talk focuses on user space drivers and the Intel 82599 architecture as it is easy to understand, has a great datasheet, and the core functionality is in the driver as opposed to a magic black-box firmware.</p>
+
+<p class="description"><a href="https://github.com/emmericp/ixy">ixy</a> is a full user space driver: you get your raw packets delivered directly into your application and the operating system doesn't even know the NIC exists.
+<br>User space drivers are also very hackable, you get direct access to the full hardware in your application in user space making it really easy to test out new features, no pesky kernel code needed.
+<br>This is why it's important to have a simple driver like <a href="https://github.com/emmericp/ixy">ixy</a>: for hacking and educational purposes.
+<br>Core functionality of the driver such as handling DMA buffers is never far away when writing an ixy app: you typically only need to look beneath one layer to see the guts of the driver. For example, when you send out a packet you call a transmit function that directly modifies a ring buffer of DMA descriptors.</p>
+
+<p class="description">Check out the code of <a href="https://github.com/emmericp/ixy">ixy on GitHub</a>!</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2017/Fahrplan/schedule/1.html">2017-12-27</a>
+<br>
+<b>Start time:</b>
+12:45
+<br>
+<b>Duration:</b>
+00:30
+<br>
+<b>Room:</b>
+Saal Borg
+<br>
+<b>Track:</b>
+<font class="event track-hardware-making">
+<a href="/congress/2017/Fahrplan/events.html#hardware%20&amp;%20making">Hardware &amp; Making</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2017/Fahrplan/events/9159.ics">iCalendar</a></li>
+<li><a href="https://github.com/emmericp/ixy">ixy on GitHub</a></li>
+</ul>
+<h3>Files</h3>
+<ul>
+<li><a href="/congress/2017/Fahrplan/system/event_attachments/attachments/000/003/349/original/slides_v0.1.pdf">Slides</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3><span class="translation_missing" title="translation missing: en.public.schedule.event.concurrent_events">Concurrent Events</span></h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/system/people/avatars/000/007/808/small/gravatar.jpeg" alt="Gravatar"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/7808.html">Paul Emmerich</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Demystifying Network Cards",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Saal Borg",
+    "address" : "34th Chaos Communication Congress"
+  },
+  "startDate" : "2017-12-27T12:45:00+0100",
+  "endDate" : "2017-12-27T13:15:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Paul Emmerich&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/7808&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/007/808/small/gravatar.jpeg?1508016680&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/34c3/public/schedule",
+    "name" : "34th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "34th Chaos Communication Congress",
+      "address" : "34th Chaos Communication Congress"
+    },
+    "startDate" : "2017-12-27T10:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

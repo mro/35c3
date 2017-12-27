@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 34th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2017/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2017/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2017/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 34th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2017/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/1.html">
+Wednesday
+ - 
+<span class="small-font">2017-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/2.html">
+Thursday
+ - 
+<span class="small-font">2017-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/3.html">
+Friday
+ - 
+<span class="small-font">2017-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/4.html">
+Saturday
+ - 
+<span class="small-font">2017-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/timeline.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.timeline">Timeline</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/booklet.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.booklet">Booklet</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Altlandsberg</p>
+<h2>lecture: Bringing Linux back to server boot ROMs with NERF and Heads</h2>
+<h3 class="title"></h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2017/Fahrplan/system/events/logos/000/009/056/large/chip.png" alt="Chip"></div>
+<p class="abstract">The NERF and Heads projects bring Linux back to the cloud servers' boot ROMs by replacing nearly all of the vendor firmware with a reproducible built Linux runtime that acts as a fast, flexible, and measured boot loader.  It has been years since any modern servers have supported Free Firmware options like LinuxBIOS or coreboot, and as a result server and cloud security has been dependent on unreviewable, closed source, proprietary vendor firmware of questionable quality.  With Heads on NERF, we are making it possible to take back control of our systems with Open Source Software from very early in the boot process, helping build a more trustworthy and secure cloud.</p>
+<p class="description">The NERF project was started by Ron Minnich (author of LinuxBIOS and lead of coreboot at Google) in January 2017 with the goal to bring Linux back to the BIOS by retaining a minimal set of PEI modules for memory controller initialization and replacing the entirety of the server vendor's UEFI DXE firmware with a reproducibly built Linux runtime.  It has been ported to a few different manufacturer's servers, demonstrating the general portability of the concept.</p>
+
+<p class="description">NERF is fast - less than twenty second boot times, versus multiple minutes.  It's flexible - it can make use of any devices, filesystems and protocols that Linux supports. And it's open - users can easily customize the boot scripts, fix issues, build their own runtimes and reflash their firmware with their own keys.</p>
+
+<p class="description">The Heads runtime was started by Trammell Hudson (author of Thunderstrike and Magic Lantern) and was presented last year at 33c3.  It is a slightly more secure bootloader that uses Linux, the TPM, GPG and kexec to be able to load, measure, verify and execute the real kernel.  As part of porting Heads to work with NERF on server platforms, it now includes tools like Keylime to allow severs to remotely attest to user controlled systems that the NERF/Heads firmware matches what they expect, as well as network and iSCSI drivers for diskless compute node servers.</p>
+
+<p class="description">In this talk we'll provide an overview of the NERF project, the currently supported server mainboards, and the continued development on the Heads runtime that allows more trust in the servers that make up the cloud.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2017/Fahrplan/schedule/3.html">2017-12-29</a>
+<br>
+<b>Start time:</b>
+12:15
+<br>
+<b>Duration:</b>
+00:30
+<br>
+<b>Room:</b>
+Saal Clarke
+<br>
+<b>Track:</b>
+<font class="event track-resilience">
+<a href="/congress/2017/Fahrplan/events.html#resilience">Resilience</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2017/Fahrplan/events/9056.ics">iCalendar</a></li>
+<li><a href="https://trmm.net/NERF">Installing NERF</a></li>
+<li><a href="https://trmm.net/Heads_33c3">Heads at 33C3</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3><span class="translation_missing" title="translation missing: en.public.schedule.event.concurrent_events">Concurrent Events</span></h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/system/people/avatars/000/004/825/small/Screen_Shot_2014-08-09_at_4.36.51_PM.png" alt="Screen shot 2014 08 09 at 4.36.51 pm"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/4825.html">Trammell Hudson</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Bringing Linux back to server boot ROMs with NERF and Heads",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Saal Clarke",
+    "address" : "34th Chaos Communication Congress"
+  },
+  "startDate" : "2017-12-29T12:15:00+0100",
+  "endDate" : "2017-12-29T12:45:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Trammell Hudson&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/4825&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/004/825/small/Screen_Shot_2014-08-09_at_4.36.51_PM.png?1407616656&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/34c3/public/schedule",
+    "name" : "34th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "34th Chaos Communication Congress",
+      "address" : "34th Chaos Communication Congress"
+    },
+    "startDate" : "2017-12-27T10:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

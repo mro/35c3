@@ -13,18 +13,21 @@ dir=Fahrplan
 url="https://${dir}.events.ccc.de/congress/2017/${dir}/version"
 dst="${dir}.version"
 
-curl --output "${dir}/schedule.xml" --location https://fahrplan.events.ccc.de/congress/2017/${dir}/schedule.xml
-{
-  echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
-  fgrep -v "<?xml version=" "${dir}/schedule.xml"
-} | xmllint --output "${dir}"/schedule2.xml --relaxng assets/schedule.rng --format --encode utf-8 -
-sed -i -e "s|<url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/|<url>./events/|g" "${dir}"/schedule2.xml
+false && {
+  curl --output "${dir}/schedule.xml" --location https://fahrplan.events.ccc.de/congress/2017/${dir}/schedule.xml
+  {
+    echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
+    fgrep -v "<?xml version=" "${dir}/schedule.xml"
+  } | xmllint --output "${dir}"/schedule2.xml --relaxng assets/schedule.rng --format --encode utf-8 -
+  sed -i -e "s|<url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/|<url>./events/|g" "${dir}"/schedule2.xml
+}
 
-for evt in $(fgrep '<url>' Fahrplan/schedule2.xml | cut -c 16-26)
+for evt in $(fgrep '<url>' Fahrplan/schedule2.xml | cut -c 16-26 | sort)
 do 
   dst_evt="${dir}/${evt}.html"
   url_evt="https://fahrplan.events.ccc.de/congress/2017/${dst_evt}"
-  curl --max-time=3 --silent --create-dirs --location --remote-time --time-cond "${dst_evt}" --output "${dst_evt}" "${url_evt}"
+	echo "${url_evt}"
+  curl --max-time 3 --create-dirs --location --remote-time --time-cond "${dst_evt}" --output "${dst_evt}" "${url_evt}"
 done
 
 curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {

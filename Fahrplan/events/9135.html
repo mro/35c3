@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 34th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2017/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2017/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2017/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 34th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2017/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/1.html">
+Wednesday
+ - 
+<span class="small-font">2017-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/2.html">
+Thursday
+ - 
+<span class="small-font">2017-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/3.html">
+Friday
+ - 
+<span class="small-font">2017-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/4.html">
+Saturday
+ - 
+<span class="small-font">2017-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/timeline.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.timeline">Timeline</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/booklet.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.booklet">Booklet</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Altlandsberg</p>
+<h2>lecture: ASLR on the line</h2>
+<h3 class="title">Practical cache attacks on the MMU</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2017/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png" alt="Event large"></div>
+<p class="abstract">Address Space Layout Randomization (ASLR) is fundamentally broken on modern hardware due to a side-channel attack on the Memory management unit, allowing memory addresses to be leaked from JavaScript.  This talk will show how.</p>
+<p class="description">Address space layout randomization (ASLR) has often been sold as an
+<br>important first line of defense against memory corruption attacks
+<br>and a building block for many modern countermeasures. Existing
+<br>attacks against ASLR rely on software vulnerabilities and/or on
+<br>repeated (and detectable) memory probing.</p>
+
+<p class="description">In this talk, we show that neither is a hard requirement
+<br>and that ASLR is fundamentally insecure on modern cache-
+<br>based architectures, making ASLR and caching conflicting
+<br>requirements (ASLR xor Cache, or simply AnC). To support
+<br>this claim, we describe a new EVICT+TIME cache attack
+<br>on the virtual address translation performed by the memory
+<br>management unit (MMU) of modern processors. Our AnC attack
+<br>relies on the property that the MMU's page-table walks result
+<br>in caching page-table pages in the shared last-level cache (LLC).</p>
+
+<p class="description">As a result, an attacker can derandomize virtual addresses of a
+<br>victim's code and data by locating the cache lines that store the
+<br>page-table entries used for address translation.
+<br>Relying only on basic memory accesses allows AnC to be
+<br>implemented in JavaScript without any specific instructions or
+<br>software features. We show our JavaScript implementation can
+<br>break code and heap ASLR in two major browsers running on
+<br>the latest Linux operating system with 28 bits of entropy in 150
+<br>seconds. We further verify that the AnC attack is applicable to
+<br>every modern architecture that we tried, including Intel, ARM
+<br>and AMD. Mitigating this attack without naively disabling caches
+<br>is hard, since it targets the low-level operations of the MMU.
+<br>We conclude that ASLR is fundamentally flawed in sandboxed
+<br>environments such as JavaScript and future defenses should not
+<br>rely on randomized virtual addresses as a building block.
+</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2017/Fahrplan/schedule/2.html">2017-12-28</a>
+<br>
+<b>Start time:</b>
+22:15
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+Saal Clarke
+<br>
+<b>Track:</b>
+<font class="event track-security">
+<a href="/congress/2017/Fahrplan/events.html#security">Security</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2017/Fahrplan/events/9135.ics">iCalendar</a></li>
+<li><a href="http://www.cs.vu.nl/~herbertb/download/papers/anc_ndss17.pdf">paper (PDF)</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3><span class="translation_missing" title="translation missing: en.public.schedule.event.concurrent_events">Concurrent Events</span></h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png" alt="Person small"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/7220.html">brainsmoke</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "ASLR on the line",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Saal Clarke",
+    "address" : "34th Chaos Communication Congress"
+  },
+  "startDate" : "2017-12-28T22:15:00+0100",
+  "endDate" : "2017-12-28T23:15:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;brainsmoke&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/7220&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/34c3/public/schedule",
+    "name" : "34th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "34th Chaos Communication Congress",
+      "address" : "34th Chaos Communication Congress"
+    },
+    "startDate" : "2017-12-27T10:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

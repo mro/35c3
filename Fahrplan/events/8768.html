@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 34th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2017/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2017/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2017/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 34th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2017/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/1.html">
+Wednesday
+ - 
+<span class="small-font">2017-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/2.html">
+Thursday
+ - 
+<span class="small-font">2017-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/3.html">
+Friday
+ - 
+<span class="small-font">2017-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/4.html">
+Saturday
+ - 
+<span class="small-font">2017-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/timeline.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.timeline">Timeline</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/booklet.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.booklet">Booklet</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Altlandsberg</p>
+<h2>lecture: End-to-end formal ISA verification of RISC-V processors with riscv-formal</h2>
+<h3 class="title"></h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2017/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png" alt="Event large"></div>
+<p class="abstract">Formal hardware verification (hardware model checking) can prove that a design has a specified property. Historically only very simple properties in simple designs have been provable this way, but improvements in model checkers over the last decade enable us to prove very complex design properties nowadays. riscv-formal is a framework for formally verifying RISC-V processors directly against a formal ISA specification. In this presentation I will discuss how the complex task of verifying a processor against the ISA specification is broken down into smaller verification problems, and other techniques that I employed to successfully implement riscv-formal.</p>
+<p class="description">Formal hardware verification (hardware model checking) can prove that a design has a specified property. This is different from simulation, which can only demonstrate that a property holds for some concrete traces (sets of inputs). Historically only very simple properties in simple designs have been provable this way, but improvements in model checkers over the last decade enable us to prove very complex design properties nowadays.</p>
+
+<p class="description">riscv-formal is a framework for formally verifying RISC-V processors directly against a formal ISA specification. (The ISA specification used in riscv-formal is itself formally verified against Spike , the official RISC-V simulator and "golden reference" implementation.) riscv-formal can be made to work with any existing processor design, all that is needed is to add an additional RVFI (RISC-V formal interface) trace port to the core.</p>
+
+<p class="description">riscv-formal by default uses the open source SymbiYosys toolchain to perform the formal proofs, but it should be compatible with all major HDL formal verification flows.</p>
+
+<p class="description">In this presentation I will discuss how the complex task of verifying a processor against the ISA specification is broken down into smaller verification problems in riscv-formal, how to implement RVFI, how integrate a core with riscv-formal, and what kind of bugs can be detected using our method.</p>
+
+<p class="description">Most of the proofs performed by riscv-formal are bounded proofs, i.e. it is only proven that the properties hold for the first N cycles after reset. But with a sufficiently large N we can create high confidence that in fact all relevant states can be reached within the bound of the proof and that therefore the bounded case is a sufficient proxy for the more general unbounded case. Abstractions, cut-points, and blackboxing can further help extend the effective bound of the proof. The presentation also touches on those techniques.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2017/Fahrplan/schedule/1.html">2017-12-27</a>
+<br>
+<b>Start time:</b>
+12:45
+<br>
+<b>Duration:</b>
+00:30
+<br>
+<b>Room:</b>
+Saal Clarke
+<br>
+<b>Track:</b>
+<font class="event track-resilience">
+<a href="/congress/2017/Fahrplan/events.html#resilience">Resilience</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2017/Fahrplan/events/8768.ics">iCalendar</a></li>
+<li><a href="https://github.com/cliffordwolf/riscv-formal">riscv-formal</a></li>
+<li><a href="https://riscv.org/">RISC-V</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3><span class="translation_missing" title="translation missing: en.public.schedule.event.concurrent_events">Concurrent Events</span></h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/system/people/avatars/000/005/860/small/clifford-sp.png" alt="Clifford sp"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/5860.html">Clifford Wolf</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "End-to-end formal ISA verification of RISC-V processors with riscv-formal",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Saal Clarke",
+    "address" : "34th Chaos Communication Congress"
+  },
+  "startDate" : "2017-12-27T12:45:00+0100",
+  "endDate" : "2017-12-27T13:15:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Clifford Wolf&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/5860&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/005/860/small/clifford-sp.png?1442857482&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/34c3/public/schedule",
+    "name" : "34th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "34th Chaos Communication Congress",
+      "address" : "34th Chaos Communication Congress"
+    },
+    "startDate" : "2017-12-27T10:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

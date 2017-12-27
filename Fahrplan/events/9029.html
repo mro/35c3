@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 34th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2017/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2017/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2017/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 34th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2017/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/1.html">
+Wednesday
+ - 
+<span class="small-font">2017-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/2.html">
+Thursday
+ - 
+<span class="small-font">2017-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/3.html">
+Friday
+ - 
+<span class="small-font">2017-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/4.html">
+Saturday
+ - 
+<span class="small-font">2017-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/timeline.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.timeline">Timeline</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/booklet.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.booklet">Booklet</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Altlandsberg</p>
+<h2>lecture: Uncovering vulnerabilities in Hoermann BiSecur</h2>
+<h3 class="title">An AES encrypted radio system</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2017/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png" alt="Event large"></div>
+<p class="abstract">Hoermann BiSecur is a bi-directional wireless access control system “for the convenient and secure operation of garage and entrance gate operators, door operators, lights […]” and smart home devices. The radio signal is AES-128 encrypted and the system is marketed to be “as secure as online banking”. In comparison to conventional and often trivial to break wireless access control systems, the system should thus make it practically infeasible to clone a genuine transmitter so that attackers can get unauthorized access. We used the low-cost CCC rad1o software defined radio (SDR) platform to intercept and analyze the wireless radio signal. We took apart several Hoermann BiSecur hand transmitters and subsequently utilized a vulnerability in the microcontroller to successfully extract the firmware. In order to conduct a security audit, the extracted firmware was disassembled and analyzed so that the encryption mechanism, the key material, the cryptographic operations as well as the RF interface could be reverse engineered. Our security analysis shows that the overall security design is sound, but the manufacturer failed to properly initialize the random seed of the transmitters. As a result, an attacker can intercept an arbitrary radio frame and trivially compute the utilized encryption key within less than a second. Once the key is known to the attacker, a genuine transmitter can be cloned with an SDR platform such as the CCC rad1o. In addition to unauthorized operation of gates and doors, there is a likely (although currently untested) impact on Smart Home appliances that use the BiSecur system. We tested a total of 7 hand transmitters from 3 different model series and with manufacturing dates between 2015 and 2017. All analyzed hand transmitters shared the same static random seed and were found to be vulnerable to our attack. The vulnerability can easily be fixed so that future hand transmitters and radio transmission are protected from our attack.</p>
+<p class="description">In our CCC talk we plan to give a step-by-step presentation on how we analyzed and subsequently broke the Hoermann BiSecur system. This includes the following topics:
+<br>- Overall system overview
+<br>- Radio signal analysis with the CCC rad1o SDR platform
+<br>- Reverse engineering of the radio signal
+<br>- Hardware analysis of BiSecur transmitters
+<br>- Firmware extraction from the microcontroller by exploiting a security flaw in the PIC18F controller
+<br>- Firmware disassembly and reverse engineering with IDA Pro
+<br>- Analysis results providing a technical overview of how the BiSecur system operates including the encryption scheme (with AES-128 at its core) and RF operations
+<br>- Presentation of our attacks (signal cloning of genuine transmitters)
+<br>- Live-Hacking Demo with the CCC rad1o SDR platform
+<br>- Suggested security fix</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2017/Fahrplan/schedule/2.html">2017-12-28</a>
+<br>
+<b>Start time:</b>
+23:30
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+Saal Clarke
+<br>
+<b>Track:</b>
+<font class="event track-security">
+<a href="/congress/2017/Fahrplan/events.html#security">Security</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2017/Fahrplan/events/9029.ics">iCalendar</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3><span class="translation_missing" title="translation missing: en.public.schedule.event.concurrent_events">Concurrent Events</span></h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png" alt="Person small"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/7825.html">Markus Muellner</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png" alt="Person small"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/8023.html">Markus Kammerstetter</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Uncovering vulnerabilities in Hoermann BiSecur",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Saal Clarke",
+    "address" : "34th Chaos Communication Congress"
+  },
+  "startDate" : "2017-12-28T23:30:00+0100",
+  "endDate" : "2017-12-29T00:30:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Markus Muellner&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/7825&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;},{&quot;name&quot;:&quot;Markus Kammerstetter&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/8023&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/34c3/public/schedule",
+    "name" : "34th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "34th Chaos Communication Congress",
+      "address" : "34th Chaos Communication Congress"
+    },
+    "startDate" : "2017-12-27T10:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 34th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2017/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2017/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2017/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 34th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2017/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/1.html">
+Wednesday
+ - 
+<span class="small-font">2017-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/2.html">
+Thursday
+ - 
+<span class="small-font">2017-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/3.html">
+Friday
+ - 
+<span class="small-font">2017-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/4.html">
+Saturday
+ - 
+<span class="small-font">2017-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/timeline.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.timeline">Timeline</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/booklet.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.booklet">Booklet</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Altlandsberg</p>
+<h2>lecture: Coming Soon: Machine-Checked Mathematical Proofs in Everyday Software and Hardware Development</h2>
+<h3 class="title"></h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2017/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png" alt="Event large"></div>
+<p class="abstract">Most working engineers view machine-checked mathematical proofs as an academic curiosity, if they have ever heard of the concept at all.  In contrast, activities like testing, debugging, and code review are accepted as essential.  They are woven into the lives of nearly all developers.  In this talk, I will explain how I see machine-checked proofs enabling new everyday activities for developers of computer software and hardware.  These activities have the potential to lower development effort dramatically, at the same time as they increase our assurance that systems behave correctly and securely.  I will give a cosmological overview of this field, answering the FAQs that seem to stand in the way of practicality; and I will illustrate the principles with examples from projects that you can clone from GitHub today, covering the computing stack from digital hardware design to cryptographic software and applications.</p>
+<p class="description"></p>
+<p>Today's developers of computer software and hardware are tremendously effective, compared to their predecessors.  We have found very effective ways of <b>modularizing</b> and <b>validating</b> our work.  The talk is about ammunition for these activities from a perhaps-unexpected source.</p>
+
+<p class="description"></p>
+<p><b>Modularity</b> involves breaking a complex system into a hierarchy of simpler pieces, which may be written and understood separately.  Structured programming (e.g., using loops and conditionals instead of <tt>goto</tt>s) helps us read and understand parts of a single function in isolation, and data abstraction lets us encapsulate important functionality in objects, with guarantees that other code can only access the private data by calling public methods.  That way, we can convince ourselves that the encapsulated code upholds certain essential properties, <i>regardless of which other code it is linked with</i>.  Systematic unit testing also helps enforce contracts for units of modularity.  Each of these techniques can be rerun automatically, to catch regressions in evolving systems, and catch those regressions in a way that accurately points the finger of responsibility to particular modules.</p>
+
+<p class="description"></p>
+<p><b>Validation</b> is an important part of development that encompasses testing, debugging, code review, and anything else that we do to raise our confidence that the system behaves as intended.  Experienced engineers know that validation tends to take up the majority of engineering effort.  Often that effort involves mentally taxing activities that would not otherwise come up in coding.  One example is thinking about test-case coverage, and another is including instrumentation that produces traces to consult during debugging.</p>
+
+<p class="description"></p>
+<p>It is not hard for working developers to imagine great productivity gains from better ways to break systems into pieces or raise our confidence in those pieces.  The claim I will make in this talk is that a key source of such insights has been neglected: <b>machine-checked mathematical proofs</b>.  Here the basic functionality is an ASCII language for defining mathematical objects, stating theorems about them, and giving proofs of theorems.  Crucially, an algorithm checks that purported proofs really do establish the theorems.  By going about these activities in the style of programming, we inherit usual supporting tools like IDEs, version control, continuous integration, and automated build processes.  But how could so esoteric a task as math proofs call for that kind of tooling, and what does it have to do with building real computer systems?</p>
+
+<p class="description"></p>
+<p>I will explain a shared vision to that end, developed along with many other members of my research community.  Let me try to convince you that all of the following goals are attainable in the next 10 years.</p>
+
+<p class="description"></p>
+<ul>
+<br>  <li>We will have complete computer systems implementing moderately complex network servers for popular protocols, <i>proved to implement those protocols correctly, from the level of digital circuits on up</i>.  We will remove all deployed code (hardware or software) from the trusted computing base, shifting our trust to much smaller specifications and proof checkers.</li>
+<br>  <li>Hobbyists will be able to design new embedded computing platforms by mixing and matching open-source hardware and software components, also mixing and matching <i>the proofs</i> of these components, <i>guaranteeing no bugs at the digital-abstraction level or higher</i>, with <i>no need for debugging</i>.</li>
+<br>  <li>New styles of library design will be enabled by the chance to attach a <i>formal behavioral specification</i> to each library.  For instance, rank-and-file programmers will able to assemble their own code for cryptographic protocols, with code that looks like reference implementations in Python, but <i>getting performance comparable to what experts handcraft in assembly today</i>.  Yet that benefit would come with <i>no need to trust that library authors have avoided bugs or intentional backdoors</i>, perhaps even including <i>automatic proofs of cryptographic security properties</i>.</li>
+<br>
+</ul>
+
+<p class="description"></p>
+<p>Main technical topics to cover to explain my optimism:</p>
+
+<p class="description"></p>
+<ul>
+<br>  <li>The basic functionality of <i>proof assistants</i> and why we should trust their conclusions</li>
+<br>  <li>How to think about system decomposition with specifications and proofs, including why, for most components, we do not need to worry about specification mistakes</li>
+<br>  <li>The different modes of applying proof technology to check or generate components</li>
+<br>  <li>The engineering techniques behind cost-effective proof authoring for realistic systems</li>
+<br>  <li>A hardware case study: <a href="https://github.com/mit-plv/kami">Kami</a>, supporting component-based digital hardware authoring with proofs</li>
+<br>  <li>A software case study: <a href="https://github.com/mit-plv/fiat-crypto">Fiat Cryptography</a>, supporting correct-by-construction auto-generation of fast code for elliptic-curve cryptography</li>
+<br>  <li>Pointers to where to look next, if you would like to learn more about this technology</li>
+<br>
+</ul>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2017/Fahrplan/schedule/3.html">2017-12-29</a>
+<br>
+<b>Start time:</b>
+12:45
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+Saal Dijkstra
+<br>
+<b>Track:</b>
+<font class="event track-resilience">
+<a href="/congress/2017/Fahrplan/events.html#resilience">Resilience</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2017/Fahrplan/events/9105.ics">iCalendar</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3><span class="translation_missing" title="translation missing: en.public.schedule.event.concurrent_events">Concurrent Events</span></h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/system/people/avatars/000/007/851/small/adamc2017.jpg" alt="Adamc2017"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/7851.html">Adam Chlipala</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Coming Soon: Machine-Checked Mathematical Proofs in Everyday Software and Hardware Development",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Saal Dijkstra",
+    "address" : "34th Chaos Communication Congress"
+  },
+  "startDate" : "2017-12-29T12:45:00+0100",
+  "endDate" : "2017-12-29T13:45:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Adam Chlipala&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/7851&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/007/851/small/adamc2017.jpg?1508086902&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/34c3/public/schedule",
+    "name" : "34th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "34th Chaos Communication Congress",
+      "address" : "34th Chaos Communication Congress"
+    },
+    "startDate" : "2017-12-27T10:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

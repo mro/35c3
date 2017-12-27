@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 34th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2017/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2017/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2017/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 34th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2017/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/1.html">
+Wednesday
+ - 
+<span class="small-font">2017-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/2.html">
+Thursday
+ - 
+<span class="small-font">2017-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/3.html">
+Friday
+ - 
+<span class="small-font">2017-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/4.html">
+Saturday
+ - 
+<span class="small-font">2017-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/timeline.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.timeline">Timeline</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/booklet.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.booklet">Booklet</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Altlandsberg</p>
+<h2>lecture: We should share our secrets</h2>
+<h3 class="title">Shamir secret sharing: How it works and how to implement it</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2017/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png" alt="Event large"></div>
+<p class="abstract"></p>
+<p>
+<br>Backing up private keys in a secure manner is not straightforward.
+<br>Once a backup has been compromised you need to refresh all your key material.
+<br>For example, the disclosure of a private key of a Bitcoin wallet gives access
+<br>to the coins inside. This makes it unattractive to store a complete backup of
+<br>your private key(s) with your bank or your spouse. The better option would be
+<br>to split the key into multiple parts. The recommended way to do this securely
+<br>is to use the Shamir secret sharing scheme. This talk provides a detailed
+<br>breakdown of how the scheme works and explains how it is implemented in C in
+<br>a new library called SSS.
+<br></p>
+<p class="description"></p>
+<p>
+<br>Shamir secret sharing is a mechanism that securely splits private keys or
+<br>passwords into independent parts. These parts do not give away the secret on
+<br>their own. Instead, the user defines the minimal amount of shares needed to
+<br>restore the original secret. In this way, there is no need to trust a <em>single</em>
+<br>entity. Additionally, compromise or loss of one share does not mean a 
+<br>compromise or loss of the entire secret. This makes it very suitable for
+<br>backing up private keys, such as Bitcoin keys. Shamir secret sharing can
+<br>also be used for passing on your secrets to your trusted successors, in case
+<br>you get hit by a bus.
+<br></p>
+<br><p>
+<br>In this talk, I will explain in detail how the scheme works. Although it is 
+<br>provably secure for confidentiality, we will see how it fails for integrity
+<br>and how to fix that. While Shamir published his article almost 30 years ago,
+<br>most existing libraries for Shamir secret sharing are still implemented
+<br>poorly in terms of security and side-channel resistance.
+<br></p>
+<br><p>
+<br>I will talk about writing the definitive library for Shamir secret sharing.
+<br>We will choose suitable parameters and implement the scheme in C. We will
+<br>see a couple of tricks that cryptographers use for building fast algorithms
+<br>while still maintaining side-channel resistance. In the end, we (hope to)
+<br>have produced a robust algorithm ready for easy integration into your favorite
+<br>project.
+<br></p>
+<br><p>
+<br>Basic understanding of some mathematical topics (such as group theory) may
+<br>be helpful for this talk, but is not required.
+<br></p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2017/Fahrplan/schedule/2.html">2017-12-28</a>
+<br>
+<b>Start time:</b>
+12:45
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+Saal Clarke
+<br>
+<b>Track:</b>
+<font class="event track-security">
+<a href="/congress/2017/Fahrplan/events.html#security">Security</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2017/Fahrplan/events/8885.ics">iCalendar</a></li>
+<li><a href="https://github.com/dsprenkels/sss#shamir-secret-sharing-library">SSS on GitHub</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3><span class="translation_missing" title="translation missing: en.public.schedule.event.concurrent_events">Concurrent Events</span></h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/system/people/avatars/000/007/505/small/lustrumfeest_portret.jpg" alt="Lustrumfeest portret"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/7505.html">Daan Sprenkels</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "We should share our secrets",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Saal Clarke",
+    "address" : "34th Chaos Communication Congress"
+  },
+  "startDate" : "2017-12-28T12:45:00+0100",
+  "endDate" : "2017-12-28T13:45:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Daan Sprenkels&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/7505&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/007/505/small/lustrumfeest_portret.jpg?1505908675&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/34c3/public/schedule",
+    "name" : "34th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "34th Chaos Communication Congress",
+      "address" : "34th Chaos Communication Congress"
+    },
+    "startDate" : "2017-12-27T10:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

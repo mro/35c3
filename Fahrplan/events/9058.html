@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 34th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2017/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2017/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2017/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 34th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2017/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/1.html">
+Wednesday
+ - 
+<span class="small-font">2017-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/2.html">
+Thursday
+ - 
+<span class="small-font">2017-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/3.html">
+Friday
+ - 
+<span class="small-font">2017-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/4.html">
+Saturday
+ - 
+<span class="small-font">2017-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/timeline.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.timeline">Timeline</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/booklet.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.booklet">Booklet</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Altlandsberg</p>
+<h2>lecture: Everything you want to know about x86 microcode, but might have been afraid to ask</h2>
+<h3 class="title">An introduction into reverse-engineering x86 microcode and writing it yourself</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2017/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png" alt="Event large"></div>
+<p class="abstract">Microcode is an abstraction layer on top of the physical components of a CPU and present in most general-purpose CPUs today. While it is well-known that CPUs feature a microcode update mechanism, very little is known about its inner workings given that microcode and the update mechanism itself are proprietary and have not been throughly analyzed yet. We close this gap by both analyzing microcode and writing our own programs for it. This talk will give an insight into our results and how we achieved them, including live demos of what we can do and technical details.</p>
+<p class="description">Given the complexity of modern instruction sets hardware vendors moved to hardware designs incorporating complex decode units. A single instruction of the complex outwardfacing instruction set is translated to multiple instructions of the simpler internal architecture. While it is possible to do this translation in hardware alone, some instructions would require huge amounts of space on the silicon and increase costs. These complex instructions are instead decoded using a software-like approach called microcode. While processing such an instruction, the CPU internally evaluates a sequence of operations, micro-ops, which decode the complex instruction into the corresponding simpler operations that are performed by the hardware.</p>
+
+<p class="description">In the light of the existence of hardware bugs such as the infamous Pentium fdiv bug, hardware vendors developed a process to fix those errors without requiring a CPU replacement. However the microcode is stored in a ROM on the CPU die and can not be changed after production. Also relatively simple or often used instructions are still decoded in hardware. The update is instead achieved using microcode updates, which intercept certain instructions and replace their faulty implementation with a new, fixed version. These updates are applied either by the BIOS/UEFI or the operating system during early bootup. While the update process is well documented, the Linux kernel offers a module for it, and the updates are provided by the CPU vendors, the actual semantics of microcode are proprietary.</p>
+
+<p class="description">Most update mechanisms are protected by signatures or other cryptographic primitives. However there were some indications that older CPU models (until around 2013) do not have a strong cryptographic protection and thus would accept custom updates. Given this chance we started to analyze the behavior of the CPU given our own updates and used these observations to infer the semantics of microcode. After some time we reverse-engineered enough of the semantics to write our own microcode programs. These programs range from very simple proof of concepts to stealthy backdoors and defensive primitives.</p>
+
+<p class="description">As an additional approach we also performed hardware analysis. By delayering the CPU and imaging it with both an optical and an electron microscope we could locate and read out the ROM containing the microcode. After processing and reordering the physical connections we retrieved the hardwired microcode of the CPU. This gave us more information on what can be done with microcode and allowed more insights into the intended behavior than our reverse-engineering approach.</p>
+
+<p class="description">In this talk we will first start with a (short) crash course in CPU architecture and where microcode is used in practice. We will then cover our reverse engineering methods and how we were able to discover the semantics of x86 microcode. We then demonstrate, also with live demos, this knowledge with multiple microcode programs that implement both defensive measures as well as provide an attacker with hard to detect backdoors. Lastly we will discuss security problems and possible solutions to protect against them. We also provide example microcode programs for your own CPUs (use at your own risk) and a kernel patch to apply them on a Linux system. Also we will have some systems with us so you can try your hand at writing some microcode yourself.
+</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2017/Fahrplan/schedule/2.html">2017-12-28</a>
+<br>
+<b>Start time:</b>
+18:30
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+Saal Adams
+<br>
+<b>Track:</b>
+<font class="event track-security">
+<a href="/congress/2017/Fahrplan/events.html#security">Security</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2017/Fahrplan/events/9058.ics">iCalendar</a></li>
+<li><a href="https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/koppe">Usenix talk and presentation</a></li>
+<li><a href="https://www.syssec.rub.de/chair/staff/pkoppe/">Philipp Koppe Uni page</a></li>
+<li><a href="http://emsec.rub.de/chair/_staff/Marc_Fyrbiak/">Marc Fybriak Uni page</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3><span class="translation_missing" title="translation missing: en.public.schedule.event.concurrent_events">Concurrent Events</span></h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png" alt="Person small"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/7652.html">Benjamin Kollenda</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png" alt="Person small"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/7984.html">Philipp Koppe</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Everything you want to know about x86 microcode, but might have been afraid to ask",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Saal Adams",
+    "address" : "34th Chaos Communication Congress"
+  },
+  "startDate" : "2017-12-28T18:30:00+0100",
+  "endDate" : "2017-12-28T19:30:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Benjamin Kollenda&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/7652&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;},{&quot;name&quot;:&quot;Philipp Koppe&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/7984&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/34c3/public/schedule",
+    "name" : "34th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "34th Chaos Communication Congress",
+      "address" : "34th Chaos Communication Congress"
+    },
+    "startDate" : "2017-12-27T10:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>
