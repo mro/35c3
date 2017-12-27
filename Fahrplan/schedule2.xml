@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>
 <schedule>
-  <version>Altlandsberg</version>
+  <version>bcc</version>
   <conference>
     <acronym>34c3</acronym>
     <title>34th Chaos Communication Congress</title>
@@ -534,7 +534,7 @@ Check out the code of &lt;a href="https://github.com/emmericp/ixy"&gt;ixy on Git
           <link href="https://github.com/emmericp/ixy">ixy on GitHub</link>
         </links>
         <attachments>
-          <attachment href="/system/event_attachments/attachments/000/003/349/original/slides_v0.1.pdf?1514297793">Slides</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/351/original/slides.pdf?1514331558">slides.pdf</attachment>
         </attachments>
       </event>
       <event guid="544e7736-6b59-4c05-87a7-c013ef993688" id="9233">
@@ -1043,7 +1043,8 @@ How broken is science - and what can be done to make more scientific results tru
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/354/original/scienceisbroken.pdf?1514374689">Slides</attachment>
+        </attachments>
       </event>
       <event guid="2024d7d1-4510-4371-a923-3dabdb408475" id="9030">
         <date>2017-12-27T15:30:00+01:00</date>
@@ -1722,7 +1723,7 @@ This comparison is not meant to scare, but to give us hope: our move away from o
 In this paper, we explore vulnerabilities in both the design and implementation of mobile bootloaders. We examine bootloaders from four popular manufacturers, and discuss the standards and design principles that they strive to achieve. We then propose BootStomp , a multi-tag taint analysis resulting from a novel combination of static analyses and dynamic symbolic execution, designed to locate problematic areas where input from an attacker in control of the OS can compromise the bootloader’s execution, or its security features. Using our tool, we find six previously-unknown vulnerabilities (of which five have been confirmed by the respective vendors), as well as rediscover one that had been previously reported. Some of these vulnerabilities would allow an attacker to execute arbitrary code as part of the bootloader (thus compromising the entire chain of trust), or to perform permanent denial-of-service attacks. Our tool also identified two bootloader vulnerabilities that can be leveraged by an attacker with root privileges on the OS to unlock the device and break the CoT. We conclude by proposing simple mitigation steps that can be implemented by manufacturers to safeguard the bootloader and OS from all of the discovered attacks, using already-deployed hardware features.</description>
         <logo/>
         <persons>
-          <person id="8001">Audrey</person>
+          <person id="8001">Audrey Dutcher</person>
         </persons>
         <links>
           <link href="https://github.com/ucsb-seclab/BootStomp.">BootStomp</link>
@@ -1767,25 +1768,26 @@ I will explain BGP, the protocol that knits the internet together, also covering
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/352/original/bgp_and_the_rule_of_custom.pdf?1514368982">bgp_and_the_rule_of_custom.pdf</attachment>
+        </attachments>
       </event>
       <event guid="991aceeb-d25f-4f59-9317-bf438775a215" id="8998">
         <date>2017-12-27T23:30:00+01:00</date>
         <start>23:30</start>
         <duration>01:00</duration>
         <room>Saal Dijkstra</room>
-        <slug>34c3-8998-the_divine_computer_science_die_gottliche_informatik</slug>
+        <slug>34c3-8998-die_gottliche_informatik_the_divine_computer_science</slug>
         <url>./events/8998.html</url>
         <recording>
           <license>CC BY 4.0</license>
           <optout>false</optout>
         </recording>
-        <title>The divine Computer Science / Die göttliche Informatik</title>
+        <title>Die göttliche Informatik / The divine Computer Science</title>
         <subtitle>Computer science nicely solves formally modelled problems – now it is believed to solve everything else too / Die Informatik löst formale (mathematisch modellierte) Probleme ganz vorzüglich – doch nun soll sie alle anderen Probleme auch noch lösen</subtitle>
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
-        <language>en</language>
-        <abstract>Computer science seems to be the new divine element that can solve climate change, crime, our lack of knowledge about the brain, global terror, urban traffic, our energy issues and world poverty; with blockchain, with artificial intelligence, with the cloud and big data. But to what extent is computer science even able to address such problems of high social relevance? In this lecture an attempt will be made to reconcile parts of the huge wish list to computer science with its actual current possibilities and to include the economic motivations and conditions.
+        <language>de</language>
+        <abstract>Computer science seems to be the new divine element that can solve climate change, crime, our lack of knowledge about the brain, global terror, urban traffic, our energy issues and world poverty; with blockchain, with artificial intelligence, with the cloud and big data. But to what extent is computer science even able to address such problems of high societal relevance? In this lecture an attempt will be made to reconcile parts of the huge wish list to computer science with its actual current possibilities and to include the economic motivations and conditions.
 
 &lt;span style="color:grey;"&gt;Die Informatik ist scheinbar das neue Göttliche, das den Klimawandel, die Kriminalität, unser fehlendes Wissen über das Gehirn, den globalen Terror, dichter werdenden Stadtverkehr, die Energieprobleme und die Armut der Welt lösen kann; und zwar mit der Blockchain, mit künstlicher Intelligenz, mit der Cloud und mit Big-Data. Doch inwiefern ist die Informatik überhaupt in der Lage, derartige Probleme hoher gesellschaftlicher Relevanz anzugehen? In diesem Vortrag soll versucht werden, Teile der riesigen Wunschliste an die Informatik mit ihren tatsächlichen aktuellen Möglichkeiten in Einklang zu bringen sowie die ökonomischen Motivationen und Rahmenbedingungen einzubeziehen.&lt;/span&gt;</abstract>
         <description>EN (&lt;a href="#langderr"&gt;DE below&lt;/a&gt;): The well-known computer pioneer and society critic Prof. Dr. Joseph Weizenbaum once said, "Once upon a time, a problem was presented to the computer after it was understood. Today it's the other way around." Reasons for this seem to be an almost magical belief in technology, a strange misunderstanding of the functioning of today's computers, an ever-increasing financial pressure on the public sector and a widespread, technically-reduced – one could almost say 'cybernetic' – world view and concept of what's human.
@@ -3075,11 +3077,10 @@ Hierüber möchte ich euch gerne Näheres erzählen :)</description>
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>Technology is perceived as a danger. In German nursing sciences the dominant position on emergent technologies demands the removal of machines from caring environments („Entmaschinisierung“). In contrast to this, European research policy heavily focus on developing new health and social technologies to solve societal issues like a skill shortage in nursing. In this talk we first give an overview on main arguments against digital technologies in care with an example of a current research project in the field of Augmented Reality in care work. Secondly, we argue that those luddite positions in nursing science are losing touch with their subject’s reality. Consequently, they are about to miss another chance to establish their sphere of influence.</abstract>
-        <description>In the first part of this talk we introduce current positions of German nursing science and German nurses on emergent technologies. For German nursing scientists the main element of nursing is the relationship between the patient and their nurse. One central aspect of this relationship is communication. Corporal [“Leib”] perception is stressed as well as implicit or tacit knowledge. Nursing experts are presumed to use these kinds of knowledge to guide their action. It is argued that digitalization stands in the way of using these kinds of non-discursive knowledge, as digital technology is only able to display discursive knowledge. Thus, care logic and logic of technology are described as incommensurable. 
+        <abstract>In German nursing science the dominant position on emergent technologies demands the removal of machines from caring environments („Entmaschinisierung“). In contrast to this, European research policy heavily focus on developing new health and social technologies to solve societal issues like a skill shortage in nursing. Thinking about technology in nursing science cannot but be conflicted. In this talk we first expose requirements for particularly conceptualizing the application of technological systems in care work settings. Further we will give an overview on main arguments against digital technologies in care with an example of a current research project in the field of Augmented Reality in care work. </abstract>
+        <description>In the first part of this talk we will introduce current positions of German nursing science and German nurses on emergent technologies. For German nursing scientists the main element of nursing is the relationship between the patient and their nurse. One central aspect of this relationship is communication. Corporal [“Leib”] perception is stressed as well as implicit or tacit knowledge. Nursing experts are presumed to use these kinds of knowledge to guide their action. It is argued that digitalization stands in the way of using these kinds of non-discursive knowledge, as digital technology is only able to display discursive knowledge. Thus, care logic and logic of technology are described as incommensurable. 
 Nevertheless, usage of electronic health records is increasing. Furthermore, a wide range of prototypes are developed as they are conceived as solutions regarding existing problems at least from certain points of view. E.g. Smart Devices can be used to support blood sampling or the documentation process. We will show you a prototype which is part of our research project, to offer you the possibility to get your own ideas of advantages and disadvantages.
-In the second part of this talk the theoretical premises of main arguments against technology will be revealed and a counterperspective will be introduced. The progress of biotechnologies in some way stimulates a slowly growing mutual interest of the humanities and natural sciences. Notwithstanding in nursing science there is still a hostile attitude against if not a categorical denial of technologies ranging from robotic systems to smart home technologies and even the PC. Emergent technologies are mistakenly seen as strongly (and only) bound to medicine and hence being hopelessly fought. On closer consideration it becomes obvious that the theoretical premises of this perspective is deeply linked to the idea of human exceptionalism. In their (neo-) humanistic vindication nursing scientists seek to set themselves free from the influence of medicine as a dominant discipline. In doing so technology becomes the uncanny “other”. For it is a question of perspective a brief glimpse into the idea of Gilbert Simondon on the “open machine” will be offered as a possibility to rethink the relation between humans and technology. 
-</description>
+In the second part of this talk the theoretical premises of main arguments against technology will be revealed and a counterperspective will be introduced. The progress of biotechnologies in some way stimulates a slowly growing mutual interest of the humanities and natural sciences. Notwithstanding in nursing science there is still a hostile attitude against if not a categorical denial of technologies ranging from robotic systems to smart home technologies and even the PC. Emergent technologies are mistakenly seen as strongly (and only) bound to medicine and hence being hopelessly fought. On closer consideration it becomes obvious that the theoretical premises of this perspective are deeply linked to the idea of human exceptionalism. In their (neo-) humanistic vindication nursing scientists seek to set themselves free from the influence of medicine as a dominant discipline. </description>
         <logo/>
         <persons>
           <person id="7748">AKO</person>
@@ -3883,6 +3884,7 @@ We have liberated devices controlling the production of heat (NBE Pellet system,
         <logo>/system/events/logos/000/008/989/large/IMG_20171014_174810_2.jpg?1508009000</logo>
         <persons>
           <person id="7798">“Nabovarme” - Freetown Christiania´s digitally controlled/surveyed heating system. 350 users</person>
+          <person id="8031">Emmerik</person>
         </persons>
         <links>
           <link href="https://docs.google.com/document/d/1HbU9BQdX9aDQFFhaIE-LHPEXsxjTXKCthxqVx95gIMk/edit?usp=drivesdk">Nabovarme application document (Google docs)</link>
