@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 34th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2017/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2017/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2017/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 34th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2017/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/1.html">
+Wednesday
+ - 
+<span class="small-font">2017-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/2.html">
+Thursday
+ - 
+<span class="small-font">2017-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/3.html">
+Friday
+ - 
+<span class="small-font">2017-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/schedule/4.html">
+Saturday
+ - 
+<span class="small-font">2017-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/timeline.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.timeline">Timeline</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/booklet.html"><span class="translation_missing" title="translation missing: en.layouts.public_schedule.booklet">Booklet</span></a>
+</li>
+<li>
+<a href="/congress/2017/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Altlandsberg</p>
+<h2>lecture: Type confusion: discovery, abuse, and protection</h2>
+<h3 class="title"></h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2017/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png" alt="Event large"></div>
+<p class="abstract">Type confusion, often combined with use-after-free, is the main attack vector to compromise modern C++ software like browsers or virtual machines. Typecasting is a core principle that enables modularity in C++. For performance, most typecasts are only checked statically, i.e., the check only tests if a cast is allowed for the given type hierarchy, ignoring the actual runtime type of the object. Using an object of an incompatible base type instead of a derived type results in type confusion. Attackers have been abusing such type confusion issues to compromise popular software products including Adobe Flash, PHP, Google Chrome, or Firefox, raising critical security concerns.</p>
+
+<p class="abstract">We discuss the details of this vulnerability type and how such vulnerabilities relate to memory corruption. Based on an LLVM-based sanitizer that we developed, we will show how to discover such vulnerabilities in large software through fuzzing and how to protect yourself against this class of bugs.</p>
+<p class="description">C++ is popular in large software projects that require both the modularity of object-oriented programming and the high efficiency offered by low-level access to memory and system intrinsics. Examples of such software are Google Chrome, Microsoft Windows, Mozilla Firefox, or Oracle's JVM.  Unfortunately, C++ enforces neither type nor memory safety. This lack of safety leads to type confusion vulnerabilities that can be abused to attack programs.  Type confusion arises when the program interprets an object of one type as an object of a different type due to unsafe typecasting, leading to reinterpretation of memory areas in different contexts.  For instance, a program may cast an instance of a parent class to a descendant class, even though this is not safe if the parent class lacks some of the fields or virtual functions of the descendant class. When the program subsequently uses these fields or functions, it may use data, say, as a regular field in one context and as a virtual function table (vtable) pointer in another. Exploitable type confusion bugs have been found in a wide range of software products, such as Adobe Flash (CVE-2015-3077), Microsoft Internet Explorer (CVE-2015-6184), PHP (CVE-2016-3185), and Google Chrome (CVE-2013-0912). According to Microsoft, type confusion is the 4th most common vulnerability type in their bug bounty program (after use-after-free, memory corruption, and heap out-of-bounds read) with the majority of type confusion bugs also fitting into one of the earlier categories.</p>
+
+<p class="description">We have developed an extension to the Clang/LLVM compiler that detects type-confusion bugs with low overhead and high coverage. Our prototype consists of two parts: an object tracing facility and typecasting verification. Such an enforcement mechanism is useful as a runtime monitor and online defense mechanism to protect applications against attacks. In a development setting, the mechanism can be combined with a fuzzing framework to detect type confusion before the underlying memory corruption triggers.</p>
+
+<p class="description">In this talk we will first discuss how type safety protects against type confusion-based attacks. We will then introduce our prototype implementation and show how it actively defeats realistic attacks. Finally, we show how to leverage type safety in a fuzzing framework to find security vulnerabilities faster.  We will release all components as open-source.</p>
+
+<p class="description">We introduce the concept of a type sanitizer that checks all casts in an application (replacing static casts with fully explicit runtime checks) and show how we have developed a low-overhead framework for these checks. Building on this framework we argue that it can be used as a runtime monitor in an always on configuration to protect users against attacks and how developers, security researchers, and hackers can use it to find new vulnerabilities in real software.</p>
+
+<p class="description">The expected audience includes people interested in system software, reverse engineering, fuzzing, type confusion-based attacks, and memory corruption-based attacks and their defense mechanisms. General programming and low-level knowledge is expected but the talk will be self contained and does not expect the audience to know the upcoming defense mechanisms or attacks.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2017/Fahrplan/schedule/4.html">2017-12-30</a>
+<br>
+<b>Start time:</b>
+16:30
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+Saal Clarke
+<br>
+<b>Track:</b>
+<font class="event track-security">
+<a href="/congress/2017/Fahrplan/events.html#security">Security</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2017/Fahrplan/events/8848.ics">iCalendar</a></li>
+<li><a href="https://nebelwelt.net/publications/files/17CCS.pdf">ACM CCS'17 paper</a></li>
+<li><a href="https://github.com/HexHive/HexType">Open-source prototype</a></li>
+</ul>
+<div class="column left" id="concurrent_events">
+<h3><span class="translation_missing" title="translation missing: en.public.schedule.event.concurrent_events">Concurrent Events</span></h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2017/Fahrplan/system/people/avatars/000/002/410/small/mpayer.jpg" alt="Mpayer"></div></td>
+<td><a href="/congress/2017/Fahrplan/speakers/2410.html">gannimo</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Type confusion: discovery, abuse, and protection",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Saal Clarke",
+    "address" : "34th Chaos Communication Congress"
+  },
+  "startDate" : "2017-12-30T16:30:00+0100",
+  "endDate" : "2017-12-30T17:30:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;gannimo&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/34c3/public/speakers/2410&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/002/410/small/mpayer.jpg?1447705205&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/34c3/public/schedule",
+    "name" : "34th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "34th Chaos Communication Congress",
+      "address" : "34th Chaos Communication Congress"
+    },
+    "startDate" : "2017-12-27T10:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

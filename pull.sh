@@ -13,7 +13,7 @@ dir=Fahrplan
 url="https://${dir}.events.ccc.de/congress/2017/${dir}/version"
 dst="${dir}.version"
 
-false && {
+{
   curl --output "${dir}/schedule.xml" --location https://fahrplan.events.ccc.de/congress/2017/${dir}/schedule.xml
   {
     echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
