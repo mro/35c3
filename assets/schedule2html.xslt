@@ -34,8 +34,12 @@
         <!-- http://www.quirksmode.org/blog/archives/2013/10/initialscale1_m.html -->
         <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
         <!-- meta name="viewport" content="width=400"/ -->
+			<!--		
         <link href="../assets/Chaosknoten.svg" rel="shortcut icon" type="image/svg"/>
         <link href="../assets/Chaosknoten.svg" rel="apple-touch-icon" type="image/svg"/>
+      -->
+        <link rel="apple-touch-icon" href="../assets/tuwat-250x250.png">
+        <link rel="apple-touch-startup-image" href="../assets/tuwat-250x250.png">
         <link href="../assets/style.css" rel="stylesheet" type="text/css"/>
         <title><xsl:value-of select="conference/acronym"/></title>
         <style type="text/css">
