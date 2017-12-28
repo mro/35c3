@@ -661,12 +661,11 @@ There are a lot of things that you can do with a formal specification: binary an
 <abstract>Did you ever want to run your own IoT cloud on your IoT devices? Or did you ever wonder what data your vacuum cleaning robot is transmitting to the vendor? Why a vacuum cleaning robot needs tcpdump?
 Nowadays IoT devices are getting more and more powerful and contain a lot of sensors. As most devices are connected directly to the vendor and transmit all data encrypted to the cloud, this may result in privacy issues. An IoT device with no internet connection lacks numerous features or is even unusable. We want to change that.
 
-We show you how to root a Xiaomi vacuum cleaning robot in order to get access to the underlying Linux operating system, &lt;b&gt;**without opening the device or tampering the warranty seals**&lt;/b&gt;. Furthermore, we will have a look into the vendors cloud interface and its commands, and will show you how to de-attach the device from the cloud and connect it to your local Smart Home system. Finally, we will demonstrate how to run Smart Home software directly on the vacuum cleaning robot itself.</abstract>
+We show you how to root a Xiaomi vacuum cleaning robot in order to get access to the underlying Linux operating system(Ubuntu 14.04 LTS), &lt;b&gt;**without opening the device or tampering the warranty seals**&lt;/b&gt;. Furthermore, we will have a look into the vendors cloud interface and its commands, and will show you how to de-attach the device from the cloud and connect it to your local Smart Home system. Finally, we will demonstrate how to run Smart Home software directly on the vacuum cleaning robot itself.</abstract>
 <description>We will give you a detailed tour through the hardware and software components of the Xiaomi vacuum robot (generation 1). We will also publish a non-invasive method to get root access to your vacuum robot. 
 
 After talking about the rooting procedure, we will discuss the internals of the robot. For example, the robot uses a so called SLAM (Simultaneous Localization and Mapping) system with LIDAR (Light Detection And Ranging) and various other sensors to create maps of your apartment. These maps are used, among other things, to calculate the best cleaning path. We will show you what these maps look like and how they are stored in the robot. At the end, we will discuss which data are created and uploaded to the vendor, and why this may be a big privacy issue. We will also prove why it is a bad idea to leave IoT devices in an unconfigured state.
-
-We conclude with an overview of other interesting Smart Home devices from the vendor.</description>
+</description>
 <logo>/system/events/logos/000/009/147/large/Unbenannt.png?1514317242</logo>
 <persons>
 <person id='7869'>Dennis Giese</person>
@@ -676,6 +675,7 @@ We conclude with an overview of other interesting Smart Home devices from the ve
 <link href='http://dontvacuum.me'>http://dontvacuum.me</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/367/original/34c3_Staubi-current_split_animation.pdf?1514405290'>Presentation with animations</attachment>
 </attachments>
 </event>
 <event guid='65a25dfd-56dd-4e87-a910-334e2dc25a9c' id='8762'>
@@ -780,6 +780,7 @@ Denver McNeney (&lt;A HREF=&quot;https://twitter.com/denvermcTwitter/&quot;&gt;@
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/368/original/beyermcneneyweldon_34c3_slides.pdf?1514413677'>Slides for the Presentation</attachment>
 </attachments>
 </event>
 <event guid='c7b3314c-165c-446d-963c-609922ea990f' id='8724'>
@@ -1198,7 +1199,6 @@ The objective of this presentation is not to discuss the last significant decima
 </links>
 <attachments>
 <attachment href='/system/event_attachments/attachments/000/003/356/original/34C3_Resources_V1.pdf?1514387456'>Resources from the presentation</attachment>
-<attachment href='/attachments/original/missing.png'>file</attachment>
 </attachments>
 </event>
 <event guid='684193b5-696e-495f-88eb-04f8d3114e01' id='8948'>
@@ -2370,6 +2370,7 @@ For example: Currently manufacturers take care primarily of their business to br
 <link href='https://shroombab.at/2017/08/10/sha2017-my-talk-best-of-iot-fails/'>Blog Entry about &quot;Best of IoT Fails&quot;</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/348/original/Internet_of_FAILS_v2.pdf?1514282002'>Slides for the talk (final)</attachment>
 </attachments>
 </event>
 <event guid='2dd1ed02-2a4f-4c15-93e5-6d171fea74df' id='9297'>
@@ -3960,7 +3961,7 @@ OONI, the Open Observatory of Network Interference is a project for documenting 
 Renewable energy generated e.g. with solar cells, wind mills, or tidal stations are on the rise but they usually depend to certain locations, weather, storage capabilities, and in some cases even on political climates. [3]
 Space based Solar Power generation [4,5] overcomes some of these issues: solar cells in orbit are independent of atmospheric influences and weather (e.g. clouds), solar harvesting satellites can be placed in orbit so they always face sun and generate power continuously, and there is enough space to scale the plants in order to serve the power demands. Solar power is an infinite power source (at least in the time scale for humanity) 
 The bottle neck with this approach, however, is the transfer of the power from orbit to Earth. But if solved, this technology can supply power to locations on Earth, that are remotely located, that lack other power generation capabilities (e.g. due to a natural catastrophe), or that come with varying demands on power consumption. 
-Some questions still remain: Is it possible to transfer power wireless over such a long distance with a sufficient efficiency? [6] How would that influence life on Earth? And who is in charge of the orbital death laser?!?
+Some questions still remain: Is it possible to transfer power wireless over such a long distance with a sufficient efficiency? [6-8] How would that influence life on Earth? And who is in charge of the orbital death laser?!?
 
 [1] https://data.worldbank.org/indicator/EG.USE.ELEC.KH.PC
 [2]https://www.theguardian.com/environment/2017/aug/28/electricity-demand-in-southern-europe-to-soar-with-air-con-say-climate-scientists  (http://www.pnas.org/content/114/38/E7910)
@@ -3968,29 +3969,24 @@ Some questions still remain: Is it possible to transfer power wireless over such
 [4] https://en.wikipedia.org/wiki/Space-based_solar_power 
 [5] https://www.nasa.gov/directorates/spacetech/niac/mankins_sps_alpha.html
 [6] https://en.wikipedia.org/wiki/Wireless_power_transfer
+[7] https://www.cio.com/article/3129027/space/wireless-power-systems-could-one-day-beam-electricity-from-space.html
+[8] https://www.rfglobalnet.com/doc/japanese-scientists-develop-long-distance-wireless-power-transmission-0001
 
 
---------------------------------------
-Further Information on SSP:
--------------------------------------- 
-Glaser Patent 1973: https://www.google.com/patents/US3781647
-
-SPS Alpha report 2012: https://www.nasa.gov/directorates/spacetech/niac/mankins_sps_alpha.html
-
-JAXA approach: https://spectrum.ieee.org/green-tech/solar/how-japan-plans-to-build-an-orbital-solar-farm 
-JAXA 2004: https://repository.exst.jaxa.jp/dspace/handle/a-is/46691
-
-CAST MR-SPS 2015: https://spacejournal.ohio.edu/issue18/cast.html
 </description>
-<logo></logo>
+<logo>/system/events/logos/000/008/869/large/Mankins2.jpg?1514415500</logo>
 <persons>
 <person id='4115'>anja</person>
 <person id='7954'>sjunk</person>
 </persons>
 <links>
+<link href='https://www.google.com/patents/US3781647'>Glaser Patent 1973</link>
+<link href='https://www.nasa.gov/directorates/spacetech/niac/mankins_sps_alpha.html'> SPS Alpha report 2012</link>
+<link href='https://spectrum.ieee.org/green-tech/solar/how-japan-plans-to-build-an-orbital-solar-farm '>Japanese Approach</link>
+<link href='https://repository.exst.jaxa.jp/dspace/handle/a-is/46691'>JAXA report of 2004</link>
+<link href='https://spacejournal.ohio.edu/issue18/cast.html'>Chinese CAST MR-SPS Approach</link>
 </links>
 <attachments>
-<attachment href='/system/event_attachments/attachments/000/003/366/original/Mankins2.jpg?1514400919'>SPS Alpha</attachment>
 </attachments>
 </event>
 <event guid='4b1c06a3-d870-4740-9f77-832768d41fae' id='8877'>
@@ -4433,9 +4429,11 @@ We will cover the history of ideas of using code to describe electronic circuits
 <person id='6722'>Kaspar</person>
 </persons>
 <links>
-<link href='https://github.com/monostable/footwork'>Footwork</link>
+<link href='https://sourceforge.net/p/phdl/wiki/Home/'>PHDL</link>
 <link href='https://github.com/xesscorp/skidl'>SKiDL</link>
-<link href='https://monostable.github.io/electro-grammar/'>Electro Grammar Demo</link>
+<link href='https://https://github.com/dvc94ch/pycircuit'>PyCircuit</link>
+<link href='https://github.com/nturley/netlistsvg'>netlistsvg</link>
+<link href='https://monostable.github.io/electro-grammar/'>Electro Grammar</link>
 </links>
 <attachments>
 </attachments>
@@ -5088,13 +5086,17 @@ Und darüber, was für mich und andere schließlich daraus geworden i</descripti
 <track>Resilience</track>
 <type>lecture</type>
 <language>en</language>
-<abstract>This history of anonymisation networks is long.  Popular anonymisation networks rightfully  focus on Web browsing, because that is the most popular application on todays Internet.  The most popular anonymisation network is, rightfully so, Tor. You might, however, not have the requirements that mandate the use of the Tor network and thus are looking for alternatives. This talk presents a survey of anonymisation networks, what they achieve and how they differ.
-</abstract>
-<description>With the popularity of the Web came the popularity of anonymisation networks catering for the Web context.  That means in particular low latency.  Generally though, anonymisation networks can be classified by different properties such as sender anonymity, receiver anonymity, bandwith overhead, or strength of anonymity. 
+<abstract>There exists no such thing as a perfect anonymity network with low latency, low bandwith consumption which provides strong anonymity. 
+Popular anonymisation networks rightfully focus on  Web browsing, because that is the most popular application on todays Internet.  The most popular anonymisation network is, rightfully so, Tor. You might, however, not have the requirements that mandate the use of the Tor network and thus are looking for alternatives.
+In this talk, we present alternatives to the popular Tor anonymisation network and examine what they achieve and how they differ.</abstract>
+<description>With the popularity of the Web came the popularity of anonymisation communication networks (ACNs) catering for the Web context. That means in particular low latency. Generally, though, anonymisation networks can be classified by different properties such as anonymity goals, strength of adversary or application area.
+ 
+In this talk we present alternative ACNs to the popular Tor network and their goals.  We explain their architectures, properties, and how they achieve anonymity. In particular, we will look at JonDonym, I2P, Freenet, and GNUnet as well as ongoing research projects such as Loopix, Vuvuzela, and Riffle.
+ 
+We will see that once you understand your requirements, you can optimise your choice of anonymisation networks according to your needs.
 
-In this talk we will decompose anonymisation networks into their building blocks and examine how they work together in order to be resiliant against deanonymisation attacks.  We present alternative anonymisation communication networks which achieve different goals with different methods.  In particular, we will look at JonDonym, Riffle, and Herbivore as concrete instantiations of mix-nets.
 
-We will see that once you understand your requirements, you can engineer your anonymisation network&#39;s architecture according to your needs and get away with lower overhead in computation, latency, or bandwidth.</description>
+</description>
 <logo>/system/events/logos/000/009/104/large/Decryption_mix_net.png?1508154980</logo>
 <persons>
 <person id='83'>Tobias Mueller</person>
