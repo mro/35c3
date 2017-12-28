@@ -1482,7 +1482,7 @@ Weizman’s Forensic Architecture, stunning and shocking in its critical narrati
 
 &lt;p&gt;We reported this to the Go team, Go 1.7.6 and 1.8.2 were issued and the vulnerability was assigned &lt;a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8932"&gt;CVE-2017-8932&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;At a high level, this P-256 ScalarMult implementation processes the scalar in blocks of 5 bits. We can precompute points that trigger the bug for each (and only) 5 bit value, and submit them. When the protocol fails, we learned 5 key bits, and we move on to the next 5, Hollywood style. In about 500 submissions on average we recover the whole key.&lt;/p&gt;
+&lt;p&gt;At a high level, this P-256 ScalarMult implementation processes the scalar in blocks of 5 bits. We can precompute points that trigger the bug for each specific 5 bit value, and submit them. When the protocol fails, we learned 5 key bits, and we move on to the next 5, Hollywood style. In about 500 submissions on average we recover the whole key.&lt;/p&gt;
 
 &lt;p&gt;The precomputation involves a lot of unusable points and edge cases, but by modifying the optimized assembly implementation and generating points intelligently, we can produce a full round of points in seconds on 1000 machines (or spot instances). Each round depends on the previous ones, so must be computed live during each attack.&lt;/p&gt;
 
@@ -1494,7 +1494,8 @@ Weizman’s Forensic Architecture, stunning and shocking in its critical narrati
           <person id="6145">Filippo Valsorda</person>
         </persons>
         <links>
-</links>
+          <link href="https://streaming.media.ccc.de/34c3/relive/9021">ReLive</link>
+        </links>
         <attachments>
           <attachment href="/system/event_attachments/attachments/000/003/359/original/Paris256.pdf?1514390210">Slide deck</attachment>
           <attachment href="/system/event_attachments/attachments/000/003/360/original/paris256.mp4?1514390210">Demo</attachment>
@@ -2983,7 +2984,8 @@ rely on randomized virtual addresses as a building block.
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/375/original/CCC_Talk_-_Uncovering_Vulnerabilities_in_Hoermann_BiSecur.pdf?1514458044">Uncovering Vulnerabilities in Hoermann BiSecur</attachment>
+        </attachments>
       </event>
     </room>
     <room name="Saal Dijkstra">
@@ -3013,7 +3015,9 @@ rely on randomized virtual addresses as a building block.
           <link href="http://www.chootka.com/">http://www.chootka.com/</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/370/original/visceral-systems.pdf?1514451396">visceral-systems.pdf</attachment>
+          <attachment href="/attachments/original/missing.png">file</attachment>
+        </attachments>
       </event>
       <event guid="57d3ba9e-49c8-440e-a30a-c0297204848a" id="8814">
         <date>2017-12-28T12:15:00+01:00</date>
@@ -3073,7 +3077,8 @@ Hierüber möchte ich euch gerne Näheres erzählen :)</description>
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/373/original/BOB3_34C3_2017.pdf?1514452417">Folien Digitale Bildung in der Schule</attachment>
+        </attachments>
       </event>
       <event guid="1d7b2355-60b1-453c-bf0e-64228466d2cc" id="8953">
         <date>2017-12-28T13:45:00+01:00</date>
@@ -3103,7 +3108,8 @@ In the second part of this talk the theoretical premises of main arguments again
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/attachments/original/missing.png">file</attachment>
+        </attachments>
       </event>
       <event guid="c02f6777-5e55-46ca-8d60-1810a8d5f3c7" id="9196">
         <date>2017-12-28T14:30:00+01:00</date>
@@ -3153,7 +3159,7 @@ I'm going to introduce DTrace and its D language by digging down into the inner 
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>de</language>
-        <abstract>Gleich in drei Gesetzen drohen Netzsperren. Staatstrojaner und Massenüberwachung bis ins WLAN sind mit der Einführung der Überwachungsgesetze BÜPF und NDG vorgesehen. E-Voting soll auf Biegen und Brechen durchgesetzt werden. Nur garantierte Netzneutralität lässt weiter auf sich warten. Im Vortrag versuchen wir, Einsichten in die netzpolitischen Auseinandersetzungen in der Schweiz zu geben und Handlungsmöglichkeiten aufzuzeigen.</abstract>
+        <abstract>Gleich in drei Gesetzen drohen Netzsperren. Staatstrojaner und Massenüberwachung bis ins WLAN sind mit der Einführung der Überwachungsgesetze BÜPF und NDG vorgesehen. E-Voting soll auf Biegen und Brechen durchgesetzt werden. Nur garantierte Netzneutralität lässt weiter auf sich warten. Im Vortrag versuchen wir, Einsichten in die aktuellen netzpolitischen Auseinandersetzungen in der Schweiz zu geben und Handlungsmöglichkeiten aufzuzeigen.</abstract>
         <description>Folgende Themen möchten wir aufgreifen und gemeinsam einen Blick in die Zukunft werfen:
 &lt;ul&gt;
  	&lt;li&gt;Auswirkungen des neuen BÜPF: Eine Einschätzung für die Praxis ab dem 1.3.2018&lt;/li&gt;
@@ -3168,7 +3174,7 @@ Im Anschluss an den Vortrag findet eine weiterführende Diskussions- und Fragese
         <persons>
           <person id="7723">Kire</person>
           <person id="6351">Patrick Stählin</person>
-          <person id="6379">Hakuna MaMate</person>
+          <person id="8033">Martin Steiger</person>
         </persons>
         <links>
 </links>
@@ -4241,55 +4247,6 @@ In this talk I will describe the range of groups involved in data preservation e
         <attachments>
 </attachments>
       </event>
-      <event guid="2df297d8-7bfc-40d1-bd9e-85c9a1cc455d" id="8967">
-        <date>2017-12-29T23:15:00+01:00</date>
-        <start>23:15</start>
-        <duration>00:30</duration>
-        <room>Saal Borg</room>
-        <slug>34c3-8967-digitalization_and_the_environment</slug>
-        <url>./events/8967.html</url>
-        <recording>
-          <license>CC BY 4.0</license>
-          <optout>false</optout>
-        </recording>
-        <title>Digitalization and the environment</title>
-        <subtitle>Why digitalization of the economy is not necessarily good for the planet and how we can change that</subtitle>
-        <track>Science</track>
-        <type>lecture</type>
-        <language>en</language>
-        <abstract>In this talk, I address the question whether digitalization is likely to help decoupling economic growth from the environmental impacts of economic activities. In a first step, I summarize the literature on the impact of digitalization on growth and the environment. In a second step, I point out several concepts, in particular sufficiency, open source and commons, that may help to reconcile digitalization and environmental sustainability.</abstract>
-        <description>Digitalization is said to revolutionize not only industrial production but almost any aspect of our lives: Digital devices change the way we consume (online-shopping), we communicate (social media), our mobility forms (car and bike sharing, autonomous cars) and the way we organize our communities (smart cities). At the same time, environmental questions are barely discussed. There are mostly vague statements that industry 4.0 will make the economy more sustainable by increasing resource- and energy-efficiencies (Huber, 2013). However, in recent years a number of scientific investigations have shed more light on the issue. This talk summarizes these findings and thereby addresses the issue, whether digitalization can actually help to reduce the environmental impact of our economic activities. The central question is: Will the digitalization of our economy help to decouple economic growth and environmental impact?
-One of the central promises of digitalization is economic growth. In Germany, the discourse on digitalization is driven by influential industries, who have come up with the term Industrie 4.0 (engl.: industry 4.0). It implies the application of new digital technologies in production processes, in particular to organize production with less human labor. In other words: It means to increase labor productivity. If this development is only half as revolutionary as promised, labor productivity will rise significantly. One possible scenario is that these increases in productivity are used for a new phase of economic growth. In case of full-time employment, large increases in labor productivity imply high growth in GDP. As Niko Paech (2017) and Tilman Santarius (2017) have argued, this puts the question of decoupling economic growth from environmental throughput back on the agenda.
-It appears to be improbable that digitalization will allow for a sufficient decoupling under the economic regime that exists. As a reminder: The increases in resource-efficiency need to be speeded up from a current average of 1.5% to 4.4%, to reach climate goals. And even that would only keep us under 2 °C (and not 1.5 °C as recommended by many environmental scientists) to a probability of 66% (Antal &amp; Bergh, 2016). But even if sufficient decoupling is unlikely, can it help to achieve at least absolute decoupling (that is, at least some absolute reductions in environmental impacts)?
-Research so far shows a positive relationship between digitalization, energy use and economic growth. The (preliminary) analysis is that digitalization simultaneously leads to economic growth (as it leads to higher labor productivity) and to more energy use (because ICTs need energy to work) (Cardona, Kretschmer, &amp; Strobel, 2013; Salahuddin &amp; Alam, 2016). And even if it was possible to use digitalization to decouple economic growth from greenhouse gases: It would probably lead to other environmental problems, in particular regarding resource extraction (Pilgrim, Groneweg, &amp; Reckordt, 2017).
-This does not mean that digitalization has to be negative in general when it comes to environmental sustainability. The transition to 100% renewables is difficult to imagine without digital technologies (Zimmermann, Wolf, &amp; Baum, 2016). And digitalization opens up many opportunities to increase resource- und energy efficiencies. However, the current economic structure, including its continuous generation of economic growth, countervails such positive features. 
-The question is therefore, how to use the opportunities of digitalization while preventing its adverse environmental effects. A key concept is sufficiency. It is well-known in environmental sciences. Sufficiency implies that new technologies are combined with new patterns of individual behaviour, in order to achieve better environmental results (Jenny, 2014). Sufficiency can also be applied to digitalization, in particular regarding the design of information and communication technologies and concerning the data-intensity of software. However, designs of hardware and software are tightly related to the question, who develops them and for what purpose. Here, the concepts of commons (Helfrich &amp; Bollier, 2012), open source (Gibb, 2014) and collaborative platforms (Scholz, 2016) may be good starting points to steer towards a type of digitalization that is truly sustainable. 
-
- 
-Bibliography
-Antal, M., &amp; Bergh, J. C. J. M. V. D. (2016). Green growth and climate change: conceptual and empirical considerations. Climate Policy, 16(2), 165–177. https://doi.org/10.1080/14693062.2014.992003
-Cardona, M., Kretschmer, T., &amp; Strobel, T. (2013). ICT and productivity: conclusions from the empirical literature. Information Economics and Policy, 25(3), 109–125. https://doi.org/10.1016/j.infoecopol.2012.12.002
-Gibb, A. (2014). Building open source hardware: DIY manufacturing for hackers and makers. Pearson Education.
-Helfrich, S., &amp; Bollier, D. (Eds.). (2012). Commons. Für eine neue Politik jenseits von Markt und Staat. Bielefeld: Transcript Verlag.
-Huber, A. S. (2013). Das Ziel Digital Enterprise: die professionelle digitale Abbildung von Produktentwicklung und Produktion. In U. Sendler (Ed.), Industrie 4.0 (pp. 111–124). Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-642-36917-9_7
-Jenny, A. (2014). Suffizienz auf individueller Ebene. Literaturanalyse zu psychologischen Grundlagen der Suffizienz (Zwischenbericht No. 18). Zürich: Forschungsprojekt FP-1.7.
-Paech, N. (2017). The Destructive Dream of Progress. Retrieved October 14, 2017, from https://www.degrowth.info/en/2017/01/the-destructive-dream-of-progress/
-Pilgrim, H., Groneweg, M., &amp; Reckordt, M. (2017). Ressourcenfluch 4.0: Die sozialen und ökologischen Auswirkungen von Industrie 4.0 auf den Rohstoffsektor. Berlin.
-Salahuddin, M., &amp; Alam, K. (2016). Information and Communication Technology, electricity consumption and economic growth in OECD countries: A panel data analysis. International Journal of Electrical Power &amp; Energy Systems, 76, 185–193. https://doi.org/10.1016/j.ijepes.2015.11.005
-Santarius, T. (2017). Digitalization, Efficiency and the Rebound Effect. Retrieved October 14, 2017, from https://www.degrowth.info/en/2017/02/digitalization-efficiency-and-the-rebound-effect/
-Scholz, T. (2016). Platform Cooperativism. Challenging the Corporate Sharing Economy. New York: Rosa Luxemburg Stiftung. Retrieved from http://www.rosalux-nyc.org/platform-cooperativism-2/
-Zimmermann, H., Wolf, V., &amp; Baum, D. (2016). Sechs Thesen zur Digitalisierung der Energiewende: Chancen, Risiken und Entwicklungen. Germanwatch e.V. Retrieved from https://germanwatch.org/de/download/15649.pdf
-
-</description>
-        <logo/>
-        <persons>
-          <person id="7729">Steffen Lange</person>
-        </persons>
-        <links>
-</links>
-        <attachments>
-</attachments>
-      </event>
       <event guid="c297bff4-55ca-473c-afef-0064970a47b2" id="8741">
         <date>2017-12-30T00:00:00+01:00</date>
         <start>00:00</start>
@@ -4803,7 +4760,7 @@ Ich werde mehrere Mikroskope mitbringen, um einiges vom oben genannten direkt au
           <optout>false</optout>
         </recording>
         <title>Holography of Wi-Fi radiation</title>
-        <subtitle>Can we see the stray radiation of wireless devices and what would the world look like if we could?</subtitle>
+        <subtitle>Can we see the stray radiation of wireless devices? And what would the world look like if we could?</subtitle>
         <track>Science</track>
         <type>lecture</type>
         <language>en</language>
@@ -4815,7 +4772,7 @@ Philipp Holl [1,2] and Friedemann Reinhard [2]
 
 When we think of wireless signals such as Wi-Fi or Bluetooth, we usually think of bits and bytes, packets of data and runtimes.  
 
-Interestingly, there is a second way to look at them. From a physicist's perspective, wireless radiation is just light, to be precise: coherent electromagnetic radiation. It is virtually the same as the beam of a laser, except that its wavelength is much longer (cm vs µm). 
+Interestingly, there is a second way to look at them. From a physicist's perspective, wireless radiation is just light, more precisely: coherent electromagnetic radiation. It is virtually the same as the beam of a laser, except that its wavelength is much longer (cm vs µm). 
 
 We have developed a way to visualize this radiation, providing a view of the world as it would look like if our eyes could see wireless radiation. 
 
