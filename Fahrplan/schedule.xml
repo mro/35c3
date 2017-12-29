@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <schedule>
-<version>Finowfurt</version>
+<version>CCH</version>
 <conference>
 <acronym>34c3</acronym>
 <title>34th Chaos Communication Congress</title>
@@ -641,6 +641,8 @@ There are a lot of things that you can do with a formal specification: binary an
 <link href='https://alastairreid.github.io/ARM-v8a-xml-release/'>Things you can do with the specification</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/393/original/How_can_you_trust_formally_verified_software_-_34C3_27_December_2017.pdf?1514493955'>Slides: How can you trust formally verified software</attachment>
+<attachment href='/attachments/original/missing.png'>file</attachment>
 </attachments>
 </event>
 <event guid='51b586be-500c-436e-b70c-fc433e65c4be' id='9147'>
@@ -2164,6 +2166,7 @@ Neben den juristischen wird sie auch auf folgende Fragen eingehen: Was hat eine 
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/379/original/17-12-28-linksunten-34C3.pdf?1514461289'>All Computers Are Beschlagnahmt: Folien der Präsentation</attachment>
 </attachments>
 </event>
 <event guid='2cb8f405-10be-40f5-ae95-579f024a0c84' id='9007'>
@@ -2572,6 +2575,32 @@ We will cover the relevant measuring equipment as well as the theory behind each
 <persons>
 <person id='7761'>Nero Lapislucis</person>
 <person id='7707'>sir wombat</person>
+</persons>
+<links>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='67680f81-cda8-4f5f-9ee1-5b2c6ed2db43' id='9298'>
+<date>2017-12-29T00:45:00+01:00</date>
+<start>00:45</start>
+<duration>02:00</duration>
+<room>Saal Borg</room>
+<slug>34c3-9298-hacker_jeopardy_stream</slug>
+<url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/9298.html</url>
+<recording>
+<license></license>
+<optout>true</optout>
+</recording>
+<title>Hacker Jeopardy Stream</title>
+<subtitle>Zahlenraten für Geeks (Stream)</subtitle>
+<track>Entertainment</track>
+<type>other</type>
+<language>de</language>
+<abstract>The Hacker Jeopardy is a quiz show. -- Stream</abstract>
+<description></description>
+<logo></logo>
+<persons>
 </persons>
 <links>
 </links>
@@ -4287,8 +4316,13 @@ Hier werden keine kompletten, korrekten Ökobilanzen errechnet, sondern es geht 
 <link href='http://iinas.org/gemis-de.html'>GEMIS (Windows oder WINE / Crossoverbenötigt)</link>
 <link href='https://www.eingutertag.org/de/'>Ein guter Tag hat 100 Punkte</link>
 <link href='http://www.probas.umweltbundesamt.de/php/index.php'>ProBas</link>
+<link href='https://www.ivl.se/english/startpage/pages/publications/publication.html?id=5407'>The Life Cycle Energy Consumption and Greenhouse Gas Emissions from Lithium-Ion Batteries</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/395/original/Treibhausgasemissionen_einschaetzen.pdf?1514496834'>Folien (Stand 28.12.2017)</attachment>
+<attachment href='/system/event_attachments/attachments/000/003/396/original/34c3.zip?1514496834'>GEMIS-Datensatz - Entpacken und in Gemis öffnen </attachment>
+<attachment href='/system/event_attachments/attachments/000/003/397/original/event_attachments_attachments_000_003_217_original_20171002_133106_HDR.jpg?1514497012'>Auch spannend: CO2-Emissionen einer Tasse Tee in Luftballons</attachment>
+<attachment href='/system/event_attachments/attachments/000/003/398/original/Bierzerlegung.pdf?1514497301'>Auch spannend: CO2-Emissionen von Bier in Luftballons</attachment>
 </attachments>
 </event>
 </room>
