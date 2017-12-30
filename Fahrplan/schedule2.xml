@@ -1200,9 +1200,10 @@ The objective of this presentation is not to discuss the last significant decima
           <person id="7606">manuel</person>
         </persons>
         <links>
-</links>
+          <link href="https://github.com/mikesierra7/34c3_EWH_MWE">Minimum working example on GitHub (work in progress)</link>
+        </links>
         <attachments>
-          <attachment href="/system/event_attachments/attachments/000/003/356/original/34C3_Resources_V1.pdf?1514387456">Resources from the presentation</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/427/original/34C3_Resources_V11.pdf?1514636753">Resources from the presentation (V1.1)</attachment>
         </attachments>
       </event>
       <event guid="684193b5-696e-495f-88eb-04f8d3114e01" id="8948">
@@ -2094,7 +2095,7 @@ Together with the talk we're planning to make available detailed notes on revers
           <link href="https://github.com/corna/me_cleaner">me_cleaner project</link>
         </links>
         <attachments>
-          <attachment href="/system/event_attachments/attachments/000/003/391/original/Intel_ME_myths_and_reality.pdf?1514485294">Presentations Slides</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/391/original/Intel_ME_myths_and_reality.pdf?1514485294">Presentation Slides</attachment>
         </attachments>
       </event>
       <event guid="5c5e888e-4556-405b-a205-e59b97db99e1" id="9075">
@@ -3414,9 +3415,11 @@ We also plan to open source our framework under a permissive free software licen
         </persons>
         <links>
           <link href="https://qbdi.quarkslab.com">QBDI website</link>
+          <link href="https://qbdi.quarkslab.com/QBDI-34c3.pdf">Slides</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/431/original/QBDI_34c3.pdf?1514643381">Slides</attachment>
+        </attachments>
       </event>
       <event guid="832b8fb8-beb1-4d92-93d0-ba3b7568905a" id="9044">
         <date>2017-12-28T23:15:00+01:00</date>
@@ -3482,7 +3485,9 @@ suggestions on what *you* may do.
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/428/original/growing-up-software-development.pdf?1514637425">Slides</attachment>
+          <attachment href="/attachments/original/missing.png">file</attachment>
+        </attachments>
       </event>
       <event guid="68d83e4e-52d8-42be-b01c-c6f425d95c8e" id="9150">
         <date>2017-12-29T00:00:00+01:00</date>
@@ -3836,6 +3841,7 @@ In the end, we will take a short look at how contactless payments might influenc
 </links>
         <attachments>
           <attachment href="/attachments/original/missing.png">file</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/421/original/34C3.pdf?1514585098">Slides</attachment>
         </attachments>
       </event>
       <event guid="c02bcac2-4df7-4264-83e3-c7277913cbd8" id="8993">
@@ -4154,9 +4160,11 @@ We conclude with examples of what could be effective solutions to the climate pr
           <person id="7878">Robert Gieseke</person>
         </persons>
         <links>
-</links>
+          <link href="http://openclimatedata.net">OpenClimateData</link>
+        </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/408/original/a_hackers_guide_to_climate_change.pdf?1514562623">Slides</attachment>
+        </attachments>
       </event>
       <event guid="2541602b-f58c-4dec-9722-db72b1dea19e" id="9178">
         <date>2017-12-29T19:45:00+01:00</date>
@@ -4224,6 +4232,8 @@ We will also showcase some interactive physical installations that have been dev
 </links>
         <attachments>
           <attachment href="/system/event_attachments/attachments/000/003/248/original/cropland.png?1507915392">A scenario of global croplands in the year 2050</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/413/original/chaos_computer_club___publish.pdf?1514571230">presentation</attachment>
+          <attachment href="/attachments/original/missing.png">file</attachment>
         </attachments>
       </event>
       <event guid="f64a902e-db0e-4a8e-b5b7-b6e3136a4dea" id="9138">
@@ -4280,6 +4290,8 @@ In this talk I will describe the range of groups involved in data preservation e
         <links>
           <link href="https://envirodatagov.org/">EDGI Homepage</link>
           <link href="https://github.com/edgi-govdata-archiving/overview">EDGI GitHub</link>
+          <link href="http://dcwalker.ca/ensuring-climate-data/">Slides</link>
+          <link href="https://datatogether.org/">Data Together</link>
         </links>
         <attachments>
 </attachments>
@@ -4327,10 +4339,10 @@ Hier werden keine kompletten, korrekten Ökobilanzen errechnet, sondern es geht 
           <link href="https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/umwelt-und-naturschutzamt/unterhaltung/artikel.643410.php">Auch spannend: Noch mehr Alltagsgegenstände mit Luftballons</link>
         </links>
         <attachments>
-          <attachment href="/system/event_attachments/attachments/000/003/395/original/Treibhausgasemissionen_einschaetzen.pdf?1514496834">Folien (Stand 28.12.2017)</attachment>
           <attachment href="/system/event_attachments/attachments/000/003/396/original/34c3.zip?1514496834">GEMIS-Datensatz - Entpacken und in Gemis öffnen </attachment>
           <attachment href="/system/event_attachments/attachments/000/003/397/original/event_attachments_attachments_000_003_217_original_20171002_133106_HDR.jpg?1514497012">Auch spannend: CO2-Emissionen einer Tasse Tee in Luftballons</attachment>
           <attachment href="/system/event_attachments/attachments/000/003/398/original/Bierzerlegung.pdf?1514497301">Auch spannend: CO2-Emissionen von Bier in Luftballons</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/419/original/Treibhausgasemissionen_einschaetzen.pdf?1514578268">Folien (Stand 29.12.17)</attachment>
         </attachments>
       </event>
     </room>
@@ -4359,7 +4371,7 @@ Ireland's decision to phase out the Double Irish tax loophole doesn't mean the c
 
 "Revelations of the extent of tax avoidance by multinationals based on exploitation of the arm’s length system prompted a rear-guard action by the OECD described as the base erosion and profit shifting (BEPS) programme but the programme deliberately avoids any principled re-examination of norms underlying the international tax regime or any consideration of a shift from residence to source-based taxation."
 
-And the icing on the cake:  We will present you the Stachanow of Capitalism: The only employee (on a mere 55.000 Euro annual salary) of ExxonMobil  Spain: 9.9 billion Euro in net profits in 2 years.</description>
+And the icing on the cake:  We will present you the Stachanow of Capitalism: The only employee (on a mere 44.000 Euro annual salary) of ExxonMobil  Spain: 9.9 billion Euro in net profits in 2 years.</description>
         <logo/>
         <persons>
           <person id="7833">vavoida</person>
@@ -4692,6 +4704,7 @@ Taking the known problems and limitations into account, and having a strong desi
           <link href="https://photos.google.com/share/AF1QipMGcGf_jyc8jlsmDbxIPw-tvO3Ns2DLKS_J8ziRACo-ZD-5XMLGMO5lOwx72S07DQ?key=NGxGRmY3WDc5SmZXenhJNVNWbXpOOWFDM2VjLTVR">Documentation of the October 2017 workshop </link>
           <link href="https://photos.google.com/share/AF1QipPgqqmUk05i3dUm3OfMnFI562TgqVowea60YtX4nAeLwsw3v583MPEsmdfmYOa0Eg?key=YkNWc0RtOUw3Zkd1Z1E0Y2pFbzFCYm9HTzl4NlZB">Documentation of June 2017 workshop</link>
           <link href="idiot.io">Idiot lab weblog </link>
+          <link href="https://docs.google.com/presentation/d/1rD733wKMeMV4UMyHEVA5oUeAPRruPUb5t29Ko8xVmKw/edit?usp=sharing">Presentation of the talk</link>
         </links>
         <attachments>
 </attachments>
@@ -4724,7 +4737,7 @@ If DNA analysis is to be implemented in Germany – and it very well might be �
         <links>
 </links>
         <attachments>
-          <attachment href="/system/event_attachments/attachments/000/003/380/original/34c3_AM.pptx?1514471100">Extended DNA Analysis</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/409/original/34c3_AM.pptx?1514562923">Extended DNA Analysis</attachment>
         </attachments>
       </event>
       <event guid="e4eaa421-652a-4309-9e04-fe46aa3da50d" id="9134">
@@ -4953,9 +4966,11 @@ On the day of the referendum it was expected that the Spanish police will close 
           <person id="7823">Matthias</person>
         </persons>
         <links>
-</links>
+          <link href="https://media.ccc.de/v/34c3-9028-internet_censorship_in_the_catalan_referendum">Recording of the talk</link>
+        </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/411/original/presentation.pdf?1514569691">Slides</attachment>
+        </attachments>
       </event>
       <event guid="0dbbb546-38e6-499f-bb93-a5539d114d1d" id="9195">
         <date>2017-12-29T16:30:00+01:00</date>
@@ -4991,7 +5006,9 @@ While the declared scope of avatar² the is analysis of embedded firmware, this 
           <link href="https://github.com/avatartwo">avatar2 - the source code</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/417/original/avatar2_34c3.pdf?1514573954">slides</attachment>
+          <attachment href="/attachments/original/missing.png">file</attachment>
+        </attachments>
       </event>
       <event guid="ea27b2dc-d558-4fab-8406-a9db30930f8f" id="9142">
         <date>2017-12-29T18:30:00+01:00</date>
@@ -5290,7 +5307,7 @@ We will also show a few clues to indicate how we could target multi-threaded/mul
         <links>
 </links>
         <attachments>
-          <attachment href="/system/event_attachments/attachments/000/003/402/original/main.pdf?1514543747">My slides (may be updated)</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/422/original/main.pdf?1514593033">main.pdf</attachment>
         </attachments>
       </event>
       <event guid="bf23997f-20bb-40a5-96f9-5f43f453e9dd" id="8961">
@@ -5320,6 +5337,7 @@ Die rasante Entwicklung in der Sensor- &amp; Datenverarbeitungstechnik in Verbin
 </links>
         <attachments>
           <attachment href="/system/event_attachments/attachments/000/003/260/original/34C3-Vortrag-Abstract.pdf?1507988066">Lecture-Abstract</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/420/original/0en_und_1en_auf_dem_Acker.pdf?1514581843">Vortrags_Slides_final</attachment>
         </attachments>
       </event>
       <event guid="ad3d2b65-ce5b-4c18-bf9d-1f56942aa0d3" id="9172">
@@ -5630,9 +5648,11 @@ Leander Seige ist Bereichsleiter für Digitale Dienste der Universitätsbiblioth
           <person id="7678">Leander Seige</person>
         </persons>
         <links>
-</links>
+          <link href="http://iiif.io/">http://iiif.io/</link>
+        </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/430/original/IIIF_34C3_Leander_Seige.pdf?1514637476">IIIF Slides 34C3 Leander Seige</attachment>
+        </attachments>
       </event>
       <event guid="e145a0be-1450-4e31-a493-4db81c970f08" id="9014">
         <date>2017-12-30T12:15:00+01:00</date>
@@ -5705,14 +5725,15 @@ wurden im Backstagebereich der WikiPedia einige Überraschungen gefunden und ein
         <language>en</language>
         <abstract>How does developing future processors with yesterdays capabilities work out today? CPU development is something out of focus these days. In this lecture I would like to show the state-of-the-art processor development flow of POWER processors from the first initial ideas to post-silicon testing. Apart from x86 Intel products there have been initiatives across the hardware industry to form some alternative business model. I would like to show if and how this compares to real open principals.</abstract>
         <description>This talk should first give a brief overview of how processor development is done these days and which steps are required to get to working products at the end of the day, what is needed from a technical perspective, how many people are involved during the process and which process steps are required. Second it should show which requirements are out there for server/cloud products and their customers. Third it should address why there is this openPOWER initiative and what it all means in regards to hardware development. It should show more detailed information the ideas behind this group of different hardware suppliers and universities. It will definitely not end up in an promotional talk but more look behind the curtains how open this format really is and if it can be used by real people at the end or if it only applies to commercial entities.</description>
-        <logo/>
+        <logo>/system/events/logos/000/009/202/large/matteo-michel4_small.jpg?1514625585</logo>
         <persons>
           <person id="7893">Matteo Michel</person>
         </persons>
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/attachments/original/missing.png">file</attachment>
+        </attachments>
       </event>
       <event guid="d8db120c-29f7-48f6-b9de-27ea8d1e9a9b" id="9286">
         <date>2017-12-30T13:45:00+01:00</date>
@@ -5765,7 +5786,29 @@ wurden im Backstagebereich der WikiPedia einige Überraschungen gefunden und ein
           <person id="3988">mo</person>
         </persons>
         <links>
-</links>
+          <link href="https://www.torservers.net/">torservers.net</link>
+          <link href="https://renewablefreedom.org/">Renewable Freedom Foundation</link>
+          <link href="https://techcultivation.org">Center for the Cultivation of Technology</link>
+          <link href="https://www.fordfoundation.org/library/reports-and-studies/roads-and-bridges-the-unseen-labor-behind-our-digital-infrastructure">Roads and Bridges: The Unseen Labor Behind Our Digital Infrastructure / Nadia Eghbal</link>
+          <link href="https://www.youtube.com/watch?v=VS6IpvTWwkQ">Nadia Eghbal: Rebuilding The Cathedral (Strangeloop Conference)</link>
+          <link href="https://github.com/nayafia/lemonade-stand">The Lemonade Stand: guide to financial support for open source</link>
+          <link href="http://www.artofcommunityonline.org/">Jono Bacon: Art of Community</link>
+          <link href="https://wiki.ubuntu.com/BuildingCommunity">Ubuntu Wiki: Building Community</link>
+          <link href="http://www.zdnet.com/article/cisco-microsoft-vmware-and-other-tech-giants-unite-behind-critical-open-source-projects/">ZDNet: Launch of the Core Infrastructure Initiative</link>
+          <link href="https://ec.europa.eu/research/participants/portal/desktop/en/opportunities/h2020/topics/ict-24-2018-2019.html">Next Generation Internet: ICT-24</link>
+          <link href="https://lwn.net/Articles/713073/">February 2017: Three new FOSS umbrella organizations in Europe</link>
+          <link href="http://chooseafoundation.com/">Choose a Foundation</link>
+          <link href="https://commonsconservancy.org/">The Commons Conservancy</link>
+          <link href="www.reinventingorganizationswiki.com">Frederic Laloux: Reinventing Organizations Wiki</link>
+          <link href="http://cobudget.co/">CoBudget</link>
+          <link href="https://opencollective.com/">OpenCollective</link>
+          <link href="https://www.safaribooksonline.com/library/view/software-estimation-demystifying/0735605351/">Steve McConnell: Software Estimation</link>
+          <link href="http://www.paulgraham.com/makersschedule.html">Paul Graham: Maker's Schedule, Manager's Schedule</link>
+          <link href="https://www.joelonsoftware.com/2001/02/12/human-task-switches-considered-harmful/">Joel Spolsky: Human Task Switches Considered Harmful</link>
+          <link href="https://www.goodreads.com/book/show/3828902-thinking-in-systems">Donaella Maedows: Thinking in Systems</link>
+          <link href="https://www.insidephilanthropy.com/the-givers/">David Callahan: The Givers</link>
+          <link href="https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action">Mancur Olson: The Logic of Collective Action</link>
+        </links>
         <attachments>
 </attachments>
       </event>
@@ -5899,6 +5942,7 @@ Evaluation of a prototype implementation indicates that ClaimChain can scale to 
         </links>
         <attachments>
           <attachment href="/system/event_attachments/attachments/000/003/290/original/ClaimChain_paper.pdf?1508087942">ClaimChain paper</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/426/original/34c3_claimchain-expanded.pdf?1514628354">34C3 slide deck</attachment>
         </attachments>
       </event>
       <event guid="1a4ac7bc-1ca5-4674-a736-38d796b0c36a" id="9148">
@@ -5944,7 +5988,9 @@ In this talk I'll show early results in:
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/415/original/Italy's_Surveillance_Toolbox_-_34C3.pdf?1514572719">Italy's Surveillance Toolbox</attachment>
+          <attachment href="/attachments/original/missing.png">file</attachment>
+        </attachments>
       </event>
       <event guid="9e774be1-eb68-4ccc-94bd-a65f9abd752d" id="9249">
         <date>2017-12-30T14:30:00+01:00</date>
