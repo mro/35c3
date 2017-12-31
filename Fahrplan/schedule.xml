@@ -679,6 +679,7 @@ After talking about the rooting procedure, we will discuss the internals of the 
 </links>
 <attachments>
 <attachment href='/system/event_attachments/attachments/000/003/367/original/34c3_Staubi-current_split_animation.pdf?1514405290'>Presentation with animations</attachment>
+<attachment href='/system/event_attachments/attachments/000/003/432/original/34c3_Staubi-current_split_animation.pdf?1514652798'>Presentation with animations (28.12)</attachment>
 </attachments>
 </event>
 <event guid='65a25dfd-56dd-4e87-a910-334e2dc25a9c' id='8762'>
@@ -3208,6 +3209,7 @@ Im Anschluss an den Vortrag findet eine weiterführende Diskussions- und Fragese
 <person id='8033'>Martin Steiger</person>
 </persons>
 <links>
+<link href='https://www.digitale-gesellschaft.ch/slides/netzpolitik.html'>Präsentation</link>
 </links>
 <attachments>
 </attachments>
@@ -3414,10 +3416,10 @@ We also plan to open source our framework under a permissive free software licen
 </persons>
 <links>
 <link href='https://qbdi.quarkslab.com'>QBDI website</link>
-<link href='https://qbdi.quarkslab.com/QBDI-34c3.pdf'>Slides</link>
+<link href='https://qbdi.quarkslab.com/QBDI_34c3.pdf'>Slides</link>
 </links>
 <attachments>
-<attachment href='/system/event_attachments/attachments/000/003/431/original/QBDI_34c3.pdf?1514643381'>Slides</attachment>
+<attachment href='/system/event_attachments/attachments/000/003/433/original/QBDI_34c3.pdf?1514654111'>Slides</attachment>
 </attachments>
 </event>
 <event guid='832b8fb8-beb1-4d92-93d0-ba3b7568905a' id='9044'>
@@ -4802,6 +4804,7 @@ Ich werde mehrere Mikroskope mitbringen, um einiges vom oben genannten direkt au
 <link href='https://github.com/ufrisk/pcileech-fpga/'>PCILeech FPGA</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/434/original/34C3-Ulf-Frisk-Public-FPGA-Based-DMA-Attacking.pdf?1514675706'>Presentation Slides</attachment>
 </attachments>
 </event>
 </room>
