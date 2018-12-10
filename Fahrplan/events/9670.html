@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 35th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2018/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2018/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2018/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 35th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2018/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/1.html">
+Thursday
+ - 
+<span class="small-font">2018-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/2.html">
+Friday
+ - 
+<span class="small-font">2018-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/3.html">
+Saturday
+ - 
+<span class="small-font">2018-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/4.html">
+Sunday
+ - 
+<span class="small-font">2018-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/timeline.html">timeline</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/booklet.html">book</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Airwolf</p>
+<h2>Lecture: Safe and Secure Drivers in High-Level Languages</h2>
+<h3 class="title">How to write drivers in Rust, go, C#, Swift, Haskell, and OCaml</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2018/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png"></div>
+<p class="abstract">Drivers are usually written in C for historical reasons, this can be bad if you want your driver to be safe and secure. We show that it is possible to write low-level drivers for PCIe devices in modern high-level languages.
+<br>We are working on super-fast user space network drivers for the Intel 82599ES (ixgbe) 10 Gbit/s NICs in different high-level languages. We've got fully working implementations in Rust, C#, go, OCaml, Haskell, and Swift. All of them are written from scratch and require no kernel code.</p>
+
+<p class="abstract">Check out <a href="https://github.com/ixy-languages/ixy-languages">our GitHub page</a> with links to all implementations, performance measurements, and publications for further reading.</p>
+<p class="description">Supposedly modern user space drivers (e.g., DPDK or SPDK) are still being written in C in 2018 :(</p>
+
+<p class="description">This comes with all the well-known drawbacks of writing things in C that might be prevented by using safer programming languages.
+<br>Also, did you ever see a kernel panic because a driver did something stupid? It doesn't have to be that way, drivers should not be able to take down the whole system.</p>
+
+<p class="description">There are three steps to building better drivers:</p>
+
+<p class="description"></p>
+<ol>
+<br>  <li>Write them in a safer programming language eliminating whole classes of bugs and security problems like bad memory accesses</li>
+<br>  <li>Isolating them from the rest of the operating system: user space drivers that drop privileges</li>
+<br>  <li>Isolating the hardware using the IOMMU</li>
+<br>
+</ol> 
+
+<p class="description">We are showing that it is possible to achieve all of these goals for PCIe drivers on Linux by implementing user space network drivers in all of the aforementioned programming languages. Our techniques are transferable to other drivers that would benefit from more modern implementations. </p>
+
+<p class="description">Our drivers in <a href="https://github.com/ixy-languages/ixy.rs">Rust</a>, <a href="https://github.com/ixy-languages/ixy.cs">C#</a>, <a href="https://github.com/ixy-languages/ixy.go">go</a>, and <a href="https://github.com/ixy-languages/ixy.swift">Swift</a> are completely finished, tuned for performance, evaluated, and benchmarked. And all of them except for Swift are about 80-90% as fast as <a href="https://github.com/emmericp/ixy">our user space C driver</a> and 6-10 times faster than the kernel C driver.</p>
+
+<p class="description">We also got something for fans of functional languages: our implementations in <a href="https://github.com/ixy-languages/ixy.ml">OCaml</a> and <a href="https://github.com/ixy-languages/ixy.hs">Haskell</a> are working but not yet tuned for performance. We are also working on Python, Java, and Javascript.</p>
+
+<p class="description">The talk also features a quick summary from <a href="https://media.ccc.de/v/34c3-9159-demystifying_network_cards">last year's talk about user space driver basics</a>, so no previous knowledge is required.
+<br>We show how to achieve all of the three points above in selected languages, answering the following key questions:</p>
+
+<p class="description"></p>
+<ul>
+<br><li>Which language features make drivers better? Do they cost performance?</li>
+<br><li>Does the language need some stubs in C? Does it need code tagged as unsafe (Rust, C#)? How many lines of C or unsafe code are required?
+<br>
+</li>
+<br><li>How does it compare to similar projects? For example, our OCaml driver vs. MirageOS (which is completely different!)</li>
+<br><li>What does it mean to have a garbage collector in driver code? (latency spikes?!)</li>
+<br><li>How well can we isolate the driver? (IOMMU, dropping privileges)</li>
+<br>
+</ul>
+
+<p class="description">Another thing to take away from this talk is: writing drivers is neither scary nor hard. You can write one in your favorite programming language, so go ahead and try that :)
+</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2018/Fahrplan/schedule/3.html">2018-12-29</a>
+<br>
+<b>Start time:</b>
+12:50
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+Dijkstra
+<br>
+<b>Track:</b>
+<font class="event track-resilience">
+<a href="/congress/2018/Fahrplan/events.html#resilience">Resilience</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2018/Fahrplan/events/9670.ics">iCalendar</a></li>
+<li><a href="https://media.ccc.de/v/34c3-9159-demystifying_network_cards">Talk about the basics of user space drivers</a></li>
+<li><a href="https://github.com/ixy-languages/ixy-languages">Project page on GitHub with further links</a></li>
+</ul>
+<h3>Feedback</h3>
+<p>
+<a href="https://frab.cccv.de/en/35c3/public/events/9670/feedback/new">Click here to let us know how you liked this event.</a>
+</p>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent Events</h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2018/Fahrplan/system/people/avatars/000/007/808/small/gravatar.jpeg"></div></td>
+<td><a href="/congress/2018/Fahrplan/speakers/7808.html">Paul Emmerich</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img src="/congress/2018/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png"></div></td>
+<td><a href="/congress/2018/Fahrplan/speakers/8772.html">Simon Ellmann</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Safe and Secure Drivers in High-Level Languages",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Dijkstra",
+    "address" : "35th Chaos Communication Congress"
+  },
+  "startDate" : "2018-12-29T12:50:00+0100",
+  "endDate" : "2018-12-29T13:50:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Paul Emmerich&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/35c3/public/speakers/7808&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/007/808/small/gravatar.jpeg?1508016680&quot;},{&quot;name&quot;:&quot;Simon Ellmann&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/35c3/public/speakers/8772&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/35c3/public/schedule",
+    "name" : "35th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "35th Chaos Communication Congress",
+      "address" : "35th Chaos Communication Congress"
+    },
+    "startDate" : "2018-12-27T11:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

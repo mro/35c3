@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 35th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2018/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2018/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2018/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 35th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2018/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/1.html">
+Thursday
+ - 
+<span class="small-font">2018-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/2.html">
+Friday
+ - 
+<span class="small-font">2018-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/3.html">
+Saturday
+ - 
+<span class="small-font">2018-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/4.html">
+Sunday
+ - 
+<span class="small-font">2018-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/timeline.html">timeline</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/booklet.html">book</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Airwolf</p>
+<h2>Lecture: Inside the AMD Microcode ROM</h2>
+<h3 class="title">(Ab)Using AMD Microcode for fun and security</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2018/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png"></div>
+<p class="abstract">Microcode runs in most modern CPUs and translates the outer instruction set (e.g. x86) into a simpler form (usually a RISC architecture). It is updatable to fix bugs in the silicon (see Meltdown/Spectre), but these updates are encrypted and signed, so no one knows how microcode works on conventional CPUs. We successfully reverse engineered part of the microde semantics of AMD CPUs and are able to write our own programs. We also recovered the mapping between the physical readout (electron microscope) and the "virtual" addresses used by microcode itself. In this talk we present background on microcode, our findings, our open source framework to write custom microcode and our custom defensive measures implemented in microcode.
+</p>
+<p class="description">We build on our results presented on 34C3 to provide more insight into how microcode works and more details of the microcode ROM itself.</p>
+
+<p class="description">tl;dr diff to last talk:
+<br>- Mapped physical readout to virtual addresses, we can now read the microcode implementation of specfic instructions
+<br>- More microcode semantics known, more stable programs
+<br>- Opensource framework for creating, diassembling and testing microcode on AMD CPUs
+<br>- Simple hardware setup to develop microcode programs
+<br>- More practical examples of what you can do with microcode, focused on defense instead of offense this time</p>
+
+<p class="description">Since 34C3 we worked on recovering the microcode ROM completely and used that knowledge to implement constructive microcode programs that add to or enhance functionality of the CPU. We also worked on our now open source framework to create and diassemble microcode for AMD CPUs up to 2013. We will give a short intro into how to use it to create custom microcode programs and test them on real hardware. We also provide guidelines on how to construct the test setup we used, which is essentially any old AMD mainboard (native serial port required), a RaspberryPi with a serial adapter and some wiring including a few basic electronic components. Using this you can remotely and automatically test any number of microcode updates and it is integrated in our framework.</p>
+
+<p class="description">On the microcode program side we will show how to hijack microcoded instructions to replace them with new semantics, for example reviving the good-old BOUND x86 instruction. We also show how to roll your own microcode update verification scheme, so only trusted and signed updates can be loaded on vulnerable CPUs.</p>
+
+<p class="description">Additionally we will provide some implementation details found in the microcode ROM and show how it is used to implement complex functions like the instruction WRMSR, which among other functions is used to update the microcode.</p>
+
+<p class="description">We will start with a crash-course covering fundamentals related to instruction decoding, CPU architecture and microcode principles. We will then present our new insights and finish with a demo of how our framework works.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2018/Fahrplan/schedule/1.html">2018-12-27</a>
+<br>
+<b>Start time:</b>
+23:50
+<br>
+<b>Duration:</b>
+00:40
+<br>
+<b>Room:</b>
+Borg
+<br>
+<b>Track:</b>
+<font class="event track-security">
+<a href="/congress/2018/Fahrplan/events.html#security">Security</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2018/Fahrplan/events/9614.ics">iCalendar</a></li>
+<li><a href="https://media.ccc.de/v/34c3-9058-everything_you_want_to_know_about_x86_microcode_but_might_have_been_afraid_to_ask">Our 34C3 talk on microcode</a></li>
+<li><a href="https://www.syssec.rub.de/research/publications/constructive-microcode/">Paper with our new insights, to-be-presented on CCS 2018</a></li>
+<li><a href="https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/koppe">Original microcode paper and corresponding talk</a></li>
+<li><a href="https://github.com/RUB-SysSec/Microcode">Github project - to be updated</a></li>
+</ul>
+<h3>Feedback</h3>
+<p>
+<a href="https://frab.cccv.de/en/35c3/public/events/9614/feedback/new">Click here to let us know how you liked this event.</a>
+</p>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent Events</h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2018/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png"></div></td>
+<td><a href="/congress/2018/Fahrplan/speakers/7652.html">Benjamin Kollenda</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img src="/congress/2018/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png"></div></td>
+<td><a href="/congress/2018/Fahrplan/speakers/7984.html">Philipp Koppe</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Inside the AMD Microcode ROM",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Borg",
+    "address" : "35th Chaos Communication Congress"
+  },
+  "startDate" : "2018-12-27T23:50:00+0100",
+  "endDate" : "2018-12-28T00:30:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Benjamin Kollenda&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/35c3/public/speakers/7652&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;},{&quot;name&quot;:&quot;Philipp Koppe&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/35c3/public/speakers/7984&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/35c3/public/schedule",
+    "name" : "35th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "35th Chaos Communication Congress",
+      "address" : "35th Chaos Communication Congress"
+    },
+    "startDate" : "2018-12-27T11:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

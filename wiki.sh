@@ -2,11 +2,11 @@
 cd "$(dirname "${0}")"
 #
 # See
-# - https://events.ccc.de/congress/2017/wiki/Static:Crawling
-# - https://github.com/mro/34c3/
+# - https://events.ccc.de/congress/2018/wiki/Static:Crawling
+# - https://github.com/mro/35c3/
 #
 
-USER_AGENT="https://mro.github.io/34c3"
+USER_AGENT="https://mro.github.io/35c3"
 
 dir=wiki
 
@@ -21,7 +21,7 @@ for page in \
   "Static:Self-organized_Sessions" \
   Static:Design
 do
-  url="https://events.ccc.de/congress/2017/${dir}/${page}"
+  url="https://events.ccc.de/congress/2018/${dir}/${page}"
   dst="${dir}/${page}/index.html"
   curl --silent --create-dirs --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     echo "postproc ${url}"
@@ -31,13 +31,13 @@ done
 for css in \
   "mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.skinning.interface%7Cmediawiki.ui.button%7Cskins.vector.styles"
 do
-  url="https://events.ccc.de/congress/2017/wiki/load.php?debug=false&amp;lang=en&amp;modules=${css}*&amp;only=styles&amp;skin=vector&amp;*"
+  url="https://events.ccc.de/congress/2018/wiki/load.php?debug=false&amp;lang=en&amp;modules=${css}*&amp;only=styles&amp;skin=vector&amp;*"
   dst="${dir}/${css}.css"
   curl --silent --create-dirs --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     echo "postproc ${url}"
   }
   sed -i -e "s|https://events.ccc.de/|/|g" "${dir}"/*/*.html
-  sed -i -e "s|/congress/2017/${dir}/|../|g" "${dir}"/*/*.html
+  sed -i -e "s|/congress/2018/${dir}/|../|g" "${dir}"/*/*.html
 
   sed -i -e "s|${url}|../${css}.css|g" "${dir}"/*/*.html
 done

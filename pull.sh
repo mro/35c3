@@ -2,30 +2,30 @@
 cd "$(dirname "${0}")"
 #
 # See
-# - https://events.ccc.de/congress/2017/wiki/Static:Crawling
-# - https://github.com/mro/34c3/
+# - https://events.ccc.de/congress/2018/wiki/Static:Crawling
+# - https://code.mro.name/mro/35c3/
 #
 
-USER_AGENT="https://mro.github.io/34c3"
+USER_AGENT="https://mro.github.io/35c3"
 dir=Fahrplan
 
 # url="https://${dir}.events.ccc.de/congress/2015/${dir}/version"
-url="https://${dir}.events.ccc.de/congress/2017/${dir}/version"
+url="https://${dir}.events.ccc.de/congress/2018/${dir}/version"
 dst="${dir}.version"
 
 {
-  curl --output "${dir}/schedule.xml" --location https://fahrplan.events.ccc.de/congress/2017/${dir}/schedule.xml
+  curl --output "${dir}/schedule.xml" --location https://fahrplan.events.ccc.de/congress/2018/${dir}/schedule.xml
   {
     echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
     fgrep -v "<?xml version=" "${dir}/schedule.xml"
   } | xmllint --output "${dir}"/schedule2.xml --relaxng assets/schedule.rng --format --encode utf-8 -
-  sed -i -e "s|<url>https://fahrplan.events.ccc.de/congress/2017/Fahrplan/events/|<url>./events/|g" "${dir}"/schedule2.xml
+  sed -i -e "s|<url>https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/|<url>./events/|g" "${dir}"/schedule2.xml
 }
 
 for evt in $(fgrep '<url>' Fahrplan/schedule2.xml | cut -c 16-26 | sort)
 do 
   dst_evt="${dir}/${evt}.html"
-  url_evt="https://fahrplan.events.ccc.de/congress/2017/${dst_evt}"
+  url_evt="https://fahrplan.events.ccc.de/congress/2018/${dst_evt}"
 	echo "${url_evt}"
   curl --max-time 3 --create-dirs --location --remote-time --time-cond "${dst_evt}" --output "${dst_evt}" "${url_evt}"
 done
@@ -37,8 +37,8 @@ curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --
   curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     rm -rf "${dir}"
     tar -xzf "${dst}" && mv 34c3 "${dir}"
-    sed -i -e "s:/congress/2017/${dir}/:./:g" "${dir}"/*.html
-    sed -i -e "s:/congress/2017/${dir}/:../:g" "${dir}"/*/*.html
+    sed -i -e "s:/congress/2018/${dir}/:./:g" "${dir}"/*.html
+    sed -i -e "s:/congress/2018/${dir}/:../:g" "${dir}"/*/*.html
 
     {
       echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
@@ -56,7 +56,7 @@ curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --
 for part in everything workshops
 do
   dst="${dir}/${part}.schedule.xml"
-  url="https://${dir}.events.ccc.de/congress/2017/${dst}"
+  url="https://${dir}.events.ccc.de/congress/2018/${dst}"
   curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     {
       echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
@@ -74,7 +74,7 @@ git add . && git commit -a -m '🚀'
 dir="wiki"
 
 # url="https://events.ccc.de/congress/2015/${dir}/version"
-url="https://events.ccc.de/congress/2017/${dir}/version"
+url="https://events.ccc.de/congress/2018/${dir}/version"
 dst="${dir}.version"
 
 curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {

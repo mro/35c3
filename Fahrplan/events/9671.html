@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Schedule 35th Chaos Communication Congress</title>
+<link rel="stylesheet" media="screen" href="/congress/2018/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2018/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2018/Fahrplan/public_schedule_print.css">
+</head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 35th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2018/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/1.html">
+Thursday
+ - 
+<span class="small-font">2018-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/2.html">
+Friday
+ - 
+<span class="small-font">2018-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/3.html">
+Saturday
+ - 
+<span class="small-font">2018-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/schedule/4.html">
+Sunday
+ - 
+<span class="small-font">2018-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/timeline.html">timeline</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/booklet.html">book</a>
+</li>
+<li>
+<a href="/congress/2018/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version Airwolf</p>
+<h2>Lecture: Self-encrypting deception</h2>
+<h3 class="title">weaknesses in the encryption of solid state drives (SSDs)</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2018/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png"></div>
+<p class="abstract"></p>
+<p>We have analyzed the hardware full-disk encryption implementation of several Self-Encrypting Drives (SEDs) from Samsung and Crucial (Micron) by reverse engineering their firmwares. The vendors combined cover a majority of the market share of SEDs sold today.</p>
+
+<p class="abstract"></p>
+<p>In theory, the security guarantees offered by hardware encryption are similar to those of software implementations. In reality, we found that many hardware implementations have critical security weaknesses, for many models allowing for complete recovery of the data without knowledge of any secret.</p>
+
+<p class="abstract"></p>
+<p>BitLocker, the encryption software built into Microsoft Windows will rely exclusively on hardware full-disk encryption if the drive advertises supported for it. Thus, for these drives, data protected by BitLocker is also compromised.</p>
+
+<p class="abstract"></p>
+<p>This challenges the view that full-disk encryption implemented in hardware is preferable over software. We conclude that one should not rely solely on hardware encryption offered by SEDs.</p>
+<p class="description"></p>
+<p>In recent years, protection of sensitive data has received increased attention.
+<br>Protection of digital data has become a necessity, certainly in the light of new European Data Protection Regulation. Technically, encryption is the go to protection mechanism; it may be implemented in software or hardware (or both). It can be applied on the level of individual files, or the entire drive, which is called full-disk encryption. Full-disk encryption is often the solution of choice as it takes away concerns of sensitive data leakage through, for example, temporary files, page files and caches. Several software solutions for full-disk encryption exist, and modern operating systems typically integrate it as a feature. However, purely software-based encryption has inherent weaknesses, such as the encryption key being present in RAM at all times and performance drawbacks.</p>
+
+<p class="description"></p>
+<p>In an attempt to address these weaknesses, hardware full-disk encryption is often proposed; the encryption is performed within the drive itself, thereby confining the encryption key exclusively to the drive. Typically, the encryption itself is performed by a dedicated AES co-processor, whereas the software on the drive (firmware) takes care of the key management. It is often regarded as the successor of software full-disk encryption. Full-disk encryption software, including those integrated in modern operating systems, may autonomously decide to rely solely on hardware encryption in case it is supported by the storage device (via the TCG Opal standard). In case the decision is made to rely on hardware encryption, software encryption is disabled. In fact, BitLocker, the full-disk encryption software built into Microsoft Windows, switches off software encryption and completely relies on hardware encryption by default if the drive advertises support.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2018/Fahrplan/schedule/3.html">2018-12-29</a>
+<br>
+<b>Start time:</b>
+14:10
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+Dijkstra
+<br>
+<b>Track:</b>
+<font class="event track-security">
+<a href="/congress/2018/Fahrplan/events.html#security">Security</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2018/Fahrplan/events/9671.ics">iCalendar</a></li>
+<li><a href="http://www.cs.ru.nl/~cmeijer/">Author homepage</a></li>
+<li><a href="https://www.ru.nl/english/news-agenda/news/vm/icis/cyber-security/2018/radboud-university-researchers-discover-security/">Public Statement</a></li>
+</ul>
+<h3>Files</h3>
+<ul>
+<li><a href="/congress/2018/Fahrplan/system/event_attachments/attachments/000/003/616/original/draft-paper_1.pdf">Draft Paper</a></li>
+</ul>
+<h3>Feedback</h3>
+<p>
+<a href="https://frab.cccv.de/en/35c3/public/events/9671/feedback/new">Click here to let us know how you liked this event.</a>
+</p>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent Events</h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2018/Fahrplan/system/people/avatars/000/008/308/small/IMG_20170722_000323.jpg"></div></td>
+<td><a href="/congress/2018/Fahrplan/speakers/8308.html">Carlo Meijer</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="span16">
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Self-encrypting deception",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Dijkstra",
+    "address" : "35th Chaos Communication Congress"
+  },
+  "startDate" : "2018-12-29T14:10:00+0100",
+  "endDate" : "2018-12-29T15:10:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Carlo Meijer&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/35c3/public/speakers/8308&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/008/308/small/IMG_20170722_000323.jpg?1538581620&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/35c3/public/schedule",
+    "name" : "35th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "35th Chaos Communication Congress",
+      "address" : "35th Chaos Communication Congress"
+    },
+    "startDate" : "2018-12-27T11:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>
