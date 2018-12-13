@@ -154,19 +154,21 @@ Are we doomed?  Perhaps not.  This talk will highlight the sorry state of the ar
         <language>en</language>
         <abstract>&lt;a href="https://www.sigfox.com/"&gt;Sigfox&lt;/a&gt; is an emerging low-power wide-area network (LP-WAN) technology for IoT devices, comparable to &lt;a href="https://lora-alliance.org/"&gt;LoRa&lt;/a&gt;.
 
-This talk recounts my reverse engineering work on Sigfox's radio protocol and presents an open reference implementation of an alternative Sigfox protocol stack.
+This talk recounts my analysis of Sigfox's radio protocol and presents an open reference implementation of an alternative Sigfox protocol stack.
 
-It confirms that while Sigfox ensures authenticity and integrity, transmitted payloads are not confidential.</abstract>
+It confirms that while Sigfox ensures authenticity and integrity, transmitted payloads are not confidential.
+
+This presentation is targeted at a technical audience with some basic knowledge of cryptography (security goals, AES), but &lt;b&gt;no&lt;/b&gt; knowledge in RF technology (modulation, scrambling, error correction) is required.</abstract>
         <description>&lt;p&gt;Sigfox can be compared to a cellular network, but for mostly battery-powered IoT devices that don't need to transmit much data. While &lt;a href="https://www.etsi.org/deliver/etsi_gs/LTN/001_099/003/01.01.01_60/gs_LTN003v010101p.pdf"&gt;some&lt;/a&gt; &lt;a href="https://www.sigfox.com/en/sigfox-iot-technology-overview"&gt;sparse&lt;/a&gt; &lt;a href="https://tools.ietf.org/html/draft-zuniga-lpwan-sigfox-system-description-04"&gt;details&lt;/a&gt; on Sigfox's architecture and &lt;a href="https://www.sigfox.com/sites/default/files/1701-SIGFOX-White_Paper_Security.pdf"&gt;its security&lt;/a&gt; have been published and &lt;a href="https://www.disk91.com/2017/technology/sigfox/the-sigfox-radio-protocol/"&gt;some basic reverse engineering has been carried out&lt;/a&gt;, most of the protocol specifications remain proprietary and closed, so by now, no independent security audit was performed. Advertised use cases of Sigfox include air quality monitoring, weather stations, utilities metering and tracking farm animals. In this talk, I illustrate why these applications are fine, but why one might not want to track a money transporter with Sigfox or base a home alarm system on it.&lt;/p&gt;
 
 &lt;p&gt;The Sigfox network is very atypical, with uplink and downlink based on different physical layers.
 After a short introduction, I begin the presentation by taking a deep dive into Sigfox's radio protocol with a focus on its Security. Basics of radio technology (SDRs, ultra-narrow band (UNB) modulation, SRD bands) and techniques for analyzing protocols are briefly summarized and the uplink's and downlink's frame structures are presented.&lt;/p&gt;
 
-&lt;p&gt;Subsequently, I show how a radio sniffer that has captured Sigfox messages can extract the uplink's and downlink's contents. While the uplink's payload is already contained in plaintext, the downlink is scrambled, but I demonstrate how the downlink's pseudorandom whitening sequence used for scrambling can be generated or brute-forced by an eavesdropper. Moreover, I outline attacks that could even compromise Sigfox's authenticity checking.&lt;/p&gt;
+&lt;p&gt;Subsequently, I show how a radio sniffer that has captured Sigfox messages can extract the uplink's and downlink's contents. While the uplink's payload is already contained in plaintext, the downlink is scrambled, but I indicate how the downlink's pseudorandom whitening sequence used for scrambling can be generated or brute-forced by an eavesdropper. Moreover, I outline attacks that could even compromise Sigfox's authenticity checking.&lt;/p&gt;
 
 &lt;p&gt;Finally, I provide some suggestions on how to improve Sigfox's security.&lt;/p&gt;
 
-&lt;p&gt;The alternative Sigfox protocol stack &amp;quot;librenard&amp;quot; that was created as part of this work as well as reconstructed protocol specifications will be published immediately after this talk (this might be subject to change as long as the responsible disclosure negotiations with Sigfox are still in progress).&lt;/p&gt;</description>
+&lt;p&gt;The reference implementation of an alternative Sigfox protocol stack &amp;quot;librenard&amp;quot; that was created as part of this work as well as reconstructed protocol specifications detailing the uplink and significant portions of the downlink protocol will be published immediately after this talk.&lt;/p&gt;</description>
         <logo>/system/events/logos/000/009/491/large/logo.svg.png?1538557991</logo>
         <persons>
           <person id="8179">F.</person>
@@ -220,7 +222,7 @@ After a short introduction, I begin the presentation by taking a deep dive into 
         <type>lecture</type>
         <language>de</language>
         <abstract>Die Venenerkennung ist eine der letzten Bastionen biometrischer Systeme, die sich bisher der Eroberung durch Hacker widersetzt hat. Dabei ist sie ein lohnendes Ziel, schützt sie doch Bankautomaten und Hochsicherheitsbereiche. In diesem Talk machen wir die Verteidigungsanlagen dem Erdboden gleich.</abstract>
-        <description>Seit Jahrzehnten vor allem im asiatischen Raum eingesetzt sind bisher keine ernsthaften Versuche bekannt Venenerkennungssysteme zu üeberwinden. Neben dem Mythos der Hochsicherheit sind vor allem die, unsichtbar im Körper gelegenen Merkmale dafür verantwortlich. In diesem Talk werden wir zeigen, mit welch geringem Aufwand man an die "versteckten" Venenbilder gelangen kann. Anhand von Systemen der beiden grossen Hersteller zeigen wir weiterhin, wie einfach auch der Attrappenbau ist.  </description>
+        <description>Seit Jahrzehnten vor allem im asiatischen Raum eingesetzt sind bisher keine ernsthaften Versuche bekannt Venenerkennungssysteme zu üeberwinden. Neben dem Mythos der Hochsicherheit sind vor allem die, unsichtbar im Körper gelegenen Merkmale dafür verantwortlich. In diesem Talk werden wir zeigen, mit welch geringem Aufwand man an die "versteckten" Venenbilder gelangen kann und wie, auf Grundlage dieser, Attrappen gebaut werden können, welche die Systeme der beider grosser Hersteller überwinden.</description>
         <logo/>
         <persons>
           <person id="1623">starbug</person>
@@ -2012,7 +2014,8 @@ Finally, a solution to the security dilemma of using affected smart devices is o
           <person id="8478">Michael Steigerwald</person>
         </persons>
         <links>
-</links>
+          <link href="https://www.vtrust.de/35c3">Smart Home Smart Hack</link>
+        </links>
         <attachments>
 </attachments>
       </event>
@@ -2188,14 +2191,19 @@ In diesen Rollen erlebe ich so manches Abenteuer.</description>
         <type>lecture</type>
         <language>en</language>
         <abstract>Lightning Talks are short lectures (almost) any congress participant may give! Bring your infectious enthusiasm to an audience with a short attention span! Discuss a program, system or technique! Pitch your projects and ideas or try to rally a crew of people to your party or assembly! Whatever you bring, make it quick!</abstract>
-        <description>Lightning Talks are short lectures (almost) any congress participant may give! Bring your infectious enthusiasm to an audience with a short attention span! Discuss a program, system or technique! Pitch your projects and ideas or try to rally a crew of people to your party or assembly! Whatever you bring, make it quick!</description>
+        <description>Did you think that the thrill of sharing your ideas in front of a huge audience at a C3 was something you'd never experience? Do you work on a cool project and want to get the word out? Was your talk one of the hundreds that got rejected? Did you come up with an awesome hack that you need to share? Go ahead and enter your Lightning Talk now!
+
+The 35C3 Lightning Talks consist of three fast paced sessions which are perfect for pitching new software or hardware projects, exploits, creative pranks or strange ideas you need to get out to a global audience. Even if you don't have an awesome idea or project to share, a Lightning Talk is perfect for pitching your Assembly, your workshop or even a longer talk you'll give as a self-organized session. Your five minutes of fame!
+
+For registration and schedule info, please check out https://c3lt.de/35c3</description>
         <logo>/system/events/logos/000/009/566/large/yG2ahUfL_400x400.jpg?1543064858</logo>
         <persons>
           <person id="5263">gedsic</person>
           <person id="4601">bigalex</person>
         </persons>
         <links>
-</links>
+          <link href="https://c3lt.de/35c3">Registration and schedule</link>
+        </links>
         <attachments>
 </attachments>
       </event>
@@ -2630,23 +2638,23 @@ Previously developing for FPGAs has require getting giant closed source propriet
         <start>16:10</start>
         <duration>01:00</duration>
         <room>Clarke</room>
-        <slug>35c3-9775-the_discovery_of_the_sex_in_medicine</slug>
+        <slug>35c3-9775-how_medicine_discovered_sex</slug>
         <url>./events/9775.html</url>
         <recording>
           <license/>
           <optout>false</optout>
         </recording>
-        <title>The discovery of the sex in medicine</title>
+        <title>How medicine discovered sex</title>
         <subtitle>Introduction to sex- and gender-sensitive medicine</subtitle>
         <track>Science</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>Men with osteoporosis or depression, women with heartattacks - these are examples of diseases where medicine still shows a gender bias. Assuming that men and women have the same bodies, except when it comes to the reproductive organs still causes maltreatment up to death. In the past few years sex- and gender-sensitive medicine has discovered that the assumption of the same body has lead to the unnecessary death of patients and needs to be challenged.
+        <abstract>Men with osteoporosis or depression, women with heart attacks - these are examples of diseases where medicine still shows a gender bias. Assuming that men and women have the same bodies, except when it comes to the reproductive organs still causes maltreatment up to death. In the past few years sex- and gender-sensitive medicine has discovered that the assumption of the same body has lead to the unnecessary death of patients and needs to be challenged.
 This is a brief introduction into the paradigm shifting realm of sex- and gender-sensitive medicine showing how and where the sexes differ, that there are actually more than two sexes and that your gender also plays a role in how you are being treated by medical professionals.</abstract>
         <description/>
         <logo/>
         <persons>
-          <person id="4092">Sophie Hiltner</person>
+          <person id="4092">Sarah Hiltner</person>
         </persons>
         <links>
 </links>
@@ -2899,122 +2907,75 @@ This is very participatory, not just "sit and listen", and workshops are even mo
 Workshop &amp; volunteer signup: &lt;a href="https://s.ai/ccc/ws"&gt;https://s.ai/ccc/ws&lt;/a&gt;
 Tag plz: #BlindNavigation @saizai #35c3</abstract>
         <description>&lt;h2&gt;Talk&lt;/h2&gt;
-
-&lt;b&gt;This talk is &lt;i&gt;not&lt;/i&gt; the same on video as in person. Come in person if you can.&lt;/b&gt;
-
-A few things I'll cover require a cane, but the vast majority are sensory input that you already have, and you simply don’t realize or pay attention to.
-
-This will also (briefly) cover how and how not to interact with a blind person on the street, cognitive shifts from perceiving the world as a blind person, real vs myth difficulties, etc.
-
-This talk is specifically focused on navigation and sensory experience. It won't cover Braille, computers, general life skills, medical/legal issues, or the like.
-
-
-After you attend, I'd greatly appreciate your feedback: https://s.ai/ccc/fb.  If you post about it, I'd appreciate if you use gender neutral pronouns for me, and tag me (saizai) or send me a link.
-
-
+&lt;p&gt;&lt;b&gt;This talk is &lt;i&gt;not&lt;/i&gt; the same on video as in person. Come in person if you can.&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;A few things I'll cover require a cane, but the vast majority are sensory input that you already have, and you simply don’t realize or pay attention to.&lt;/p&gt;
+&lt;p&gt;This will also (briefly) cover how and how not to interact with a blind person on the street, cognitive shifts from perceiving the world as a blind person, real vs myth difficulties, etc.&lt;/p&gt;
+&lt;p&gt;This talk is specifically focused on navigation and sensory experience. It won't cover Braille, computers, general life skills, medical/legal issues, or the like.&lt;/p&gt;
+&lt;p&gt;After you attend, I'd greatly appreciate your feedback: &lt;a href="https://s.ai/ccc/fb"&gt;https://s.ai/ccc/fb&lt;/a&gt;. If you post about it, I'd appreciate if you use gender neutral pronouns for me, and tag me (saizai) or send me a link.&lt;/p&gt;
 &lt;h3&gt;Participation&lt;/h3&gt;
-
-The talk is applied and participatory, not just abstract. I want you to actually experience what I discuss, so that you have a genuine qualitative sense of what it is like to navigate the world while blind.
-
-You will have a better experience if you are totally sober, don't have arms or head covered, &amp; have used the toilet beforehand.
-
-Some things you may be asked to do:
-&lt;ul&gt;
+&lt;p&gt;The talk is applied and participatory, not just abstract. I want you to actually experience what I discuss, so that you have a genuine qualitative sense of what it is like to navigate the world while blind.&lt;/p&gt;
+&lt;p&gt;You will have a better experience if you are totally sober, don't have arms or head covered, &amp; have used the toilet beforehand.
+&lt;p&gt;Some things you may be asked to do: &lt;ul&gt;
 &lt;li&gt;make a single synchronized clap, to generate a sonic ping of the room&lt;/li&gt;
 &lt;li&gt;listen carefully to the timing differences of echos&lt;/li&gt;
 &lt;li&gt;stand up / sit down&lt;/li&gt;
 &lt;li&gt;feel air currents&lt;/li&gt;
 &lt;li&gt;put the back of your hand near the face of the person sitting next to you (&amp; vice versa), feeling for heat changes &amp; air currents&lt;/li&gt;
 &lt;li&gt;come up to the stage when asking questions, so that you can get on stage if that would be helpful for me to demonstrate an answer for you directly&lt;/li&gt;
-&lt;/ul&gt;
-
-Participation in these is strictly optional. It's totally OK if you don't want to (e.g. comfort, disability, not wanting to be on camera, etc), and you don't need to justify it. I'll ask for indications of consent or opt-out. However, participating will very significantly improve your experience and how much you'll learn.
-
-
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Participation in these is strictly optional. It's totally OK if you don't want to (e.g. comfort, disability, not wanting to be on camera, etc), and you don't need to justify it. I'll ask for indications of consent or opt-out. However, participating will very significantly improve your experience and how much you'll learn.&lt;/p&gt;
 &lt;h2&gt;Workshops&lt;/h2&gt;
-
-The talk will try to cover as much as can be done without direct experience. However, there's a huge qualitative difference between simply hearing me talk about it and experiencing it for yourself. Therefore, I am also running hands-on, 1-hour workshops (approx. 2 per day, TBD).
-
-Workshop participants will be blindfolded, given a guide cane, and led through a crash course in how to use and perceive the cues that are discussed in the talk, and an additional Q&amp;A / debriefing session afterwards. This starts from simply walking along a straight path, and quickly escalates to hearing corridors, feeling walls at a (short) distance, etc.
-
-Workshop observers are welcome. I also need several volunteers to make this happen, so if you can, please do.
-
-
+&lt;p&gt;The talk will try to cover as much as can be done without direct experience. However, there's a huge qualitative difference between simply hearing me talk about it and experiencing it for yourself. Therefore, I am also running hands-on, 1-hour workshops (approx. 2 per day, TBD).&lt;/p&gt;
+&lt;p&gt;Workshop participants will be blindfolded, given a guide cane, and led through a crash course in how to use and perceive the cues that are discussed in the talk, and an additional Q&amp;A / debriefing session afterwards. This starts from simply walking along a straight path, and quickly escalates to hearing corridors, feeling walls at a (short) distance, etc.&lt;/p&gt;
+&lt;p&gt;Workshop observers are welcome. I also need several volunteers to make this happen, so if you can, please do.&lt;/p&gt;
 &lt;h3&gt;Workshop &amp; volunteer signup&lt;/h3&gt;
-
-&lt;a href="https://s.ai/ccc/ws"&gt;https://s.ai/ccc/ws&lt;/a&gt;
-
-
-&lt;h3&gt;Help wanted!&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;I need volunteers:
-&lt;ol&gt;
-&lt;li&gt;2 on stage (to demonstrate caning techniques, orientation, etc)&lt;/li&gt;
-&lt;li&gt;~2-10 during talk in audience (to walk and/or bike around the aisles to generate wind currents, hold an open cup of coffee / mate for smell, etc)&lt;/li&gt;
-&lt;li&gt;~10 to help run workshops so I can parallelize ~10 people at a time (not just 1-2)&lt;/li&gt;
-&lt;/ol&gt;
-
-If you can, please &lt;a href="https://s.ai/ccc/ws"&gt;volunteer&lt;/a&gt;. I'll train you on what needs to be done.
-&lt;/li&gt;
-
-&lt;li&gt;If you have:
-
-&lt;ul&gt;
-
+&lt;p&gt;&lt;a href="https://s.ai/ccc/ws"&gt;https://s.ai/ccc/ws&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Help wanted!&lt;/h2&gt;
+&lt;h3&gt;People&lt;/h3&gt;
+&lt;p&gt;I need volunteers:&lt;ol&gt;
+&lt;li&gt;on stage (general, e.g. as human obstacle, safety, slides-checker, demonstration partner, etc.)&lt;/li&gt;
+&lt;li&gt;on stage (aikido uke)&lt;/li&gt;
+&lt;li&gt;during talk, in audience (to walk and/or bike around the aisles to generate wind currents, hold an open cup of coffee / mate for smell, etc)&lt;/li&gt;
+&lt;li&gt;workshop assistants (requires training, preferably before 35C3 day 0)&lt;/li&gt;
+&lt;/ol&gt;&lt;/p&gt;
+&lt;p&gt;If you can, please &lt;a href="https://s.ai/ccc/ws"&gt;volunteer&lt;/a&gt;. I'll train you on what needs to be done.&lt;/p&gt;
+&lt;p&gt;&lt;li&gt;Please also &lt;a href="https://s.ai/contact"&gt;contact me&lt;/a&gt; if you:&lt;ul&gt;
+&lt;li&gt;are blind / visually impaired and a cane or guide dog user going to 35C3; or&lt;/li&gt;
+&lt;li&gt;would like to collaborate on blind navigation aids (e.g. cane-embedded compass).&lt;/li&gt;&lt;/p&gt;
+&lt;h3&gt;Stuff&lt;/h3&gt;
+&lt;p&gt;If you have:&lt;ul&gt;
 &lt;li&gt;to give:
 &lt;ul&gt;
-&lt;li&gt;a working Northpaw anklet you can part with;&lt;/li&gt;
-&lt;li&gt;ability to make custom eyeglass frames with zero light leakage;&lt;/li&gt;
+&lt;li&gt;a working Northpaw anklet you can part with&lt;/li&gt;
+&lt;li&gt;ability to make custom eyeglass frames with zero light leakage&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;to borrow:
-&lt;ul&gt;
+&lt;li&gt;to borrow:&lt;ul&gt;
 &lt;li&gt;long white guide canes&lt;/li&gt;
-&lt;li&gt;sections of tactile paving (bumps, grooves, etc used on the street for blind people);&lt;/li&gt;
-&lt;li&gt;sections of any random paving, flooring, tiles, carpet, etc;&lt;/li&gt;
-&lt;li&gt;martial arts / stunt safety style floor pads;&lt;/li&gt;
-&lt;li&gt;tactile or audio street crossing indicators;&lt;/li&gt;
-&lt;li&gt;fog machine;&lt;/li&gt;
-&lt;li&gt;laser that can emit as a flat plane; &lt;/li&gt;
-&lt;li&gt;binaural audio recording equipment; &lt;/li&gt;
-&lt;li&gt;hands-free 360° video recording equipment (&amp; editing capability);&lt;/li&gt;
+&lt;li&gt;sections of tactile paving (bumps, grooves, etc used on the street for blind people)&lt;/li&gt;
+&lt;li&gt;sections of any random paving, flooring, tiles, carpet, etc&lt;/li&gt;
+&lt;li&gt;tatami (aikido floor safety style)&lt;/li&gt;
+&lt;li&gt;tactile or audio street crossing indicators&lt;/li&gt;
+&lt;li&gt;dry ice &amp; a trough&lt;/li&gt;
+&lt;li&gt;laser that can emit as a flat plane&lt;/li&gt;
+&lt;li&gt;binaural audio recording equipment&lt;/li&gt;
+&lt;li&gt;hands-free 360° video recording equipment (&amp; editing capability)&lt;/li&gt;
 &lt;li&gt;… or anything similar&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;or if you:
-&lt;ul&gt;
-&lt;li&gt;are blind / visually impaired and a cane or guide dog user; or&lt;/li&gt;
-&lt;li&gt;could host me in Leipzig (incl. before &amp; after CCC — I have no Christmas / new year's plans yet);&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-... please contact me: &lt;a href="https://s.ai/contact"&gt;https://s.ai/contact&lt;/a&gt;
-&lt;/li&gt;
-
-&lt;li&gt;All workshops are free.
-
-Unfortunately, the equipment to run them is not, and I'm poor. If you can donate, it'd be appreciated.
-&lt;ul&gt;
-&lt;li&gt;Cash: in person&lt;/li&gt;
-&lt;li&gt;Bitcoin, BCH, Etherium &amp; Litecoin: &lt;a href="https://s.ai/btc"&gt;https://s.ai/btc&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PayPal: &lt;a href="https://s.ai/pp"&gt;https://s.ai/pp&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Google Pay: &lt;a href="https://pay.google.com/payments/home?#sendRequestMoney"&gt;https://pay.google.com/payments/home?#sendRequestMoney&lt;/a&gt; -&gt; saizai@gmail.com&lt;/li&gt;
-&lt;li&gt;Something else: get in touch&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-
+... please contact me: &lt;a href="https://s.ai/contact"&gt;https://s.ai/contact&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;Money&lt;/h3&gt;
+&lt;p&gt;All workshops are free.&lt;/p&gt;
+&lt;p&gt;Unfortunately, the equipment to run them is not (it costs a few hundred Euros), and I'm poor. If you can donate, it'd be appreciated: &lt;a href="https://s.ai/donate"&gt;https://s.ai/donate&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;About me&lt;/h2&gt;
-
-I'm part-time fully blind. See &lt;a href="https://s.ai/essays/interaction "&gt;https://s.ai/essays/interaction&lt;/a&gt; for tips on how to interact with me &amp; &lt;a href="https://s.ai/essays/blindness"&gt;https://s.ai/essays/blindness&lt;/a&gt; for background info.
-
-Website: &lt;a href="https://s.ai"&gt;https://s.ai&lt;/a&gt;
-Handle: saizai (Twitter/IRC/FB/G+/etc.).
-Email: ccc@s.ai
-DECT: 4724
-Signal/WhatsApp/Telegram +15103944724
-
-Gender neutral pronouns please.</description>
+&lt;p&gt;I do lots of things, e.g. conlanging (26C3), cognitive psychology (27C3), meditation (26C3 &amp; 27C3), civil rights litigation, government transparency, meta-politics, meta-law research, etc. See my wesite. &lt;a href="https://s.ai"&gt;https://s.ai&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I'm part-time fully blind. See &lt;a href="https://s.ai/essays/interaction"&gt;https://s.ai/essays/interaction&lt;/a&gt; for tips on how to interact with me &amp; &lt;a href="https://s.ai/essays/blindness"&gt;https://s.ai/essays/blindness&lt;/a&gt; for background info. In particular, please understand that blindness is not "what I do", and I'm going to hit my capacity for talking about it with the talk, Q&amp;A, and workshops. I always welcome feedback, collaborations, fellow-travelers, and press. Other than that, if you see me around Congress, let's please talk about something other than my blindness.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://s.ai/contact"&gt;Contact info:&lt;ul&gt;
+&lt;li&gt;Handle: saizai (Twitter/IRC/FB/G+/etc.)&lt;/li&gt;
+&lt;li&gt;Email: ccc@s.ai&lt;/li&gt;
+&lt;li&gt;DECT: 4724&lt;/li&gt;
+&lt;li&gt;Signal/WhatsApp/Telegram +15103944724&lt;/li&gt;
+&lt;/ul&lt;/p&gt;
+&lt;p&gt;Gender neutral pronouns please.&lt;/p&gt;</description>
         <logo/>
         <persons>
           <person id="4696">Sai</person>
@@ -3078,13 +3039,11 @@ It's used by educators, makers and professional hard- and software developers ar
         <track>Art &amp; Culture</track>
         <type>performance</type>
         <language>en</language>
-        <abstract>Never Forgetti is a didactic live gaming lecture about the deaths of female video game characters and how their framing prevents them from developing any agency to avert their fatal destiny. The performance investigates on power relationships between lecturer and audience to reflect on how models of subjugation work in media and our current social realities.</abstract>
-        <description>Never Forgetti &lt;br&gt;
+        <abstract>Never Forgetti &lt;br&gt;
 lecture performance, 2018 &lt;br&gt;
-multiplatform game, installation,
-soundtrack, strategy guide  &lt;br&gt;
-
-Never Forgetti is a portrait of passiveness and constructed womanhood within digital spheres. Story-telling has often favoured characters that innately represent (class-)privileges. The prominent, untarnished, white cis-male figure remains the perpetual focus and hero of most narratives. However, these narratives devote little or no attention to the dramatic sacrifices and deaths of women, who often only boost the hero’s exposure and victory. What happens to video game heroines after the credits? Do we simply forget about them? In a didactic live gaming lecture, Jenny Vorfahrt tells the story of video game history’s losers to remind us of their legacy and commemorate their loss, while in secret following her own mysterious agenda...</description>
+multiplatform game, &lt;br&gt;
+&lt;a id="hyper" href="https://soundcloud.com/imdrivingfast/sets/never-forgetti-ost"&gt; soundtrack &lt;/a&gt; &amp; &lt;a id="hyper" href="http://janberger.info/texts/nf_guide_web.pdf"&gt; strategy guide &lt;/a&gt; &lt;br&gt;</abstract>
+        <description>Never Forgetti is a didactic live gaming lecture about the deaths of female video game characters and how their normative framing prevents them from developing agency to avert their fatal destiny. The performance investigates on power relationships between lecturer and audience to reflect on how models of subjugation are established in media and our current social realities. Taking on the persona of Jenny Vorfahrt, a mysterious character that exists both outside and inside the gaming realm, I provide attendees with showcase of gameplay and theoretical knowledge about live and death of popular heroines, as well as the symbolism of classical game design. In reality, however, Jenny is pursuing her own secretive agenda...</description>
         <logo>/system/events/logos/000/009/526/large/SOUNDCLOUD.jpg?1539001057</logo>
         <persons>
           <person id="8363">JAN BERGER</person>
@@ -3529,7 +3488,11 @@ Erst dann können wir politischen Nebelkerzen wie "Selbst-Datenschutz", "Datenei
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>de</language>
-        <abstract>Der Kampf um Freiheit und Nachhaltigkeit im digitalen Raum wird auch in der Schweiz intensiver. Es gibt zwar Lichtblicke bei der Netzneutralität, doch gleichzeitig zeigen die neuen Gesetze zur Massenüberwachung Wirkung und  Netzsperren breiten sich aus. Der Kampf gegen E-Voting geht in die entscheidende Phase und das Urheberrecht soll unter amerikanischem Druck verschärft werden. Im Vortrag blicken wir auf das netzpolitische Jahr 2018 in der Schweiz zwischen Bodensee und Matterhorn zurück. Weiter zeigen wir, an welchen Schauplätzen wir im neuen Jahr besonders gefordert sein werden. Danach besteht die Möglichkeit für Fragen im Saal (Q&amp;A). Nach dem Vortrag laden wir dazu ein, die Diskussion im Bereich unsere Assembly fortzusetzen.</abstract>
+        <abstract>Der Kampf um Freiheit und Nachhaltigkeit im digitalen Raum wird auch in der Schweiz intensiver. Neue Gesetze zur Massenüberwachung zeigen Wirkung und  Netzsperren breiten sich aus. Der Kampf gegen E-Voting geht in die entscheidende Phase und das Urheberrecht soll unter amerikanischem Druck verschärft werden. Im Vortrag blicken wir auf das netzpolitische Jahr 2018 in der Schweiz zwischen Bodensee und Matterhorn zurück. Weiter zeigen wir, an welchen Schauplätzen wir im neuen Jahr besonders gefordert sein werden.
+
+Am Schluss besteht die Möglichkeit für Fragen im Saal (Q&amp;A).
+
+Nach dem Vortrag laden wir dazu ein, die Diskussion im Bereich unsere Assembly fortzusetzen.</abstract>
         <description>Wir werfen einen Blick in die nähere Vergangenheit und Zukunft der Netzpolitik in der Schweiz. Dafür greifen wir folgende Themen auf:
 
 &lt;strong&gt;Polizeistaat:&lt;/strong&gt;
@@ -3739,14 +3702,14 @@ Zunächst erläutere ich die notwendige Pegelsymmetrie des Downlinks (von der Mo
         <start>14:10</start>
         <duration>01:00</duration>
         <room>Adams</room>
-        <slug>35c3-9507-transparenz_mit_der_brechstange</slug>
+        <slug>35c3-9507-best_of_informationsfreiheit</slug>
         <url>./events/9507.html</url>
         <recording>
           <license/>
           <optout>false</optout>
         </recording>
-        <title>Transparenz mit der Brechstange</title>
-        <subtitle>Best of Informationsfreiheit</subtitle>
+        <title>Best of Informationsfreiheit</title>
+        <subtitle>Transparenz mit der Brechstange</subtitle>
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>de</language>
@@ -4036,14 +3999,19 @@ Also schnell anmelden!</description>
         <type>lecture</type>
         <language>en</language>
         <abstract>Lightning Talks are short lectures (almost) any congress participant may give! Bring your infectious enthusiasm to an audience with a short attention span! Discuss a program, system or technique! Pitch your projects and ideas or try to rally a crew of people to your party or assembly! Whatever you bring, make it quick!</abstract>
-        <description>Lightning Talks are short lectures (almost) any congress participant may give! Bring your infectious enthusiasm to an audience with a short attention span! Discuss a program, system or technique! Pitch your projects and ideas or try to rally a crew of people to your party or assembly! Whatever you bring, make it quick!</description>
+        <description>Did you think that the thrill of sharing your ideas in front of a huge audience at a C3 was something you'd never experience? Do you work on a cool project and want to get the word out? Was your talk one of the hundreds that got rejected? Did you come up with an awesome hack that you need to share? Go ahead and enter your Lightning Talk now!
+
+The 35C3 Lightning Talks consist of three fast paced sessions which are perfect for pitching new software or hardware projects, exploits, creative pranks or strange ideas you need to get out to a global audience. Even if you don't have an awesome idea or project to share, a Lightning Talk is perfect for pitching your Assembly, your workshop or even a longer talk you'll give as a self-organized session. Your five minutes of fame!
+
+For registration and schedule info, please check out https://c3lt.de/35c3</description>
         <logo>/system/events/logos/000/009/567/large/yG2ahUfL_400x400.jpg?1543064844</logo>
         <persons>
           <person id="5263">gedsic</person>
           <person id="4601">bigalex</person>
         </persons>
         <links>
-</links>
+          <link href="https://c3lt.de/35c3">Registration and schedule</link>
+        </links>
         <attachments>
 </attachments>
       </event>
@@ -4109,6 +4077,8 @@ It is unfortunate that the Vita was such a niche device, but we hope this talk w
           <link href="https://yifan.lu/2016/11/01/taihen-cfw-framework-for-ps-vita/">taiHEN CFW Framework (2016)</link>
           <link href="https://yifan.lu/2016/07/28/henkaku-vita-homebrew-for-everyone/">HENkaku Hack (2016)</link>
           <link href="https://yifan.lu/2013/09/10/why-hacking-the-vita-is-hard-or-a-history-of-first-hacks/">Why hacking the Vita is hard (2013)</link>
+          <link href="https://blog.xyz.is/2016/webkit-360.html">Exploiting WebKit on Vita 3.60</link>
+          <link href="https://blog.xyz.is/2018/enso.html">Ensō: A PS Vita bootloader exploit</link>
         </links>
         <attachments>
 </attachments>
@@ -4869,6 +4839,7 @@ Wir berichten vom Ablauf eines solchen Prozesses inklusive Anekdoten, weisen auf
         <logo/>
         <persons>
           <person id="8453">domenukk</person>
+          <person id="8782">Fabian Franzen</person>
         </persons>
         <links>
 </links>
@@ -5412,6 +5383,36 @@ We will present some challenges from this year's contest to give you an idea wha
         <attachments>
 </attachments>
       </event>
+      <event guid="36635330-55d6-4297-abcd-6d22fd2d22df" id="10037">
+        <date>2018-12-30T12:30:00+01:00</date>
+        <start>12:30</start>
+        <duration>00:40</duration>
+        <room>Adams</room>
+        <slug>35c3-10037-microtargeting_und_manipulation</slug>
+        <url>./events/10037.html</url>
+        <recording>
+          <license/>
+          <optout>false</optout>
+        </recording>
+        <title>Microtargeting und Manipulation</title>
+        <subtitle>Von Cambridge Analytica zur EU-Wahl</subtitle>
+        <track>Ethics, Society &amp; Politics</track>
+        <type>lecture</type>
+        <language>de</language>
+        <abstract>Die Möglichkeiten des Microtargetings, aber auch der Desinformation mit Hilfe von Werbeplattformen wie Facebook sind vielfältiger, als man vor dem Cambridge-Analytica-Skandal vielleicht vermutet hätte. Darauf wollen wir auch angesichts der anstehenden Wahlen in Europa einen Blick werfen.</abstract>
+        <description>Seit dem US-Präsidentschaftswahlkampf und dem Brexit-Entscheid sind Details ans Licht gekommen, wie politische Propaganda heute praktisch durchgeführt wird. Was die noch nicht einmal beendeten Untersuchungen bisher ergeben haben, wollen wir zusammenfassen. Denn dass sie mindestens dazu beitrugen, die Wahlergebnisse zu beeinflussen, ist nun  nachvollziehbar.
+
+Entsprechend werden in Brüssel derzeit Gegenmaßnahmen geplant, die die Wahlen zum Europäischen Parlament vor ungebetenen verdeckten Manipulationen schützen sollen. Aber halten sich die zur Wahl Stehenden selber an ihre Forderungen und Vorschläge?</description>
+        <logo>/system/events/logos/000/010/037/large/dollar.jpg?1544663679</logo>
+        <persons>
+          <person id="810">Ingo Dachwitz</person>
+          <person id="1630">Constanze Kurz</person>
+        </persons>
+        <links>
+</links>
+        <attachments>
+</attachments>
+      </event>
       <event guid="623fd999-d7dd-4fd8-896c-75e51a21df1e" id="9727">
         <date>2018-12-30T13:30:00+01:00</date>
         <start>13:30</start>
@@ -5560,14 +5561,19 @@ Last, we show a new attack where any Nexus 5 connecting to or being connected by
         <type>lecture</type>
         <language>en</language>
         <abstract>Lightning Talks are short lectures (almost) any congress participant may give! Bring your infectious enthusiasm to an audience with a short attention span! Discuss a program, system or technique! Pitch your projects and ideas or try to rally a crew of people to your party or assembly! Whatever you bring, make it quick!</abstract>
-        <description>Lightning Talks are short lectures (almost) any congress participant may give! Bring your infectious enthusiasm to an audience with a short attention span! Discuss a program, system or technique! Pitch your projects and ideas or try to rally a crew of people to your party or assembly! Whatever you bring, make it quick!</description>
+        <description>Did you think that the thrill of sharing your ideas in front of a huge audience at a C3 was something you'd never experience? Do you work on a cool project and want to get the word out? Was your talk one of the hundreds that got rejected? Did you come up with an awesome hack that you need to share? Go ahead and enter your Lightning Talk now!
+
+The 35C3 Lightning Talks consist of three fast paced sessions which are perfect for pitching new software or hardware projects, exploits, creative pranks or strange ideas you need to get out to a global audience. Even if you don't have an awesome idea or project to share, a Lightning Talk is perfect for pitching your Assembly, your workshop or even a longer talk you'll give as a self-organized session. Your five minutes of fame!
+
+For registration and schedule info, please check out https://c3lt.de/35c3</description>
         <logo>/system/events/logos/000/009/568/large/yG2ahUfL_400x400.jpg?1543064831</logo>
         <persons>
           <person id="5263">gedsic</person>
           <person id="4601">bigalex</person>
         </persons>
         <links>
-</links>
+          <link href="https://c3lt.de/35c3">Registration and schedule</link>
+        </links>
         <attachments>
 </attachments>
       </event>
@@ -5809,7 +5815,7 @@ VM used, typically in userspace, to power features like tcpdump filters. eBPF
 has an entirely different set of capabilities and instructions, with its
 primary goal being to serve as a JIT-able virtual machine instruction set that
 can be targeted by compilers of a memory-safe "restricted C" language. In
-the Linux kernel it has been applied to various different kernel features, from
+the Linux kernel BPF and eBPF have been applied to various different kernel features, from
 programmatic syscall filtering (for sandboxing) to performing efficient custom
 packet processing inline on the kernel's network data plane.
 
@@ -5922,6 +5928,67 @@ As of Summer and Fall 2018 he is traveling and lecturing with the Danish compose
         </persons>
         <links>
           <link href="https://docs.google.com/document/d/170R26_4n3uQ_tlhGEWZZbsWssnwz6441ndqEQDSah2U/edit?usp=sharing">Summary / Media</link>
+        </links>
+        <attachments>
+</attachments>
+      </event>
+      <event guid="52ce1398-fa9b-4bd3-aa9e-6a49a764ac2c" id="9343">
+        <date>2018-12-30T12:30:00+01:00</date>
+        <start>12:30</start>
+        <duration>00:40</duration>
+        <room>Eliza</room>
+        <slug>35c3-9343-court_in_the_akten</slug>
+        <url>./events/9343.html</url>
+        <recording>
+          <license/>
+          <optout>false</optout>
+        </recording>
+        <title>Court in the Akten</title>
+        <subtitle>OpenSchufa und OffeneGesetze</subtitle>
+        <track>Ethics, Society &amp; Politics</track>
+        <type>lecture</type>
+        <language>de</language>
+        <abstract>Private Unternehmen müssen nicht so transparent sein wie Behörden - selbst wenn sie sich wie Behörden benehmen. 
+Welche Mittel können wir nutzen, um trotzdem Lichts ins Dunkel der Konzerne zu bringen? Wir stellen zwei Projekte mit unterschiedlichen Herangehensweise vor: Zum einen OpenSchufa, das das Scoring-Verfahren der Schufa rekonstruieren soll und erste Ergebnisse vorstellen kann. Zum anderen OffeneGesetze, das alle Bundesgesetzblätter seit 1949 erstmals kostenfrei und zur freien Weiterverwendung bereitstellt und jetzt dafür möglicherweise verklagt wird.</abstract>
+        <description/>
+        <logo>/system/events/logos/000/009/343/large/logo-weiss.jpg?1536683965</logo>
+        <persons>
+          <person id="5605">Arne Semsrott</person>
+        </persons>
+        <links>
+          <link href="FragDenStaat.de">FragDenStaat</link>
+        </links>
+        <attachments>
+</attachments>
+      </event>
+      <event guid="663a4b68-bb0d-493d-826c-07c609883b86" id="10039">
+        <date>2018-12-30T13:30:00+01:00</date>
+        <start>13:30</start>
+        <duration>00:40</duration>
+        <room>Eliza</room>
+        <slug>35c3-10039-theater_und_quantenzeitalter</slug>
+        <url>./events/10039.html</url>
+        <recording>
+          <license/>
+          <optout>false</optout>
+        </recording>
+        <title> THEATER UND QUANTENZEITALTER</title>
+        <subtitle>„Die Parallelwelt“- Das Schauspiel Dortmund und die Digitalität</subtitle>
+        <track>Art &amp; Culture</track>
+        <type>lecture</type>
+        <language>de</language>
+        <abstract>Seit 2010 ist die Sehnsucht des Schauspiel Dortmund, ein gegenwärtiges und wagemutiges Schauspiel für ein Publikum des 21. Jahrhunderts zu schaffen, ein Volkstheater für die Digitale Moderne. Intendant Kay Voges, Videokünstler Mario Simon und Engineer Lucas Pleß berichten über Dortmunder Theaterarbeiten zum Menschsein im Digitalen Zeitalter, speziell über die Stückentwicklung "Die Parallelwelt", die im September 2018 am Berliner Ensemble und am Schauspiel Dortmund gleichzeitig Premiere hatte, sowie über die "Akademie für Digitalität und Theater", die 2020 in Dortmund gegründet werden soll. </abstract>
+        <description>Einen Theaterabend, der die Ränder des Erzählens auslotet und die Grenzen zwischen Theater, Film und Netz in Frage stellt: Im September 2018 hatte „Die Parallelwelt“ simultan am Schauspiel Dortmund und am Berliner Ensemble Premiere. Regisseur Kay Voges, Videokünstler Mario Simon und Software-Ingenieur Lucas Pleß vom Schauspiel Dortmund berichten über die Entwicklung eines Theaterabends, für den zwei Bühnen und zwei Zuschauerräume in zwei Städten in Echtzeit per Glasfaser verbunden sind. „Die Parallelwelt“ spielt mit der Vervielfältigung von Identitäten im Zusammenspiel mit dem Wandel von Bildern, die sich die menschliche Spezies zu dem Kosmos macht, dessen Teil sie ist – und mit Entgrenzung, Auflösungs-Alptraum und einer Neuzusammensetzung der Welt, wie wir sie kannten.
+
+„Die Parallelwelt“ ist die neueste Produktion zum Thema Menschsein im Digitalen Zeitalter vom Dortmunder Team um Kay Voges, das seit 2010 inhaltlich und formal an den Grenzen von Theater und Installation, Performance, Coding, Game und neuer Medienkunst forscht. Die Sehnsucht von „Deutschlands führendem Theaterlabor“ (DIE WELT): Ein gegenwärtiges und wagemutiges Schauspiel für ein Publikum des 21. Jahrhunderts, ein Volkstheater für die Digitale Moderne. Diese Forschungsreise wird ab 2020 intensiviert werden, wenn in Dortmund die neue „Akademie für Digitalität und Theater“ an den Start gehen soll.
+</description>
+        <logo/>
+        <persons>
+          <person id="8790">Anne-Kathrin Schulz</person>
+        </persons>
+        <links>
+          <link href="https://www.theaterdo.de/detail/event/die-parallelwelt/">"Parallelwelt" in Dortmund</link>
+          <link href="https://www.berliner-ensemble.de/inszenierung/die-parallelwelt">Parallelwelt in Berlin</link>
         </links>
         <attachments>
 </attachments>

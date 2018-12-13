@@ -72,9 +72,11 @@ Sunday
 <div class="image large"><img src="/congress/2018/Fahrplan/system/events/logos/000/009/491/large/logo.svg.png"></div>
 <p class="abstract"><a href="https://www.sigfox.com/">Sigfox</a> is an emerging low-power wide-area network (LP-WAN) technology for IoT devices, comparable to <a href="https://lora-alliance.org/">LoRa</a>.</p>
 
-<p class="abstract">This talk recounts my reverse engineering work on Sigfox's radio protocol and presents an open reference implementation of an alternative Sigfox protocol stack.</p>
+<p class="abstract">This talk recounts my analysis of Sigfox's radio protocol and presents an open reference implementation of an alternative Sigfox protocol stack.</p>
 
 <p class="abstract">It confirms that while Sigfox ensures authenticity and integrity, transmitted payloads are not confidential.</p>
+
+<p class="abstract">This presentation is targeted at a technical audience with some basic knowledge of cryptography (security goals, AES), but <b>no</b> knowledge in RF technology (modulation, scrambling, error correction) is required.</p>
 <p class="description"></p>
 <p>Sigfox can be compared to a cellular network, but for mostly battery-powered IoT devices that don't need to transmit much data. While <a href="https://www.etsi.org/deliver/etsi_gs/LTN/001_099/003/01.01.01_60/gs_LTN003v010101p.pdf">some</a> <a href="https://www.sigfox.com/en/sigfox-iot-technology-overview">sparse</a> <a href="https://tools.ietf.org/html/draft-zuniga-lpwan-sigfox-system-description-04">details</a> on Sigfox's architecture and <a href="https://www.sigfox.com/sites/default/files/1701-SIGFOX-White_Paper_Security.pdf">its security</a> have been published and <a href="https://www.disk91.com/2017/technology/sigfox/the-sigfox-radio-protocol/">some basic reverse engineering has been carried out</a>, most of the protocol specifications remain proprietary and closed, so by now, no independent security audit was performed. Advertised use cases of Sigfox include air quality monitoring, weather stations, utilities metering and tracking farm animals. In this talk, I illustrate why these applications are fine, but why one might not want to track a money transporter with Sigfox or base a home alarm system on it.</p>
 
@@ -83,13 +85,13 @@ Sunday
 <br>After a short introduction, I begin the presentation by taking a deep dive into Sigfox's radio protocol with a focus on its Security. Basics of radio technology (SDRs, ultra-narrow band (UNB) modulation, SRD bands) and techniques for analyzing protocols are briefly summarized and the uplink's and downlink's frame structures are presented.</p>
 
 <p class="description"></p>
-<p>Subsequently, I show how a radio sniffer that has captured Sigfox messages can extract the uplink's and downlink's contents. While the uplink's payload is already contained in plaintext, the downlink is scrambled, but I demonstrate how the downlink's pseudorandom whitening sequence used for scrambling can be generated or brute-forced by an eavesdropper. Moreover, I outline attacks that could even compromise Sigfox's authenticity checking.</p>
+<p>Subsequently, I show how a radio sniffer that has captured Sigfox messages can extract the uplink's and downlink's contents. While the uplink's payload is already contained in plaintext, the downlink is scrambled, but I indicate how the downlink's pseudorandom whitening sequence used for scrambling can be generated or brute-forced by an eavesdropper. Moreover, I outline attacks that could even compromise Sigfox's authenticity checking.</p>
 
 <p class="description"></p>
 <p>Finally, I provide some suggestions on how to improve Sigfox's security.</p>
 
 <p class="description"></p>
-<p>The alternative Sigfox protocol stack "librenard" that was created as part of this work as well as reconstructed protocol specifications will be published immediately after this talk (this might be subject to change as long as the responsible disclosure negotiations with Sigfox are still in progress).</p>
+<p>The reference implementation of an alternative Sigfox protocol stack "librenard" that was created as part of this work as well as reconstructed protocol specifications detailing the uplink and significant portions of the downlink protocol will be published immediately after this talk.</p>
 </div>
 <div class="column left" id="details">
 <h3>Info</h3>
