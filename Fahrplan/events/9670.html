@@ -67,7 +67,7 @@ Sunday
 <div id="main-content">
 <p class="release">Version Airwolf</p>
 <h2>Lecture: Safe and Secure Drivers in High-Level Languages</h2>
-<h3 class="title">How to write drivers in Rust, go, C#, Swift, Haskell, and OCaml</h3>
+<h3 class="title">How to write PCIe drivers in Rust, go, C#, Swift, Haskell, and OCaml</h3>
 <div class="column left" id="basic">
 <div class="image large"><img src="/congress/2018/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png"></div>
 <p class="abstract">Drivers are usually written in C for historical reasons, this can be bad if you want your driver to be safe and secure. We show that it is possible to write low-level drivers for PCIe devices in modern high-level languages.
@@ -81,15 +81,13 @@ Sunday
 
 <p class="description">There are three steps to building better drivers:</p>
 
-<p class="description"></p>
-<ol>
-<br>  <li>Write them in a safer programming language eliminating whole classes of bugs and security problems like bad memory accesses</li>
-<br>  <li>Isolating them from the rest of the operating system: user space drivers that drop privileges</li>
-<br>  <li>Isolating the hardware using the IOMMU</li>
-<br>
-</ol> 
+<p class="description">1. Write them in a safer programming language eliminating whole classes of bugs and security problems like bad memory accesses</p>
 
-<p class="description">We are showing that it is possible to achieve all of these goals for PCIe drivers on Linux by implementing user space network drivers in all of the aforementioned programming languages. Our techniques are transferable to other drivers that would benefit from more modern implementations. </p>
+<p class="description">2. Isolating them from the rest of the operating system: user space drivers that drop privileges</p>
+
+<p class="description">3. Isolating the hardware using the IOMMU</p>
+
+<p class="description">We show that it is possible to achieve all of these goals for PCIe drivers on Linux by implementing user space network drivers in all of the aforementioned programming languages. Our techniques are transferable to other drivers that would benefit from more modern implementations. </p>
 
 <p class="description">Our drivers in <a href="https://github.com/ixy-languages/ixy.rs">Rust</a>, <a href="https://github.com/ixy-languages/ixy.cs">C#</a>, <a href="https://github.com/ixy-languages/ixy.go">go</a>, and <a href="https://github.com/ixy-languages/ixy.swift">Swift</a> are completely finished, tuned for performance, evaluated, and benchmarked. And all of them except for Swift are about 80-90% as fast as <a href="https://github.com/emmericp/ixy">our user space C driver</a> and 6-10 times faster than the kernel C driver.</p>
 
@@ -104,9 +102,8 @@ Sunday
 <br><li>Does the language need some stubs in C? Does it need code tagged as unsafe (Rust, C#)? How many lines of C or unsafe code are required?
 <br>
 </li>
-<br><li>How does it compare to similar projects? For example, our OCaml driver vs. MirageOS (which is completely different!)</li>
 <br><li>What does it mean to have a garbage collector in driver code? (latency spikes?!)</li>
-<br><li>How well can we isolate the driver? (IOMMU, dropping privileges)</li>
+<br><li>How well can we isolate the driver? (IOMMU, running without root)</li>
 <br>
 </ul>
 
@@ -161,7 +158,7 @@ en
 <td><a href="/congress/2018/Fahrplan/speakers/7808.html">Paul Emmerich</a></td>
 </tr>
 <tr>
-<td><div class="image small"><img src="/congress/2018/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png"></div></td>
+<td><div class="image small"><img src="/congress/2018/Fahrplan/system/people/avatars/000/008/772/small/simon.jpg"></div></td>
 <td><a href="/congress/2018/Fahrplan/speakers/8772.html">Simon Ellmann</a></td>
 </tr>
 </tbody>
@@ -181,7 +178,7 @@ en
   },
   "startDate" : "2018-12-29T12:50:00+0100",
   "endDate" : "2018-12-29T13:50:00+0100",
-  "performer" : [{&quot;name&quot;:&quot;Paul Emmerich&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/35c3/public/speakers/7808&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/007/808/small/gravatar.jpeg?1508016680&quot;},{&quot;name&quot;:&quot;Simon Ellmann&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/35c3/public/speakers/8772&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;}],
+  "performer" : [{&quot;name&quot;:&quot;Paul Emmerich&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/35c3/public/speakers/7808&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/007/808/small/gravatar.jpeg?1508016680&quot;},{&quot;name&quot;:&quot;Simon Ellmann&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/35c3/public/speakers/8772&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/008/772/small/simon.jpg?1544983000&quot;}],
   "inLanguage" : "en",
   "superEvent" : {
     "@type" : "Event",

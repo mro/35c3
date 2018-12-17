@@ -73,38 +73,13 @@ Sunday
 <p class="abstract">Have you ever wanted to trace all syscalls or dump all IPC traffic across a Linux system? Until recently, doing so may have required some significant setup involving a half-baked tracing kernel module, a custom kernel module, or even using a kernel debugger. This talk will introduce the eBPF functionality of the Linux kernel and cover practical uses of the technology beyond mere code profiling. We will show how eBPF can be used both defensively and offensively to protect, or compromise, a system.</p>
 
 <p class="abstract">This talk will primarily focus on using eBPF to dynamically instrument kernel functionality and gain deep insight on the workings of both kernel and userspace code across a running system. Attendees will leave with practical knowledge for using eBPF to (performantly) watch every action taken on a running system and make processes reveal their secrets.</p>
-<p class="description">eBPF (or "extended" Berkeley Packet Filter) is a bytecode and virtual machine
-<br>used as a safe computing environment within the Linux kernel to perform
-<br>arbitrary programmatic actions. It is a redesign of the original BPF bytecode
-<br>VM used, typically in userspace, to power features like tcpdump filters. eBPF
-<br>has an entirely different set of capabilities and instructions, with its
-<br>primary goal being to serve as a JIT-able virtual machine instruction set that
-<br>can be targeted by compilers of a memory-safe "restricted C" language. In
-<br>the Linux kernel BPF and eBPF have been applied to various different kernel features, from
-<br>programmatic syscall filtering (for sandboxing) to performing efficient custom
-<br>packet processing inline on the kernel's network data plane.</p>
+<p class="description">eBPF (or "extended" Berkeley Packet Filter) is a bytecode and virtual machine used as a safe computing environment within the Linux kernel to perform arbitrary programmatic actions. It is a redesign of the original BPF bytecode VM used, typically in userspace, to power features like tcpdump filters. eBPF has an entirely different set of capabilities and instructions, with its primary goal being to serve as a JIT-able virtual machine instruction set that can be targeted by compilers of a memory-safe "restricted C" language. In the Linux kernel BPF and eBPF have been applied to various different kernel features, from programmatic syscall filtering (for sandboxing) to performing efficient custom packet processing inline on the kernel's network data plane.</p>
 
-<p class="description">In this talk, we will first introduce and briefly discuss the internals of the
-<br>eBPF implementation in the Linux kernel, its features, and the current set of
-<br>components that it may be integrated with. We will also briefly cover how eBPF
-<br>does not intrinsically make C code secure and demonstrate how using eBPF
-<br>instead of other, more mature, technologies may introduce vulnerabilities.</p>
+<p class="description">In this talk, we will first introduce and briefly discuss the internals of the eBPF implementation in the Linux kernel, its features, and the current set of components that it may be integrated with. We will also briefly cover how eBPF does not intrinsically make C code secure and demonstrate how using eBPF instead of other, more mature, technologies may introduce vulnerabilities.</p>
 
-<p class="description">The majority of this talk will focus on using eBPF to trace kernel functions
-<br>to inspect both kernel and userland code and the data that flows through them.
-<br>In line with this goal, this talk will cover pragmatic approaches to using eBPF
-<br>and the non-idiomatic coding styles required to perform useful tasks in eBPF's
-<br>sandbox. Additionally, while the aim of this talk is to cover the capabilities
-<br>of "vanilla" eBPF, we will also demonstrate how the kernel may be trivially
-<br>modified to lift the constraints of the eBPF sandbox when one does not have the
-<br>time to tiptoe around the bytecode validator (or seeks to use eBPF as a drop-in
-<br>replacement for kernel modules).</p>
+<p class="description">The majority of this talk will focus on using eBPF to trace kernel functions to inspect both kernel and userland code and the data that flows through them. In line with this goal, this talk will cover pragmatic approaches to using eBPF and the non-idiomatic coding styles required to perform useful tasks in eBPF's sandbox. Additionally, while the aim of this talk is to cover the capabilities of "vanilla" eBPF, we will also demonstrate how the kernel may be trivially modified to lift the constraints of the eBPF sandbox when one does not have the time to tiptoe around the bytecode validator (or seeks to use eBPF as a drop-in replacement for kernel modules).</p>
 
-<p class="description">Lastly, this talk will show that while eBPF may generally be "safe" for the
-<br>kernel itself, it is decidedly not when applied to userspace code. We will
-<br>conclude this talk by demonstrating a general purpose privilege escalation
-<br>technique that may be used by privileged users to hop namespacing and escape
-<br>certain container configurations using nothing but eBPF.</p>
+<p class="description">Lastly, this talk will show that while eBPF may generally be "safe" for the kernel itself, it is decidedly not when applied to userspace code. We will conclude this talk by demonstrating a general purpose privilege escalation technique that may be used by privileged users to hop namespacing and escape certain container configurations using nothing but eBPF.</p>
 </div>
 <div class="column left" id="details">
 <h3>Info</h3>

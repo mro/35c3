@@ -476,7 +476,7 @@ The goal is that you will gain an understanding of the structure of the Internet
           <optout>false</optout>
         </recording>
         <title>wallet.fail</title>
-        <subtitle>Hacking the most popular cryptocurrency wallets</subtitle>
+        <subtitle>Hacking the most popular cryptocurrency hardware wallets</subtitle>
         <track>Security</track>
         <type>lecture</type>
         <language>en</language>
@@ -627,7 +627,7 @@ Was mit CRISPR getan wird - darüber sollte es einen breiten Dialog in der Gesel
           <link href="http://scienceblogs.de/diekleinendinge/">Blog André Lampe / anderelampe</link>
           <link href="https://zellmedien.de/">Anna Müllner / Adora Belle </link>
           <link href="https://wirkstoffradio.de">Wirkstoffradio</link>
-          <link href="http://www.konscience.de/tag/crispr/">KonScience-Episoden zu CRISPR</link>
+          <link href="https://fyyd.de/user/KonScience/curation/crispr-genomeditierung?page=0">kuratierte Podcastepisoden über CRISPR &amp; Co.</link>
         </links>
         <attachments>
 </attachments>
@@ -1957,6 +1957,7 @@ There will also be disclosures on continued surveillance and harassment by the H
         <logo/>
         <persons>
           <person id="8588">Robert Tibbo</person>
+          <person id="8801">Steffen Arora</person>
         </persons>
         <links>
 </links>
@@ -1981,12 +1982,12 @@ There will also be disclosures on continued surveillance and harassment by the H
         <language>de</language>
         <abstract>GERMAN:
 Mehr als 10.000 unterschiedliche Device-Hersteller aus aller Welt verwenden die Basis-Plattform (WIFI-Modul, Cloud, App) eines einzigen Unternehmens zur technischen Umsetzung ihrer Smart-Home-Produkte.
-Die Analyse dieser Basis zeigt erhebliche Sicherheitsmängel auch konzeptioneller Natur und somit diverse Angriffspunkte, von denen mehr als 100 Millionen Smart Devices betroffen sind.
+Die Analyse dieser Basis zeigt erhebliche Sicherheitsmängel auch konzeptioneller Natur und somit diverse Angriffspunkte, von denen mehrere Millionen Smart Devices betroffen sind.
 Der Vortrag stellt die Funktionsweise smarter Geräte im Zusammenhang mit der genannten Basis-Plattform dar, zeigt das Ausmaß der Sicherheitslücken anhand diverser Angriffsszenarien und bietet der Community eine Lösung für die sichere Nutzung der betroffenen Geräte.
 
 ENGLISH:
 More than 10,000 different device manufacturers from all over the world use the basic platform (WIFI module, cloud, app) of a single company to technically implement their smart home products.
-The analysis of this base shows considerable security deficiencies, also of a conceptual nature, and thus various points of attack, which affect more than 100 million smart devices.
+The analysis of this base shows considerable security deficiencies, also of a conceptual nature, and thus various points of attack, which affects millions of smart devices.
 The lecture will present the functionality of smart devices in relation with the above-mentioned basic platform, show the extent of the security gaps using various attack scenarios and offer the community a solution for the secure use of the affected devices.</abstract>
         <description>GERMAN:
 Für die dem Vortrag zu Grunde liegenden Tests wurden verschiedenste Glühbirnen und Steckdosen verschiedener Hersteller bei amazon.de bestellt und untersucht. Dabei fiel sofort auf, dass sehr oft ein ESP8266 (sehr kostengünstiger 32-Bit-Mikrocontroller mit integriertem 802.11 b/g/n Wi-Fi) der chinesischen Firma espressif verwendet wird.
@@ -2265,12 +2266,14 @@ We will finish by demonstrating some of the visualization tools are have deploye
         <type>lecture</type>
         <language>de</language>
         <abstract>Es ist 6 Uhr und ein Trupp uniformierter Polizisten steht vor deiner Wohnungstür. Was solltest du bis dahin getan haben und was solltest du jetzt tun?</abstract>
-        <description>Eine Hausdurchsuchung ist etwas, was sich niemand ersehnt und vor dem wir möglichst verschont bleiben wollen. Dennoch passiert es auch im Chaosumfeld immer wieder, dass Hackerinnen und Hacker Besuch von den Staatsorganen bekommen. Dieses Jahr erwischte es unter anderem die Zwiebelfreunde, das OpenLab in Augsburg, den C3DO und evtl. andere. Daher solltet ihr euch gedanklich auf eine Durchsuchung vorbereiten und Schritte ergreifen.
+        <description>Eine Hausdurchsuchung ist etwas, was sich niemand ersehnt und vor dem wir möglichst verschont bleiben wollen. Dennoch passiert es auch im Chaosumfeld immer wieder, dass Hackerinnen und Hacker Besuch von den Staatsorganen bekommen.
+
+Dieses Jahr erwischte es unter anderem die Zwiebelfreunde, das OpenLab in Augsburg, den C3DO und evtl. andere. Daher solltet ihr euch gedanklich auf eine Durchsuchung vorbereiten und Schritte ergreifen.
 
 Im Vortrag erzählen euch Jens und Kristin, welche Maßnahmen weit vor einer Durchsuchung sinnvoll sind. Weiterhin geben sie euch Empfehlungen, auf was ihr bei einer laufenden Durchsuchung achten solltet und wie es nach einer Hausdurchsuchung weitergeht.
 
-Der Vortrag basiert unter anderem auch auf Jens' Erfahrungen bei einer Hausdurchsuchung.</description>
-        <logo/>
+Der Vortrag basiert unter anderem auch auf Jens’ Erfahrungen bei einer Hausdurchsuchung.</description>
+        <logo>/system/events/logos/000/010/018/large/atomicBomb.jpg?1545003847</logo>
         <persons>
           <person id="2402">qbi</person>
           <person id="7771">Kristin Pietrzyk</person>
@@ -2939,9 +2942,9 @@ Tag plz: #BlindNavigation @saizai #35c3</abstract>
 &lt;li&gt;workshop assistants (requires training, preferably before 35C3 day 0)&lt;/li&gt;
 &lt;/ol&gt;&lt;/p&gt;
 &lt;p&gt;If you can, please &lt;a href="https://s.ai/ccc/ws"&gt;volunteer&lt;/a&gt;. I'll train you on what needs to be done.&lt;/p&gt;
-&lt;p&gt;&lt;li&gt;Please also &lt;a href="https://s.ai/contact"&gt;contact me&lt;/a&gt; if you:&lt;ul&gt;
+&lt;p&gt;Please also &lt;a href="https://s.ai/contact"&gt;contact me&lt;/a&gt; if you:&lt;ul&gt;
 &lt;li&gt;are blind / visually impaired and a cane or guide dog user going to 35C3; or&lt;/li&gt;
-&lt;li&gt;would like to collaborate on blind navigation aids (e.g. cane-embedded compass).&lt;/li&gt;&lt;/p&gt;
+&lt;li&gt;would like to collaborate on blind navigation aids (e.g. cane-embedded compass).&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
 &lt;h3&gt;Stuff&lt;/h3&gt;
 &lt;p&gt;If you have:&lt;ul&gt;
 &lt;li&gt;to give:
@@ -2969,12 +2972,12 @@ Tag plz: #BlindNavigation @saizai #35c3</abstract>
 &lt;h2&gt;About me&lt;/h2&gt;
 &lt;p&gt;I do lots of things, e.g. conlanging (26C3), cognitive psychology (27C3), meditation (26C3 &amp; 27C3), civil rights litigation, government transparency, meta-politics, meta-law research, etc. See my wesite. &lt;a href="https://s.ai"&gt;https://s.ai&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I'm part-time fully blind. See &lt;a href="https://s.ai/essays/interaction"&gt;https://s.ai/essays/interaction&lt;/a&gt; for tips on how to interact with me &amp; &lt;a href="https://s.ai/essays/blindness"&gt;https://s.ai/essays/blindness&lt;/a&gt; for background info. In particular, please understand that blindness is not "what I do", and I'm going to hit my capacity for talking about it with the talk, Q&amp;A, and workshops. I always welcome feedback, collaborations, fellow-travelers, and press. Other than that, if you see me around Congress, let's please talk about something other than my blindness.&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://s.ai/contact"&gt;Contact info:&lt;ul&gt;
+&lt;p&gt;&lt;a href="https://s.ai/contact"&gt;Contact info&lt;/a&gt;:&lt;ul&gt;
 &lt;li&gt;Handle: saizai (Twitter/IRC/FB/G+/etc.)&lt;/li&gt;
 &lt;li&gt;Email: ccc@s.ai&lt;/li&gt;
 &lt;li&gt;DECT: 4724&lt;/li&gt;
 &lt;li&gt;Signal/WhatsApp/Telegram +15103944724&lt;/li&gt;
-&lt;/ul&lt;/p&gt;
+&lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;Gender neutral pronouns please.&lt;/p&gt;</description>
         <logo/>
         <persons>
@@ -3488,48 +3491,24 @@ Erst dann können wir politischen Nebelkerzen wie "Selbst-Datenschutz", "Datenei
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>de</language>
-        <abstract>Der Kampf um Freiheit und Nachhaltigkeit im digitalen Raum wird auch in der Schweiz intensiver. Neue Gesetze zur Massenüberwachung zeigen Wirkung und  Netzsperren breiten sich aus. Der Kampf gegen E-Voting geht in die entscheidende Phase und das Urheberrecht soll unter amerikanischem Druck verschärft werden. Im Vortrag blicken wir auf das netzpolitische Jahr 2018 in der Schweiz zwischen Bodensee und Matterhorn zurück. Weiter zeigen wir, an welchen Schauplätzen wir im neuen Jahr besonders gefordert sein werden.
+        <abstract>Datenreichtum, Massenüberwachung und andere netzpolitische Schauplätze in der Schweiz</abstract>
+        <description>Der Kampf um die Freiheit im digitalen Raum wird auch in der Schweiz intensiver. Wir blicken auf das netzpolitische Jahr 2018 in der Schweiz zwischen Bodensee und Matterhorn zurück. Wir behandeln jene Themen, die relevant waren und relevant bleiben. Weiter zeigen wir, was von der Digitalen Gesellschaft in der Schweiz im neuen Jahr zu erwarten ist.
 
-Am Schluss besteht die Möglichkeit für Fragen im Saal (Q&amp;A).
-
-Nach dem Vortrag laden wir dazu ein, die Diskussion im Bereich unsere Assembly fortzusetzen.</abstract>
-        <description>Wir werfen einen Blick in die nähere Vergangenheit und Zukunft der Netzpolitik in der Schweiz. Dafür greifen wir folgende Themen auf:
-
-&lt;strong&gt;Polizeistaat:&lt;/strong&gt;
-
+&lt;strong&gt;Themen sind unter anderem:&lt;/strong&gt;
 &lt;ul&gt;
-&lt;li&gt;Was bedeuten die neuen und verschärften Überwachungsgesetze in der Praxis, zum Beispiel für Onlinedienste und Public WLANs?&lt;/li&gt;
-&lt;li&gt;Wo stehen wir mit unseren Beschwerden gegen die Kabelaufklärung und Vorratsdatenspeicherung?&lt;/li&gt;
-&lt;li&gt;Wie gehen die Sicherheitsbehörden gegen Betreiber von Tor-Infrastruktur vor?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Massenüberwachung:&lt;/strong&gt; Kabelaufklärung und Vorratsdatenspeicherung sowie die Beschwerden, welche die Digitale Gesellschaft führt&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;E-Voting:&lt;/strong&gt; Abstimmungen und Wahlen im Internet sowie der Kampf für das Vertrauen in die Direkte Demokratie in der Schweiz&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Netzsperren:&lt;/strong&gt; Die Zensur im schweizerischen Internet begann mit «Denkt denn niemand an die Kinder?» und geht nun mit Geldspielen im Internet weiter …&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Urheberrecht:&lt;/strong&gt; Wie die USA im «Piratenstaat» Schweiz ihre Forderungen durchsetzen, unter anderem Massenabmahnungen gegen Filesharing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datenschutz:&lt;/strong&gt; Wo war in der Schweiz besonders viel «Datenreichtum» zu beobachten?&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Digitale Gesellschaft:&lt;/strong&gt; Razzia am «Hort der Linksextremen», Winterkongress und andere Aktivitäten&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;strong&gt;Zensur:&lt;/strong&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Wie kämpfen wir für «Löschen statt Sperren» bei Kinderpornografie und im Urheberrecht?&lt;/li&gt;
-&lt;li&gt;Was bedeutet die Niederlage in der Volksabstimmung über Netzsperren?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;strong&gt;Digitale Demokratie:&lt;/strong&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Was fordert die Volksinitiative gegen E-Voting in der Schweiz?&lt;/li&gt;
-&lt;li&gt;Wo liegen die Probleme beim zweiten Versuch, eine digitale Identität einzuführen?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;strong&gt;Rechtsstaat:&lt;/strong&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Wie haben wir es geschafft, dass im Parlament plötzlich fast alle für Netzneutralität sind?&lt;/li&gt;
-&lt;li&gt;Wie erfolgreich ist die amerikanische Unterhaltungsindustrie mit ihren Forderungen nach Anpassungen beim Urheberrecht?&lt;/li&gt;
-&lt;li&gt;Wie verhält sich die Schweiz beim Datenschutz, gerade auch mit Blick auf das neue Datenschutzrecht in der Europäischen Union?&lt;/li&gt;
-&lt;/ul&gt;
-
-Im Anschluss an den Vortrag sind alle interessierten Personen eingeladen, die Diskussion im Bereich unserer Assembly fortzusetzen. Es werden Aktivisten von verschiedenen aktiven Organisationen der Netzpolitik in der Schweiz anwesend sein (Digitale Gesellschaft, CCC-CH, CCCZH, Piratenpartei Schweiz, Digitale Allmend).
+Nach dem Vortrag sind alle interessierten Personen eingeladen, die Diskussion an einem Workshop der Digitalen Gesellschaft fortzusetzen. Es werden Aktivisten von verschiedenen aktiven Organisationen der Netzpolitik in der Schweiz anwesend sein (Digitale Gesellschaft, CCC-CH, CCCZH, Piratenpartei Schweiz, Digitale Allmend).
 </description>
         <logo/>
         <persons>
-          <person id="8033">STG</person>
+          <person id="8033">Martin Steiger</person>
           <person id="6351">Patrick "packi" Stählin</person>
           <person id="7723">Kire</person>
         </persons>
@@ -3821,7 +3800,7 @@ This talk will &lt;em&gt;not&lt;/em&gt; cover legal aspects of the lawyers fight
           <person id="8452">Leonid Evdokimov (darkk)</person>
         </persons>
         <links>
-          <link href="Usher II: having fun with Roskomnadzor's Register of Prohibited sites">https://usher2.club/en/</link>
+          <link href="https://usher2.club/en/">Usher II: having fun with Roskomnadzor's Register of Prohibited sites</link>
         </links>
         <attachments>
 </attachments>
@@ -4307,9 +4286,7 @@ Most of the identified vulnerabilities [1, 2, 3, 4] identified to this day inclu
         <abstract>&lt;p&gt;Not on Facebook? Well Facebook could still have created a shadow profile for you!&lt;/p&gt;
 
 &lt;p&gt;Privacy International has been analysing the potential ways in which Facebook can profile individuals who are not Facebook users (so called shadow profiles), including through Android apps which implement the Facebook SDK.&lt;/p&gt;</abstract>
-        <description>&lt;p&gt;Not on Facebook? Well Facebook could still have created a shadow profile for you, without your knowledge or permission.&lt;/p&gt;
-
-&lt;p&gt;In this talk, we’re looking at shadow profiles and third party tracking on Android. We’ve captured and decrypted data in transit between our own devices and Facebook servers. It turns out that some app developers routinely send Facebook sensitive information. We’ll walk you through the technical part of our analysis and end with a call to action: We believe that both Facebook and developers can do more to avoid oversharing, profiling and damaging the privacy of their users.&lt;/p&gt;</description>
+        <description>&lt;p&gt;In this talk, we’re looking at shadow profiles and third party tracking on Android. We’ve captured and decrypted data in transit between our own devices and Facebook servers. It turns out that some apps routinely send Facebook  information about your device and usage patterns. We’ll walk you through the technical part of our analysis and end with a call to action: We believe that both Facebook and developers can do more to avoid oversharing, profiling and damaging the privacy of their users.&lt;/p&gt;</description>
         <logo>/system/events/logos/000/009/941/large/images.png?1539641148</logo>
         <persons>
           <person id="8626">Frederike Kaltheuner</person>
@@ -4382,45 +4359,6 @@ In this lecture, we will aim to explain what motivates mankind to build complex 
         </persons>
         <links>
 </links>
-        <attachments>
-</attachments>
-      </event>
-      <event guid="ad3ece24-4693-4b77-90bf-0b4e1dfe014d" id="9528">
-        <date>2018-12-29T14:10:00+01:00</date>
-        <start>14:10</start>
-        <duration>01:00</duration>
-        <room>Clarke</room>
-        <slug>35c3-9528-introducing_the_katzenpost_mix_network_system</slug>
-        <url>./events/9528.html</url>
-        <recording>
-          <license/>
-          <optout>false</optout>
-        </recording>
-        <title>Introducing the katzenpost mix network system</title>
-        <subtitle>message oriented anonymity for resisting global adversaries</subtitle>
-        <track>Resilience</track>
-        <type>lecture</type>
-        <language>en</language>
-        <abstract>Mix networks are a kind of communications network that greatly reduce our metadata leakage and exposure to traffic analysis. Mixnets are suitable for certain low bandwidth message oriented use cases such as encrypted messaging for client to server or peer to peer decentralized systems. The main advantages mixnets offer is location hiding and anonymity properties which are strong enough to resist global adversaries while scaling to hundreds of millions of users.
-
-I will give an introduction to some basic mixnet theory and concepts. The second half of this talk will discuss the Katzenpost mix network software system we are actively developing; including live demonstrations that showcase various cryptographic network protocols being performed over the mix network such as: a PANDA transaction, a Zcash transaction submission, encrypted chat et cetera.</abstract>
-        <description>I shall explain the renewed interest in mix networks. Academics have proposed various anonymity technologies with far stronger threat models than Tor, but by far the most practical and efficient option remains mix networks, which date to the founding of anonymity research by David Chaum in 1981. Tor shares some superficial similarities, but mix networks are vastly stronger if they judiciously add latency and cover traffic. We shall outline the basic components of a mix network and touch on their roles in resisting active and passive attacks.
-
-The comparison to Tor isn't fair at all given that mixnets and Tor solve for differing use cases: Tor has many advantages over mixnets and is suitable for high bandwidth, low latency application network usage with stream orientation. Therefore we ask you to consider that the world needs more than one anonymity network to solve for different problems. We strongly believe that for specific message oriented use cases mix networks are by far the very best choice. We now find ourselves living in the Snowden apocalypse where near global world surveillance is a reality and people deserve to use traffic analysis resistance that is strong enough to resist NSA, GCHQ, "five eyes", drug cartels, greedy corporations, etc.
-
-There are several historical reasons why mixnets lost popularity and why Tor's onion routing won. Namely, Tor is low latency and really good for browsing the web. This is in contrast to mix networks which are essentially an unreliable packet switching network, usually closed networks with no exit relays. Historically mix networks achieved enough mix entropy by using long delays whereas it is becoming more widely understood that there exists a trade off between legit traffic, decoy traffic and latency.
-
-After this introduction to mix networks I'll talk a bit about the Katzenpost mix network free software project which is a free software project that started off as a European Union academic grant project known as The Panoramix Project. Katzenpost incorporates many sophisticated design elements from the mix network literature as well as modern cryptographic protocol design. Many of the Katzenpost mixnet design comes directly from Ania Piotrowska who is the main author behind the recently published academic paper "The Loopix Anonymity System". I will explain why Ania's work on mix networks is cutting edge and truly inspiring. The Katzenpost project was also fortunate to have received help from Yawning Angel who designed and implemented the most sophisticated Noise based cryptographic protocol the world has seen; our cryptographic link layer uses a post quantum cryptographic key encapsulation mechanism in a hybrid forward secret handshake pattern allowing our mix network's link layer transport protocol to resist attacks from quantum computers.
-
-These new insights into mix network designs allow modern mix networks to make the correct design trade offs so that we can keep the latency relatively low and provide a good user experience. Historically high latency and unreliability has been a major obstacle to mass adoption. I shall explain how Katzenpost solves both of these problems and allows developers to easily add network services to the mix network to support a wide variety of client to server and peer to peer systems including but not limited to: messaging/chat, crypto currency transaction transport, offline browsing, file sharing, bulletine board systems et cetera.</description>
-        <logo>/system/events/logos/000/009/528/large/katzenpost.png?1539013706</logo>
-        <persons>
-          <person id="7790">David Stainton</person>
-        </persons>
-        <links>
-          <link href="https://github.com/katzenpost">katzenpost github project page</link>
-          <link href="https://katzenpost.mixnetworks.org/">katzenpost project website</link>
-        </links>
         <attachments>
 </attachments>
       </event>
@@ -4501,7 +4439,7 @@ I will explain the basic usage of DNS, including stub and recursive resolver, se
           <optout>false</optout>
         </recording>
         <title>Web-based Cryptojacking in the Wild</title>
-        <subtitle/>
+        <subtitle>When your browser is mining coins for other people</subtitle>
         <track>Security</track>
         <type>lecture</type>
         <language>en</language>
@@ -4538,7 +4476,9 @@ In this talk, we systematically explore this phenomenon: To begin with, we demon
         <abstract>This is a foundations talk about modeling and simulation as tools for development, testing and debugging systems. It requires very little previous knowledge to address all makers and hobbyists interested in creating or modifying hardware that physically interacts with its environment (e.g. robots, drones, etc.). It explains the purpose of modeling and simulation, basic principles, and tips and tricks on a practical level.</abstract>
         <description>During the development of robots, drones or other machines, the individual components are usually not all available at the same time, but are developed and tested separately and then assembled to the final system. Thus, it is often useful to have a placeholder that acts just like the missing components that are not present. Or, for debugging, it might be useful to have a reference configuration, which is known to work, in order to exclude potential sources of error. On the other side, it might be helpful to artificially recreate errors to test the system for robustness to these errors without risking real hardware. This is where modeling and simulation are useful tools to make the development faster and less error-prone.
 
-This talk explains basic modeling and simulation techniques that help even for small project, how to model the physical effects encountered most frequently and to make a simulation of the created model run in a simple way. All examples will be held as practical as possible for community projects, relying only on common hardware and open-source software, in order to make them useful for a broad audience.</description>
+This talk explains basic modeling and simulation techniques that help even for small project, how to model the physical effects encountered most frequently and to make a simulation of the created model run in a simple way. All examples will be held as practical as possible for community projects, relying only on common hardware and open-source software, in order to make them useful for a broad audience.
+
+Bring your computer with Gnumeric, Python and OMEditor installed to follow the examples, if you want.</description>
         <logo>/system/events/logos/000/009/385/large/publicdomainq-scientist-Isaac_Newton.png?1537050277</logo>
         <persons>
           <person id="8168">Manuel Aiple</person>
@@ -4697,7 +4637,7 @@ Wir werden unsere gegenwärtigen Ansätze vorstellen, untersuchen und daran die 
           <optout>false</optout>
         </recording>
         <title>Safe and Secure Drivers in High-Level Languages</title>
-        <subtitle>How to write drivers in Rust, go, C#, Swift, Haskell, and OCaml</subtitle>
+        <subtitle>How to write PCIe drivers in Rust, go, C#, Swift, Haskell, and OCaml</subtitle>
         <track>Resilience</track>
         <type>lecture</type>
         <language>en</language>
@@ -4712,13 +4652,14 @@ Also, did you ever see a kernel panic because a driver did something stupid? It 
 
 There are three steps to building better drivers:
 
-&lt;ol&gt;
-  &lt;li&gt;Write them in a safer programming language eliminating whole classes of bugs and security problems like bad memory accesses&lt;/li&gt;
-  &lt;li&gt;Isolating them from the rest of the operating system: user space drivers that drop privileges&lt;/li&gt;
-  &lt;li&gt;Isolating the hardware using the IOMMU&lt;/li&gt;
-&lt;/ol&gt; 
+1. Write them in a safer programming language eliminating whole classes of bugs and security problems like bad memory accesses
 
-We are showing that it is possible to achieve all of these goals for PCIe drivers on Linux by implementing user space network drivers in all of the aforementioned programming languages. Our techniques are transferable to other drivers that would benefit from more modern implementations. 
+2. Isolating them from the rest of the operating system: user space drivers that drop privileges
+
+3. Isolating the hardware using the IOMMU
+
+
+We show that it is possible to achieve all of these goals for PCIe drivers on Linux by implementing user space network drivers in all of the aforementioned programming languages. Our techniques are transferable to other drivers that would benefit from more modern implementations. 
 
 Our drivers in &lt;a href="https://github.com/ixy-languages/ixy.rs"&gt;Rust&lt;/a&gt;, &lt;a href="https://github.com/ixy-languages/ixy.cs"&gt;C#&lt;/a&gt;, &lt;a href="https://github.com/ixy-languages/ixy.go"&gt;go&lt;/a&gt;, and &lt;a href="https://github.com/ixy-languages/ixy.swift"&gt;Swift&lt;/a&gt; are completely finished, tuned for performance, evaluated, and benchmarked. And all of them except for Swift are about 80-90% as fast as &lt;a href="https://github.com/emmericp/ixy"&gt;our user space C driver&lt;/a&gt; and 6-10 times faster than the kernel C driver.
 
@@ -4731,9 +4672,8 @@ We show how to achieve all of the three points above in selected languages, answ
 &lt;ul&gt;
 &lt;li&gt;Which language features make drivers better? Do they cost performance?&lt;/li&gt;
 &lt;li&gt;Does the language need some stubs in C? Does it need code tagged as unsafe (Rust, C#)? How many lines of C or unsafe code are required?
-&lt;li&gt;How does it compare to similar projects? For example, our OCaml driver vs. MirageOS (which is completely different!)&lt;/li&gt;
 &lt;li&gt;What does it mean to have a garbage collector in driver code? (latency spikes?!)&lt;/li&gt;
-&lt;li&gt;How well can we isolate the driver? (IOMMU, dropping privileges)&lt;/li&gt;
+&lt;li&gt;How well can we isolate the driver? (IOMMU, running without root)&lt;/li&gt;
 &lt;/ul&gt;
 
 Another thing to take away from this talk is: writing drivers is neither scary nor hard. You can write one in your favorite programming language, so go ahead and try that :)
@@ -5808,38 +5748,13 @@ This talk tries to explore the relations between design and perception of machin
         <abstract>Have you ever wanted to trace all syscalls or dump all IPC traffic across a Linux system? Until recently, doing so may have required some significant setup involving a half-baked tracing kernel module, a custom kernel module, or even using a kernel debugger. This talk will introduce the eBPF functionality of the Linux kernel and cover practical uses of the technology beyond mere code profiling. We will show how eBPF can be used both defensively and offensively to protect, or compromise, a system.
 
 This talk will primarily focus on using eBPF to dynamically instrument kernel functionality and gain deep insight on the workings of both kernel and userspace code across a running system. Attendees will leave with practical knowledge for using eBPF to (performantly) watch every action taken on a running system and make processes reveal their secrets.</abstract>
-        <description>eBPF (or "extended" Berkeley Packet Filter) is a bytecode and virtual machine
-used as a safe computing environment within the Linux kernel to perform
-arbitrary programmatic actions. It is a redesign of the original BPF bytecode
-VM used, typically in userspace, to power features like tcpdump filters. eBPF
-has an entirely different set of capabilities and instructions, with its
-primary goal being to serve as a JIT-able virtual machine instruction set that
-can be targeted by compilers of a memory-safe "restricted C" language. In
-the Linux kernel BPF and eBPF have been applied to various different kernel features, from
-programmatic syscall filtering (for sandboxing) to performing efficient custom
-packet processing inline on the kernel's network data plane.
+        <description>eBPF (or "extended" Berkeley Packet Filter) is a bytecode and virtual machine used as a safe computing environment within the Linux kernel to perform arbitrary programmatic actions. It is a redesign of the original BPF bytecode VM used, typically in userspace, to power features like tcpdump filters. eBPF has an entirely different set of capabilities and instructions, with its primary goal being to serve as a JIT-able virtual machine instruction set that can be targeted by compilers of a memory-safe "restricted C" language. In the Linux kernel BPF and eBPF have been applied to various different kernel features, from programmatic syscall filtering (for sandboxing) to performing efficient custom packet processing inline on the kernel's network data plane.
 
-In this talk, we will first introduce and briefly discuss the internals of the
-eBPF implementation in the Linux kernel, its features, and the current set of
-components that it may be integrated with. We will also briefly cover how eBPF
-does not intrinsically make C code secure and demonstrate how using eBPF
-instead of other, more mature, technologies may introduce vulnerabilities.
+In this talk, we will first introduce and briefly discuss the internals of the eBPF implementation in the Linux kernel, its features, and the current set of components that it may be integrated with. We will also briefly cover how eBPF does not intrinsically make C code secure and demonstrate how using eBPF instead of other, more mature, technologies may introduce vulnerabilities.
 
-The majority of this talk will focus on using eBPF to trace kernel functions
-to inspect both kernel and userland code and the data that flows through them.
-In line with this goal, this talk will cover pragmatic approaches to using eBPF
-and the non-idiomatic coding styles required to perform useful tasks in eBPF's
-sandbox. Additionally, while the aim of this talk is to cover the capabilities
-of "vanilla" eBPF, we will also demonstrate how the kernel may be trivially
-modified to lift the constraints of the eBPF sandbox when one does not have the
-time to tiptoe around the bytecode validator (or seeks to use eBPF as a drop-in
-replacement for kernel modules).
+The majority of this talk will focus on using eBPF to trace kernel functions to inspect both kernel and userland code and the data that flows through them. In line with this goal, this talk will cover pragmatic approaches to using eBPF and the non-idiomatic coding styles required to perform useful tasks in eBPF's sandbox. Additionally, while the aim of this talk is to cover the capabilities of "vanilla" eBPF, we will also demonstrate how the kernel may be trivially modified to lift the constraints of the eBPF sandbox when one does not have the time to tiptoe around the bytecode validator (or seeks to use eBPF as a drop-in replacement for kernel modules).
 
-Lastly, this talk will show that while eBPF may generally be "safe" for the
-kernel itself, it is decidedly not when applied to userspace code. We will
-conclude this talk by demonstrating a general purpose privilege escalation
-technique that may be used by privileged users to hop namespacing and escape
-certain container configurations using nothing but eBPF.</description>
+Lastly, this talk will show that while eBPF may generally be "safe" for the kernel itself, it is decidedly not when applied to userspace code. We will conclude this talk by demonstrating a general purpose privilege escalation technique that may be used by privileged users to hop namespacing and escape certain container configurations using nothing but eBPF.</description>
         <logo/>
         <persons>
           <person id="7551">Jeff Dileo</person>
@@ -5957,38 +5872,6 @@ Welche Mittel können wir nutzen, um trotzdem Lichts ins Dunkel der Konzerne zu 
         </persons>
         <links>
           <link href="FragDenStaat.de">FragDenStaat</link>
-        </links>
-        <attachments>
-</attachments>
-      </event>
-      <event guid="663a4b68-bb0d-493d-826c-07c609883b86" id="10039">
-        <date>2018-12-30T13:30:00+01:00</date>
-        <start>13:30</start>
-        <duration>00:40</duration>
-        <room>Eliza</room>
-        <slug>35c3-10039-theater_und_quantenzeitalter</slug>
-        <url>./events/10039.html</url>
-        <recording>
-          <license/>
-          <optout>false</optout>
-        </recording>
-        <title> THEATER UND QUANTENZEITALTER</title>
-        <subtitle>„Die Parallelwelt“- Das Schauspiel Dortmund und die Digitalität</subtitle>
-        <track>Art &amp; Culture</track>
-        <type>lecture</type>
-        <language>de</language>
-        <abstract>Seit 2010 ist die Sehnsucht des Schauspiel Dortmund, ein gegenwärtiges und wagemutiges Schauspiel für ein Publikum des 21. Jahrhunderts zu schaffen, ein Volkstheater für die Digitale Moderne. Intendant Kay Voges, Videokünstler Mario Simon und Engineer Lucas Pleß berichten über Dortmunder Theaterarbeiten zum Menschsein im Digitalen Zeitalter, speziell über die Stückentwicklung "Die Parallelwelt", die im September 2018 am Berliner Ensemble und am Schauspiel Dortmund gleichzeitig Premiere hatte, sowie über die "Akademie für Digitalität und Theater", die 2020 in Dortmund gegründet werden soll. </abstract>
-        <description>Einen Theaterabend, der die Ränder des Erzählens auslotet und die Grenzen zwischen Theater, Film und Netz in Frage stellt: Im September 2018 hatte „Die Parallelwelt“ simultan am Schauspiel Dortmund und am Berliner Ensemble Premiere. Regisseur Kay Voges, Videokünstler Mario Simon und Software-Ingenieur Lucas Pleß vom Schauspiel Dortmund berichten über die Entwicklung eines Theaterabends, für den zwei Bühnen und zwei Zuschauerräume in zwei Städten in Echtzeit per Glasfaser verbunden sind. „Die Parallelwelt“ spielt mit der Vervielfältigung von Identitäten im Zusammenspiel mit dem Wandel von Bildern, die sich die menschliche Spezies zu dem Kosmos macht, dessen Teil sie ist – und mit Entgrenzung, Auflösungs-Alptraum und einer Neuzusammensetzung der Welt, wie wir sie kannten.
-
-„Die Parallelwelt“ ist die neueste Produktion zum Thema Menschsein im Digitalen Zeitalter vom Dortmunder Team um Kay Voges, das seit 2010 inhaltlich und formal an den Grenzen von Theater und Installation, Performance, Coding, Game und neuer Medienkunst forscht. Die Sehnsucht von „Deutschlands führendem Theaterlabor“ (DIE WELT): Ein gegenwärtiges und wagemutiges Schauspiel für ein Publikum des 21. Jahrhunderts, ein Volkstheater für die Digitale Moderne. Diese Forschungsreise wird ab 2020 intensiviert werden, wenn in Dortmund die neue „Akademie für Digitalität und Theater“ an den Start gehen soll.
-</description>
-        <logo/>
-        <persons>
-          <person id="8790">Anne-Kathrin Schulz</person>
-        </persons>
-        <links>
-          <link href="https://www.theaterdo.de/detail/event/die-parallelwelt/">"Parallelwelt" in Dortmund</link>
-          <link href="https://www.berliner-ensemble.de/inszenierung/die-parallelwelt">Parallelwelt in Berlin</link>
         </links>
         <attachments>
 </attachments>
