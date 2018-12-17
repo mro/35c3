@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <schedule>
-<version>Airwolf</version>
+<version>Buffy</version>
 <conference>
 <acronym>35c3</acronym>
 <title>35th Chaos Communication Congress</title>
@@ -4383,7 +4383,7 @@ In this lecture, we will aim to explain what motivates mankind to build complex 
 We will present a fuzzing framework for *nix and Windows along with some interesting bugs found by auditing and fuzzing smart card drivers and middleware. Among them classic stack and heap buffer overflows, double frees, but also a replay attack against smart card authentication.
 
 Since smart cards are used in the authentication process, a lot of vulnerabilities can be triggered by an unauthenticated user, in code running with high privileges. During the author&#39;s research, bugs were discovered in OpenSC (EPass, PIV, OpenPGP, CAC, Cryptoflex …), YubiKey drivers, pam_p11, pam_pkc11, Apple&#39;s smartcard-services and others.</description>
-<logo></logo>
+<logo>/system/events/logos/000/009/346/large/russiancard.png?1545036658</logo>
 <persons>
 <person id='8085'>Eric Sesterhenn</person>
 </persons>

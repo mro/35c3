@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: Airwolf
+  version: Buffy
   base_url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/
   conference:
     acronym: 35c3
@@ -5898,7 +5898,7 @@ schedule:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9346.html
           id: 9346
           guid: 7ee42591-4f4d-481d-884b-44f5e18e1803
-          logo: 
+          logo: "/system/events/logos/000/009/346/large/russiancard.png?1545036658"
           date: '2018-12-29T16:10:00+01:00'
           start: '16:10'
           duration: '00:40'
