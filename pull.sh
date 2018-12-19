@@ -1,5 +1,5 @@
 #!/bin/sh
-cd "$(dirname "${0}")"
+cd "$(dirname "${0}")" || exit 1
 #
 # See
 # - https://events.ccc.de/congress/2018/wiki/Static:Crawling
@@ -18,12 +18,12 @@ dst="${dir}.version"
   curl --output "${dir}/schedule.xml" --location "https://fahrplan.events.ccc.de/congress/${year}/${dir}/schedule.xml"
   {
     echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
-    fgrep -v "<?xml version=" "${dir}/schedule.xml"
+    grep -vf "<?xml version=" "${dir}/schedule.xml"
   } | xmllint --output "${dir}"/schedule2.xml --relaxng assets/schedule.rng --format --encode utf-8 -
   sed -i -e "s|<url>https://fahrplan.events.ccc.de/congress/${year}/Fahrplan/events/|<url>./events/|g" "${dir}"/schedule2.xml
 }
 
-for evt in $(fgrep '<url>' Fahrplan/schedule2.xml | cut -c 16-26 | sort)
+for evt in $(grep -F '<url>' Fahrplan/schedule2.xml | grep -hoE '[0-9]+' | sort -n)
 do 
   dst_evt="${dir}/${evt}.html"
   url_evt="https://fahrplan.events.ccc.de/congress/${year}/${dst_evt}"
@@ -37,7 +37,7 @@ done
 }
 
 curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
-  url="$(fgrep "URL: " < "${dst}" | cut -d ' ' -f 2)"
+  url="$(grep -F "URL: " < "${dst}" | cut -d ' ' -f 2)"
   dst="${dir}.tar.gz"
 
   curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
@@ -48,7 +48,7 @@ curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --
 
     {
       echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
-      fgrep -v "<?xml version=" "${dir}/schedule.xml"
+      grep -vF "<?xml version=" "${dir}/schedule.xml"
     } | xmllint --output "${dir}"/schedule2.xml --relaxng assets/schedule.rng --format --encode utf-8 -
     # xsltproc --output "${dir}"/schedule2.html~ assets/schedule2html.xslt "${dir}"/schedule.xml
     # xmllint --output "${dir}"/schedule2.html --format --encode utf-8 "${dir}"/schedule2.html~
@@ -66,7 +66,7 @@ do
   curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     {
       echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
-      fgrep -v "<?xml version=" "${dst}"
+      grep -vF "<?xml version=" "${dst}"
     } | xmllint --output "${dir}"/${part}.schedule2.xml --relaxng assets/schedule.sloppy.rng --format --encode utf-8 -
   }
 done
@@ -84,7 +84,7 @@ url="https://events.ccc.de/congress/${year}/${dir}/version"
 dst="${dir}.version"
 
 curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
-  url="$(fgrep "URL: " < "${dst}" | cut -d ' ' -f 2)"
+  url="$(grep -F "URL: " < "${dst}" | cut -d ' ' -f 2)"
   dst="${dir}.tbz"
 
   curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
