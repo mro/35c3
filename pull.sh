@@ -25,7 +25,7 @@ dst="${dir}.version"
 
 for evt in $(grep -F '<url>' Fahrplan/schedule2.xml | grep -hoE '[0-9]+' | sort -n)
 do 
-  dst_evt="${dir}/${evt}.html"
+  dst_evt="${dir}/events/${evt}.html"
   url_evt="https://fahrplan.events.ccc.de/congress/${year}/${dst_evt}"
 	echo "${url_evt}"
   curl --silent --max-time 3 --create-dirs --location --remote-time --time-cond "${dst_evt}" --output "${dst_evt}" "${url_evt}"
