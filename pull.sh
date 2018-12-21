@@ -18,7 +18,7 @@ dst="${dir}.version"
   curl --output "${dir}/schedule.xml" --location "https://fahrplan.events.ccc.de/congress/${year}/${dir}/schedule.xml"
   {
     echo '<?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>'
-    grep -vf "<?xml version=" "${dir}/schedule.xml"
+    grep -vF "<?xml version=" "${dir}/schedule.xml"
   } | xmllint --output "${dir}"/schedule2.xml --relaxng assets/schedule.rng --format --encode utf-8 -
   sed -i -e "s|<url>https://fahrplan.events.ccc.de/congress/${year}/Fahrplan/events/|<url>./events/|g" "${dir}"/schedule2.xml
 }
