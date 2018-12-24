@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: Columbo
+  version: Dr Who
   base_url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/
   conference:
     acronym: 35c3
@@ -24,13 +24,13 @@ schedule:
           start: '11:00'
           duration: '00:30'
           room: Adams
-          slug: 35c3-9985-opening_ceremony
-          title: Opening Ceremony
+          slug: 35c3-9985-opening_event
+          title: Opening Event
           subtitle: '35C3: Refreshing Memories'
           track: CCC
           type: lecture
-          language: en
-          abstract: ''
+          language: de
+          abstract: Hier geht es los.
           description: ''
           recording_license: ''
           do_not_record: false
@@ -1833,6 +1833,8 @@ schedule:
           - url: https://www.cl.cam.ac.uk/~pes20/Netsem/paper3.pdf
             title: 'Engineering with Logic: Rigorous Test-Oracle Specification and
               Validation for TCP/IP and the Sockets API'
+          - url: https://github.com/rems-project/netsem
+            title: Network Semantics repository
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9903.html
           id: 9903
@@ -2610,7 +2612,7 @@ schedule:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9975.html
           id: 9975
           guid: f17d3060-fb3d-4d73-b1e3-8bd5ec4d4d12
-          logo: 
+          logo: "/system/events/logos/000/009/975/large/Jahresrueckblick18.png?1545577737"
           date: '2018-12-28T12:50:00+01:00'
           start: '12:50'
           duration: '02:20'
@@ -2636,6 +2638,8 @@ schedule:
             public_name: Constanze Kurz
           - id: 1633
             public_name: frank
+          - id: 1544
+            public_name: erdgeist
           links: []
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9791.html
@@ -2701,54 +2705,53 @@ schedule:
             using various attack scenarios and offer the community a solution for
             the secure use of the affected devices."
           description: "GERMAN:\r\nFür die dem Vortrag zu Grunde liegenden Tests wurden
-            verschiedenste Glühbirnen und Steckdosen verschiedener Hersteller bei
-            amazon.de bestellt und untersucht. Dabei fiel sofort auf, dass sehr oft
-            ein ESP8266 (sehr kostengünstiger 32-Bit-Mikrocontroller mit integriertem
-            802.11 b/g/n Wi-Fi) der chinesischen Firma espressif verwendet wird.\r\nWeitere
-            Untersuchungen zeigten, dass neben dem verwendeten WIFI-Modul, unabhängig
-            vom aufgedruckten Hersteller der Smart-Devices, auch dieselbe Cloud, sowie
-            die gleiche Basis-App eines chinesischen IoT-Modul-Herstellers verwendet
-            wird. \r\nDiese Basis-Plattform ermöglicht somit jedem weltweit in kürzester
-            Zeit selbst zum Reseller von bereits fertigen Produkten, wie „Smart Bulbs“
-            und „Smart Plugs“ zu werden, oder seine ganz eigenen Smart-Devices auf
-            den Markt zu bringen, auch ohne den Besitz tieferer technischer Kenntnisse
-            bezüglich IoT oder IT-Sicherheit.\r\n\r\nDie Analyse der \"Smart\"-Devices,
-            die diese Basis-Plattform verwenden, ist allgemein erschreckend. Einfachste
-            Sicherheitsregeln werden nicht befolgt und es gibt gravierende systematische
-            und konzeptionelle Mängel, die stark zu Lasten der Sicherheit der Endanwender
-            gehen. Aufgrund der einfachen Möglichkeit des Bezugs und Inverkehrbringens
-            solcher Smart-Devices (z.B. über Amazon) sind ganz neuartige kriminelle
-            Konzepte denkbar, die auch ohne großes Experten-Hacker-Wissen in die Tat
-            umgesetzt werden könnten.\r\n\r\nDer Vortrag stellt die Funktionsweise
-            der untersuchten smarten Geräte im Zusammenhang mit der verwendeten Basis-Plattform
-            dar und zeigt das Ausmaß der Sicherheitslücken anhand diverser Angriffsszenarien.\r\nAbschließend
-            wird eine Lösung des Sicherheitsdilemmas bei der Verwendung betroffener
-            Smart-Devices angeboten, welche die sichere Nutzung dieser Geräte im eigenen
-            Zuhause, auch für Nichtexperten, möglich macht.\r\n\r\n\r\n\r\nENGLISH:\r\nFor
-            the tests on which the lecture is based, various light bulbs and sockets
-            from different manufacturers were ordered from amazon.de and tested. It
-            was immediately noticed that an ESP8266 (very cost-effective 32-bit microcontroller
-            with integrated 802.11 b/g/n Wi-Fi) from the Chinese company espressif
-            is very often used.\r\nFurther investigations showed that the same cloud
-            and the same basic app from a Chinese IoT module manufacturer are used
-            in addition to the WIFI module used, regardless of the printed manufacturer
-            of the smart devices. \r\nThis basic platform gives anyone worldwide the
-            possibility to become a reseller of already finished products, such as
-            \"Smart Bulbs\" and \"Smart Plugs\", or to bring their own smart devices
-            onto the market in the shortest possible time, even without having in-depth
-            technical knowledge of IoT or IT security.\r\n\r\nThe analysis of the
-            \"smart\" devices using this basic platform is generally frightening.
-            The simplest security rules are not followed and there are serious systematic
-            and conceptual shortcomings, which strongly affect the security of end
-            users. Due to the simple possibility of obtaining and placing such smart
-            devices on the market (e.g. via Amazon), completely new criminal concepts
-            are conceivable that could be put into practice even without a great deal
-            of expert hacker knowledge.\r\n\r\nThe talk presents the functionality
-            of the examined smart devices in relation with the basic platform and
-            shows the extent of the security gaps on the basis of various attack scenarios.\r\nFinally,
-            a solution to the security dilemma of using affected smart devices is
-            offered, which makes it possible for even non-experts to safely use these
-            devices in their own homes."
+            verschiedenste Glühbirnen und Steckdosen verschiedener Hersteller bestellt
+            und untersucht. Dabei fiel sofort auf, dass sehr oft ein ESP8266 (sehr
+            kostengünstiger 32-Bit-Mikrocontroller mit integriertem 802.11 b/g/n Wi-Fi)
+            der chinesischen Firma espressif verwendet wird.\r\nWeitere Untersuchungen
+            zeigten, dass neben dem verwendeten WIFI-Modul, unabhängig vom aufgedruckten
+            Hersteller der Smart-Devices, auch dieselbe Cloud, sowie die gleiche Basis-App
+            eines chinesischen IoT-Modul-Herstellers verwendet wird. \r\nDiese Basis-Plattform
+            ermöglicht somit jedem weltweit in kürzester Zeit selbst zum Reseller
+            von bereits fertigen Produkten, wie „Smart Bulbs“ und „Smart Plugs“ zu
+            werden, oder seine ganz eigenen Smart-Devices auf den Markt zu bringen,
+            auch ohne den Besitz tieferer technischer Kenntnisse bezüglich IoT oder
+            IT-Sicherheit.\r\n\r\nDie Analyse der \"Smart\"-Devices, die diese Basis-Plattform
+            verwenden, ist allgemein erschreckend. Einfachste Sicherheitsregeln werden
+            nicht befolgt und es gibt gravierende systematische und konzeptionelle
+            Mängel, die stark zu Lasten der Sicherheit der Endanwender gehen. Aufgrund
+            der einfachen Möglichkeit des Bezugs und Inverkehrbringens solcher Smart-Devices
+            sind ganz neuartige kriminelle Konzepte denkbar, die auch ohne großes
+            Experten-Hacker-Wissen in die Tat umgesetzt werden könnten.\r\n\r\nDer
+            Vortrag stellt die Funktionsweise der untersuchten smarten Geräte im Zusammenhang
+            mit der verwendeten Basis-Plattform dar und zeigt das Ausmaß der Sicherheitslücken
+            anhand diverser Angriffsszenarien.\r\nAbschließend wird eine Lösung des
+            Sicherheitsdilemmas bei der Verwendung betroffener Smart-Devices angeboten,
+            welche die sichere Nutzung dieser Geräte im eigenen Zuhause, auch für
+            Nichtexperten, möglich macht.\r\n\r\n\r\n\r\nENGLISH:\r\nFor the tests
+            on which the lecture is based, various light bulbs and sockets from different
+            manufacturers were ordered  and tested. It was immediately noticed that
+            an ESP8266 (very cost-effective 32-bit microcontroller with integrated
+            802.11 b/g/n Wi-Fi) from the Chinese company espressif is very often used.\r\nFurther
+            investigations showed that the same cloud and the same basic app from
+            a Chinese IoT module manufacturer are used in addition to the WIFI module
+            used, regardless of the printed manufacturer of the smart devices. \r\nThis
+            basic platform gives anyone worldwide the possibility to become a reseller
+            of already finished products, such as \"Smart Bulbs\" and \"Smart Plugs\",
+            or to bring their own smart devices onto the market in the shortest possible
+            time, even without having in-depth technical knowledge of IoT or IT security.\r\n\r\nThe
+            analysis of the \"smart\" devices using this basic platform is generally
+            frightening. The simplest security rules are not followed and there are
+            serious systematic and conceptual shortcomings, which strongly affect
+            the security of end users. Due to the simple possibility of obtaining
+            and placing such smart devices on the market, completely new criminal
+            concepts are conceivable that could be put into practice even without
+            a great deal of expert hacker knowledge.\r\n\r\nThe talk presents the
+            functionality of the examined smart devices in relation with the basic
+            platform and shows the extent of the security gaps on the basis of various
+            attack scenarios.\r\nFinally, a solution to the security dilemma of using
+            affected smart devices is offered, which makes it possible for even non-experts
+            to safely use these devices in their own homes."
           recording_license: ''
           do_not_record: false
           persons:
@@ -3423,7 +3426,7 @@ schedule:
           - id: 8745
             public_name: Thies Mynther
           links:
-          - url: www.allcreatureswelcome.net
+          - url: http://www.allcreatureswelcome.net
             title: Movie Page
           attachments:
           - url: "/system/event_attachments/attachments/000/003/622/original/ACW_Poster_KI_Regenbogen_digital.jpg?1542289809"
@@ -4092,52 +4095,6 @@ schedule:
           - url: https://twitter.com/search?f=tweets&q=%23BlindNavigation
             title: 'Tweets about #BlindNavigation'
           attachments: []
-        - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9648.html
-          id: 9648
-          guid: e66cded3-7336-42bd-a7c8-d77073465ad2
-          logo: "/system/events/logos/000/009/648/large/CCC_title.jpg?1539521954"
-          date: '2018-12-28T16:10:00+01:00'
-          start: '16:10'
-          duration: '01:00'
-          room: Dijkstra
-          slug: 35c3-9648-micropython_python_for_microcontrollers
-          title: MicroPython – Python for Microcontrollers
-          subtitle: How high-level scripting languages make your hardware project
-            beautifuly easy
-          track: Hardware & Making
-          type: lecture
-          language: en
-          abstract: "MicroPython is a lean and efficient implementation of the Python
-            3 programming language that includes a small subset of the Python standard
-            library and is optimised to run on microcontrollers and in constrained
-            environments.<br>\r\nThis talk will give an overview about the MicroPython
-            hard- and software and introduces the community."
-          description: "MicroPython is an Open Source project and developed in the
-            open on GitHub. With more than 7000 stars, it ranks in the top 100 of
-            the most popular C/C++ projects.<br>\r\nThe MicroPython pyboard is a compact
-            electronic circuit board that runs MicroPython on the bare metal, giving
-            you a low-level Python operating system that can be used to control all
-            kinds of electronic projects.<br>\r\nMicroPython is packed full of advanced
-            features such as an interactive prompt, arbitrary precision integers,
-            closures, list comprehension, generators, exception handling and more.
-            Yet it is compact enough to fit and run within just 256k of code space
-            and 16k of RAM.<br>\r\nMicroPython aims to be as compatible with normal
-            Python as possible to allow you to transfer code with ease from the desktop
-            to a microcontroller or embedded system.<br>\r\nIt's used by educators,
-            makers and professional hard- and software developers around the world.
-            The use cases reach from embedded hardware testing over Industrial Internet
-            of Thins into space applications."
-          recording_license: ''
-          do_not_record: false
-          persons:
-          - id: 8135
-            public_name: Christine Spindler
-          links:
-          - url: micropython.org
-            title: MicroPython Website
-          - url: github.com/micropython
-            title: MicroPython on Git
-          attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9526.html
           id: 9526
           guid: 623e136b-1ac6-4ef3-8152-d55cfcc80268
@@ -4148,12 +4105,12 @@ schedule:
           room: Dijkstra
           slug: 35c3-9526-never_forgetti
           title: Never Forgetti
-          subtitle: ''
+          subtitle: a didactic live-gaming performance about dying women across video
+            game history
           track: Art & Culture
           type: performance
           language: en
-          abstract: a didactic live-gaming performance about dying women across video
-            game history
+          abstract: ''
           description: "Never Forgetti <br>\r\nlecture performance, 2018 <br>\r\nmultiplatform
             game, <br>\r\n<a href=\"https://soundcloud.com/imdrivingfast/sets/never-forgetti-ost\">
             soundtrack </a> & <a href=\"http://janberger.info/texts/nf_guide_web.pdf\">
@@ -4479,7 +4436,7 @@ schedule:
             festival (organisers of the Contemporary Africa Photography prize) that
             resulted in Reality Check, a simultaneous virtual reality tour of Lagos
             and Basel.\r\n"
-          description: coming...
+          description: ''
           recording_license: ''
           do_not_record: false
           persons:
@@ -4636,25 +4593,25 @@ schedule:
           track: Ethics, Society & Politics
           type: lecture
           language: de
-          abstract: "Beim Datenschutz geht es mitnichten um Privatsphäre, um das eigene
+          abstract: Beim Datenschutz geht es mitnichten um Privatsphäre, um das eigene
             Schlafzimmer oder um das Teilen privater Daten bei Facebook. Es geht gleichermaßen
             um den Erhalt einer demokratischen Gesellschaftsordnung wie um den Erhalt
-            von individuellen Handlungsalternativen im digitalen Zeitalter. Wir dürfen
+            individueller Handlungsalternativen im digitalen Zeitalter. Wir dürfen
             also nicht so sehr über Einzelpersonen und ihre höchst subjektiven Privatheitswünsche
             sprechen, sondern viel mehr von Machtasymmetrien, Durchsetzungsmacht,
-            sowie „starken“ und „schwachen“ Akteuren.\r\n\r\nErst dann können wir
-            politischen Nebelkerzen wie \"Selbst-Datenschutz\", \"Dateneigentum\",
-            \"individuelle Datensouveränität\" oder etwa \"Algorithmen-Ethik\" etwas
-            entgegensetzen, die zunehmend als Lösung für Verdatung der Gesellschaft
-            angeboten werden. Doch wir müssen uns strukturell und auch theoretisch
-            mit dem Problem der Informationsmacht großer Organisationen (Behörden,
-            Firmen) beschäftigen, wenn wir einer grundrechtsorientierten digitalen
-            Gesellschaft leben wollen. Datenreichtumsbefürworter- und DatenschutzverächterInnen,
+            sowie „starken“ und „schwachen“ Akteuren.
+          description: "Erst mit diesem strukturellen Blick können wir politischen
+            Nebelkerzen wie \"Selbst-Datenschutz\", \"Dateneigentum\", \"individuelle
+            Datensouveränität\" oder etwa \"Algorithmen-Ethik\" etwas entgegensetzen,
+            die zunehmend als Lösung für das Problem der Verdatung der Gesellschaft
+            angeboten werden. Wir müssen uns strukturell und auch theoretisch mit
+            dem Problem der Informationsmacht großer Organisationen (Behörden, Firmen)
+            beschäftigen, wenn wir einer grundrechtsorientierten digitalen Gesellschaft
+            leben wollen. Denn Datenreichtumsbefürworter- und DatenschutzverächterInnen,
             die derartige Probleme wie so oft dem Individuum aufbürden wollen, haben
-            nämlich keinen theoretischen Unterbau. Dieser Foundation-Talk vermittelt
+            nämlich keinen theoretischen Unterbau.\r\n\r\nDieser Foundation-Talk vermittelt
             passioniert das Rüstzeug und die nötigen Grundlagen, um tatsächlich sinnvolle
             Datenschutzbebatten zu führen."
-          description: ''
           recording_license: ''
           do_not_record: false
           persons:
@@ -4677,8 +4634,8 @@ schedule:
           track: Ethics, Society & Politics
           type: lecture
           language: de
-          abstract: Datenreichtum, Massenüberwachung und andere netzpolitische Schauplätze
-            in der Schweiz
+          abstract: Datenreichtum, E-Voting, Massenüberwachung und andere netzpolitische
+            Schauplätze in der Schweiz
           description: "Der Kampf um die Freiheit im digitalen Raum wird auch in der
             Schweiz intensiver. Wir blicken auf das netzpolitische Jahr 2018 in der
             Schweiz zwischen Bodensee und Matterhorn zurück. Wir behandeln jene Themen,
@@ -4686,20 +4643,21 @@ schedule:
             Digitalen Gesellschaft in der Schweiz im neuen Jahr zu erwarten ist.\r\n\r\n<strong>Themen
             sind unter anderem:</strong>\r\n\r\n<strong>Massenüberwachung:</strong>
             Kabelaufklärung und Vorratsdatenspeicherung sowie die Beschwerden, welche
-            die Digitale Gesellschaft führt\r\n\r\n<strong>E-Voting:</strong> Abstimmungen
-            und Wahlen im Internet sowie der Kampf für das Vertrauen in die Direkte
-            Demokratie in der Schweiz\r\n\r\n<strong>Netzsperren:</strong> Die Zensur
-            im schweizerischen Internet begann mit «Denkt denn niemand an die Kinder?»
-            und geht nun mit Geldspielen im Internet weiter …\r\n\r\n<strong>Urheberrecht:</strong>
+            die Digitale Gesellschaft in der Schweiz führt.\r\n\r\n<strong>E-Voting:</strong>
+            Abstimmungen und Wahlen im Internet sowie der Kampf für das Vertrauen
+            in die Direkte Demokratie in der Schweiz.\r\n\r\n<strong>Netzsperren:</strong>
+            Die Zensur im schweizerischen Internet begann mit «Denkt denn niemand
+            an die Kinder?» und geht nun mit Geldspielen im Internet weiter …\r\n\r\n<strong>Urheberrecht:</strong>
             Wie die USA im «Piratenstaat» Schweiz ihre Forderungen durchsetzen, unter
-            anderem Massenabmahnungen gegen Filesharing\r\n\r\n<strong>Datenschutz:</strong>
+            anderem mit Massenabmahnungen gegen Filesharing.\r\n\r\n<strong>Datenschutz:</strong>
             Wo war in der Schweiz besonders viel «Datenreichtum» zu beobachten?\r\n\r\n<strong>Digitale
             Gesellschaft in der Schweiz:</strong> Razzia am «Hort der Linksextremen»,
-            Winterkongress und andere Aktivitäten\r\n\r\nNach dem Vortrag sind alle
+            Winterkongress und andere Aktivitäten.\r\n\r\nNach dem Vortrag sind alle
             interessierten Personen eingeladen, die Diskussion an einem Workshop der
             Digitalen Gesellschaft fortzusetzen. Es werden Aktivisten von verschiedenen
             aktiven Organisationen der Netzpolitik in der Schweiz anwesend sein (Digitale
-            Gesellschaft, CCC-CH, CCCZH, Piratenpartei Schweiz, Digitale Allmend).\r\n\r\nhttps://events.ccc.de/congress/2018/wiki/index.php/Session:Follow-up_meeting_to_the_Netzpolitik_in_der_Schweiz_talk"
+            Gesellschaft, CCC-CH, CCCZH, Piratenpartei Schweiz, Digitale Allmend).\r\n\r\n<a
+            href=\"https://events.ccc.de/congress/2018/wiki/index.php/Session:Follow-up_meeting_to_the_Netzpolitik_in_der_Schweiz_talk\">https://events.ccc.de/congress/2018/wiki/index.php/Session:Follow-up_meeting_to_the_Netzpolitik_in_der_Schweiz_talk</a>"
           recording_license: ''
           do_not_record: false
           persons:
@@ -4709,7 +4667,9 @@ schedule:
             public_name: Patrick "packi" Stählin
           - id: 7723
             public_name: Kire
-          links: []
+          links:
+          - url: https://www.digitale-gesellschaft.ch
+            title: Digitale Gesellschaft in der Schweiz
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9492.html
           id: 9492
@@ -4775,29 +4735,25 @@ schedule:
             and big-data analytics, DISNOVATION.ORG’s trilogy of internet bots is
             uncovering and repurposing some of the influential and opaque operating
             systems of our online environment. '
-          description: Through the hacking of surveillance techniques, machine learning,
-            and big-data analytics, DISNOVATION.ORG’s trilogy of internet bots is
-            uncovering and repurposing some of the influential and opaque operating
-            systems of our online environment. Started in 2012 with The Pirate Cinema
-            (exposing the dynamics of peer-to-peer media sharing and its materiality),
-            followed by Predictive Art Bot (a disruption of the normative effects
-            of social media on creativity), and continued with Computational Propaganda
-            (a ‘system test’ of the online political influence apparatus), this series
-            explores black box technologies and the algorithmic governance of our
-            aspirations, decisions, and political views. These three artworks aim
-            to reveal emergent algorithmic imaginaries, expose the inner workings
-            of these systems, and stimulate critical debate.
+          description: Started in 2012 with The Pirate Cinema (exposing the dynamics
+            of peer-to-peer media sharing and its materiality), followed by Predictive
+            Art Bot (a disruption of the normative effects of social media on creativity),
+            and continued with Computational Propaganda (a ‘system test’ of the online
+            political influence apparatus), this series explores black box technologies
+            and the algorithmic governance of our aspirations, decisions, and political
+            views. These three artworks aim to reveal emergent algorithmic imaginaries,
+            expose the inner workings of these systems, and stimulate critical debate.
           recording_license: ''
           do_not_record: false
           persons:
           - id: 8671
             public_name: DISNOVATION.ORG
           links:
-          - url: disnovation.org
+          - url: https://disnovation.org
             title: DISNOVATION.ORG Art Collective
-          - url: predictiveartbot.com
+          - url: http://predictiveartbot.com
             title: Predictive Art Bot
-          - url: thepiratecinema.com
+          - url: https://thepiratecinema.com
             title: The Pirate Cinema
           attachments:
           - url: "/system/event_attachments/attachments/000/003/595/original/pab_v4_web.jpg?1539643475"
@@ -5754,25 +5710,28 @@ schedule:
           start: '23:50'
           duration: '00:40'
           room: Borg
-          slug: 35c3-9941-shadow_profiles_gdpr_nightmares_and_third_party_tracking_in_android
-          title: Shadow profiles, GDPR nightmares and third party tracking in Android
-          subtitle: ''
+          slug: 35c3-9941-how_facebook_tracks_you_on_android
+          title: How Facebook tracks you on Android
+          subtitle: "(even if you don’t have a Facebook account)"
           track: Ethics, Society & Politics
           type: lecture
           language: en
-          abstract: "<p>Not on Facebook? Well Facebook could still have created a
-            shadow profile for you!</p>\r\n\r\n<p>Privacy International has been analysing
-            the potential ways in which Facebook can profile individuals who are not
-            Facebook users (so called shadow profiles), including through Android
-            apps which implement the Facebook SDK.</p>"
-          description: "<p>In this talk, we’re looking at shadow profiles and third
-            party tracking on Android. We’ve captured and decrypted data in transit
-            between our own devices and Facebook servers. It turns out that some apps
-            routinely send Facebook  information about your device and usage patterns.
-            We’ll walk you through the technical part of our analysis and end with
-            a call to action: We believe that both Facebook and developers can do
-            more to avoid oversharing, profiling and damaging the privacy of their
-            users.</p>"
+          abstract: "<p>In this talk, we’re looking at third party tracking on Android.
+            We’ve captured and decrypted data in transit between our own devices and
+            Facebook servers. It turns out that some apps routinely send Facebook
+            \ information about your device and usage patterns - the second the app
+            is opened. We’ll walk you through the technical part of our analysis and
+            end with a call to action: We believe that both Facebook and developers
+            can do more to avoid oversharing, profiling and damaging the privacy of
+            their users.</p>"
+          description: "<p>In this talk, we’re looking at third party tracking on
+            Android. We’ve captured and decrypted data in transit between our own
+            devices and Facebook servers. It turns out that some apps routinely send
+            Facebook  information about your device and usage patterns - the second
+            the app is opened. We’ll walk you through the technical part of our analysis
+            and end with a call to action: We believe that both Facebook and developers
+            can do more to avoid oversharing, profiling and damaging the privacy of
+            their users.</p>"
           recording_license: ''
           do_not_record: false
           persons:
@@ -5835,13 +5794,13 @@ schedule:
           start: '12:50'
           duration: '01:00'
           room: Clarke
-          slug: 35c3-9664-how_light_in_the_antarctic_ice_unveiled_the_first_cosmic_particle_accelerator
-          title: How light in the Antarctic Ice unveiled the first cosmic particle
-            accelerator
-          subtitle: About the Texas Blazar and Multi-Messenger Astrophysics
+          slug: 35c3-9664-kosmische_teilchenbeschleuniger_und_ihre_spuren_in_der_antarktis
+          title: Kosmische Teilchenbeschleuniger und ihre Spuren in der Antarktis
+          subtitle: "Über die Identifikation des ersten kosmischen Teilchenbeschleunigers
+            und den Start einer neuen Ära in der Multimessenger-Astronomie"
           track: Science
           type: lecture
-          language: en
+          language: de
           abstract: On September 17th 2017 the blazar TXS0506+056, a gigantic particle
             accelerator driven by the super-massive black hole at the center of its
             host galaxy, emitted a large number of weakly interacting elementary particles,
@@ -5888,6 +5847,52 @@ schedule:
           - id: 7409
             public_name: Anni
           links: []
+          attachments: []
+        - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9648.html
+          id: 9648
+          guid: e66cded3-7336-42bd-a7c8-d77073465ad2
+          logo: "/system/events/logos/000/009/648/large/CCC_title.jpg?1539521954"
+          date: '2018-12-29T14:10:00+01:00'
+          start: '14:10'
+          duration: '01:00'
+          room: Clarke
+          slug: 35c3-9648-micropython_python_for_microcontrollers
+          title: MicroPython – Python for Microcontrollers
+          subtitle: How high-level scripting languages make your hardware project
+            beautifuly easy
+          track: Hardware & Making
+          type: lecture
+          language: en
+          abstract: "MicroPython is a lean and efficient implementation of the Python
+            3 programming language that includes a small subset of the Python standard
+            library and is optimised to run on microcontrollers and in constrained
+            environments.<br>\r\nThis talk will give an overview about the MicroPython
+            hard- and software and introduces the community."
+          description: "MicroPython is an Open Source project and developed in the
+            open on GitHub. With more than 7000 stars, it ranks in the top 100 of
+            the most popular C/C++ projects.<br>\r\nThe MicroPython pyboard is a compact
+            electronic circuit board that runs MicroPython on the bare metal, giving
+            you a low-level Python operating system that can be used to control all
+            kinds of electronic projects.<br>\r\nMicroPython is packed full of advanced
+            features such as an interactive prompt, arbitrary precision integers,
+            closures, list comprehension, generators, exception handling and more.
+            Yet it is compact enough to fit and run within just 256k of code space
+            and 16k of RAM.<br>\r\nMicroPython aims to be as compatible with normal
+            Python as possible to allow you to transfer code with ease from the desktop
+            to a microcontroller or embedded system.<br>\r\nIt's used by educators,
+            makers and professional hard- and software developers around the world.
+            The use cases reach from embedded hardware testing over Industrial Internet
+            of Thins into space applications."
+          recording_license: ''
+          do_not_record: false
+          persons:
+          - id: 8135
+            public_name: Christine Spindler
+          links:
+          - url: micropython.org
+            title: MicroPython Website
+          - url: github.com/micropython
+            title: MicroPython on Git
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9346.html
           id: 9346
@@ -6455,7 +6460,7 @@ schedule:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9573.html
           id: 9573
           guid: 07f5d97a-161c-4435-abad-6ef08107df15
-          logo: 
+          logo: "/system/events/logos/000/009/573/large/photo_2018-12-21_13-24-19.jpg?1545395075"
           date: '2018-12-29T19:10:00+01:00'
           start: '19:10'
           duration: '00:40'
@@ -6979,7 +6984,7 @@ schedule:
           do_not_record: false
           persons:
           - id: 8389
-            public_name: maxb
+            public_name: Maximilian Burkhardt
           links: []
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9579.html
@@ -7475,13 +7480,13 @@ schedule:
           start: '17:10'
           duration: '01:00'
           room: Adams
-          slug: 35c3-9986-closing_ceremony
-          title: Closing Ceremony
+          slug: 35c3-9986-closing_event
+          title: Closing Event
           subtitle: ''
           track: CCC
           type: lecture
-          language: en
-          abstract: ''
+          language: de
+          abstract: Hier hört es auf.
           description: ''
           recording_license: ''
           do_not_record: false
@@ -7642,7 +7647,7 @@ schedule:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9768.html
           id: 9768
           guid: 75b955c7-3e7c-463d-9d31-5b1e1745a5b2
-          logo: 
+          logo: "/system/events/logos/000/009/768/large/0865eb00acd7dc00c592fd205d3f93de_preview_featured.jpg?1545500740"
           date: '2018-12-30T12:50:00+01:00'
           start: '12:50'
           duration: '01:00'
