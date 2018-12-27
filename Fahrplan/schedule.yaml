@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: Golden Girls
+  version: Inspector Gadget
   base_url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/
   conference:
     acronym: 35c3
@@ -131,7 +131,9 @@ schedule:
           - id: 4228
             public_name: J. Alex Halderman
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/653/original/Election_Cybersecurity_Progress_Report_%2835c5__December_2018%29.pdf?1545925095"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9647.html
           id: 9647
           guid: 9629fcf4-6810-48d7-bd17-d81f924e6b47
@@ -299,7 +301,9 @@ schedule:
           links:
           - url: https://www.nussschale-podcast.de
             title: Nussschale Podcast
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/647/original/i2DL_Slides.pdf?1545916065"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/10011.html
           id: 10011
           guid: 686c1387-e761-4df6-b395-f9ddf92d46e7
@@ -659,7 +663,11 @@ schedule:
           links:
           - url: https://censoredplanet.org
             title: 'Censored Planet: a Global Censorship Observatory '
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/654/original/35C3-CensoredPlanet-Ensafi.pdf?1545925229"
+            title: Presentation Slides
+          - url: "/attachments/original/missing.png"
+            title: file
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/10005.html
           id: 10005
           guid: f0d70663-0769-4462-ad27-bc516d9cb141
@@ -1133,8 +1141,12 @@ schedule:
           persons:
           - id: 8418
             public_name: Claudia Frick - @FuzzyLeapfrog
-          links: []
-          attachments: []
+          links:
+          - url: https://doi.org/10.5281/zenodo.1495601
+            title: Slides (DOI)
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/639/original/35c3-FuzzyLeapfrog.pdf?1545913798"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9513.html
           id: 9513
           guid: 7177142b-6f15-4fac-af62-c45df7a377a9
@@ -1453,7 +1465,11 @@ schedule:
           links:
           - url: https://netzpolitik.org/neues-aus-dem-fernsehrat/
             title: Reihe "Neues aus dem Fernsehrat" bei netzpolitik.org
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/651/original/Dobusch-35C3-Chaos_im_Fernsehrat_FINAL.pdf?1545924504"
+            title: Slides "Chaos im Fernsehrat"
+          - url: "/attachments/original/missing.png"
+            title: file
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9792.html
           id: 9792
           guid: bf5019dc-499d-4c06-9ad0-35adbe01e7f3
@@ -1670,6 +1686,10 @@ schedule:
           - url: "/system/event_attachments/attachments/000/003/538/original/EUROSUR-Pilot.jpg?1539592021"
             title: " EUROSUR-Pilotprojekt von 2009. Damals kam die Gefahr für Frontex
               noch aus dem Osten."
+          - url: "/attachments/original/missing.png"
+            title: file
+          - url: "/system/event_attachments/attachments/000/003/650/original/35C3_Frontex.pdf?1545923568"
+            title: Präsentation
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9909.html
           id: 9909
           guid: 65563dfd-db48-41ea-85a9-e889dd673d09
@@ -1877,49 +1897,6 @@ schedule:
           - url: https://github.com/rems-project/netsem
             title: Network Semantics repository
           attachments: []
-        - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9903.html
-          id: 9903
-          guid: 647d2bdf-8161-4136-b041-27dd6b0fe989
-          logo: 
-          date: '2018-12-27T20:50:00+01:00'
-          start: '20:50'
-          duration: '01:00'
-          room: Dijkstra
-          slug: 35c3-9903-exploiting_kernel_memory_corruptions_on_microsoft_windows_10_redstone_5
-          title: Exploiting Kernel Memory Corruptions on Microsoft Windows 10 RedStone
-            5
-          subtitle: ''
-          track: Security
-          type: lecture
-          language: en
-          abstract: This talk is about new challenges in exploiting kernel memory
-            corruptions on brand new Microsoft Windows RedStone 5.
-          description: "Each new version of Windows OS Microsoft enhances security
-            by adding security mitigation mechanisms - Kernel land vulnerabilities
-            are getting more and more valuable these days. For example, the easy way
-            to escape from a sandbox is by using a kernel vulnerability. That's why
-            Microsoft struggles to enhance security of Windows kernel.\r\n\r\nKernel
-            pool allocator plays a significant role in security of whole kernel. Since
-            Windows 7, Microsoft started to enhance the security of the Windows kernel
-            pool allocator. In Windows 8, Microsoft has eliminated almost all reliable
-            (previously published) techniques of exploiting kernel pool corruptions.\r\n\r\nThen
-            Microsoft eliminated \"0xBAD0B0B0\" technique in Windows 8.1, and there
-            was no easy technique to exploit Pool Overflows on Windows 8.1\r\n\r\nThen
-            DKOM/DKOHM technique was present that gave really nice primitives(arbitrary
-            read/write/execute) for kernel exploitation.\r\n\r\nFollowing up Microsoft
-            obfuscated TypeIndex in an object header leaving DKOM/DKOHM technique
-            useless.\r\n\r\nBut Microsoft left unprotected optional headers that gave
-            born to DKOOHM technique.\r\n\r\nSadly enough, Microsoft introduced brand
-            new Kernel Memory Allocator on Windows 10 RS5 leaving current pool memory
-            manipulation techniques useless.\r\n\r\nThis talk presents new techniques
-            of exploiting kernel memory corruptions on Windows 10 RS5."
-          recording_license: ''
-          do_not_record: false
-          persons:
-          - id: 8642
-            public_name: Nikita Tarakanov
-          links: []
-          attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9778.html
           id: 9778
           guid: dbd61e6a-dbde-4dcd-9b2e-73ba7ad62861
@@ -2017,7 +1994,9 @@ schedule:
           - id: 8239
             public_name: Theodor Sperlea
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/656/original/Talk_35c3_169.pdf?1545927988"
+            title: Presentation slides
         Eliza:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9913.html
           id: 9913
@@ -3430,7 +3409,7 @@ schedule:
           subtitle: a utopian documentary about the digital age
           track: CCC
           type: film
-          language: en
+          language: de
           abstract: "\"All Creatures Welcome sketches a utopian image of society in
             the digital era. Accompanied by the appeal to “use hacking as a mindset,”
             the viewers immerse themselves, together with the filmmaker, in a documentary
@@ -3986,7 +3965,9 @@ schedule:
           - id: 8613
             public_name: Nicole Rauch
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/658/original/farewell.pdf?1545930771"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9660.html
           id: 9660
           guid: 9777cea0-ac06-4274-85db-908c1e87e2f4
@@ -4262,7 +4243,7 @@ schedule:
             feminist hackerspace created in 2016 by a small group of queer & feminist
             hackers and hacktivists. The goal was to create a space at the intersection
             of communities that often remain apart.\r\n\r\nEm O'Sullivan is a former
-            hackerspace and Maker Faire organiser. Currently, she is a PhD student
+            hackerspace and Maker Faire organiser. Currently, they are a PhD student
             researching ways to improve women and non-binary people's engagement with
             technology via makerspaces.\r\n\r\nReady to Code is a young project from
             Stuttgart that teaches girls and women how to code and stand up for themselves.\r\n\r\n\r\n\r\n"
@@ -4868,7 +4849,7 @@ schedule:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/10036.html
           id: 10036
           guid: 1cff41a8-455e-42a6-ab08-d6cb166e7d3b
-          logo: 
+          logo: "/system/events/logos/000/010/036/large/photo_2017-12-25_16-24-33.jpg?1545927390"
           date: '2018-12-28T23:50:00+01:00'
           start: '23:50'
           duration: '01:00'
@@ -4891,7 +4872,7 @@ schedule:
           do_not_record: false
           persons:
           - id: 8771
-            public_name: jule
+            public_name: Jule Torhorst
           - id: 8784
             public_name: Tammo Messow
           - id: 8786
@@ -6219,7 +6200,15 @@ schedule:
           - id: 8168
             public_name: Manuel Aiple
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/643/original/interactiverobot.zip?1545914780"
+            title: Self-balancing robot simulator example
+          - url: "/system/event_attachments/attachments/000/003/644/original/drop-with-drag.gnumeric?1545914880"
+            title: Drop with drag example
+          - url: "/system/event_attachments/attachments/000/003/645/original/mass-spring-damper.gnumeric?1545914880"
+            title: Mass spring damper example
+          - url: "/system/event_attachments/attachments/000/003/646/original/electric-motor.gnumeric?1545914880"
+            title: Electric motor example
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9765.html
           id: 9765
           guid: 35e80689-6330-49fe-b5c5-46972418f5b6
