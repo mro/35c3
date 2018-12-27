@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: Inspector Gadget
+  version: Jetsons
   base_url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/
   conference:
     acronym: 35c3
@@ -965,10 +965,7 @@ schedule:
             könnten wir ändern und was sollten wir besser in Ruhe lassen?\r\nWas mit
             CRISPR getan wird - darüber sollte es einen breiten Dialog in der Gesellschaft
             geben. Wir wollen versuchen die wissenschaftliche Faktenlage darzustellen,
-            und die Möglichkeiten und Grenzen von CRISPR zu beleuchten. Am Schluss
-            schauen wir uns an, was bereits über CRISPR berichtet wurde und versuchen
-            einzuordnen was davon auf wissenschaftlich belegbaren Füßen steht oder
-            ob es sich um Bullshit handelt.\r\n"
+            und die Möglichkeiten und Grenzen von CRISPR zu beleuchten. \r\n"
           recording_license: ''
           do_not_record: false
           persons:
@@ -1468,8 +1465,6 @@ schedule:
           attachments:
           - url: "/system/event_attachments/attachments/000/003/651/original/Dobusch-35C3-Chaos_im_Fernsehrat_FINAL.pdf?1545924504"
             title: Slides "Chaos im Fernsehrat"
-          - url: "/attachments/original/missing.png"
-            title: file
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9792.html
           id: 9792
           guid: bf5019dc-499d-4c06-9ad0-35adbe01e7f3
@@ -2596,7 +2591,7 @@ schedule:
           subtitle: ''
           track: Science
           type: lecture
-          language: en
+          language: de
           abstract: 'This talk investigates fake science factories; international
             twilight companies whose sole purpose is to give studies an air of scientific
             credibility while cashing in on millions of dollars in the process. We
@@ -2631,8 +2626,6 @@ schedule:
             public_name: "@tillkrause"
           - id: 8760
             public_name: Peter Hornung
-          - id: 8776
-            public_name: Dr Dade Murphy
           links: []
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9975.html
@@ -4806,7 +4799,7 @@ schedule:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9939.html
           id: 9939
           guid: 2536bba3-b95f-4cec-9a95-7aa756db7edb
-          logo: "/system/events/logos/000/009/939/large/disnovation_profile2.jpg?1539688041"
+          logo: "/system/events/logos/000/009/939/large/ccc_talk4.jpg?1545941976"
           date: '2018-12-28T22:50:00+01:00'
           start: '22:50'
           duration: '00:40'
@@ -6209,6 +6202,10 @@ schedule:
             title: Mass spring damper example
           - url: "/system/event_attachments/attachments/000/003/646/original/electric-motor.gnumeric?1545914880"
             title: Electric motor example
+          - url: "/system/event_attachments/attachments/000/003/659/original/script.pdf?1545942710"
+            title: Script to the talk
+          - url: "/system/event_attachments/attachments/000/003/660/original/slides.pdf?1545942957"
+            title: Slides to the talk
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9765.html
           id: 9765
           guid: 35e80689-6330-49fe-b5c5-46972418f5b6

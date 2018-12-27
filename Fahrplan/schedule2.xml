@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>
 <schedule>
-  <version>Inspector Gadget</version>
+  <version>Jetsons</version>
   <conference>
     <acronym>35c3</acronym>
     <title>35th Chaos Communication Congress</title>
@@ -679,7 +679,7 @@ Unser Vortrag gibt einen Überblick darüber, was mit dem CRISPR/Cas-System mög
 Katrin studierte Biochemie, verpodcastete Wissenschaftsnachrichten und berät wissenschaftliche Softwareprojekte.
 Anna ist Biologin und hat während ihrer Doktorarbeit teilweise mit CRISPR gearbeitet.
 Obwohl wir aus verschiedenen Bereichen der Wissenschaft kommen, haben wir eine gemeinsame Leidenschaft: Themen aus der Wissenschaft verständlich darzustellen. Eine der vielversprechendsten neuen Technologien ist CRISPR/Cas. Dabei handelt es sich um eine Gentechnikmethode, die ein großes Potenzial für Mensch und Umwelt hat. Aber wie jedes Werkzeug kann CRISPR sowohl für Gutes als auch für Böses eingesetzt werden - und es ist nicht immer einfach zu sagen, was was ist, besonders in biologischen und ökologischen Systemen. CRISPR hilft uns, Genfunktionen und Krankheiten besser erforschen zu können. Es könnte uns auch helfen, die Folgen des Klimawandels in vielerlei Hinsicht zu bekämpfen - doch haben wir uns nicht genug in die Umwelt eingemischt? CRISPR könnte uns helfen, Krankheiten zu behandeln, vielleicht sogar bei Embryonen mit genetischen Krankheiten. Aber ist es ethisch vertretbar, die menschliche Keimbahn zu verändern? Oder sollten wir sie bei Tieren verändern, um höhere  Fleisch-, Milch- oder Eiererträge zu erzielen? Was könnten wir ändern und was sollten wir besser in Ruhe lassen?
-Was mit CRISPR getan wird - darüber sollte es einen breiten Dialog in der Gesellschaft geben. Wir wollen versuchen die wissenschaftliche Faktenlage darzustellen, und die Möglichkeiten und Grenzen von CRISPR zu beleuchten. Am Schluss schauen wir uns an, was bereits über CRISPR berichtet wurde und versuchen einzuordnen was davon auf wissenschaftlich belegbaren Füßen steht oder ob es sich um Bullshit handelt.
+Was mit CRISPR getan wird - darüber sollte es einen breiten Dialog in der Gesellschaft geben. Wir wollen versuchen die wissenschaftliche Faktenlage darzustellen, und die Möglichkeiten und Grenzen von CRISPR zu beleuchten. 
 </description>
         <logo>/system/events/logos/000/009/838/large/logo.png?1539632549</logo>
         <persons>
@@ -1041,7 +1041,6 @@ Nach etwas mehr als der Hälfte meiner vierjährigen Periode möchte ich im Rahm
         </links>
         <attachments>
           <attachment href="/system/event_attachments/attachments/000/003/651/original/Dobusch-35C3-Chaos_im_Fernsehrat_FINAL.pdf?1545924504">Slides "Chaos im Fernsehrat"</attachment>
-          <attachment href="/attachments/original/missing.png">file</attachment>
         </attachments>
       </event>
       <event guid="bf5019dc-499d-4c06-9ad0-35adbe01e7f3" id="9792">
@@ -1899,7 +1898,7 @@ Vulnerabilities in top 5 SD-WAN (depends on fixes, responsible disclosure in pro
         <subtitle/>
         <track>Science</track>
         <type>lecture</type>
-        <language>en</language>
+        <language>de</language>
         <abstract>This talk investigates fake science factories; international twilight companies whose sole purpose is to give studies an air of scientific credibility while cashing in on millions of dollars in the process. We present the findings, outcomes and methodology from a team of investigative journalists, hackers and data scientists who delved into the parallel universe of fraudulent pseudo-academic conferences and journals. The story was published in Germany (ARD and Süddeutsche Zeitung Magazin) in mid of July and then went around the world. How did it begin? What did we learn in the process? And: What happened since the story got published?</abstract>
         <description>Until recently, fake science factories have remained relatively under the radar, with few outside of academia aware of their presence; but the highly profitable industry has been growing significantly in the last five years and with it, so are the implications. To the public, fake science is often indistinguishable from legitimate science, which is facing similar accusations itself.
 We expose the scale and value of two fake science operations: Well-known institutions and professors who abuse this route of publication for personal gain and the deadly consequences when the public believe in fake cures or weird discoveries that seem scientific at a very first glance. Beyond the pressure to publish, we find varying motivations from paid vacations and promotions to obtaining stipends and research grants.
@@ -1910,7 +1909,6 @@ For 35C3 we did some extra analytics and will publish new numbers, how pseudo-ac
           <person id="7209">@sveckert</person>
           <person id="8756">@tillkrause</person>
           <person id="8760">Peter Hornung</person>
-          <person id="8776">Dr Dade Murphy</person>
         </persons>
         <links>
 </links>
@@ -3592,7 +3590,7 @@ The kleptographic attacks were first discovered by Adam Young and Moti Yung in 1
         <language>en</language>
         <abstract>Through the hacking of surveillance techniques, machine learning, and big-data analytics, DISNOVATION.ORG’s trilogy of internet bots is uncovering and repurposing some of the influential and opaque operating systems of our online environment. </abstract>
         <description>Started in 2012 with The Pirate Cinema (exposing the dynamics of peer-to-peer media sharing and its materiality), followed by Predictive Art Bot (a disruption of the normative effects of social media on creativity), and continued with Computational Propaganda (a ‘system test’ of the online political influence apparatus), this series explores black box technologies and the algorithmic governance of our aspirations, decisions, and political views. These three artworks aim to reveal emergent algorithmic imaginaries, expose the inner workings of these systems, and stimulate critical debate.</description>
-        <logo>/system/events/logos/000/009/939/large/disnovation_profile2.jpg?1539688041</logo>
+        <logo>/system/events/logos/000/009/939/large/ccc_talk4.jpg?1545941976</logo>
         <persons>
           <person id="8671">DISNOVATION.ORG</person>
         </persons>
@@ -4552,6 +4550,8 @@ Bring your computer with Gnumeric, Python and OMEditor installed to follow the e
           <attachment href="/system/event_attachments/attachments/000/003/644/original/drop-with-drag.gnumeric?1545914880">Drop with drag example</attachment>
           <attachment href="/system/event_attachments/attachments/000/003/645/original/mass-spring-damper.gnumeric?1545914880">Mass spring damper example</attachment>
           <attachment href="/system/event_attachments/attachments/000/003/646/original/electric-motor.gnumeric?1545914880">Electric motor example</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/659/original/script.pdf?1545942710">Script to the talk</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/660/original/slides.pdf?1545942957">Slides to the talk</attachment>
         </attachments>
       </event>
       <event guid="35e80689-6330-49fe-b5c5-46972418f5b6" id="9765">
