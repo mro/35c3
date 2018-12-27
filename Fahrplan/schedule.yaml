@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: Firefly
+  version: Golden Girls
   base_url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/
   conference:
     acronym: 35c3
@@ -377,8 +377,8 @@ schedule:
           start: '20:50'
           duration: '01:00'
           room: Adams
-          slug: 35c3-10016-g10_bnd-gesetz_und_der_effektive_schutz_von_grundrechten
-          title: G10, BND-Gesetz und der effektive Schutz von Grundrechten
+          slug: 35c3-10016-g10_bnd-gesetz_und_der_effektive_schutz_vor_grundrechten
+          title: G10, BND-Gesetz und der effektive Schutz vor Grundrechten
           subtitle: Die strategische Fernmeldeüberwachung des BND vor dem Bundesverfassungsgericht
           track: Ethics, Society & Politics
           type: lecture
@@ -564,7 +564,9 @@ schedule:
             title: Why TLS 1.3 isn’t there yet
           - url: https://www.golem.de/news/tls-1-3-die-zukunft-der-netzverschluesselung-1612-124724.html
             title: 'TLS 1.3: Die Zukunft der Netzverschlüsselung'
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/637/original/tls13.pdf?1545904122"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9904.html
           id: 9904
           guid: d995955c-319f-4228-b3f4-080868bbfdf8
@@ -1236,7 +1238,9 @@ schedule:
           - url: https://www.welivesecurity.com/wp-content/uploads/2018/09/ESET-LoJax.pdf
             title: 'LOJAX: First UEFI rootkit found in the wild, courtesy of the Sednit
               group (white paper)'
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/638/original/35C3-First-Sednit-UEFI-Rootkit-Unveiled.pdf?1545904527"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9809.html
           id: 9809
           guid: 1601bf3b-ce4a-44c9-993f-7d28fa65168d
@@ -2062,7 +2066,9 @@ schedule:
           links:
           - url: http://www.hyperk.org
             title: Hyper-Kamiokande website
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/630/original/35C3_JostMigenda.pdf?1545850403"
+            title: Slides (pdf, 30MB)
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9410.html
           id: 9410
           guid: 9d8d4506-03b2-483d-aee5-d106f0a3eef5
@@ -2118,7 +2124,9 @@ schedule:
             title: LibreSilicon project page
           - url: https://github.com/chipforge/PearlRiver
             title: PearlRiver test wafer
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/636/original/talk-20181227-35c3.pdf?1545900171"
+            title: talk-20181227-35c3.pdf
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9375.html
           id: 9375
           guid: 6a5007f4-e7d6-4c63-9a10-26dd48a6eb6c
@@ -2709,8 +2717,6 @@ schedule:
           persons:
           - id: 8588
             public_name: Robert Tibbo
-          - id: 8801
-            public_name: Steffen Arora
           links: []
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9723.html
@@ -3027,6 +3033,8 @@ schedule:
           links:
           - url: https://c3lt.de/35c3
             title: Registration and schedule
+          - url: https://events.ccc.de/congress/2018/wiki/index.php/Static:Lightning_Talks
+            title: Congress Wiki Page
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9419.html
           id: 9419
@@ -3699,7 +3707,8 @@ schedule:
           room: Clarke
           slug: 35c3-9998-the_good_the_strange_and_the_ugly_in_2018_art_tech
           title: 'The good, the strange and the ugly in 2018 art &tech '
-          subtitle: ''
+          subtitle: On art, AI, hormones hacking and other prospects of a post-human
+            world
           track: Art & Culture
           type: lecture
           language: en
@@ -3716,7 +3725,7 @@ schedule:
             the strange and the exciting in art and science/technology over this past
             year. With a short incursion into the ugly because even artists have the
             right to be awful.\r\n\r\nSome of the topics explored might include the
-            environmental and human cost of AI; hormones hacking, 'racism' behind
+            environmental and human cost of AI, hormones hacking, 'racism' behind
             innocent looking devices and other prospects of a post-human world."
           recording_license: ''
           do_not_record: false
@@ -4665,7 +4674,7 @@ schedule:
           - id: 6677
             public_name: Felix Just
           links:
-          - url: www.suprememachines.de
+          - url: https://suprememachines.de/
             title: Supreme Machines Website
           attachments:
           - url: "/system/event_attachments/attachments/000/003/586/original/hannah_push_recovery.mp4?1539639211"
@@ -5394,6 +5403,8 @@ schedule:
           links:
           - url: https://c3lt.de/35c3
             title: Registration and schedule
+          - url: https://events.ccc.de/congress/2018/wiki/index.php/Static:Lightning_Talks
+            title: Congress Wiki Page
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9971.html
           id: 9971
@@ -6623,7 +6634,7 @@ schedule:
           - id: 8737
             public_name: Schmidt
           - id: 8750
-            public_name: Lina
+            public_name: Lina Hurlin
           links:
           - url: http://das-ist-unser-haus.de/
             title: Das ist unser Haus (Film cc)
@@ -7573,7 +7584,7 @@ schedule:
           track: Ethics, Society & Politics
           type: lecture
           language: de
-          abstract: "Das Jahr 2018 bietete weider zahlreiche Beispiele für einen netzpolitischen
+          abstract: "Das Jahr 2018 bietete wieder zahlreiche Beispiele für einen netzpolitischen
             Wetterbericht. Die Große Koalition lief sich mit der Bundesregierung warm
             und am Ende des Jahres droht man den Überblick über zahlreiche Kommissionen
             und Arbeitsgruppen zur Digitalisierung zu verlieren.\r\n\r\nDie gute Nachricht
@@ -7752,6 +7763,8 @@ schedule:
           links:
           - url: https://c3lt.de/35c3
             title: Registration and schedule
+          - url: https://events.ccc.de/congress/2018/wiki/index.php/Static:Lightning_Talks
+            title: Congress Wiki Page
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9925.html
           id: 9925
@@ -7904,7 +7917,7 @@ schedule:
           logo: "/system/events/logos/000/009/964/large/Untitled-11.png?1539703024"
           date: '2018-12-30T14:10:00+01:00'
           start: '14:10'
-          duration: '01:00'
+          duration: '00:50'
           room: Clarke
           slug: 35c3-9964-cat_mouse_evading_the_censors_in_2018
           title: 'Cat & Mouse: Evading the Censors in 2018'
@@ -7942,10 +7955,9 @@ schedule:
             to newly established ICT infrastructure?\r\n- How do circumvention trends
             follow censorship events and social/political movements?\r\n- Where do
             we see these technical advances leading the next generation of censorship
-            and circumvention technology?\r\n\r\nThis is a Foundations talk. Though
-            no prior understanding of circumvention technology is required to enjoy
-            this, the presentation will delve into technical details that will prove
-            fruitful for the expert audience as well."
+            and circumvention technology?\r\n\r\nThis is a Foundations talk. No prior
+            understanding of circumvention technology is required to enjoy this, but
+            the presentation will hopefully be enjoyable to all experience levels."
           recording_license: ''
           do_not_record: false
           persons:
@@ -7960,7 +7972,7 @@ schedule:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9905.html
           id: 9905
           guid: 093eca9c-c084-462a-8ed2-b95954782b06
-          logo: 
+          logo: "/system/events/logos/000/009/905/large/talk_logo.png?1545853700"
           date: '2018-12-30T11:30:00+01:00'
           start: '11:30'
           duration: '01:00'
@@ -7981,17 +7993,16 @@ schedule:
             machines. This includes looking at software in machine-human interaction,
             as well as digging deeper into a cultural history of imagining and building
             human-like machines. \r\nTo look at this, two view points are taken; \r\nIn
-            the examples of the virtual assistants; what are the technical requirements
-            for speech synthesis and how do these shape which gender we associate
-            with a human sounding voice? What are the expectations and projections
-            users map onto a machine when they interact with it? \r\nThis connects
-            to the cultural imagining of machines as subjects, which has been pondered
-            in literature and film before and parallel to technical research. From
-            18th century clockwork powered figures, that wrote and played music, to
-            19th century literature, in which young men fall in love with piano playing
-            automata to A.I. characters in movie series and cinema.\r\nThis talk tries
-            to explore the relations between design and perception of machines and
-            the dynamics in between."
+            the examples of the virtual assistants; What do the responses these devices
+            give in conversation reveal about their design? What are the expectations
+            and projections users map onto a machine when they interact with it? \r\nThis
+            connects to the cultural imagining of machines as subjects, which has
+            been pondered in literature and film before and parallel to technical
+            research. From 18th century clockwork powered figures, that wrote and
+            played music, to 19th century literature, in which young men fall in love
+            with piano playing automata to A.I. characters in movie series and cinema.\r\nThis
+            talk tries to explore the relations between design and perception of machines
+            and the dynamics in between."
           recording_license: ''
           do_not_record: false
           persons:
