@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: Jetsons
+  version: Knight Rider
   base_url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/
   conference:
     acronym: 35c3
@@ -1102,7 +1102,9 @@ schedule:
             title: Original microcode paper and corresponding talk
           - url: https://github.com/RUB-SysSec/Microcode
             title: Github project - to be updated
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/674/original/Microcode35C3.pdf?1545996674"
+            title: Presentation Slides
         Clarke:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9599.html
           id: 9599
@@ -1689,8 +1691,6 @@ schedule:
           - url: "/system/event_attachments/attachments/000/003/538/original/EUROSUR-Pilot.jpg?1539592021"
             title: " EUROSUR-Pilotprojekt von 2009. Damals kam die Gefahr für Frontex
               noch aus dem Osten."
-          - url: "/attachments/original/missing.png"
-            title: file
           - url: "/system/event_attachments/attachments/000/003/650/original/35C3_Frontex.pdf?1545923568"
             title: Präsentation
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9909.html
@@ -1951,7 +1951,9 @@ schedule:
             title: ARM Trusted Firmware
           - url: github.com/open-power/hostboot
             title: Hostboot
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/668/original/slides_open-source-firmware.zip?1545963349"
+            title: Talk slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9456.html
           id: 9456
           guid: 1dc4f8d0-e5f6-4e49-b647-1a5e0cabbb00
@@ -3870,7 +3872,9 @@ schedule:
             title: Pressemitteilung zu SuperMUC-NG
           - url: https://www.lrz.de/services/compute/supermuc/supermuc-ng/
             title: Characteristics SuperMUC-NG
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/673/original/20181228_Leipzig_-_35C3_-_SuperMUC-NG_%E2%80%A6_und_das_Rennen_um_den_schnellsten_Computer_der_Welt.pdf?1545993786"
+            title: Slides:SuperMUC-NG
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9965.html
           id: 9965
           guid: 3e75c48f-3a58-4afe-bafb-0670dd2b15cc
@@ -4128,6 +4132,8 @@ schedule:
             title: Interaction tips (from blind POV)
           - url: https://twitter.com/search?f=tweets&q=%23BlindNavigation
             title: 'Tweets about #BlindNavigation'
+          - url: https://s.ai/ccc/slides
+            title: Slides PDF
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/10039.html
           id: 10039
@@ -4266,7 +4272,9 @@ schedule:
           - id: 7813
             public_name: Le RESET, feminist hackerspace
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/672/original/35c3_Feminist_Perspectives_HongPhucDang.pdf?1545993234"
+            title: HongPhucDang
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9618.html
           id: 9618
           guid: 948fee49-de6f-42b1-82f8-045af2aa155e
@@ -6039,7 +6047,7 @@ schedule:
             to a microcontroller or embedded system.<br>\r\nIt's used by educators,
             makers and professional hard- and software developers around the world.
             The use cases reach from embedded hardware testing over Industrial Internet
-            of Thins into space applications."
+            of Things into space applications."
           recording_license: ''
           do_not_record: false
           persons:
@@ -6281,6 +6289,8 @@ schedule:
           persons:
           - id: 8571
             public_name: Dagmar Krefting
+          - id: 6404
+            public_name: Sebastian Jünemann
           links:
           - url: http://remo2hbo.f4.htw-berlin.de/
             title: remo2hbo-Projekt
