@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <schedule>
-<version>Knight Rider</version>
+<version>Love Boat</version>
 <conference>
 <acronym>35c3</acronym>
 <title>35th Chaos Communication Congress</title>
@@ -525,6 +525,7 @@ The goal is that you will gain an understanding of the structure of the Internet
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/677/original/35c3-internet.zip?1546003081'>Presentation slides</attachment>
 </attachments>
 </event>
 <event guid='a42e5a4f-fd9b-4571-bf17-483978afecb3' id='9563'>
@@ -1638,7 +1639,7 @@ We will explore the Scuttleverse and beyond. What is Scuttlebutt now, and and im
 <track>Science</track>
 <type>lecture</type>
 <language>en</language>
-<abstract>&lt;p&gt;How to apply Shannon&#39;s information theory to biology.&lt;/p&gt;</abstract>
+<abstract>How to apply Shannon&#39;s information theory to biology.</abstract>
 <description>&lt;p&gt;Cells, from bacteria to human cells, constantly take up, store, retrieve, communicate and make decisions based on information. How they realise all this computation using very unreliable components is still largely an open question. Instead of transistors they have to employ proteins, but proteins constantly degenerate and are re-built making their numbers fluctuate. If cellular signalling is impaired severe diseases can be the result, for instance cancer or epilepsy.&lt;/p&gt;
 
 &lt;p&gt;As cellular communication is so pervasive and essential, researchers start to look into this information flow in biological systems in more detail. My research group at the BioQuant centre, Heidelberg University, is also active in this area, an area which I would call Information Biology &amp;mdash; the study of how biological systems deal with information.&lt;/p&gt;
@@ -1664,6 +1665,7 @@ We will explore the Scuttleverse and beyond. What is Scuttlebutt now, and and im
 <link href='https://lab.pahle.org'>Research group homepage</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/676/original/2018-12-27_35C3JuergenPahle.pdf?1546000267'>Slides</attachment>
 </attachments>
 </event>
 <event guid='4dcbb9c4-8f93-40ed-85c0-90474f4ea623' id='10009'>
@@ -2328,6 +2330,7 @@ Im Vortrag erzählen euch Jens und Kristin, welche Maßnahmen weit vor einer Dur
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/679/original/teach-programming.pdf?1546010097'>teach-programming.pdf</attachment>
 </attachments>
 </event>
 <event guid='6e25dd44-763f-494b-bae5-75b409dcf1d0' id='9658'>
@@ -2680,6 +2683,7 @@ This is a brief introduction into the paradigm shifting realm of sex- and gender
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/003/675/original/35c3-4-komprimiert.pdf?1545999934'>35c3-4-komprimiert.pdf</attachment>
 </attachments>
 </event>
 <event guid='622c9585-e332-4915-a9ac-987a34da4d14' id='9998'>
@@ -2836,7 +2840,7 @@ We want to present practical, every day guidelines and principles that can help 
 <description>The Good Technology Collective was founded in December of 2017 in Berlin by a diverse group of experts from academia, government &amp; the private sector with the goal to bring fresh wind into the discussions everybody seemed to have about the impact of modern technology in the wake of the full impact of fake news, algorithmic biases, filter bubbles &amp; massive data breaches - without ever resulting in tangible action.
 The GTC hosts and supports regular events to educate engineers, publishes articles to educate society through media partnerships, holds internal round tables and aims to work with policy makers long-term. As part of this years effort, we are releasing &quot;Ethical Engineering Guidelines&quot; that offer a practical way for engineers and organizations to responsibly develop new technology that takes ethics &amp; societal impact more into account and can easily be applied to small and large projects alike. These guidelines have been developed throughout the year a parts of them presented at various events as they progressed, to collect feedback and further improve them.
 Members of GTC range from (former) whistle blowers, activist MPs, Oxford professors in ethics, authors to entrepreneurs and technology makers in various areas. The GTC is fully independent and only accepts public donations that are not tied to a specific project.</description>
-<logo></logo>
+<logo>/system/events/logos/000/009/965/large/g62.png?1546009994</logo>
 <persons>
 <person id='8525'>Yann Leretaille</person>
 </persons>
@@ -3467,6 +3471,7 @@ Wir entwickeln ein völlig freies quelloffenes Hardware- und Software-Design fü
 <attachment href='/system/event_attachments/attachments/000/003/586/original/hannah_push_recovery.mp4?1539639211'>Kurzes Video vom Roboter</attachment>
 <attachment href='/system/event_attachments/attachments/000/003/587/original/IMG_20180525_155412.jpg?1539639211'>Foto vom Roboter</attachment>
 <attachment href='/system/event_attachments/attachments/000/003/588/original/IMG_20180609_183131.jpg?1539639211'>Noch ein Foto vom Roboter</attachment>
+<attachment href='/system/event_attachments/attachments/000/003/678/original/slides_1.pdf?1546008239'>Slides</attachment>
 </attachments>
 </event>
 <event guid='2d71612c-7f40-484b-a939-10b809aedd80' id='9733'>
@@ -3906,18 +3911,20 @@ Hier lohnt es sich für den hackenden Nachwuchs, aus den Fehlern anderer zu lern
 <start>22:10</start>
 <duration>00:40</duration>
 <room>Adams</room>
-<slug>35c3-10017-e-evidenz</slug>
+<slug>35c3-10017-electronic_evicence_in_criminal_matters</slug>
 <url>https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/10017.html</url>
 <recording>
 <license></license>
 <optout>false</optout>
 </recording>
-<title>E-Evidenz</title>
-<subtitle></subtitle>
+<title>Electronic Evicence in Criminal Matters</title>
+<subtitle>An introduction and critique of the EC proposal for a regulation</subtitle>
 <track>Ethics, Society &amp; Politics</track>
 <type>lecture</type>
-<language>de</language>
-<abstract>Was steht in der e-Evidence-Verordnung der Europäischen Union?</abstract>
+<language>en</language>
+<abstract>The lecture will give an introduction into the &quot;EC Proposal for a Regulation on European Production and Preservation Orders for Electronic Evidence in Criminal Matters (COM (2018) 225 final)&quot; and .
+the impact to civil liberties of the users as well as the challenges for service providers of the diverse range of services covered by the proposal.&lt;br&gt;
+Urgent action is required &lt;b&gt;now&lt;/b&gt; by diverse groups to fight the existing proposal and prevent it from becoming binding law throughout the EU..    </abstract>
 <description></description>
 <logo></logo>
 <persons>
@@ -4762,20 +4769,13 @@ There are three steps to building better drivers:
 
 We show that it is possible to achieve all of these goals for PCIe drivers on Linux by implementing user space network drivers in all of the aforementioned programming languages. Our techniques are transferable to other drivers that would benefit from more modern implementations. 
 
-Our drivers in &lt;a href=&quot;https://github.com/ixy-languages/ixy.rs&quot;&gt;Rust&lt;/a&gt;, &lt;a href=&quot;https://github.com/ixy-languages/ixy.cs&quot;&gt;C#&lt;/a&gt;, &lt;a href=&quot;https://github.com/ixy-languages/ixy.go&quot;&gt;go&lt;/a&gt;, and &lt;a href=&quot;https://github.com/ixy-languages/ixy.swift&quot;&gt;Swift&lt;/a&gt; are completely finished, tuned for performance, evaluated, and benchmarked. And all of them except for Swift are about 80-90% as fast as &lt;a href=&quot;https://github.com/emmericp/ixy&quot;&gt;our user space C driver&lt;/a&gt; and 6-10 times faster than the kernel C driver.
+Our drivers in &lt;a href=&quot;https://github.com/ixy-languages/ixy.rs&quot;&gt;Rust&lt;/a&gt;, &lt;a href=&quot;https://github.com/ixy-languages/ixy.cs&quot;&gt;C#&lt;/a&gt;, &lt;a href=&quot;https://github.com/ixy-languages/ixy.go&quot;&gt;go&lt;/a&gt;, and &lt;a href=&quot;https://github.com/ixy-languages/ixy.swift&quot;&gt;Swift&lt;/a&gt; are completely finished, tuned for performance, evaluated, and benchmarked. And all of them except for Swift are about 80-90% as fast as &lt;a href=&quot;https://github.com/emmericp/ixy&quot;&gt;our user space C driver&lt;/a&gt; and 6-10 times faster than the kernel C driver. We also investigate how garbage collectod languages affects the latency of a packet forwarder built on top of our drivers.
 
 We also got something for fans of functional languages: our implementations in &lt;a href=&quot;https://github.com/ixy-languages/ixy.ml&quot;&gt;OCaml&lt;/a&gt; and &lt;a href=&quot;https://github.com/ixy-languages/ixy.hs&quot;&gt;Haskell&lt;/a&gt; are working but not yet tuned for performance. We are also working on Python, Java, and Javascript.
-
+We take a brief look at Haskell, Swift, OCaml, and C# in the talk and a deeper dive into Rust and Go.
 
 The talk also features a quick summary from &lt;a href=&quot;https://media.ccc.de/v/34c3-9159-demystifying_network_cards&quot;&gt;last year&#39;s talk about user space driver basics&lt;/a&gt;, so no previous knowledge is required.
-We show how to achieve all of the three points above in selected languages, answering the following key questions:
 
-&lt;ul&gt;
-&lt;li&gt;Which language features make drivers better? Do they cost performance?&lt;/li&gt;
-&lt;li&gt;Does the language need some stubs in C? Does it need code tagged as unsafe (Rust, C#)? How many lines of C or unsafe code are required?
-&lt;li&gt;What does it mean to have a garbage collector in driver code? (latency spikes?!)&lt;/li&gt;
-&lt;li&gt;How well can we isolate the driver? (IOMMU, running without root)&lt;/li&gt;
-&lt;/ul&gt;
 
 Another thing to take away from this talk is: writing drivers is neither scary nor hard. You can write one in your favorite programming language, so go ahead and try that :)
 </description>

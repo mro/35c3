@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: Knight Rider
+  version: Love Boat
   base_url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/
   conference:
     acronym: 35c3
@@ -724,7 +724,9 @@ schedule:
           - id: 2142
             public_name: Peter Stuge
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/677/original/35c3-internet.zip?1546003081"
+            title: Presentation slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9563.html
           id: 9563
           guid: a42e5a4f-fd9b-4571-bf17-483978afecb3
@@ -2232,7 +2234,7 @@ schedule:
           track: Science
           type: lecture
           language: en
-          abstract: "<p>How to apply Shannon's information theory to biology.</p>"
+          abstract: How to apply Shannon's information theory to biology.
           description: "<p>Cells, from bacteria to human cells, constantly take up,
             store, retrieve, communicate and make decisions based on information.
             How they realise all this computation using very unreliable components
@@ -2274,7 +2276,9 @@ schedule:
           links:
           - url: https://lab.pahle.org
             title: Research group homepage
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/676/original/2018-12-27_35C3JuergenPahle.pdf?1546000267"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/10009.html
           id: 10009
           guid: 4dcbb9c4-8f93-40ed-85c0-90474f4ea623
@@ -3153,7 +3157,9 @@ schedule:
           - id: 7686
             public_name: Mike Sperber
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/679/original/teach-programming.pdf?1546010097"
+            title: teach-programming.pdf
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9658.html
           id: 9658
           guid: 6e25dd44-763f-494b-bae5-75b409dcf1d0
@@ -3682,7 +3688,9 @@ schedule:
           - id: 4092
             public_name: Sarah Hiltner
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/675/original/35c3-4-komprimiert.pdf?1545999934"
+            title: 35c3-4-komprimiert.pdf
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9998.html
           id: 9998
           guid: 622c9585-e332-4915-a9ac-987a34da4d14
@@ -3878,7 +3886,7 @@ schedule:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9965.html
           id: 9965
           guid: 3e75c48f-3a58-4afe-bafb-0670dd2b15cc
-          logo: 
+          logo: "/system/events/logos/000/009/965/large/g62.png?1546009994"
           date: '2018-12-28T23:30:00+01:00'
           start: '23:30'
           duration: '01:00'
@@ -4677,6 +4685,8 @@ schedule:
             title: Foto vom Roboter
           - url: "/system/event_attachments/attachments/000/003/588/original/IMG_20180609_183131.jpg?1539639211"
             title: Noch ein Foto vom Roboter
+          - url: "/system/event_attachments/attachments/000/003/678/original/slides_1.pdf?1546008239"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9733.html
           id: 9733
           guid: 2d71612c-7f40-484b-a939-10b809aedd80
@@ -5255,13 +5265,20 @@ schedule:
           start: '22:10'
           duration: '00:40'
           room: Adams
-          slug: 35c3-10017-e-evidenz
-          title: E-Evidenz
-          subtitle: ''
+          slug: 35c3-10017-electronic_evicence_in_criminal_matters
+          title: Electronic Evicence in Criminal Matters
+          subtitle: An introduction and critique of the EC proposal for a regulation
           track: Ethics, Society & Politics
           type: lecture
-          language: de
-          abstract: Was steht in der e-Evidence-Verordnung der Europäischen Union?
+          language: en
+          abstract: "The lecture will give an introduction into the \"EC Proposal
+            for a Regulation on European Production and Preservation Orders for Electronic
+            Evidence in Criminal Matters (COM (2018) 225 final)\" and .\r\nthe impact
+            to civil liberties of the users as well as the challenges for service
+            providers of the diverse range of services covered by the proposal.<br>\r\nUrgent
+            action is required <b>now</b> by diverse groups to fight the existing
+            proposal and prevent it from becoming binding law throughout the EU..
+            \   "
           description: ''
           recording_license: ''
           do_not_record: false
@@ -6469,24 +6486,19 @@ schedule:
             and <a href=\"https://github.com/ixy-languages/ixy.swift\">Swift</a> are
             completely finished, tuned for performance, evaluated, and benchmarked.
             And all of them except for Swift are about 80-90% as fast as <a href=\"https://github.com/emmericp/ixy\">our
-            user space C driver</a> and 6-10 times faster than the kernel C driver.\r\n\r\nWe
-            also got something for fans of functional languages: our implementations
-            in <a href=\"https://github.com/ixy-languages/ixy.ml\">OCaml</a> and <a
-            href=\"https://github.com/ixy-languages/ixy.hs\">Haskell</a> are working
-            but not yet tuned for performance. We are also working on Python, Java,
-            and Javascript.\r\n\r\n\r\nThe talk also features a quick summary from
-            <a href=\"https://media.ccc.de/v/34c3-9159-demystifying_network_cards\">last
+            user space C driver</a> and 6-10 times faster than the kernel C driver.
+            We also investigate how garbage collectod languages affects the latency
+            of a packet forwarder built on top of our drivers.\r\n\r\nWe also got
+            something for fans of functional languages: our implementations in <a
+            href=\"https://github.com/ixy-languages/ixy.ml\">OCaml</a> and <a href=\"https://github.com/ixy-languages/ixy.hs\">Haskell</a>
+            are working but not yet tuned for performance. We are also working on
+            Python, Java, and Javascript.\r\nWe take a brief look at Haskell, Swift,
+            OCaml, and C# in the talk and a deeper dive into Rust and Go.\r\n\r\nThe
+            talk also features a quick summary from <a href=\"https://media.ccc.de/v/34c3-9159-demystifying_network_cards\">last
             year's talk about user space driver basics</a>, so no previous knowledge
-            is required.\r\nWe show how to achieve all of the three points above in
-            selected languages, answering the following key questions:\r\n\r\n<ul>\r\n<li>Which
-            language features make drivers better? Do they cost performance?</li>\r\n<li>Does
-            the language need some stubs in C? Does it need code tagged as unsafe
-            (Rust, C#)? How many lines of C or unsafe code are required?\r\n<li>What
-            does it mean to have a garbage collector in driver code? (latency spikes?!)</li>\r\n<li>How
-            well can we isolate the driver? (IOMMU, running without root)</li>\r\n</ul>\r\n\r\nAnother
-            thing to take away from this talk is: writing drivers is neither scary
-            nor hard. You can write one in your favorite programming language, so
-            go ahead and try that :)\r\n"
+            is required.\r\n\r\n\r\nAnother thing to take away from this talk is:
+            writing drivers is neither scary nor hard. You can write one in your favorite
+            programming language, so go ahead and try that :)\r\n"
           recording_license: ''
           do_not_record: false
           persons:

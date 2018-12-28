@@ -66,7 +66,7 @@ Sunday
 
 </div>
 <div id="main-content">
-<p class="release">Version Knight Rider</p>
+<p class="release">Version Love Boat</p>
 <h2>Lecture: Safe and Secure Drivers in High-Level Languages</h2>
 <h3 class="title">How to write PCIe drivers in Rust, go, C#, Swift, Haskell, and OCaml</h3>
 <div class="column left" id="basic">
@@ -90,23 +90,12 @@ Sunday
 
 <p class="description">We show that it is possible to achieve all of these goals for PCIe drivers on Linux by implementing user space network drivers in all of the aforementioned programming languages. Our techniques are transferable to other drivers that would benefit from more modern implementations. </p>
 
-<p class="description">Our drivers in <a href="https://github.com/ixy-languages/ixy.rs">Rust</a>, <a href="https://github.com/ixy-languages/ixy.cs">C#</a>, <a href="https://github.com/ixy-languages/ixy.go">go</a>, and <a href="https://github.com/ixy-languages/ixy.swift">Swift</a> are completely finished, tuned for performance, evaluated, and benchmarked. And all of them except for Swift are about 80-90% as fast as <a href="https://github.com/emmericp/ixy">our user space C driver</a> and 6-10 times faster than the kernel C driver.</p>
+<p class="description">Our drivers in <a href="https://github.com/ixy-languages/ixy.rs">Rust</a>, <a href="https://github.com/ixy-languages/ixy.cs">C#</a>, <a href="https://github.com/ixy-languages/ixy.go">go</a>, and <a href="https://github.com/ixy-languages/ixy.swift">Swift</a> are completely finished, tuned for performance, evaluated, and benchmarked. And all of them except for Swift are about 80-90% as fast as <a href="https://github.com/emmericp/ixy">our user space C driver</a> and 6-10 times faster than the kernel C driver. We also investigate how garbage collectod languages affects the latency of a packet forwarder built on top of our drivers.</p>
 
-<p class="description">We also got something for fans of functional languages: our implementations in <a href="https://github.com/ixy-languages/ixy.ml">OCaml</a> and <a href="https://github.com/ixy-languages/ixy.hs">Haskell</a> are working but not yet tuned for performance. We are also working on Python, Java, and Javascript.</p>
+<p class="description">We also got something for fans of functional languages: our implementations in <a href="https://github.com/ixy-languages/ixy.ml">OCaml</a> and <a href="https://github.com/ixy-languages/ixy.hs">Haskell</a> are working but not yet tuned for performance. We are also working on Python, Java, and Javascript.
+<br>We take a brief look at Haskell, Swift, OCaml, and C# in the talk and a deeper dive into Rust and Go.</p>
 
-<p class="description">The talk also features a quick summary from <a href="https://media.ccc.de/v/34c3-9159-demystifying_network_cards">last year's talk about user space driver basics</a>, so no previous knowledge is required.
-<br>We show how to achieve all of the three points above in selected languages, answering the following key questions:</p>
-
-<p class="description"></p>
-<ul>
-<br><li>Which language features make drivers better? Do they cost performance?</li>
-<br><li>Does the language need some stubs in C? Does it need code tagged as unsafe (Rust, C#)? How many lines of C or unsafe code are required?
-<br>
-</li>
-<br><li>What does it mean to have a garbage collector in driver code? (latency spikes?!)</li>
-<br><li>How well can we isolate the driver? (IOMMU, running without root)</li>
-<br>
-</ul>
+<p class="description">The talk also features a quick summary from <a href="https://media.ccc.de/v/34c3-9159-demystifying_network_cards">last year's talk about user space driver basics</a>, so no previous knowledge is required.</p>
 
 <p class="description">Another thing to take away from this talk is: writing drivers is neither scary nor hard. You can write one in your favorite programming language, so go ahead and try that :)
 </p>
