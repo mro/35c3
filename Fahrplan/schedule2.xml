@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>
 <schedule>
-  <version>Programming in C</version>
+  <version>Quark</version>
   <conference>
     <acronym>35c3</acronym>
     <title>35th Chaos Communication Congress</title>
@@ -3851,6 +3851,7 @@ This talk will &lt;em&gt;not&lt;/em&gt; cover legal aspects of the lawyers fight
         </links>
         <attachments>
           <attachment href="/system/event_attachments/attachments/000/003/698/original/35c3-russia-vs-telegram.pdf?1546092203">PDF slides</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/699/original/35c3-russia-vs-telegram.odp?1546092203">OpenDocument slides with speaker notes</attachment>
         </attachments>
       </event>
       <event guid="94447a62-a3ba-4f6d-a3b7-b5318a954651" id="9783">
@@ -4509,15 +4510,15 @@ It's used by educators, makers and professional hard- and software developers ar
       <event guid="7ee42591-4f4d-481d-884b-44f5e18e1803" id="9346">
         <date>2018-12-29T16:10:00+01:00</date>
         <start>16:10</start>
-        <duration>00:40</duration>
+        <duration>05:00</duration>
         <room>Clarke</room>
-        <slug>35c3-9346-in_sowjet_russia_smart_card_hacks_you</slug>
+        <slug>35c3-9346-in_soviet_russia_smart_card_hacks_you</slug>
         <url>./events/9346.html</url>
         <recording>
           <license/>
           <optout>false</optout>
         </recording>
-        <title>In Sowjet Russia Smart Card Hacks You</title>
+        <title>In Soviet Russia Smart Card Hacks You</title>
         <subtitle/>
         <track>Security</track>
         <type>lecture</type>
@@ -4537,6 +4538,7 @@ Since smart cards are used in the authentication process, a lot of vulnerabiliti
         <attachments>
           <attachment href="/system/event_attachments/attachments/000/003/512/original/DEFCON-26-Eric-Sesterhenn-Soviet-Russia-Smartcard-Hacks-You.pdf?1539367610">Defcon Slides</attachment>
           <attachment href="/attachments/original/missing.png">file</attachment>
+          <attachment href="/system/event_attachments/attachments/000/003/721/original/slides.pdf?1546148332">35C3 Slides</attachment>
         </attachments>
       </event>
       <event guid="089b7fec-3ee1-493c-9b90-782c0514ffb4" id="9674">
@@ -4970,7 +4972,8 @@ Wir berichten vom Ablauf eines solchen Prozesses inklusive Anekdoten, weisen auf
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/723/original/35c3_MehrSchlechtAlsRecht_.pdf?1546179919">Slides</attachment>
+        </attachments>
       </event>
       <event guid="07f5d97a-161c-4435-abad-6ef08107df15" id="9573">
         <date>2018-12-29T19:10:00+01:00</date>
@@ -5473,7 +5476,8 @@ However, it's not always easy...</description>
           <person id="7323">Fraxinas</person>
         </persons>
         <links>
-</links>
+          <link href="https://pads.schaffenburg.org/p/Repaircafe-35C3">Presentation Repair-Cafés</link>
+        </links>
         <attachments>
 </attachments>
       </event>
@@ -5602,8 +5606,8 @@ Es ist viel passiert in 2018 und die längeren Linien helfen dabei, einen Blick 
 
 The second part of this talk focuses on security. We show how behavior during pairing can be modified, e.g. by setting other device features or IO capabilities. We also demonstrate an implementation of the recent publicly known ECDH key exchange attack.
 
-Last, we show a new attack where any Nexus 5 connecting to or being connected by a malicious device can crash the Bluetooth stack and change a limited set of parameters. This vulnerability has been silently patched in newer firmware versions, but we can confirm it also applies to hardware in other popular devices such as Raspberry Pi 3.</description>
-        <logo/>
+Last, we demonstrate a new attack (CVE-2018-19860) that can crash the Bluetooth stack and execute a limited set of functions – only requiring knowledge of the Bluetooth MAC address of the device under attack. This vulnerability has silently been patched in newer firmware versions, but it applies to Broadcom chips in popular devices such as Nexus 5, Raspberry Pi 3, iPhone 6, Xperia Z5, Samsung Galaxy Note 3, MacBook Pro 2016 and more.</description>
+        <logo>/system/events/logos/000/009/498/large/bug.png?1546169738</logo>
         <persons>
           <person id="4927">jiska</person>
           <person id="8329">mantz</person>
@@ -5613,7 +5617,8 @@ Last, we show a new attack where any Nexus 5 connecting to or being connected by
           <link href="https://github.com/seemoo-lab/internalblue">InternalBlue on GitHub</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/003/722/original/2018-12-30_bluetooth_%284%29.pdf?1546169669">Presentation Slides</attachment>
+        </attachments>
       </event>
       <event guid="b1b28bd0-5279-4950-8385-9ee8a57187f9" id="9685">
         <date>2018-12-30T16:10:00+01:00</date>

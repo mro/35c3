@@ -66,17 +66,17 @@ Sunday
 
 </div>
 <div id="main-content">
-<p class="release">Version Programming in C</p>
+<p class="release">Version Quark</p>
 <h2>Lecture: Dissecting Broadcom Bluetooth</h2>
 <h3 class="title"></h3>
 <div class="column left" id="basic">
-<div class="image large"><img src="/congress/2018/Fahrplan/assets/event_large-4b8aa978adbb7c8e80151f5a83c6782a12e763374ae3a042a55e7e626a64d93b.png"></div>
+<div class="image large"><img src="/congress/2018/Fahrplan/system/events/logos/000/009/498/large/bug.png"></div>
 <p class="abstract">Broadcom's Bluetooth firmware on popular devices – such as Nexus 5, Nexus 6P, Raspberry Pi 3, and Raspberry Pi 3+ – shares the same firmware update mechanisms, which allows for local firmware modifications. With InternalBlue we published a framework to change lower Bluetooth layers. In this talk we go even further and demonstrate a remote exploit in the Broadcom firmware.</p>
 <p class="description">In the first part of this talk we present the InternalBlue framework, which allows to experiment with Broadcom-based Bluetooth chips. On Nexus 5 and 6P, it already supports monitoring and injection tools for the lower layers of the Bluetooth protocol stack.</p>
 
 <p class="description">The second part of this talk focuses on security. We show how behavior during pairing can be modified, e.g. by setting other device features or IO capabilities. We also demonstrate an implementation of the recent publicly known ECDH key exchange attack.</p>
 
-<p class="description">Last, we show a new attack where any Nexus 5 connecting to or being connected by a malicious device can crash the Bluetooth stack and change a limited set of parameters. This vulnerability has been silently patched in newer firmware versions, but we can confirm it also applies to hardware in other popular devices such as Raspberry Pi 3.</p>
+<p class="description">Last, we demonstrate a new attack (CVE-2018-19860) that can crash the Bluetooth stack and execute a limited set of functions – only requiring knowledge of the Bluetooth MAC address of the device under attack. This vulnerability has silently been patched in newer firmware versions, but it applies to Broadcom chips in popular devices such as Nexus 5, Raspberry Pi 3, iPhone 6, Xperia Z5, Samsung Galaxy Note 3, MacBook Pro 2016 and more.</p>
 </div>
 <div class="column left" id="details">
 <h3>Info</h3>
@@ -106,6 +106,10 @@ en
 <li><a href="/congress/2018/Fahrplan/events/9498.ics">iCalendar</a></li>
 <li><a href="https://media.ccc.de/v/2018-154-internalblue-a-deep-dive-into-bluetooth-controller-firmware">MRMCD talk on InternalBlue (more details on how to use it)</a></li>
 <li><a href="https://github.com/seemoo-lab/internalblue">InternalBlue on GitHub</a></li>
+</ul>
+<h3>Files</h3>
+<ul>
+<li><a href="/congress/2018/Fahrplan/system/event_attachments/attachments/000/003/722/original/2018-12-30_bluetooth_%284%29.pdf">Presentation Slides</a></li>
 </ul>
 <h3>Feedback</h3>
 <p>
