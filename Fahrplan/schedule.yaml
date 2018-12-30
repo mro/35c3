@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: Naked Gun
+  version: Programming in C
   base_url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/
   conference:
     acronym: 35c3
@@ -399,7 +399,9 @@ schedule:
           - id: 174
             public_name: Klaus Landefeld
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/713/original/Effektiver_Schutz_vor_Grundrechten_20181227.pdf?1546115285"
+            title: Präsentation
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9992.html
           id: 9992
           guid: 71bdcf60-c567-4cf6-94f4-5681b1d008b4
@@ -5310,7 +5312,9 @@ schedule:
           - id: 174
             public_name: Klaus Landefeld
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/712/original/35C3_-_e-evidence_20181229.pdf?1546115203"
+            title: Presentation
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9667.html
           id: 9667
           guid: a667d070-483e-4e2b-9bf9-d9a5475b6356
@@ -5353,29 +5357,29 @@ schedule:
           - id: 8192
             public_name: Robert Clausen
           links:
-          - url: verificationhandbook.com
+          - url: http://verificationhandbook.com
             title: verificationhandbook.com
-          - url: osintframework.com
+          - url: http://osintframework.com
             title: osintframework.com
-          - url: suncalc.org
+          - url: http://suncalc.org
             title: suncalc.org
-          - url: invid-project.eu
+          - url: http://invid-project.eu
             title: invid-project.eu
-          - url: wikimapia.org
+          - url: http://wikimapia.org
             title: wikimapia.org
-          - url: graph.tips
+          - url: http://graph.tips
             title: graph.tips
-          - url: citizenevidence.amnestyusa.org
+          - url: http://citizenevidence.amnestyusa.org
             title: citizenevidence.amnestyusa.org
-          - url: camopedia.org
+          - url: http://camopedia.org
             title: camopedia.org
-          - url: logos.iti.gr
+          - url: http://logos.iti.gr
             title: logos.iti.gr
-          - url: worldlicenseplates.com
+          - url: http://worldlicenseplates.com
             title: worldlicenseplates.com
-          - url: docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit
+          - url: https://docs.google.com/document/d/1BfLPJpRtyq4RFtHJoNpvWQjmGnyVkfE2HYoICKOGguA/edit
             title: Bellingcat Toolkit (Google Doc)
-          - url: 'geolocatethis.site '
+          - url: http://geolocatethis.site
             title: geolocatethis.site (aktuell offline)
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9486.html
@@ -5412,7 +5416,11 @@ schedule:
             title: Datenspuren 2018
           attachments:
           - url: "/system/event_attachments/attachments/000/003/690/original/hebocon.png?1546085092"
-            title: hebocon.png
+            title: Advertisment on Site
+          - url: "/system/event_attachments/attachments/000/003/710/original/Hebocon.pdf?1546113492"
+            title: Slides for Translators
+          - url: "/attachments/original/missing.png"
+            title: file
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9911.html
           id: 9911
           guid: e4dbae08-779a-4972-a099-7c85df141fa4
@@ -5643,7 +5651,11 @@ schedule:
           - id: 821
             public_name: Ilja van Sprundel
           links: []
-          attachments: []
+          attachments:
+          - url: "/attachments/original/missing.png"
+            title: file
+          - url: "/system/event_attachments/attachments/000/003/719/original/memsad.pptx?1546120017"
+            title: memsad.pptx
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9973.html
           id: 9973
           guid: 7030e406-2e1f-4d4d-8b1b-c68aa22a3434
@@ -5946,7 +5958,13 @@ schedule:
             title: Privacy International Website [Clearnet]
           - url: https://privacyintyqcroe.onion
             title: Privacy International Website [onion]
-          attachments: []
+          attachments:
+          - url: "/attachments/original/missing.png"
+            title: file
+          - url: "/system/event_attachments/attachments/000/003/716/original/How_Facebook_tracks_users_on_Android_%28even_if_they_don't_have_a_Facebook_account%29-3.pdf?1546118360"
+            title: Slides
+          - url: "/attachments/original/missing.png"
+            title: file
         Clarke:
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9657.html
           id: 9657
@@ -6268,7 +6286,9 @@ schedule:
           links:
           - url: https://arxiv.org/pdf/1808.09474.pdf
             title: Technical Report
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/720/original/cryptojacking.pdf?1546124881"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9385.html
           id: 9385
           guid: 1d9c1120-c076-4802-b95b-f35d8396638b
@@ -6926,8 +6946,8 @@ schedule:
           - url: https://lorenzadlung.wordpress.com/socialmedia/scienceslams/
             title: 'Link to my blog regarding science slams:'
           attachments:
-          - url: "/system/event_attachments/attachments/000/003/703/original/20181229_HackingTheHumanMicrobiome_LorenzAdlung.pdf?1546097525"
-            title: 35C3_HackingTheHumanMicrobiome_LorenzAdlung_Talk_Slides
+          - url: "/system/event_attachments/attachments/000/003/709/original/20181229_HackingTheHumanMicrobiome_LorenzAdlung.pdf?1546112640"
+            title: 20181229_HackingTheHumanMicrobiome_LorenzAdlung
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9616.html
           id: 9616
           guid: 84be4017-78a0-444b-8b6f-5a14089bb0f7
@@ -7574,7 +7594,9 @@ schedule:
             title: Foodsaving Community Forum
           - url: https://www.youtube.com/watch?v=MLWccmvhIlU
             title: Presentation from the beginning of the project (2016)
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/003/708/original/presentation.pdf?1546106349"
+            title: Presentation
         - url: https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9371.html
           id: 9371
           guid: b87de377-eb03-4795-b998-7988a63fc239
