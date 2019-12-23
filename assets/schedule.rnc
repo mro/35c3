@@ -1,0 +1,119 @@
+default namespace = ""
+namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
+
+
+## 
+## RelaxNG schema for https://events.ccc.de/congress/2015/Fahrplan/schedule.xml
+## 
+## Validate xml:
+## 
+## $ curl https://events.ccc.de/congress/2015/Fahrplan/schedule.xml | xmllint --noout --relaxng schedule.rng -
+## 
+## RelaxNG: http://blog.mro.name/2010/05/xml-toolbox-relax-ng-trang/
+## http://xmlsoft.org/xmllint.html
+##
+start =
+  
+  ## root element
+  element schedule {
+    element generator {
+      attribute name { xsd:NCName },
+      attribute version { xsd:decimal }
+    },
+    element version {
+      xsd:string
+      # { pattern = "\d+\.\d+[a-z]?\s+(\S.*)" }
+      
+    },
+    element conference {
+      element acronym {
+        xsd:string { pattern = "\d{2}c3" }
+      },
+      title,
+      element start { xsd:date },
+      element end { xsd:date },
+      element days {
+        xsd:unsignedShort { minInclusive = "1" maxInclusive = "10" }
+      },
+      element timeslot_duration { hour_minute }
+    },
+    element day {
+      attribute date { xsd:date },
+      attribute end { xsd:dateTime },
+      attribute index { xsd:integer },
+      attribute start { xsd:dateTime },
+      room+
+    }+
+  }
+title = element title { text }
+room =
+  element room {
+    attribute name { roomvalue },
+    element event {
+      attribute guid { xsd:NMTOKEN },
+      attribute id {
+        xsd:unsignedShort {
+          minInclusive = "1000"
+          maxInclusive = "9999"
+        }
+      },
+      element date { xsd:dateTime },
+      element start { hour_minute },
+      element duration { hour_minute },
+      element room { roomvalue },
+      element slug { text },
+      element recording {
+        element license { text },
+        element optout { xsd:boolean }
+      },
+      title,
+      element subtitle { text },
+      element track { text },
+      element type {
+        xsd:string { pattern = "lecture|podium|performance|other" }
+      },
+      element language {
+        
+        ## yes, there's really empty language tags
+        xsd:string { pattern = "de|en|()" }
+      },
+      element abstract { text },
+      element description { text },
+      element logo { text },
+      element persons {
+        element person {
+          attribute id {
+            xsd:unsignedShort {
+              minInclusive = "51"
+              maxInclusive = "9999"
+            }
+          },
+          text
+        }*
+      },
+      element links {
+        element link {
+          attribute href {
+            xsd:anyURI { pattern = "https?://.+" }
+          },
+          text
+        }*
+      },
+      element attachments {
+        element attachment {
+          attribute href { xsd:anyURI },
+          text
+        }*
+      }
+    }*
+  }
+hour_minute =
+  
+  ## HH:MM
+  xsd:string { pattern = "\d{2}:\d{2}" }
+roomvalue =
+  xsd:string {
+    
+    ## This is veeeery restrictive. Loosen if appropriate.
+    pattern = "(Hall|Saal) (1|2|G|6|13)"
+  }

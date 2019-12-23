@@ -1,0 +1,73 @@
+default namespace = ""
+
+start =
+  element schedule {
+    element generator {
+      attribute name { xsd:NCName },
+      attribute version { xsd:decimal }
+    },
+    element version { xsd:NCName },
+    element conference {
+      element acronym { xsd:NMTOKEN },
+      title,
+      \start,
+      element end { xsd:NMTOKEN },
+      element days { xsd:integer },
+      element timeslot_duration { xsd:NMTOKEN },
+      element base_url { xsd:anyURI }
+    },
+    element day {
+      attribute date { xsd:NMTOKEN },
+      attribute end { xsd:dateTime },
+      attribute index { xsd:integer },
+      attribute start { xsd:dateTime },
+      room+
+    }+
+  }
+title = element title { text }
+\start = element start { xsd:NMTOKEN }
+room =
+  element room {
+    attribute name { xsd:NCName }?,
+    (text
+     | element event {
+         attribute guid { text },
+         attribute id { xsd:integer },
+         element date { xsd:dateTime },
+         \start,
+         element duration { xsd:NMTOKEN },
+         room,
+         element slug { xsd:NMTOKEN },
+         element url { xsd:anyURI },
+         element recording {
+           element license { empty },
+           element optout { xsd:boolean }
+         },
+         title,
+         element subtitle { text },
+         element track { text },
+         element type { xsd:NCName },
+         element language { text },
+         element abstract { text },
+         element description { text },
+         element logo { text },
+         element persons {
+           element person {
+             attribute id { xsd:integer },
+             xsd:anyURI
+           }+
+         },
+         element links {
+           element link {
+             attribute href { xsd:anyURI },
+             text
+           }*
+         },
+         element attachments {
+           element attachment {
+             attribute href { text },
+             text
+           }*
+         }
+       })+
+  }
