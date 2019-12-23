@@ -6,9 +6,9 @@ cd "$(dirname "${0}")" || exit 1
 # - https://code.mro.name/mro/35c3/
 #
 
-USER_AGENT="https://mro.github.io/35c3"
+USER_AGENT="https://code.mro.name/mro/34c3"
 dir=Fahrplan
-year=2018
+year=2019
 
 # url="https://${dir}.events.ccc.de/congress/2015/${dir}/version"
 url="https://${dir}.events.ccc.de/congress/${year}/${dir}/version"

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Lecture: Wifibroadcast | Sunday | Schedule 36th Chaos Communication Congress
+</title>
+<link rel="stylesheet" media="screen" href="/congress/2019/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2019/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2019/Fahrplan/public_schedule_print.css">
+<meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 36th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2019/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/schedule/1.html">
+Friday
+ - 
+<span class="small-font">2019-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/schedule/2.html">
+Saturday
+ - 
+<span class="small-font">2019-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/schedule/3.html">
+Sunday
+ - 
+<span class="small-font">2019-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/schedule/4.html">
+Monday
+ - 
+<span class="small-font">2019-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/timeline.html">timeline</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/booklet.html">book</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version echo</p>
+<h2>Lecture: Wifibroadcast</h2>
+<h3 class="title">How to convert standard wifi dongles into digital broadcast transmitters</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2019/Fahrplan/system/events/logos/000/010/630/large/tower.png"></div>
+<p class="abstract">This talk is about modifying cheap wifi dongles to realize true unidirectional broadcast transmissions that can transport digital data like HD drone video with guaranteed latency over a range of tens of kilometers. The talk will show the necessary changes to the firmware and kernel of the wifi dongle, the forward error correction and software diversity (fuse several receivers in software) that is added to improve reliability and the most prominent use case: Flying a remote controlled drone at a distance of tens of kilometers.</p>
+<p class="description">Wifi as it is implemented in the 802.11 standard tries (as best as it can) to guarantee to a user the delivery of data and the correctness of the data.
+<br>To increase the chance of delivery, the standard includes techniques like automatic retransmission, automatic rate reduction, CSMA/CA. To guarantee correctness, the packets are using CRC sums. These measures are very useful in a typical 1-to-1 communication scenario. However, they do not adapt very well to a 1-to-n scheme (broadcast). Even in case of a 1-to-1 scenario the techniques mentioned above make it impossible to guarantee a latency and throughput of a transmission.</p>
+
+<p class="description">Wifibroadcast uses the wifi hardware in a mode that is very similar to the classic analog broadcast transmitters. Data will immediately be sent over the air, without any association of devices, retransmissions and rate reductions.
+<br>The data can be picked up by an arbitrary number of receivers that decode the data stream, repair damaged packages via software diversity and repair damaged bits via forward error correction.</p>
+
+<p class="description">The Wifibroadcast software is an easy to use Linux program into which arbitrary data can be piped. The same data will then appear on the receiving program on standard output and can thus be piped into further programs.</p>
+
+<p class="description">All software developed has been made available under the GPL license.</p>
+
+<p class="description">A prominent use case for Wifibroadcast is the transmission of live video from a drone. Compared to standard wifi this offers the following advantages:</p>
+
+<p class="description"> * Guaranteed latency
+<br> * No association (that might get lost)
+<br> * Multiple receivers work out of the box
+<br> * True unidirectional communication allows to use asymmetrical antenna setups
+<br> * Slow breakup of connection instead of complete communication loss</p>
+
+<p class="description">The talk will show the details of the Wifibroadcast protocol, the changes to the firmware &amp; driver, the forward error correction, software diversity and finally will show the HD video transmission over tens of kilometers as an application example.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2019/Fahrplan/schedule/3.html">2019-12-29</a>
+<br>
+<b>Start time:</b>
+14:10
+<br>
+<b>Duration:</b>
+00:40
+<br>
+<b>Room:</b>
+Dijkstra
+<br>
+<b>Track:</b>
+<font class="event track-hardware-making">
+<a href="/congress/2019/Fahrplan/events.html#hardware%20&amp;%20making">Hardware &amp; Making</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2019/Fahrplan/events/10630.ics">iCalendar</a></li>
+<li><a href="https://befinitiv.wordpress.com/wifibroadcast-analog-like-transmission-of-live-video-data/">Wifibroadcast – Analog-like transmission of live video data</a></li>
+</ul>
+<h3>Feedback</h3>
+<p>
+<a href="https://frab.cccv.de/en/36c3/public/events/10630/feedback/new">Click here to let us know how you liked this event.</a>
+</p>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent Events</h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2019/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png"></div></td>
+<td><a href="/congress/2019/Fahrplan/speakers/9409.html">befi</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Wifibroadcast",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Dijkstra",
+    "address" : "36th Chaos Communication Congress"
+  },
+  "startDate" : "2019-12-29T14:10:00+0100",
+  "endDate" : "2019-12-29T14:50:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;befi&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/36c3/public/speakers/9409&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/36c3/public/schedule",
+    "name" : "36th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "36th Chaos Communication Congress",
+      "address" : "36th Chaos Communication Congress"
+    },
+    "startDate" : "2019-12-27T11:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>

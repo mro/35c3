@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Lecture: Open Source is Insufficient to Solve Trust Problems in Hardware | Friday | Schedule 36th Chaos Communication Congress
+</title>
+<link rel="stylesheet" media="screen" href="/congress/2019/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/congress/2019/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/congress/2019/Fahrplan/public_schedule_print.css">
+<meta name="viewport" content="width=device-width, initial-scale=1"></head>
+<body>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule 36th Chaos Communication Congress</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/congress/2019/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/schedule/1.html">
+Friday
+ - 
+<span class="small-font">2019-12-27</span>
+</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/schedule/2.html">
+Saturday
+ - 
+<span class="small-font">2019-12-28</span>
+</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/schedule/3.html">
+Sunday
+ - 
+<span class="small-font">2019-12-29</span>
+</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/schedule/4.html">
+Monday
+ - 
+<span class="small-font">2019-12-30</span>
+</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/timeline.html">timeline</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/booklet.html">book</a>
+</li>
+<li>
+<a href="/congress/2019/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version echo</p>
+<h2>Lecture: Open Source is Insufficient to Solve Trust Problems in Hardware</h2>
+<h3 class="title">How Betrusted Aims to Close the Hardware TOCTOU Gap</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/congress/2019/Fahrplan/system/events/logos/000/010/690/large/logo_4x.png"></div>
+<p class="abstract">While open source is necessary for trustable hardware, it is far from sufficient. This is because “hashing” hardware – verifying its construction down to the transistor level – is typically a destructive process, so trust in hardware is a massive time-of-check/time-of-use (TOCTOU) problem. This talk helps us understand the nature of the TOCTOU problem by providing a brief overview of the supply chain security problem and various classes of hardware implants. We then shift gears to talk about ways to potentially close the TOCTOU gap, concluding with a curated set of verifiable components that we are sharing as an open source mobile communications platform  – a kind of combination hardware and software distribution – that we hope can be useful for developing and deploying all manner of open platforms that require a higher level of trust and security.</p>
+<p class="description">The inconvenient truth is that open source hardware is precisely as trustworthy as closed source hardware. The availability of design source only enables us to agree that the designer’s intent can be trusted and is likely correct, but there is no essential link between the hardware design source and the piece of hardware on your desk. Thus while open source is necessary for trustable hardware, it is far from sufficient. This is quite opposite from the case of open source software thanks to projects like Reproducible Builds, where binaries can be loaded in-memory and cryptographically verified and independently reproduced to ensure a match to the complete and corresponding source of a particular build prior to execution, thus establishing a robust link between the executable and the source.</p>
+
+<p class="description">Unfortunately, “hashing” hardware – verifying its construction down to the transistor level – is typically a destructive process, so trust in hardware is a massive time-of-check/time-of-use (TOCTOU) problem. Even if you thoroughly inspect the design source, the factory could modify the design. Even if you audit the factory, the courier delivering the hardware to your desk could insert an implant. Even if you carried the hardware from the factory to your desk, an “evil maid” could modify your machine. This creates an existential crisis for trust – how can we know our secrets are safe if the very hardware we use to compute them could be readily tainted? </p>
+
+<p class="description">This talk addresses the elephant in the room by helping us understand the nature of the TOCTOU problem by providing a brief overview of the supply chain security problem and various classes of hardware implants. We then shift gears to talk about ways to potentially close the TOCTOU gap. When thinking about hardening a system against supply chain attacks, every component – from the CPU to the keyboard to the LCD – must be considered in order to defend against implanted screen grabbers and key loggers. At every level, a trade-off exists between complexity and the feasibility of non-destructive end-user verification with minimal tooling: a system simple enough to be readily verified will not have the equivalent compute power or features of a smartphone. </p>
+
+<p class="description">However, we believe that a verifiable system should have adequate performance for a select range of tasks that include text chats, cryptocurrency wallets, and voice calls. Certain high-risk individuals such as politicians, journalists, executives, whistleblowers, and activists may be willing to use a device that forgoes bells and whistles in exchange for privacy and security. With this in mind, the Betrusted project brings together a curated set of verifiable components as an open source mobile communications platform - a combination open source hardware and software distribution. We are sharing Betrusted with the community in the hopes that others may adopt it as a reference design for developing and deploying all manner of open platforms that require a higher level of trust and security.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/congress/2019/Fahrplan/schedule/1.html">2019-12-27</a>
+<br>
+<b>Start time:</b>
+11:30
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+Clarke
+<br>
+<b>Track:</b>
+<font class="event track-hardware-making">
+<a href="/congress/2019/Fahrplan/events.html#hardware%20&amp;%20making">Hardware &amp; Making</a>
+</font>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/congress/2019/Fahrplan/events/10690.ics">iCalendar</a></li>
+</ul>
+<h3>Feedback</h3>
+<p>
+<a href="https://frab.cccv.de/en/36c3/public/events/10690/feedback/new">Click here to let us know how you liked this event.</a>
+</p>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent Events</h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/congress/2019/Fahrplan/system/people/avatars/000/003/155/small/bunne-avatar2.jpg"></div></td>
+<td><a href="/congress/2019/Fahrplan/speakers/3155.html">bunnie</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img src="/congress/2019/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png"></div></td>
+<td><a href="/congress/2019/Fahrplan/speakers/4376.html">Sean "xobs" Cross</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img src="/congress/2019/Fahrplan/system/people/avatars/000/009/852/small/TM-1-400.jpg"></div></td>
+<td><a href="/congress/2019/Fahrplan/speakers/9852.html">Tom Marble</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Open Source is Insufficient to Solve Trust Problems in Hardware",
+  "location" : {
+    "@type" : "Place",
+    "name" : "Clarke",
+    "address" : "36th Chaos Communication Congress"
+  },
+  "startDate" : "2019-12-27T11:30:00+0100",
+  "endDate" : "2019-12-27T12:30:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;bunnie&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/36c3/public/speakers/3155&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/003/155/small/bunne-avatar2.jpg?1571748456&quot;},{&quot;name&quot;:&quot;Sean \&quot;xobs\&quot; Cross&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/36c3/public/speakers/4376&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;},{&quot;name&quot;:&quot;Tom Marble&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/36c3/public/speakers/9852&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/009/852/small/TM-1-400.jpg?1574168643&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/36c3/public/schedule",
+    "name" : "36th Chaos Communication Congress",
+    "location" : {
+      "@type" : "Place",
+      "name" : "36th Chaos Communication Congress",
+      "address" : "36th Chaos Communication Congress"
+    },
+    "startDate" : "2019-12-27T11:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
+</body>
+</html>
