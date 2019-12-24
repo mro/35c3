@@ -66,12 +66,12 @@ Monday
 
 </div>
 <div id="main-content">
-<p class="release">Version echo</p>
+<p class="release">Version find</p>
 <h2>Lecture: Leaving legacy behind</h2>
 <h3 class="title">Reducing carbon footprint of network services with MirageOS unikernels</h3>
 <div class="column left" id="basic">
 <div class="image large"><img src="/congress/2019/Fahrplan/system/events/logos/000/011/172/large/mirageos.png"></div>
-<p class="abstract">Is the way we run services these days sustainable? The trusted computing base -- the lines of code where, if a flaw is discovered, jeopardizes the security and integrity of the entire service -- is enormous. Using orchestration systems that contain millions of lines of code, and that execute shell code, does not decrease this. This talk will present an alternative, minimalist approach to secure network services - relying on a programming language that guarantees memory safety - composing small libraries (open source, permissively licensed) to build so-called MirageOS unikernels -- special purpose services. Besides web services, other digital infrastructure such as VPN gateway, calendar server, DNS server and resolver, and a minimalistic orchestration system, will be presented. Each unikernel can either run as virtual machine (KVM, Xen, BHyve, virtio), as a sandboxed process (with seccomp filters allowing only 8 system calls), or in smaller containments (GenodeOS, muen separation kernel) -- even a prototypical ESP32 backend is available.</p>
+<p class="abstract">Is the way we run services these days sustainable? The trusted computing base -- the lines of code where, if a flaw is discovered, jeopardizes the security and integrity of the entire service -- is enormous. Using orchestration systems that contain millions of lines of code, and that execute shell code, does not decrease this. This talk will present an alternative, minimalist approach to secure network services - relying on OCaml, a programming language that guarantees memory safety - composing small libraries (open source, permissively licensed) to build so-called MirageOS unikernels -- special purpose services. Besides web services, other digital infrastructure such as VPN gateway, calendar server, DNS server and resolver, and a minimalistic orchestration system, will be presented. Each unikernel can either run as virtual machine (KVM, Xen, BHyve, virtio), as a sandboxed process (seccomp which whitelists only 8 system calls), or in smaller containments (GenodeOS, muen separation kernel) -- even a prototypical ESP32 backend is available.</p>
 <p class="description">Starting with an operating system from scratch is tough, lots of engineering hours have been put into the omnipresent ones. Reducing the required effort by declaring certain subsystems being out of scope -- e.g. hardware drivers, preemptive multitasking, multicore -- decreases the required person-power.</p>
 
 <p class="description">The MirageOS project started as research project more than a decade ago at the University of Cambridge, as a minimal guest for Xen written in the functional programming language OCaml. Network protocols (TCP/IP, DHCP, TLS, DNS, ..), a branchable immutable store (similar and interoperable with git) are available. The trusted computing base is roughly two orders of magnitude smaller than contemporary operating systems. The performance is in the same ballpark as conventional systems. The boot time is measured in milliseconds instead of seconds.</p>
@@ -111,6 +111,9 @@ en
 <ul>
 <li><a href="/congress/2019/Fahrplan/events/11172.ics">iCalendar</a></li>
 <li><a href="https://mirage.io">MirageOS website</a></li>
+<li><a href="https://hannes.nqsb.io">Blog with articles and tutorials</a></li>
+<li><a href="https://robur.coop">robur</a></li>
+<li><a href="https://ocaml.org">OCaml</a></li>
 </ul>
 <h3>Feedback</h3>
 <p>

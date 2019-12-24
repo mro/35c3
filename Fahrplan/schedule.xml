@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <schedule>
 <generator name='frab' version='0.7'></generator>
-<version>echo</version>
+<version>find</version>
 <conference>
 <acronym>36c3</acronym>
 <title>36th Chaos Communication Congress</title>
@@ -1024,7 +1024,7 @@ Der Vortrag beleuchtet einerseits den US-kulturellen Hintergrund des Feldes: von
 <track>Security</track>
 <type>lecture</type>
 <language>en</language>
-<abstract>Is the way we run services these days sustainable? The trusted computing base -- the lines of code where, if a flaw is discovered, jeopardizes the security and integrity of the entire service -- is enormous. Using orchestration systems that contain millions of lines of code, and that execute shell code, does not decrease this. This talk will present an alternative, minimalist approach to secure network services - relying on a programming language that guarantees memory safety - composing small libraries (open source, permissively licensed) to build so-called MirageOS unikernels -- special purpose services. Besides web services, other digital infrastructure such as VPN gateway, calendar server, DNS server and resolver, and a minimalistic orchestration system, will be presented. Each unikernel can either run as virtual machine (KVM, Xen, BHyve, virtio), as a sandboxed process (with seccomp filters allowing only 8 system calls), or in smaller containments (GenodeOS, muen separation kernel) -- even a prototypical ESP32 backend is available.</abstract>
+<abstract>Is the way we run services these days sustainable? The trusted computing base -- the lines of code where, if a flaw is discovered, jeopardizes the security and integrity of the entire service -- is enormous. Using orchestration systems that contain millions of lines of code, and that execute shell code, does not decrease this. This talk will present an alternative, minimalist approach to secure network services - relying on OCaml, a programming language that guarantees memory safety - composing small libraries (open source, permissively licensed) to build so-called MirageOS unikernels -- special purpose services. Besides web services, other digital infrastructure such as VPN gateway, calendar server, DNS server and resolver, and a minimalistic orchestration system, will be presented. Each unikernel can either run as virtual machine (KVM, Xen, BHyve, virtio), as a sandboxed process (seccomp which whitelists only 8 system calls), or in smaller containments (GenodeOS, muen separation kernel) -- even a prototypical ESP32 backend is available.</abstract>
 <description>Starting with an operating system from scratch is tough, lots of engineering hours have been put into the omnipresent ones. Reducing the required effort by declaring certain subsystems being out of scope -- e.g. hardware drivers, preemptive multitasking, multicore -- decreases the required person-power.
 
 The MirageOS project started as research project more than a decade ago at the University of Cambridge, as a minimal guest for Xen written in the functional programming language OCaml. Network protocols (TCP/IP, DHCP, TLS, DNS, ..), a branchable immutable store (similar and interoperable with git) are available. The trusted computing base is roughly two orders of magnitude smaller than contemporary operating systems. The performance is in the same ballpark as conventional systems. The boot time is measured in milliseconds instead of seconds.
@@ -1042,6 +1042,9 @@ The experience while developing such a huge project is that lots of components c
 </persons>
 <links>
 <link href='https://mirage.io'>MirageOS website</link>
+<link href='https://hannes.nqsb.io'>Blog with articles and tutorials</link>
+<link href='https://robur.coop'>robur</link>
+<link href='https://ocaml.org'>OCaml</link>
 </links>
 <attachments>
 </attachments>
@@ -1349,6 +1352,39 @@ In our talk we also discuss the SQLite internals and our novel approach for abus
 </event>
 </room>
 <room name='Eliza'>
+<event guid='bfe5b7b4-8b06-4cce-b979-5a6c0b4995f3' id='11247'>
+<date>2019-12-27T11:30:00+01:00</date>
+<start>11:30</start>
+<duration>01:00</duration>
+<room>Eliza</room>
+<slug>36c3-11247-technical_aspects_of_the_surveillance_in_and_around_the_ecuadorian_embassy_in_london</slug>
+<url>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11247.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Technical aspects of the surveillance in and around the Ecuadorian embassy in London</title>
+<subtitle>Details about the man hunt for Julian Assange and Wikileaks</subtitle>
+<track>CCC</track>
+<type>lecture</type>
+<language>en</language>
+<abstract>The talk explains and illustrates the procedural and technical details of the surveillance in and around the Ecuadorian embassy in London during the time Julian Assange stayed in there from June 2012 until April 2019. </abstract>
+<description>In the aftermath of Assange&#39;s expel from the ecuadorian embassy in London and his arrest based on a US extradition warrant evidence appeared that the &quot;Security&quot; measures of the embassy had at some point switched from protecting Assange and the embassy to an extremely detailled surveillance operation both against Assange and his visitors. The Spanish company &quot;Undercover Global&quot; that has been in charge of the embassy between 2015 and April 2018 and its owner and CEO is under investigation for spying on behalf of the CIA. Material from the second company that has taken over the embassy &quot;Security&quot; in April 2018 has found its way into an attempted extortion and is also subject to a legal investigation.
+
+The talk will contain material both documenting the surveillance measures installed as well as audio and video material obtained by the surveillance gear. It will also briefly touch on surveillance measures experienced elsewhere by friends, lawyers, media partners and associates of Assange and Wikileaks in the context of the ongoing man hunt.</description>
+<logo></logo>
+<persons>
+<person id='1752'>andy</person>
+</persons>
+<links>
+<link href='https://osint.info/index.php?title=UNDERCOVER_GLOBAL_S.L.'>Undercover Global S.L. - a spanish company - worked both for the ecuadorian Government and other interested parties and did &quot;security&quot; in the Embassy from 2015 till 2018</link>
+<link href='https://osint.info/index.php?title=PROMSECURITY'>Prom Security - an ecudorian company - took over the embassy &quot;security&quot; from April 2018</link>
+<link href='https://osint.info/index.php?title=ASSANGE,_JULIAN'>Context on Julian Assange</link>
+<link href='https://osint.info/index.php?title=WIKILEAKS'>Context on Wikileaks</link>
+</links>
+<attachments>
+</attachments>
+</event>
 <event guid='5ef93193-8ad9-4cb3-8804-548bbd6faf24' id='11034'>
 <date>2019-12-27T12:50:00+01:00</date>
 <start>12:50</start>
@@ -2111,7 +2147,7 @@ Though the results look promising, it is important not to take these therapies f
 <track>Ethics, Society &amp; Politics</track>
 <type>lecture</type>
 <language>de</language>
-<abstract>Der Hackerparagraph § 202c StGB ist seit August 2007 in Kraft. Das Bundesverfassungsgericht nahm eine dagegen gerichtete Verfassungsbeschwerde nicht an, wies aber darauf hin, dass er verfassungskonform auszulegen sein. Wie ist also die Rechtslage? Und wie sieht die Realität aus? Ein Beispiel aus der Praxis zeigt, was da draußen los ist.</abstract>
+<abstract>Der Hackerparagraph § 202c StGB ist seit August 2007 in Kraft. Das Bundesverfassungsgericht nahm eine dagegen gerichtete Verfassungsbeschwerde nicht an, wies aber darauf hin, dass er verfassungskonform auszulegen sei. Wie ist also die Rechtslage? Und wie sieht die Realität der Strafverfolgung aus? Reality Check!</abstract>
 <description>Wie war das nochmal mit diesem umstrittenen Hackerparagraphen? Welche Rolle spielt er in der Praxis der Strafverfolgung? Kann mich so ein Ermittlungsverfahren am  Ende selber betreffen?
 Und wie gehen die Strafverfolgungsbehörden bei Ermittlungen wegen des Verdachts auf Straftaten nach § 202c StGB vor? Dies wird anhand eines von einer Schwerpunktstaatsanwaltschaft für Cybercrime geführten Strafverfahrens beantwortet. Der Vortrag stellt Rechtslage und Realität gegenüber. Um es vorweg zu nehmen: Sowas kann man sich gar nicht ausdenken.</description>
 <logo></logo>
@@ -4055,7 +4091,7 @@ Schauen wir mal, was wir so finden.</description>
 Speaker*innen:
 Anja Höfner – Das Märchen von der Dematerialisierung durch Technik
 Carina Haupt: Nachhaltige Softwareentwicklung (für weniger explodierende Raketen)
-Elenos Manifesti: Wir fordern! Das Bits&amp;Bäume-Manifest
+B.B. Manifesti &amp; der Chor der Vermummten: Wir fordern! Das Bits&amp;Bäume-Manifest
 Isabella Hermann: Utopia Outer Space? Die Zukunft der Menschheit in Science-Fiction-Filmen
 joliyea – Raum für Wissen
 Kathrin Henneberger – Klimawandel?! Echt jetzt?!!!
@@ -4075,7 +4111,7 @@ Durchs Sporangium katapultieren wie immer julika &amp; Rainer</description>
 <person id='3752'>Carina Haupt</person>
 </persons>
 <links>
-<link href='https://media.ccc.de/v/bub2018-249-sporangium#t=107'>das erste Sporangium bei der Bits&amp;Bäume 2018</link>
+<link href='https://media.ccc.de/v/bub2018-249-sporangium#t=107'>Sporangium v1.0 bei der Bits&amp;Bäume 2018</link>
 </links>
 <attachments>
 </attachments>
