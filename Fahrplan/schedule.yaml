@@ -24,8 +24,8 @@ schedule:
           start: '11:00'
           duration: '00:30'
           room: Ada
-          slug: 36c3-11223-opening_ceremony_de
-          title: Opening Ceremony (de)
+          slug: 36c3-11223-opening_ceremony
+          title: Opening Ceremony
           subtitle: ''
           track: CCC
           type: lecture
@@ -5224,29 +5224,27 @@ schedule:
             Zulassungsunterlagen sowie Feldtestkonzepte für diese Dienste sind dafür
             weitestgehend fertig.\r\nParallel zu der von der Politik und Gematik getriebenen
             Entwicklung setzten sich technik-affine Personen wie bspw. Thomas Maus
-            mit der Technik auseinander und zeigten viele Probleme und ungelöste Fragestellungen.
-            Nachdem die TI nun größtenteils online ist und die ersten Dienste in der
-            Praxis genutzt werden ist es an der Zeit sich die konkrete Umsetzung anzuschauen,
-            zu evaluieren und bei Bedarf entsprechend zu verbessern.\r\n\r\nDieser
+            mit der Technik auseinander und zeigten potentielle Probleme und ungelöste
+            Fragestellungen. Nachdem die TI nun größtenteils online ist und die ersten
+            Dienste in der Praxis genutzt werden ist es an der Zeit sich die konkrete
+            Umsetzung anzuschauen, zu evaluieren und bei Bedarf entsprechend zu verbessern.\r\n\r\nDieser
             Vortrag soll einen aktuellen Überblick auf die Telematikinfrastruktur
             geben. Es werden die bestehenden Dienste (VSDSM) sowie die schon spezifizierten
             Dienste wie KOM-LE oder ePA vorgestellt. Insbesondere wird auf die Sicherheit
             der verschiedenen Systeme eingegangen. Die Schutzziele sowie die spezifizierten
             Methoden um diese Ziele zu erreichen werden dargestellt und grob analysiert.
             \r\nDabei zeigt sich dass die TI vor allem ein sehr komplexes System mit
-            aktuell über 7500 Seiten Spezifikationen und mehr als 1000 Seiten sogenannter
-            Konzepten ist.\r\nDazu ist das Projekt ein sogenanntes Running Target
-            mit regelmäßigen Updates der Spezifikationen. Diese werden entweder durch
-            Änderungen der Stand der Technik, oder durch Wünsche von Seiten der Politik,
-            meist durch Gesetzte, in das Projekt hereingetragen."
+            aktuell knapp 8000 Seiten Spezifikationen plus gute 1000 Seiten Konzepten
+            ist.\r\nDazu ist das Projekt ein sogenanntes Running Target mit regelmäßigen
+            Updates der Spezifikationen. Diese werden entweder durch Änderungen der
+            Stand der Technik, oder durch Wünsche von Seiten der Politik, meist durch
+            Gesetzte, in das Projekt hereingetragen."
           recording_license: ''
           do_not_record: false
           persons:
           - id: 9222
             public_name: Christoph Saatjohann
           links:
-          - url: https://events.ccc.de/congress/2005/fahrplan/attachments/640-Gesundheitstelematik22C3v1.0.pdf
-            title: Thomas Maus 2005 über die TI
           - url: https://fachportal.gematik.de/spezifikationen/
             title: TI Spezifikationen
           attachments: []
@@ -5610,8 +5608,12 @@ schedule:
           persons:
           - id: 7606
             public_name: manuel
-          links: []
-          attachments: []
+          links:
+          - url: https://github.com/mikesierra7/36C3_Klima
+            title: 'GitHub: Beispiel Skripte (Englisch)'
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/044/original/Ressources.pdf?1577391387"
+            title: Ressources
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10682.html
           id: 10682
           guid: d3c6b3a2-08ae-4208-9002-332d237ef88e
@@ -5641,15 +5643,15 @@ schedule:
             zu finden. Das erste „Sporangium“ hat in diesem Sinne wichtige Themen
             beider Bereiche aufgegriffen. Für den C3 liegt nun der Fokus auf der Verbindung
             von Technologie und Nachhaltigkeit: Wie kann digitale Nachhaltigkeit,
-            wie nachhaltige Digitalisierung aussehen?\r\n\r\nSpeaker*innen:\r\n* Anja
-            Höfner – Das Märchen von der Dematerialisierung durch Technik \r\n* B.B.
-            Manifesti & der Chor der Vermummten: Wir fordern! Das Bits&Bäume-Manifest
+            wie nachhaltige Digitalisierung aussehen?\r\n\r\nSpeaker*innen (A-Z...äh...V!):\r\n*
+            Anja Höfner – Das Märchen von der Dematerialisierung durch Technik \r\n*
+            Elenos Manifesti & der Chor der Vermummten: Wir fordern! Das Bits&Bäume-Manifest
             \r\n* Carina Haupt: Nachhaltige Softwareentwicklung (für weniger explodierende
             Raketen) \r\n* Isabella Hermann: Utopia Outer Space? Die Zukunft der Menschheit
             in Science-Fiction-Filmen \r\n* joliyea – Raum für Wissen. Wo wir uns
-            treffen, um die Welt zu retten \r\n* Kathrin Henneberger – Klimawandel?!
-            Echt jetzt?!!! \r\n* Lisa Passing: Ökostrom != Ökostrom. Down the green
-            energy rabbit hole \r\n* Viktor Schlüter: Datenschutz? Klimaschutz? Zukunft!
+            treffen, um die Welt zu retten \r\n* Kathrin Henneberger – Ja, Klimakrise!
+            Immernoch!!\r\n* Lisa Passing: Ökostrom != Ökostrom. Down the green energy
+            rabbit hole \r\n* Viktor Schlüter: Datenschutz? Klimaschutz? Zukunft!
             \r\n\r\n* Durchs Sporangium katapultieren wie immer julika & Rainer"
           recording_license: ''
           do_not_record: false
@@ -6425,22 +6427,18 @@ schedule:
           track: Art & Culture
           type: lecture
           language: de
-          abstract: "Simon: Kann künstliche Intelligenz Kunst erzeugen? \r\nFlorina:
-            Können Menschen von künstlich intelligenten Systemen erzeugte Kunst verstehen?\r\nSimon:
-            Ist Kunst ein Weg zu neuen Stufen eines kybernetischen Verstandes? \r\nFlorina:
-            Wie können Mensch und Maschine sich in künstlerischen Prozessen einander
-            verstehen lernen? \r\nSimon: Derr Stand der KI-Kunst ist keine Kunst oder
-            keine KI.\r\nFlorina: Ein schwer zu bestimmender Standpunkt, da das Verständnis
-            was Kunst ist von unserer Fähigkeit abhängt sie als solche anzunehmen.\r\nSimon:
-            Was ist zu erwarten?\r\nFlorina: Wir werden mit unserer menschlichen Eitelkeit
-            konfrontiert werden, nicht die Einzigen zu sein, die schöpferisch und
-            auch künstlerische Relevanz in Betrachtern auslösen. Dies liegt mitunter
-            an unseren bisherigen Kunstbegriffen und -verständnissen, die oftmals
-            mit Intentionalität assoziiert sind.\r\nEliza: Warum?\r\nFlorina Speth
-            und Simon Hegelich widmen sich diesen Fragen in einem dialogischen Gespräch,
-            wobei sie ihre großen Leidenschaften;- Kunst, maschinelles Lernen, Hegelsche
-            Dialektik, Zukunftsforschung, Science Fiction, Kybernetik und Transhumanismus-
-            der Erweiterung durch Diskurs unterziehen."
+          abstract: "Kann künstliche Intelligenz Kunst erzeugen? \r\nKönnen Menschen
+            von künstlich intelligenten Systemen erzeugte Kunst verstehen? Ist Kunst
+            ein Weg zu neuen Stufen eines kybernetischen Verstandes? \r\nDer Stand
+            der KI-Kunst ist keine Kunst oder keine KI.\r\nAber wir werden mit unserer
+            menschlichen Eitelkeit konfrontiert werden, nicht die Einzigen zu sein,
+            die schöpferisch und auch künstlerische Relevanz in Betrachtern auslösen.
+            Dies liegt mitunter an unseren bisherigen Kunstbegriffen und -verständnissen,
+            die oftmals mit Intentionalität assoziiert sind.\r\nEliza: Warum?\r\nSimon
+            Hegelich widmen sich diesen Fragen und zeigt eigene (?) Werke (Videos,
+            Bilder, Gedichte), die mit KI erzeugt wurden, wobei er seine großen Leidenschaften;-
+            Kunst, maschinelles Lernen, Hegelsche Dialektik, Science Fiction, Kybernetik
+            und Transhumanismus- der Erweiterung durch Diskurs unterzieht."
           description: "Künstlich intelligente Systeme werden seit den 70er Jahren
             zunehmend  in künstlerischen Schaffensprozesse einbezogen. Ob Computer
             auch autonom Kunst generieren können, ist keine Frage der Leistungsfähigkeit
@@ -6452,25 +6450,21 @@ schedule:
             Träumen und Empfinden anregt, lässt sich vor diesem Hintergrund ganz anders
             über KIs und ihre Potentiale diskutieren. Unter Einbezug des technischen
             Standes derzeitiger Deep Learning Systeme und der eigenen künstlerischen
-            Erfahrung fächern wir diese Potentiale auf.\r\nWir stellen den Diskurs
+            Erfahrung werden diese Potentiale aufgefächert.\r\nWir stellen den Diskurs
             um Grundfragen zum Verhältnis Mensch-KI-Kunst neue Fragen diametral gegenüber:
             \r\nKann künstliche Intelligenz Kunst erzeugen?\r\nWie können wir Kunst
             von künstlich intelligenten Systemen verstehen?\r\nKann Kunst KI erzeugen
-            und versteht das noch jemand?\r\n\r\nFlorina Speth (Zukunftsforscherin,
-            Multiinstrumentalistin, Cellistin, Komponistin experimenteller Musik)
-            und Simon Hegelich (KI-Entwickler, Philosoph, Professor für Political
-            Data Science, Videoartist und Synthinerd) widmen sich einem dialogischen
-            Diskurs und schmeißen ihre großen Leidenschaften zusammen: Kunst, maschinelles
-            Lernen, Hegelsche Dialektik, Zukunftsforschung, Science Fiction, Kybernetik
-            und Transhumanismus. Es könnte explosiv werden."
+            und versteht das noch jemand?\r\n\r\nSimon Hegelich (KI-Entwickler, Philosoph,
+            Professor für Political Data Science, Videoartist und Synthinerd) widmet
+            sich diesen Fragen in eine Präsentation und schmeißt seine großen Leidenschaften
+            zusammen: Kunst, maschinelles Lernen, Hegelsche Dialektik, Science Fiction,
+            Kybernetik und Transhumanismus. Es könnte explosiv werden."
           recording_license: ''
           do_not_record: false
           persons:
           - id: 9298
             public_name: Simon Hegelich
           links:
-          - url: https://soundcloud.com/florinaspeth
-            title: Soundcloud Florina
           - url: https://www.youtube.com/watch?v=mgSQv0IsVvM
             title: TEDx Talk Artificial Spirits
           - url: http://politicaldatascience.blogspot.com/p/blog-page.html
