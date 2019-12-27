@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: find
+  version: getopt
   base_url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/
   conference:
     acronym: 36c3
@@ -112,7 +112,9 @@ schedule:
           persons:
           - id: 4821
             public_name: Will Scott
-          links: []
+          links:
+          - url: https://wills.co.tt/bitbucket/36c3/messaging.pdf
+            title: Slides
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10497.html
           id: 10497
@@ -204,7 +206,7 @@ schedule:
           - id: 7912
             public_name: Martin Tschirsich
           - id: 9376
-            public_name: cbro
+            public_name: cbro - Dr. med. Christian Brodowski
           - id: 9406
             public_name: Dr. André Zilch
           links: []
@@ -538,27 +540,28 @@ schedule:
           start: '12:50'
           duration: '01:00'
           room: Borg
-          slug: 36c3-10957-katastrophe_und_kommunikation_am_beispiel_rojava
-          title: Katastrophe und Kommunikation am Beispiel Rojava
+          slug: 36c3-10957-katastrophe_und_kommunikation_am_beispiel_nord-ost-syrien
+          title: Katastrophe und Kommunikation am Beispiel Nord-Ost-Syrien
           subtitle: Humanitäre Hilfe zwischen Propaganda, Information und Spendenwerbung
           track: Ethics, Society & Politics
           type: lecture
           language: de
-          abstract: 'Katastrophen, Krisen & Kriege lassen sich heute live mitverfolgen.
+          abstract: Katastrophen, Krisen & Kriege lassen sich heute live mitverfolgen.
             Wir erleben eine kaum überblickbare Quellendiversität in den sozialen
             Medien – jeder wird zur Quelle. Welchen Einfluss hat das darauf, wie ein
             Konflikt wahrgenommen wird, wie setzen Konfliktparteien aber auch Helfende
             die sozialen Medien ein und was bedeutet das für Diejenigen, die vor Ort
             humanitäre Hilfe leisten. Wir diskutieren dies anhand des türkischen Überfalls
-            auf Rojava. '
+            auf Nord-Ost-Syrien gemeinsam mit Fee Baumann von Heyva Sor A Kurd, live
+            aus Nord-Ost-Syrien
           description: "Katastrophen, Krisen & Kriege lassen sich heute live mitverfolgen.
             Wir erleben eine kaum überblickbare Quellendiversität in den sozialen
             Medien – jeder wird zur Quelle. Welchen Einfluss hat das darauf, wie ein
             Konflikt wahrgenommen wird, wie setzen Konfliktparteien aber auch Helfende
             die sozialen Medien ein und was bedeutet das für Diejenigen, die vor Ort
             humanitäre Hilfe leisten. Wir diskutieren dies anhand des türkischen Überfalls
-            auf Rojava.\r\n\r\nFand Live-Berichterstattung aus Kriegsgebieten zu Zeiten
-            des 2. Golfkrieges noch überwiegend durch ein paar wenige Journalist*innen,
+            auf Nord-Ost-Syrien.\r\n\r\nFand Live-Berichterstattung aus Kriegsgebieten
+            zu Zeiten des 2. Golfkrieges noch überwiegend durch ein paar wenige Journalist*innen,
             oft “embedded” statt, die für CNN&Co im grünlichen Nachtsicht-Look aus
             dem Panzer berichteten, kann in den sozialen Medien heute jede*r zur Quelle
             werden. Auf diese Weise gelangt die Öffentlichkeit an Informationen die
@@ -569,17 +572,17 @@ schedule:
             ebenfalls sehr viel schneller. Zudem können soziale Medien auch gezielt,
             etwa von Kriegsparteien manipuliert werden. Die Türkei setzte neben Deutschen
             Panzern etwa auch Bot-Armeen ein, im Ergebnis: Zwar verurteilte ein großteil
-            der Welt den türkischen Einmarsch in Rojava, aber Twitter-Hashtags zeichneten
-            zeitweilig ein ganz anderes Bild. Gleichzeitig kann es schon auch mal
-            passieren, dass Türkei nahe Djihadistische Gruppen ausversehen selbst
-            Videos ihrer Kriegsverbrechen prahlerisch ins Netz stellen.\r\n\r\nWas
+            der Welt den türkischen Einmarsch in Nord-Ost-Syrien, aber Twitter-Hashtags
+            zeichneten zeitweilig ein ganz anderes Bild. Gleichzeitig kann es schon
+            auch mal passieren, dass Türkei nahe Djihadistische Gruppen ausversehen
+            selbst Videos ihrer Kriegsverbrechen prahlerisch ins Netz stellen.\r\n\r\nWas
             bedeutet all das für humanitäre Helfende vor Ort, die Twitter & co mittlerweile
             nicht nur zur Spendenwerbung sondern auch zur Lagebewertung nutzen: Wie
             kann man in der Praxis damit umgehen, dass sich auf Twitter gegebenenfalls
             ein ganz anderes Bild zeichnet als vor Ort und vor allem: Welches davon
             ist näher an der Realität?\r\n\r\nDarum geht es in diesem Talk am Beispiel
-            des Türkischen Überfalls auf Rojava, von Sebastian Jünemann und Ruben
-            Neugebauer von der Hilfsorganisation Cadus, die vor Ort mit mehreren,
+            des Türkischen Überfalls auf Nord-Ost-Syrien, von Sebastian Jünemann und
+            Ruben Neugebauer von der Hilfsorganisation Cadus, die vor Ort mit mehreren,
             im wesentlichen medizinischen Projekten aktiv war, sowie Fee Baumann von
             der Organisation Heyvasor a Kurd, dem kurdischen roten Halbmond. Außerdem
             werden wir klären wie man sich per Selfie bequem ins Jenseits befördern
@@ -1531,8 +1534,8 @@ schedule:
           - url: https://ocaml.org
             title: OCaml
           attachments:
-          - url: "/system/event_attachments/attachments/000/004/042/original/talk.pdf?1577351660"
-            title: slides.3.pdf
+          - url: "/system/event_attachments/attachments/000/004/050/original/talk.pdf?1577440685"
+            title: slides.7.pdf
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10703.html
           id: 10703
           guid: ffe32913-e2ff-4331-b3e6-7f8f180cbd72
@@ -3282,7 +3285,7 @@ schedule:
           do_not_record: false
           persons:
           - id: 9534
-            public_name: mrchrisadams
+            public_name: Chris Adams
           links:
           - url: https://www.thegreenwebfoundation.org/news/packets-yet-another-lever-for-a-low-carbon-internet/
             title: More on "Packets" - infrastrucure that you don't control that causes
@@ -3438,7 +3441,7 @@ schedule:
             müssen uns jetzt aufraffen, zusammentun und aktiv werden. The time is
             now."
           recording_license: ''
-          do_not_record: false
+          do_not_record: true
           persons:
           - id: 9118
             public_name: Maria
@@ -3856,7 +3859,7 @@ schedule:
           room: Dijkstra
           slug: 36c3-10859-trustzone-m_eh_breaking_armv8-m_s_security
           title: 'TrustZone-M(eh): Breaking ARMv8-M''s security'
-          subtitle: How secure is the next generation of 'secure' processor features?
+          subtitle: Hardware attacks on the latest generation of ARM Cortex-M processors.
           track: Hardware & Making
           type: lecture
           language: en
@@ -3868,11 +3871,10 @@ schedule:
             secure-boot up to TrustZone-M on the latest ARM processors.\r\n\r\nIn
             this talk, we break these features: We show how it is possible to bypass
             the security features of modern IoT/embedded processors using fault-injection
-            attacks, including breaking TrustZone-M on the new ARMv8-M processors,
-            and presenting hardware attacks on RISC-V processors.\r\n\r\nWe are also
-            releasing and open-sourcing our entire soft- and hardware toolchain for
-            doing so, making it possible to integrate fault-injection testing into
-            the secure development lifecycle."
+            attacks, including breaking TrustZone-M on the new ARMv8-M processors.\r\n\r\nWe
+            are also releasing and open-sourcing our entire soft- and hardware toolchain
+            for doing so, making it possible to integrate fault-injection testing
+            into the secure development lifecycle."
           description: "Modern devices, especially secure ones, often rely on the
             security of the underlying silicon: Read-out protection, secure-boot,
             JTAG locking, integrated crypto accelerators or advanced features such
@@ -5672,6 +5674,10 @@ schedule:
             public_name: Viktor Schlüter
           - id: 3752
             public_name: Carina Haupt
+          - id: 9904
+            public_name: 'Kathrin Henneberger '
+          - id: 8992
+            public_name: Anja Höfner
           links:
           - url: https://media.ccc.de/v/bub2018-249-sporangium#t=107
             title: Sporangium v1.0 bei der Bits&Bäume 2018
