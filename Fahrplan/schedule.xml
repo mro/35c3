@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <schedule>
 <generator name='frab' version='0.7'></generator>
-<version>jobs</version>
+<version>kill</version>
 <conference>
 <acronym>36c3</acronym>
 <title>36th Chaos Communication Congress</title>
@@ -676,6 +676,7 @@ This talk documents the PSP firmware&#39;s proprietary filesystem  and provides 
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/054/original/36C3_slides_export.pdf?1577458782'>Presentation slides</attachment>
 </attachments>
 </event>
 <event guid='27300e0d-e9a3-4e59-8261-c1b67cc0d86d' id='10936'>
@@ -1362,39 +1363,6 @@ In our talk we also discuss the SQLite internals and our novel approach for abus
 </event>
 </room>
 <room name='Eliza'>
-<event guid='bfe5b7b4-8b06-4cce-b979-5a6c0b4995f3' id='11247'>
-<date>2019-12-27T11:30:00+01:00</date>
-<start>11:30</start>
-<duration>01:00</duration>
-<room>Eliza</room>
-<slug>36c3-11247-technical_aspects_of_the_surveillance_in_and_around_the_ecuadorian_embassy_in_london</slug>
-<url>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11247.html</url>
-<recording>
-<license></license>
-<optout>false</optout>
-</recording>
-<title>Technical aspects of the surveillance in and around the Ecuadorian embassy in London</title>
-<subtitle>Details about the man hunt for Julian Assange and Wikileaks</subtitle>
-<track>CCC</track>
-<type>lecture</type>
-<language>en</language>
-<abstract>The talk explains and illustrates the procedural and technical details of the surveillance in and around the Ecuadorian embassy in London during the time Julian Assange stayed in there from June 2012 until April 2019. </abstract>
-<description>In the aftermath of Assange&#39;s expel from the ecuadorian embassy in London and his arrest based on a US extradition warrant evidence appeared that the &quot;Security&quot; measures of the embassy had at some point switched from protecting Assange and the embassy to an extremely detailled surveillance operation both against Assange and his visitors. The Spanish company &quot;Undercover Global&quot; that has been in charge of the embassy between 2015 and April 2018 and its owner and CEO is under investigation for spying on behalf of the CIA. Material from the second company that has taken over the embassy &quot;Security&quot; in April 2018 has found its way into an attempted extortion and is also subject to a legal investigation.
-
-The talk will contain material both documenting the surveillance measures installed as well as audio and video material obtained by the surveillance gear. It will also briefly touch on surveillance measures experienced elsewhere by friends, lawyers, media partners and associates of Assange and Wikileaks in the context of the ongoing man hunt.</description>
-<logo></logo>
-<persons>
-<person id='1752'>andy</person>
-</persons>
-<links>
-<link href='https://osint.info/index.php?title=UNDERCOVER_GLOBAL_S.L.'>Undercover Global S.L. - a spanish company - worked both for the ecuadorian Government and other interested parties and did &quot;security&quot; in the Embassy from 2015 till 2018</link>
-<link href='https://osint.info/index.php?title=PROMSECURITY'>Prom Security - an ecudorian company - took over the embassy &quot;security&quot; from April 2018</link>
-<link href='https://osint.info/index.php?title=ASSANGE,_JULIAN'>Context on Julian Assange</link>
-<link href='https://osint.info/index.php?title=WIKILEAKS'>Context on Wikileaks</link>
-</links>
-<attachments>
-</attachments>
-</event>
 <event guid='5ef93193-8ad9-4cb3-8804-548bbd6faf24' id='11034'>
 <date>2019-12-27T12:50:00+01:00</date>
 <start>12:50</start>
@@ -2371,6 +2339,8 @@ You’ll also see how to use skills you already have to make meaningful, measura
 <link href='https://www.thegreenwebfoundation.org/news/provisioning-and-providers-two-levers-for-a-lower-carbon-internet/'>More on &quot;Platform&quot; – emissions caused by servers and infrastructure you run yourself</link>
 <link href='https://www.thegreenwebfoundation.org/news/place-policy-procurement-more-levers-for-a-lower-carbon-internet/'>More on &quot;Process&quot; - emissions caused by decisions about how and where you work</link>
 <link href='https://chrisadams.me.uk/'>My personal site, with links to previous talks</link>
+<link href='https://docs.google.com/presentation/d/1t514x2cIG_qyQGiztaV_0s_kXQwb7t0DRk0ynAteoR0/edit#slide=id.g6199b0387f_0_385'>Slides for the talk</link>
+<link href='https://docs.google.com/presentation/d/1t514x2cIG_qyQGiztaV_0s_kXQwb7t0DRk0ynAteoR0/edit#slide=id.g6199b0387f_0_385'>Slides for the talk</link>
 </links>
 <attachments>
 </attachments>
@@ -2444,7 +2414,7 @@ Die Digitalisierung sorgt in vielen Bereichen für mehr Emissionen. Allein die O
 <url>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10738.html</url>
 <recording>
 <license></license>
-<optout>true</optout>
+<optout>false</optout>
 </recording>
 <title>Extinction Rebellion </title>
 <subtitle>Jahresrückblick 2019</subtitle>
@@ -2861,6 +2831,8 @@ Warum diesen neuen Regeln jeder Grundrechtsschutz fehlt und wie grenzüberschrei
 <links>
 </links>
 <attachments>
+<attachment href='/attachments/original/missing.png'>file</attachment>
+<attachment href='/system/event_attachments/attachments/000/004/071/original/praesi_36c3.pdf?1577539214'>Folien</attachment>
 </attachments>
 </event>
 <event guid='c2619236-c88d-40ee-9d9d-9dfffd5212ef' id='10862'>
@@ -2927,6 +2899,8 @@ The talk will shed light on these questions from a techno-legal perspective. Ult
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/074/original/Reflections_on_the_new_reverse_engineering_law.pdf?1577552014'>Reflections on the New Reverse Engineering Law</attachment>
+<attachment href='/attachments/original/missing.png'>file</attachment>
 </attachments>
 </event>
 <event guid='4fa78609-eae4-416c-8e48-2c5f2d18b3aa' id='10658'>
@@ -3144,6 +3118,7 @@ Nach dem Vortrag sind alle interessierten Personen eingeladen, die Diskussion in
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/073/original/36c3_netzpolitik_schweiz_final.pdf?1577544796'>Folien</attachment>
 </attachments>
 </event>
 <event guid='070c97b2-3ce2-44e9-b2e0-711055b3c7d5' id='10891'>
@@ -3222,7 +3197,7 @@ Finally, we will demo our tool, showing how it led to the detection of a previou
 <links>
 </links>
 <attachments>
-<attachment href='/system/event_attachments/attachments/000/004/066/original/Karonte_CCC.pptx?1577533347'>presentation slides</attachment>
+<attachment href='/system/event_attachments/attachments/000/004/072/original/Karonte_CCC.pptx?1577543122'>Presentation slides</attachment>
 </attachments>
 </event>
 <event guid='333a8580-79d9-4a01-800b-f958612636e6' id='11186'>
@@ -3403,7 +3378,7 @@ While the people in charge do not manage to organize a proper search- and rescue
 <subtitle></subtitle>
 <track>Art &amp; Culture</track>
 <type>lecture</type>
-<language></language>
+<language>en</language>
 <abstract>Before media art has emerged, traditional art and dance are already applying algorithms to make sophisticated patterns in their textures or movements. Hieda is researching the use of algorithm through creation of media installations and dialog with artists, dancers, choreographers and musicians. He also presents his current interest in machine learning and art which potentially exclude (or already excluding) some populations due to the dataset and modality.</abstract>
 <description></description>
 <logo></logo>
@@ -4676,7 +4651,7 @@ Simon Hegelich (KI-Entwickler, Philosoph, Professor für Political Data Science,
 <abstract>Seit 2018 betreibt Eventphone ein neues Telefonsystem auf den chaosnahen Events. Natürlich wird neue Soft- und Hardware sofort zum Forschungsgegenstand. Schnell gab es die üblichen Fragen: Wie funktioniert das genau? Ist das alles an Features? Kann man das updaten? Kann man nicht kompatible Geräte vielleicht kompatibel machen? Was kann man noch verbessern? Ist das sicher?</abstract>
 <description>Natürlich haben wir Antworten und möchten unser Wissen mit euch teilen. Es gibt einen Überblick über DECT, kaputte Crypto™ und was man mit Kreativität daraus machen kann. Unser Anspruch ist, dass wir es so erklären, dass alle Zuschauerinnen und Zuschauer ein bisschen mehr über DECT wissen und mindestens einmal gelacht haben.
 
-Seit dem Easterhegg 2018 betreibt Eventphone das PoC (Phone Operation Center) mit neuer Hard- und Software. Wer ist Eventphone bzw. das PoC und was machen die? Neben vielen selbst entwickelten Komponenten nutzen wir eine DECT-over-IP-Lösung des kanadischen Telekommunikationsunternehmens Mitel. Wir geben euch eine Architekturübersicht der neuen Anlage und sprechen über Antennen, Software sowie Lizenzierung. Nachdem wir die größten Probleme, die wir mit dem alten System hatten, vollständig gelöst haben, schauten wir etwas genauer unter die Haube. Bei den ersten Analysen entdeckten wir einen unkritischen, aber witzigen Fehler, den wir euch zeigen wollen. Unser primäres Ziel war es, die Kompatibilität zu erhöhen, denn es gab einige Geräte, die trotz DECT-Standard nicht mit der Anlage funktionierten oder sich sehr sonderlich verhielten. Warum eigentlich? Wir fingen an, die Kommunikation der Geräte zu analysieren, und fanden heraus: Wer ein Byte verliert, hat acht Bit zu wenig. Es folgt: eine DECT-Anmeldung als Theaterstück. Aber halt! Ist das nicht alles verschlüsselt? Woher wisst ihr das? Es folgt: die Geschichte der Mitel Crypto und was daraus entstand: rfpproxy. Es folgt: eine DECT-Anmeldung mit rfpproxy als Theaterstück. Dann sammelten wir Metadaten und löschten sie wieder, mit Unterstützung der Feuerwehr. Und dann? Dann haben wir viel gespielt, analysiert und entwickelt. Weil die Zeit knapp ist zeigen wir euch 3 kleine Beispiele. Musik während des Telefonats über Vanity Number, die Akte AVM und Telefonbuchfunktionen. Am Ende geben wir euch Informationen zum Weitermachen sowie einen Ausblick. Außerdem wollen euch motivieren uns zu helfen. Wir hätten gern einen Wireshark Dissector. Stay connected!</description>
+Seit dem Easterhegg 2018 betreibt Eventphone das PoC (Phone Operation Center) mit neuer Hard- und Software. Wer ist Eventphone bzw. das PoC und was machen die? Neben vielen selbst entwickelten Komponenten nutzen wir eine DECT-over-IP-Lösung des kanadischen Telekommunikationsunternehmens Mitel. Wir geben euch eine Architekturübersicht der neuen Anlage und sprechen über Antennen, Software sowie Lizenzierung. Nachdem wir die größten Probleme, die wir mit dem alten System hatten, vollständig gelöst haben, schauten wir etwas genauer unter die Haube. Bei den ersten Analysen entdeckten wir einen unkritischen, aber witzigen Fehler, den wir euch zeigen wollen. Unser primäres Ziel war es, die Kompatibilität zu erhöhen, denn es gab einige Geräte, die trotz DECT-Standard nicht mit der Anlage funktionierten oder sich sehr sonderlich verhielten. Warum eigentlich? Wir fingen an, die Kommunikation der Geräte zu analysieren, und fanden heraus: Wer ein Byte verliert, hat acht Bit zu wenig. Es folgt: eine DECT-Anmeldung als Theaterstück. Aber halt! Ist das nicht alles verschlüsselt? Woher wisst ihr das? Es folgt: die Geschichte der Mitel Crypto und was daraus entstand: rfpproxy. Es folgt: eine DECT-Anmeldung mit rfpproxy als Theaterstück. Dann sammelten wir Metadaten und löschten sie wieder, mit Unterstützung der Feuerwehr. Und dann? Dann haben wir viel gespielt, analysiert und entwickelt. Weil die Zeit knapp ist zeigen wir euch 3 kleine Beispiele. Musik während des Telefonats über Vanity Number, die Akte AVM und Telefonbuchfunktionen. Am Ende geben wir euch Informationen zum Weitermachen sowie einen Ausblick. Außerdem wollen wir euch motivieren uns zu helfen. Wir hätten gern einen Wireshark Dissector. Stay connected!</description>
 <logo>/system/events/logos/000/010/576/large/Mitel-DECT.jpg?1571665850</logo>
 <persons>
 <person id='9328'>zivillian</person>
@@ -5018,7 +4993,7 @@ Degrowth ist eine politische Bewegung von Wissenschaftler*innen und Aktivist*inn
 
 In thinking about this complex space, we formulated the notion of Human-Data Interaction (HDI) which resulted in the Databox, a platform enabling an individual data subject to manage, log and audit access to their data by others. The fundamental architectural change Databox embodies is to move from copying of personal data by others for central processing in the cloud, to distribution of data analysis to a subject-controlled edge platform for execution. After briefly introducing HDI, I will present the Databox platform design, implementation and current status.
 </description>
-<logo></logo>
+<logo>/system/events/logos/000/010/912/large/databox-logo-cropped.png?1577552094</logo>
 <persons>
 <person id='9374'>mort</person>
 </persons>
@@ -5028,6 +5003,7 @@ In thinking about this complex space, we formulated the notion of Human-Data Int
 <link href='https://www.bbc.co.uk/rd/projects/databox'>BBC R&amp;D -- The BBC Box</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/076/original/201912-36c3.pdf?1577552295'>On the Edge of Human-Data Interaction with the Databox</attachment>
 </attachments>
 </event>
 <event guid='9c139fdf-f96b-4957-865c-565cfc04d476' id='10756'>
@@ -5820,9 +5796,42 @@ Zum Schluss stell ich die einige Eckpfeiler für die Gestaltung einer Digitalisi
 <attachment href='/system/event_attachments/attachments/000/004/033/original/Faire_Digitalisierung_gestalten.png?1576507093'>Digitalisierung fair gestalten </attachment>
 </attachments>
 </event>
+<event guid='bfe5b7b4-8b06-4cce-b979-5a6c0b4995f3' id='11247'>
+<date>2019-12-30T12:30:00+01:00</date>
+<start>12:30</start>
+<duration>01:00</duration>
+<room>Eliza</room>
+<slug>36c3-11247-technical_aspects_of_the_surveillance_in_and_around_the_ecuadorian_embassy_in_london</slug>
+<url>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11247.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Technical aspects of the surveillance in and around the Ecuadorian embassy in London</title>
+<subtitle>Details about the man hunt for Julian Assange and Wikileaks</subtitle>
+<track>Ethics, Society &amp; Politics</track>
+<type>lecture</type>
+<language>en</language>
+<abstract>The talk explains and illustrates the procedural and technical details of the surveillance in and around the Ecuadorian embassy in London during the time Julian Assange stayed in there from June 2012 until April 2019. </abstract>
+<description>In the aftermath of Assange&#39;s expel from the ecuadorian embassy in London and his arrest based on a US extradition warrant evidence appeared that the &quot;Security&quot; measures of the embassy had at some point switched from protecting Assange and the embassy to an extremely detailled surveillance operation both against Assange and his visitors. The Spanish company &quot;Undercover Global&quot; that has been in charge of the embassy between 2015 and April 2018 and its owner and CEO is under investigation for spying on behalf of the CIA. Material from the second company that has taken over the embassy &quot;Security&quot; in April 2018 has found its way into an attempted extortion and is also subject to a legal investigation.
+
+The talk will contain material both documenting the surveillance measures installed as well as audio and video material obtained by the surveillance gear. It will also briefly touch on surveillance measures experienced elsewhere by friends, lawyers, media partners and associates of Assange and Wikileaks in the context of the ongoing man hunt.</description>
+<logo></logo>
+<persons>
+<person id='1752'>andy</person>
+</persons>
+<links>
+<link href='https://osint.info/index.php?title=UNDERCOVER_GLOBAL_S.L.'>Undercover Global S.L. - a spanish company - worked both for the ecuadorian Government and other interested parties and did &quot;security&quot; in the Embassy from 2015 till 2018</link>
+<link href='https://osint.info/index.php?title=PROMSECURITY'>Prom Security - an ecudorian company - took over the embassy &quot;security&quot; from April 2018</link>
+<link href='https://osint.info/index.php?title=ASSANGE,_JULIAN'>Context on Julian Assange</link>
+<link href='https://osint.info/index.php?title=WIKILEAKS'>Context on Wikileaks</link>
+</links>
+<attachments>
+</attachments>
+</event>
 <event guid='ca958208-abe7-4840-b938-193780eafca0' id='10885'>
-<date>2019-12-30T13:30:00+01:00</date>
-<start>13:30</start>
+<date>2019-12-30T13:50:00+01:00</date>
+<start>13:50</start>
 <duration>00:40</duration>
 <room>Eliza</room>
 <slug>36c3-10885-unpacking_the_compromises_of_aadhaar_and_other_digital_identities_inspired_by_it</slug>
