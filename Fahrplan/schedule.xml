@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8' ?>
 <schedule>
 <generator name='frab' version='0.7'></generator>
-<version>hexdump</version>
+<version>jobs</version>
 <conference>
 <acronym>36c3</acronym>
 <title>36th Chaos Communication Congress</title>
@@ -200,14 +200,16 @@ Plundervolt carefully controls the processor&#39;s supply voltage during an encl
 In multiple case studies, we show how the induced faults in enclave computations can be leveraged in real-world attacks to recover keys from cryptographic algorithms (including the AES-NI instruction set extension) or to induce memory safety vulnerabilities into bug-free enclave code. We finally discuss why mitigating Plundervolt is not trivial, requiring trusted computing base recovery through microcode updates or hardware changes.
 
 We have responsibly disclosed our findings to Intel on June 7, 2019. Intel assigned CVE-2019-11157 to track this vulnerability and refer to mitigations. The scientific paper on Plundervolt will appear at the IEEE Security &amp; Privacy Symposium 2020. The work is the result of a collaboration of Kit Murdock (The University of Birmingham, UK), David Oswald (The University of Birmingham, UK), Flavio D. Garcia (The University of Birmingham, UK), Jo Van Bulck (imec-DistriNet, KU Leuven, Belgium), Daniel Gruss (Graz University of Technology, Austria), and Frank Piessens (imec-DistriNet, KU Leuven, Belgium).</description>
-<logo></logo>
+<logo>/system/events/logos/000/010/883/large/plundervolt.png?1577471483</logo>
 <persons>
 <person id='6293'>Daniel Gruss</person>
 <person id='9207'>Kit Murdock</person>
 </persons>
 <links>
+<link href='https://plundervolt.com/'>Website</link>
 </links>
 <attachments>
+<attachment href='/attachments/original/missing.png'>Presentation Slides</attachment>
 </attachments>
 </event>
 <event guid='cd883979-ca0a-4183-8052-aeace1115f99' id='11141'>
@@ -336,13 +338,14 @@ vulnerabilities, and SIM card based attacks on subscribers.&lt;/p&gt;
 &lt;li&gt;eSIM&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;</description>
-<logo></logo>
+<logo>/system/events/logos/000/010/737/large/32c3-sim-front.jpg?1577525266</logo>
 <persons>
 <person id='1757'>LaForge</person>
 </persons>
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/063/original/36c3-sim_card_technology_from_A_to_Z.pdf?1577525210'>Slides</attachment>
 </attachments>
 </event>
 <event guid='d1b8ed3f-2c22-47d2-9aca-0f9d3cf48eb8' id='11177'>
@@ -664,7 +667,7 @@ We will demonstrate how to provide custom firmare to run on the PSP and introduc
 
 This talk documents the PSP firmware&#39;s proprietary filesystem  and provides insights into reverse-engineering such a deeply embedded system. It further sheds light on how we might regain trust in AMD CPUs despite the delicate nature of the PSP.
 </description>
-<logo></logo>
+<logo>/system/events/logos/000/010/942/large/Bildschirmfoto_2019-12-27_um_15.49.38.png?1577458285</logo>
 <persons>
 <person id='9525'>Robert Buhren</person>
 <person id='9555'>Alexander Eichner</person>
@@ -1115,6 +1118,7 @@ The audience will get an appreciation for the Arc&#39;s elegant design, the mid-
 <link href='https://derrekr.github.io/3ds/'>33c3 - Nintendo Hacking 2016 - Game Over by naehrwert, derrek and nedwill</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/045/original/slides.pdf?1577394638'>Slides</attachment>
 </attachments>
 </event>
 <event guid='05b80d17-217d-412c-8a1f-0bedbc7d39e4' id='10717'>
@@ -1240,6 +1244,7 @@ I will also discuss how we can leverage GPUs to embed high-resolution simulation
 <link href='https://github.com/climate-machine/Oceananigans.jl'>Oceananigans.jl git repository</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/055/original/CCC.pdf?1577458803'>Mathematical diseases in climate models and how to cure them</attachment>
 </attachments>
 </event>
 <event guid='170c8a30-2d88-406a-8b6e-4575a2cf156d' id='10991'>
@@ -1316,6 +1321,7 @@ Es wird Schwerpunktmäßig die EU betrachtet um die Dauer des Vortrags nicht zu 
 <link href='https://medical-standard-time.de'>Podcast - Medical Standard Time</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/061/original/Warum_die_Card10_kein_Medizinprodukt_ist.pdf?1577524673'>Präsentation</attachment>
 </attachments>
 </event>
 <event guid='12f679e6-bf32-486f-a730-ef88c468375f' id='10701'>
@@ -1702,6 +1708,7 @@ Netzarchitektur:
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/059/original/36C3-P25G.pdf?1577521563'>36C3-P25G.pdf</attachment>
 </attachments>
 </event>
 <event guid='842d97a6-9b53-4f40-aaaf-4e447ad101e8' id='10801'>
@@ -1844,8 +1851,10 @@ For everyone who is also concerned during our talk, there will be fancy tin foil
 <person id='4927'>jiska</person>
 </persons>
 <links>
+<link href='http://bluetooth.lol'>InternalBlue</link>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/067/original/jiska_wireless.pdf?1577534878'>Slides</attachment>
 </attachments>
 </event>
 <event guid='7d85c7cf-6c84-490f-b78d-ef3ecfab2b4c' id='10642'>
@@ -1928,7 +1937,7 @@ Finally, we will discuss the potential weaknesses of such &#39;lockdown&#39; sys
 <language>en</language>
 <abstract>Development-fused iPhones with hardware debugging features like JTAG are out of reach for many security researchers. This talk takes you along my journey to create a similar capability using off-the-shelf iPhones. We&#39;ll look at a way to break KTRR, a custom hardware mitigation Apple developed to prevent kernel patches, and use this capability to load a kernel extension that enables full-featured, single-step kernel debugging with LLDB on production iPhones.</abstract>
 <description>This talk walks through the discovery of hardware debug registers on the iPhone X that enable low-level debugging of a CPU core at any time during its operation. By single-stepping execution of the reset vector, we can modify register state at key points to disable KTRR and remap the kernel as writable. I&#39;ll then describe how I used this capability to develop an iOS kext loader and a kernel extension called KTRW that can be used to debug the kernel with LLDB over USB.</description>
-<logo></logo>
+<logo>/system/events/logos/000/010/806/large/lldb.png?1577517371</logo>
 <persons>
 <person id='9388'>Brandon Azad</person>
 </persons>
@@ -2375,7 +2384,7 @@ You’ll also see how to use skills you already have to make meaningful, measura
 <url>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10995.html</url>
 <recording>
 <license></license>
-<optout>false</optout>
+<optout>true</optout>
 </recording>
 <title>The search for anonymous data</title>
 <subtitle>Attacks against privacy-preserving systems</subtitle>
@@ -2417,7 +2426,7 @@ In this talk, I will first show how historical anonymization methods fail on mod
  Die wöchentlichen Streiks und viele weitere Veranstaltungen sowie die Organisation des Ganzen prägten viele junge Menschen das vergangenge Jahr. Digitale Kommunikation spielt in der Vernetzung der einzelnen Arbeits- und Ortsguppen eine essentielle Rolle. Diese Organisationsform bedeutet nicht nur schnelle Reaktionsfähigkeit, sondern oft auch die Verbrennung sämtlicher personeller Ressourcen. 
 Die Digitalisierung sorgt in vielen Bereichen für mehr Emissionen. Allein die Organisation der Klimagerechtigkeitsproteste zeigt, dass sie nicht nur Teil des Problems ist, sondern auch Teil der Lösung. Die planetaren Grenzen &amp; Menschenrechte lassen sich nicht verhandeln, alle anderen Grenzen können wir zu Gunsten der Menschen aufweichen oder abschaffen. Der Kampf für digitale Freiheit erleichtert Aktivismus für Klimagerechtigkeit, beides geht uns alle etwas an. 
 </description>
-<logo></logo>
+<logo>/system/events/logos/000/011/227/large/digital-vs.-printversion_main-logo_1500x1500.png?1577464327</logo>
 <persons>
 <person id='9848'>Tom Patzelt</person>
 </persons>
@@ -2468,13 +2477,13 @@ Es ist daher unumgänglich, den politischen Druck zu erhöhen, indem mehr Aktion
 <start>18:10</start>
 <duration>00:40</duration>
 <room>Clarke</room>
-<slug>36c3-11237-today_s_digital_industry_is_unsustainable_so_where_to_go</slug>
+<slug>36c3-11237-framing_digital_industry_into_planetary_limits_and_transition_policies</slug>
 <url>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11237.html</url>
 <recording>
 <license></license>
 <optout>false</optout>
 </recording>
-<title>Today&#39;s digital industry is unsustainable so where to go?</title>
+<title>Framing digital industry into planetary limits and transition policies</title>
 <subtitle>The environmental costs of digital industry and pathways to sustainability</subtitle>
 <track>Resilience &amp; Sustainability</track>
 <type>lecture</type>
@@ -2885,6 +2894,7 @@ Der Talk soll die Geschichte der senseBox von Beginn bis jetzt wiedergeben. Dabe
 </links>
 <attachments>
 <attachment href='/system/event_attachments/attachments/000/003/919/original/36c3_senseBox.pdf?1572014737'>36c3_senseBox.pdf</attachment>
+<attachment href='/system/event_attachments/attachments/000/004/057/original/ccc_senseBox.pdf?1577476249'>slides</attachment>
 </attachments>
 </event>
 <event guid='422a606e-59d3-4d80-ac98-671a0fec67d7' id='11089'>
@@ -2928,7 +2938,7 @@ The talk will shed light on these questions from a techno-legal perspective. Ult
 <url>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10658.html</url>
 <recording>
 <license></license>
-<optout>false</optout>
+<optout>true</optout>
 </recording>
 <title>Die Mittelmeer-Monologe</title>
 <subtitle>Mediterranean Migration Monologues</subtitle>
@@ -3212,6 +3222,7 @@ Finally, we will demo our tool, showing how it led to the detection of a previou
 <links>
 </links>
 <attachments>
+<attachment href='/system/event_attachments/attachments/000/004/066/original/Karonte_CCC.pptx?1577533347'>presentation slides</attachment>
 </attachments>
 </event>
 <event guid='333a8580-79d9-4a01-800b-f958612636e6' id='11186'>
@@ -3352,14 +3363,14 @@ While the people in charge do not manage to organize a proper search- and rescue
 <start>19:10</start>
 <duration>00:40</duration>
 <room>Eliza</room>
-<slug>36c3-10855-listening_back_-_the_sound_of_surveillance</slug>
+<slug>36c3-10855-listening_back_browser_add-on_tranlates_cookies_into_sound</slug>
 <url>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10855.html</url>
 <recording>
 <license></license>
 <optout>false</optout>
 </recording>
-<title>Listening Back - The Sound of Surveillance</title>
-<subtitle></subtitle>
+<title>Listening Back Browser Add-On Tranlates Cookies Into Sound </title>
+<subtitle>The Sound of Surveillance</subtitle>
 <track>Art &amp; Culture</track>
 <type>lecture</type>
 <language>en</language>
@@ -3373,6 +3384,33 @@ While the people in charge do not manage to organize a proper search- and rescue
 <link href='https://chrome.google.com/webstore/detail/listening-back/gdkmphlncmoloepkpifnhneogcliiiah'>Listening Back Chrome Browser Add-On</link>
 <link href='https://addons.mozilla.org/en-GB/firefox/addon/listening-back/'>Listening Back Firefox Browser Add-On</link>
 <link href='http://jasmineguffond.com/'>jasmineguffond.com</link>
+</links>
+<attachments>
+</attachments>
+</event>
+<event guid='8dce9793-e9a7-47cd-b3f9-31ce288b5a10' id='11310'>
+<date>2019-12-28T20:50:00+01:00</date>
+<start>20:50</start>
+<duration>01:00</duration>
+<room>Eliza</room>
+<slug>36c3-11310-algorithm_diversion</slug>
+<url>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11310.html</url>
+<recording>
+<license></license>
+<optout>false</optout>
+</recording>
+<title>Algorithm | Diversion</title>
+<subtitle></subtitle>
+<track>Art &amp; Culture</track>
+<type>lecture</type>
+<language></language>
+<abstract>Before media art has emerged, traditional art and dance are already applying algorithms to make sophisticated patterns in their textures or movements. Hieda is researching the use of algorithm through creation of media installations and dialog with artists, dancers, choreographers and musicians. He also presents his current interest in machine learning and art which potentially exclude (or already excluding) some populations due to the dataset and modality.</abstract>
+<description></description>
+<logo></logo>
+<persons>
+<person id='9908'>Naoto Hieda</person>
+</persons>
+<links>
 </links>
 <attachments>
 </attachments>
@@ -4088,7 +4126,8 @@ Speaker*innen (A-Z...äh...V!):
 <person id='8992'>Anja Höfner</person>
 </persons>
 <links>
-<link href='https://media.ccc.de/v/bub2018-249-sporangium#t=107'>Sporangium v1.0 bei der Bits&amp;Bäume 2018</link>
+<link href='Sporangium v1.0 bei der Bits&amp;Bäume 2018'>Bits&amp;Bäume – Doku der Konferenz 2018, Stammtische, Howto eine Bits&amp;Bäume pflanzen, ...</link>
+<link href='https://media.ccc.de/search/?q=bits%26b%C3%A4ume+2018'>Talks der Bits&amp;Bäume 2018 auf media.ccc.de</link>
 </links>
 <attachments>
 </attachments>
@@ -5081,15 +5120,14 @@ Wir versuchen auf der einen Seite offen für neue Mitstreiter*nnen zu sein, müs
 <optout>false</optout>
 </recording>
 <title>Art against Facebook</title>
-<subtitle>Art against Facebook Graffiti in the ruins of the feed and the party-info-capital is emigrating</subtitle>
+<subtitle>Graffiti in the ruins of the feed and the party-info-capital is emigrating</subtitle>
 <track>Art &amp; Culture</track>
 <type>lecture</type>
 <language>en</language>
-<abstract>Currently Facebook has a tight grip on the cultural scene with its events-calendar and with Instagram as a spectacular image feed. But there is graffiti in the ruins of the feed and the party-info-capital is emigrating. The talk calls upon the critical net scene to contribute arguments and skills - theory and practice - in order to build bridges and include many.</abstract>
-<description>Currently Facebook has a tight grip on the cultural scene with its events-calendar and with Instagram as a spectacular image feed. Even the leftist-critical scene of alternative culture and protests is busy contributing for the sake of outreach. Their contributions feed the filter systems, and profiling and affect loops run hot.
-But an opposition is rising. Graffiti and net-art are merging with hacking. Activists in Berlin, Paris, Rio and Sao Paulo are using facebook graffiti, through circulating UTF-8 textbombs that cross the layout of the feed (Check the wiki for workshop materials from 34C3).
-The Berlin network Reclaim Club Culture meanwhile is calling for a Facebook Exodus (CCCamp2019). They want to motivate the club and cultural scene to support free alternatives, by moving their biggest information capital, which are the event announcements. Once the information monopoly is cut through, maybe more people will make the step to leave the platform they don&#39;t even like anymore.
-All of this is part of a bigger network of refusal, from Fuck Off Google (31C3) to Facebook Resistance Artists. The talk calls upon the critical net scene to contribute arguments and skills - theory and practice - in order to build bridges and include many.</description>
+<abstract>There is graffiti in the ruins of the feed and the event-info-capital is emigrating.</abstract>
+<description>Currently Facebook has a tight grip on the cultural scene with its events-calendar and with Instagram as a spectacular image feed. &lt;br&gt;
+But an opposition is rising. Graffiti and net-art are merging with hacking. Activists are using facebook graffiti, through circulating UTF-8 textbombs that cross the layout of the feed.&lt;br&gt;
+The Berlin network Reclaim Club Culture meanwhile is calling for a Facebook Exodus. They want to motivate the club and cultural scene to support free alternatives, by moving their biggest information capital, which are the event announcements. </description>
 <logo>/system/events/logos/000/011/178/large/fck.PNG?1576712719</logo>
 <persons>
 <person id='9777'>el</person>
@@ -5570,7 +5608,7 @@ But even if these tools are publicly available – who is aware of them and who 
 <person id='8330'>Clemens Schöll</person>
 </persons>
 <links>
-<link href='https://wohnung.neopostmodern.com'>Wohnungsbot-Website</link>
+<link href='https://wohnungsbot.de'>Wohnungsbot-Website</link>
 </links>
 <attachments>
 </attachments>
@@ -5580,20 +5618,20 @@ But even if these tools are publicly available – who is aware of them and who 
 <start>14:30</start>
 <duration>00:40</duration>
 <room>Clarke</room>
-<slug>36c3-10548-ms</slug>
+<slug>36c3-10548-hackers_makers_changing_music_technology</slug>
 <url>https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10548.html</url>
 <recording>
 <license></license>
 <optout>false</optout>
 </recording>
-<title>Ms</title>
+<title>Hackers &amp; makers changing music technology</title>
 <subtitle></subtitle>
 <track>Art &amp; Culture</track>
 <type>lecture</type>
 <language>en</language>
 <abstract>I will explore the ways in which music is influenced by making and hacking, including a whistle-stop tour of some key points in music hacking history.</abstract>
 <description>This starts with 1940s Musique Concrete and Daphne Oram’s work on early electronic music at the BBC, and blossoms into the strange and wonderful projects coming out of the modern music hacker scenes in London and Berlin, including a pipe organ made of Furbies, a sound art marble run, robotic music machines, gesture controlled moon cellos, and singing circuit sculptures. I&#39;ll also be sharing some of own work, plus my favourite new ways to make embedded instruments, including plenty of amazing Open Source hardware and software.</description>
-<logo></logo>
+<logo>/system/events/logos/000/010/548/large/bassclose.jpg?1577462178</logo>
 <persons>
 <person id='9287'>Helen Leigh</person>
 </persons>
