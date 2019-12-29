@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: locate
+  version: mkdir
   base_url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/
   conference:
     acronym: 36c3
@@ -5084,7 +5084,9 @@ schedule:
           - id: 8026
             public_name: Edward Snowden
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/106/original/36C3_-_Snowden_Refugees_Talk_-_29_Dec_2019_%28F%29.pdf?1577652191"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10961.html
           id: 10961
           guid: 47f6e51b-54ca-4c72-844f-ffd0f979279a
@@ -5749,12 +5751,7 @@ schedule:
             because, in the words of <a href=\"https://twitter.com/ryiron/status/1150924668020203521\">Ryan
             Mallon</a>:\r\n\r\n<quote>Threat modelling rule of thumb: if you don’t
             explain exactly what you are securing against and how you secure against
-            it, the answers can be assumed to be: “bears” and “not very well”.</quote>\r\n\r\nFor
-            example, OpenBSD added last year a <a href=\"https://man.openbsd.org/mmap.2#MAP_STACK\">MAP_STACK</a>
-            flag to its <code>mmap</code> function, and branded it as a security measure
-            against \"ROPchains\". But this mitigation used to be part of Windows
-            until 2012, and was removed because of at least generic public bypasses.
-            It's also implemented on Linux since 2008, but for other reasons :)\r\n\r\nAll
+            it, the answers can be assumed to be: “bears” and “not very well”.</quote>\r\n\r\nAll
             the research done for this talk is available on <a href=\"https://isopenbsdsecu.re\">isopenbsdsecu.re</a>"
           recording_license: ''
           do_not_record: false
@@ -6061,7 +6058,11 @@ schedule:
             title: Project Page on Privacy International's website (Onion)
           - url: https://privacyinternational.org/campaigns/no-bodys-business-mine
             title: Campaigns Page on this topic on Privacy Internationals website
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/104/original/PDF_36c3_No_body_business_but_mine-Sunday29th.pdf?1577638803"
+            title: PDF_36c3_No_body_business_but_mine-Sunday29th.pdf
+          - url: "/attachments/original/missing.png"
+            title: file
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10506.html
           id: 10506
           guid: 6a8a2bfc-cc63-4938-8895-8ea84ba1544f
@@ -6194,7 +6195,7 @@ schedule:
             public_name: Andreas Fuchs
           links: []
           attachments:
-          - url: "/system/event_attachments/attachments/000/004/085/original/36c3-hacking-tpm.pdf?1577584803"
+          - url: "/system/event_attachments/attachments/000/004/103/original/36c3-hacking-tpm.pdf?1577638444"
             title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10968.html
           id: 10968
@@ -6406,7 +6407,9 @@ schedule:
           - id: 7686
             public_name: Mike Sperber
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/102/original/Getting_software_right_with_properties__generated_tests__and_proofs.pdf?1577635859"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10630.html
           id: 10630
           guid: 3be4da1b-7efd-4ab3-9f51-297c42c06d6a
@@ -6915,7 +6918,9 @@ schedule:
           - id: 9747
             public_name: Claus Diem
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/099/original/provable-insecurity.pdf?1577629521"
+            title: slides
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11043.html
           id: 11043
           guid: 1dc2e3b8-8437-4b1e-8252-412be2b6ec5a
@@ -7732,7 +7737,9 @@ schedule:
           links:
           - url: https://prototypefund.de/project/portal-sozialbilanz-elektronik-pse/
             title: Projektbeschreibung beim Prototypefund
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/101/original/slides_fairtronics.pdf?1577633170"
+            title: Fairtronics Präsentation
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10919.html
           id: 10919
           guid: 2fb147d5-27be-49a4-a85c-998940f3ae46
