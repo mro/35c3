@@ -1,6 +1,6 @@
 ---
 schedule:
-  version: kill
+  version: locate
   base_url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/
   conference:
     acronym: 36c3
@@ -1418,7 +1418,11 @@ schedule:
             title: '"Still Stalking the Wily Hacker" (CTI Summit Keynote 2017)'
           - url: https://cre.fm/cre100-das-internet-und-die-hacker
             title: 'Chaosradio Express 100: Das Internet und die Hacker'
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/080/original/KGB_Hack_Slides_.pdf?1577553613"
+            title: Slides
+          - url: "/system/event_attachments/attachments/000/004/081/original/Intro_Video.mp4?1577553741"
+            title: Intro Video
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10639.html
           id: 10639
           guid: df93bf36-c048-4dea-ad2b-898ac3255cfa
@@ -1816,7 +1820,9 @@ schedule:
           links:
           - url: https://www.scientists4future.org/
             title: Scientists for Future
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/094/original/20191227_Climate_Change.pdf?1577623007"
+            title: Presentation (with additional slides in German)
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10950.html
           id: 10950
           guid: d274ccf9-c5ed-4b88-a641-7ca8d5b4cedc
@@ -2223,7 +2229,9 @@ schedule:
           links:
           - url: https://ressourcen.fm
             title: Ressourcen.fm-Podcast
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/083/original/36C3_Kritikalit%C3%A4t.pdf?1577560757"
+            title: Präsentation - Martin Hillenbrand
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10875.html
           id: 10875
           guid: 272dedf6-32ce-4020-af81-395eab2e5009
@@ -2495,7 +2503,7 @@ schedule:
             a look at how Signal addresses some of the same problems that decentralized
             and distributed technologies hope to solve."
           recording_license: ''
-          do_not_record: false
+          do_not_record: true
           persons:
           - id: 9742
             public_name: Moxie Marlinspike
@@ -2787,7 +2795,9 @@ schedule:
           links:
           - url: https://zombieloadattack.com/
             title: Official ZombieLoad Website
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/084/original/slides.pdf?1577561031"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11242.html
           id: 11242
           guid: 7c4d240d-bdd2-4441-a044-83651b62068d
@@ -3267,10 +3277,12 @@ schedule:
           - url: https://chrisadams.me.uk/
             title: My personal site, with links to previous talks
           - url: https://docs.google.com/presentation/d/1t514x2cIG_qyQGiztaV_0s_kXQwb7t0DRk0ynAteoR0/edit#slide=id.g6199b0387f_0_385
-            title: Slides for the talk
-          - url: https://docs.google.com/presentation/d/1t514x2cIG_qyQGiztaV_0s_kXQwb7t0DRk0ynAteoR0/edit#slide=id.g6199b0387f_0_385
-            title: Slides for the talk
-          attachments: []
+            title: Slides for the talk on Google slides
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/086/original/Reducing_Carbon_in_the_Digital_Realm_%E2%80%93_c36c.pdf?1577604233"
+            title: Reducing Carbon in the Digital Realm Deck
+          - url: "/attachments/original/missing.png"
+            title: file
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10995.html
           id: 10995
           guid: 20993c60-ce61-4ae8-ba70-0a98169209cd
@@ -3740,7 +3752,11 @@ schedule:
           - id: 9853
             public_name: Johnny Parks
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/078/original/CCC_Pr%C3%A4sentation_Laura_Final.pdf?1577553487"
+            title: It's alive_Präsentation
+          - url: "/attachments/original/missing.png"
+            title: file
         Dijkstra:
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10689.html
           id: 10689
@@ -5001,8 +5017,8 @@ schedule:
           start: '16:10'
           duration: '01:00'
           room: Ada
-          slug: 36c3-11217-finfisher_verklagen
-          title: Finfisher verklagen
+          slug: 36c3-11217-finfisher_see_you_in_court
+          title: FinFisher, See You in Court!
           subtitle: Rechtsbrüche beim Export von Überwachungssoftware
           track: Ethics, Society & Politics
           type: lecture
@@ -5011,10 +5027,11 @@ schedule:
             Center for Constitutional and Human Rights (ECCHR) und netzpolitik.org
             Strafanzeige gegen die Geschäftsführer der Unternehmen FinFisher GmbH,
             FinFisher Labs GmbH und Elaman GmbH erstattet.
-          description: Es liegen dringende Anhaltspunkte dafür vor, dass das Münchener
+          description: "Es liegen dringende Anhaltspunkte dafür vor, dass das Münchener
             Firmenkonglomerat die Spionagesoftware FinSpy ohne Genehmigung der Bundesregierung
             an die türkische Regierung verkauft und so zur Überwachung von Oppositionellen
-            und Journalist*innen in der Türkei beigetragen hat.
+            und Journalist*innen in der Türkei beigetragen hat.\r\n\r\nDer CCC hat
+            die Schadsoftware analysiert und veröffentlicht."
           recording_license: ''
           do_not_record: false
           persons:
@@ -5815,7 +5832,7 @@ schedule:
           duration: '01:00'
           room: Clarke
           slug: 36c3-10730-email_authentication_for_penetration_testers
-          title: Email authentication for penetration testers
+          title: Email Authentication for Penetration Testers
           subtitle: When SPF is not enough
           track: Security
           type: lecture
@@ -5858,7 +5875,9 @@ schedule:
           - id: 9240
             public_name: Andrew Konstantinov
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/089/original/2019-12-36c3.pdf?1577617926"
+            title: Email Authentication for Penetration Testers
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10880.html
           id: 10880
           guid: 4936d1ae-70a7-4588-9a7b-3538f3b07fae
@@ -6088,10 +6107,16 @@ schedule:
           - id: 9228
             public_name: Niklas Jordan
           links:
-          - url: https://noti.st/niklasjordan
-            title: Speaker-Profil mit allen Slides
-          - url: https://media.ccc.de/v/bub2018-2-warum_unser_web_nachhaltiger_werden_muss_und_wie_wir_das_anstellen#t=1
-            title: Talk auf der Konferenz Bits und Bäume
+          - url: https://noti.st/niklasjordan/vg8d1N/warum-unser-web-nachhaltiger-werden-muss-und-wie-wir-das-anstellen
+            title: Slides und alle Links
+          - url: https://www.niklasjordan.com/
+            title: Website
+          - url: https://blog.niklasjordan.com/
+            title: Blog
+          - url: https://blog.niklasjordan.com/newsletter
+            title: Newsletter
+          - url: https://twitter.com/niklas_jordan
+            title: Twitter
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10564.html
           id: 10564
@@ -6168,7 +6193,9 @@ schedule:
           - id: 9313
             public_name: Andreas Fuchs
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/085/original/36c3-hacking-tpm.pdf?1577584803"
+            title: Slides
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10968.html
           id: 10968
           guid: c0a8c771-f942-41da-bdc8-f031ae53a353
@@ -6329,7 +6356,7 @@ schedule:
             public_name: Jo Tiffe
           links:
           - url: https://blog.formf.de/
-            title: digital.bike.23
+            title: form:f - critical design
           attachments: []
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10768.html
           id: 10768
@@ -6625,7 +6652,9 @@ schedule:
             title: FARGO3D
           - url: https://arepo-code.org/
             title: AREPO
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/091/original/Grow2.pdf?1577620679"
+            title: Slides (without videos)
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/10858.html
           id: 10858
           guid: 0886b5ea-6e90-4619-8f9c-038ebf9b4241
@@ -6945,7 +6974,9 @@ schedule:
             title: mikroBIOMIK Society
           - url: https://www.hackteria.org/
             title: International Hackteria Network
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/092/original/HumusSapiens.pdf?1577622035"
+            title: 'HUMUS Sapiens '
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11030.html
           id: 11030
           guid: cc3e9b8a-14e3-425a-b683-4eab463ed1bd
@@ -7156,7 +7187,9 @@ schedule:
             title: Haecksen
           - url: https://chaos-siegen.de/
             title: Chaos Siegen
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/093/original/haecksen_welcome_pattern_herzi_2019-12-28.pdf?1577622915"
+            title: welcome-patterns-36c3
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11178.html
           id: 11178
           guid: 9af057bd-eb94-41f6-8005-f322ecf66662
@@ -7205,10 +7238,9 @@ schedule:
           track: Art & Culture
           type: lecture
           language: en
-          abstract: 'Louise Ashcroft will talk through a big bag of props which reveal
-            the strategies and tactics she uses to ‘hack’ public spaces and social
-            conventions in order to suggest new ways of living which challenge rules
-            and hierarchies. '
+          abstract: 'Louise Ashcroft will talk through strategies and tactics she
+            uses to ‘hack’ public spaces and social conventions in order to suggest
+            new ways of living which challenge rules and hierarchies. '
           description: 'Louise Ashcroft is a performance artist and filmmaker whose
             playfully disruptive fieldwork in public spaces like shopping centres,
             trade fairs and the street) seek to challenge the socio-economic status-quo
@@ -7231,7 +7263,10 @@ schedule:
           links:
           - url: https://www.louiseashcroft.org/
             title: louiseashcroft.org
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/095/original/36C3_talk_Louise_Ashcroft_compressed.pdf?1577623402"
+            title: Speaking Fiction to Power - Talk slides (for looking at only, copyright
+              Louise Ashcroft)
     - index: 4
       date: '2019-12-30'
       day_start: '2019-12-30T11:00:00+01:00'
@@ -8051,6 +8086,8 @@ schedule:
           attachments:
           - url: "/system/event_attachments/attachments/000/003/942/original/Abstract.pdf?1572080591"
             title: Abstract als PDF
+          - url: "/attachments/original/missing.png"
+            title: file
         Eliza:
         - url: https://fahrplan.events.ccc.de/congress/2019/Fahrplan/events/11035.html
           id: 11035

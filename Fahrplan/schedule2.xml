@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>
 <schedule>
   <generator name="frab" version="0.7"/>
-  <version>kill</version>
+  <version>locate</version>
   <conference>
     <acronym>36c3</acronym>
     <title>36th Chaos Communication Congress</title>
@@ -980,7 +980,9 @@ The reporting on the KGB Hack had a tremendously negative effect on the public i
           <link href="https://cre.fm/cre100-das-internet-und-die-hacker">Chaosradio Express 100: Das Internet und die Hacker</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/080/original/KGB_Hack_Slides_.pdf?1577553613">Slides</attachment>
+          <attachment href="/system/event_attachments/attachments/000/004/081/original/Intro_Video.mp4?1577553741">Intro Video</attachment>
+        </attachments>
       </event>
       <event guid="df93bf36-c048-4dea-ad2b-898ac3255cfa" id="10639">
         <date>2019-12-27T23:30:00+01:00</date>
@@ -1279,7 +1281,8 @@ This talk is to show the current state of the discussion on climate change and t
           <link href="https://www.scientists4future.org/">Scientists for Future</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/094/original/20191227_Climate_Change.pdf?1577623007">Presentation (with additional slides in German)</attachment>
+        </attachments>
       </event>
       <event guid="d274ccf9-c5ed-4b88-a641-7ca8d5b4cedc" id="10950">
         <date>2019-12-27T22:10:00+01:00</date>
@@ -1583,7 +1586,8 @@ Dieser Talk zeigt, wie weit wir bereits gekommen sind, mit Hilfe der Makefile-ge
           <link href="https://ressourcen.fm">Ressourcen.fm-Podcast</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/083/original/36C3_Kritikalit%C3%A4t.pdf?1577560757">Präsentation - Martin Hillenbrand</attachment>
+        </attachments>
       </event>
       <event guid="272dedf6-32ce-4020-af81-395eab2e5009" id="10875">
         <date>2019-12-27T23:30:00+01:00</date>
@@ -1767,7 +1771,7 @@ Wir setzen uns im Detail mit drei Fragestellungen auseinander:
         <url>./events/11086.html</url>
         <recording>
           <license/>
-          <optout>false</optout>
+          <optout>true</optout>
         </recording>
         <title>The ecosystem is moving</title>
         <subtitle>Challenges for distributed and decentralized technology from the perspective of Signal development</subtitle>
@@ -1987,7 +1991,8 @@ We show that Meltdown mitigations do not affect ZombieLoad, and consequently out
           <link href="https://zombieloadattack.com/">Official ZombieLoad Website</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/084/original/slides.pdf?1577561031">Slides</attachment>
+        </attachments>
       </event>
       <event guid="7c4d240d-bdd2-4441-a044-83651b62068d" id="11242">
         <date>2019-12-29T00:50:00+01:00</date>
@@ -2340,11 +2345,12 @@ You’ll also see how to use skills you already have to make meaningful, measura
           <link href="https://www.thegreenwebfoundation.org/news/provisioning-and-providers-two-levers-for-a-lower-carbon-internet/">More on "Platform" – emissions caused by servers and infrastructure you run yourself</link>
           <link href="https://www.thegreenwebfoundation.org/news/place-policy-procurement-more-levers-for-a-lower-carbon-internet/">More on "Process" - emissions caused by decisions about how and where you work</link>
           <link href="https://chrisadams.me.uk/">My personal site, with links to previous talks</link>
-          <link href="https://docs.google.com/presentation/d/1t514x2cIG_qyQGiztaV_0s_kXQwb7t0DRk0ynAteoR0/edit#slide=id.g6199b0387f_0_385">Slides for the talk</link>
-          <link href="https://docs.google.com/presentation/d/1t514x2cIG_qyQGiztaV_0s_kXQwb7t0DRk0ynAteoR0/edit#slide=id.g6199b0387f_0_385">Slides for the talk</link>
+          <link href="https://docs.google.com/presentation/d/1t514x2cIG_qyQGiztaV_0s_kXQwb7t0DRk0ynAteoR0/edit#slide=id.g6199b0387f_0_385">Slides for the talk on Google slides</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/086/original/Reducing_Carbon_in_the_Digital_Realm_%E2%80%93_c36c.pdf?1577604233">Reducing Carbon in the Digital Realm Deck</attachment>
+          <attachment href="/attachments/original/missing.png">file</attachment>
+        </attachments>
       </event>
       <event guid="20993c60-ce61-4ae8-ba70-0a98169209cd" id="10995">
         <date>2019-12-28T14:10:00+01:00</date>
@@ -2640,7 +2646,9 @@ Die Idee, gemeinsam beim CCC-Kongress zu sprechen, entsprang nicht zuletzt dem W
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/078/original/CCC_Pr%C3%A4sentation_Laura_Final.pdf?1577553487">It's alive_Präsentation</attachment>
+          <attachment href="/attachments/original/missing.png">file</attachment>
+        </attachments>
       </event>
     </room>
     <room name="Dijkstra">
@@ -3576,19 +3584,21 @@ Eine Stunde geballte Kommunikationsguerilla, lustige Medienaktionen, aber auch e
         <start>16:10</start>
         <duration>01:00</duration>
         <room>Ada</room>
-        <slug>36c3-11217-finfisher_verklagen</slug>
+        <slug>36c3-11217-finfisher_see_you_in_court</slug>
         <url>./events/11217.html</url>
         <recording>
           <license/>
           <optout>false</optout>
         </recording>
-        <title>Finfisher verklagen</title>
+        <title>FinFisher, See You in Court!</title>
         <subtitle>Rechtsbrüche beim Export von Überwachungssoftware</subtitle>
         <track>Ethics, Society &amp; Politics</track>
         <type>lecture</type>
         <language>de</language>
         <abstract>Die GFF hat gemeinsam mit Reporter ohne Grenzen (ROG), dem European Center for Constitutional and Human Rights (ECCHR) und netzpolitik.org Strafanzeige gegen die Geschäftsführer der Unternehmen FinFisher GmbH, FinFisher Labs GmbH und Elaman GmbH erstattet.</abstract>
-        <description>Es liegen dringende Anhaltspunkte dafür vor, dass das Münchener Firmenkonglomerat die Spionagesoftware FinSpy ohne Genehmigung der Bundesregierung an die türkische Regierung verkauft und so zur Überwachung von Oppositionellen und Journalist*innen in der Türkei beigetragen hat.</description>
+        <description>Es liegen dringende Anhaltspunkte dafür vor, dass das Münchener Firmenkonglomerat die Spionagesoftware FinSpy ohne Genehmigung der Bundesregierung an die türkische Regierung verkauft und so zur Überwachung von Oppositionellen und Journalist*innen in der Türkei beigetragen hat.
+
+Der CCC hat die Schadsoftware analysiert und veröffentlicht.</description>
         <logo/>
         <persons>
           <person id="3901">Thorsten Schröder</person>
@@ -4199,7 +4209,7 @@ Proposal Agenda
           <license/>
           <optout>false</optout>
         </recording>
-        <title>Email authentication for penetration testers</title>
+        <title>Email Authentication for Penetration Testers</title>
         <subtitle>When SPF is not enough</subtitle>
         <track>Security</track>
         <type>lecture</type>
@@ -4217,7 +4227,8 @@ In this talk we will see just how easy is it to send spoofed mail from arbitrary
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/089/original/2019-12-36c3.pdf?1577617926">Email Authentication for Penetration Testers</attachment>
+        </attachments>
       </event>
       <event guid="4936d1ae-70a7-4588-9a7b-3538f3b07fae" id="10880">
         <date>2019-12-29T16:10:00+01:00</date>
@@ -4357,8 +4368,11 @@ In meinem Vortrag möchte ich euch zeigen, wie ihr auch im beruflichen Alltag, b
           <person id="9228">Niklas Jordan</person>
         </persons>
         <links>
-          <link href="https://noti.st/niklasjordan">Speaker-Profil mit allen Slides</link>
-          <link href="https://media.ccc.de/v/bub2018-2-warum_unser_web_nachhaltiger_werden_muss_und_wie_wir_das_anstellen#t=1">Talk auf der Konferenz Bits und Bäume</link>
+          <link href="https://noti.st/niklasjordan/vg8d1N/warum-unser-web-nachhaltiger-werden-muss-und-wie-wir-das-anstellen">Slides und alle Links</link>
+          <link href="https://www.niklasjordan.com/">Website</link>
+          <link href="https://blog.niklasjordan.com/">Blog</link>
+          <link href="https://blog.niklasjordan.com/newsletter">Newsletter</link>
+          <link href="https://twitter.com/niklas_jordan">Twitter</link>
         </links>
         <attachments>
 </attachments>
@@ -4409,7 +4423,8 @@ The talk will give some deeper explanations into each of these and possibly some
         <links>
 </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/085/original/36c3-hacking-tpm.pdf?1577584803">Slides</attachment>
+        </attachments>
       </event>
       <event guid="c0a8c771-f942-41da-bdc8-f031ae53a353" id="10968">
         <date>2019-12-29T22:50:00+01:00</date>
@@ -4511,7 +4526,7 @@ Im zweiten Teil geht es um das eigentliche e-Bike-Projekt. Der Vortrag erzählt 
           <person id="9471">Jo Tiffe</person>
         </persons>
         <links>
-          <link href="https://blog.formf.de/">digital.bike.23</link>
+          <link href="https://blog.formf.de/">form:f - critical design</link>
         </links>
         <attachments>
 </attachments>
@@ -4706,7 +4721,8 @@ Simulations teach us how rare the formation of Earth was and show that there is 
           <link href="https://arepo-code.org/">AREPO</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/091/original/Grow2.pdf?1577620679">Slides (without videos)</attachment>
+        </attachments>
       </event>
       <event guid="0886b5ea-6e90-4619-8f9c-038ebf9b4241" id="10858">
         <date>2019-12-29T20:50:00+01:00</date>
@@ -4939,7 +4955,8 @@ Did you ever wonder why programmers use hash functions without keys while crypto
           <link href="https://www.hackteria.org/">International Hackteria Network</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/092/original/HumusSapiens.pdf?1577622035">HUMUS Sapiens </attachment>
+        </attachments>
       </event>
       <event guid="cc3e9b8a-14e3-425a-b683-4eab463ed1bd" id="11030">
         <date>2019-12-29T16:10:00+01:00</date>
@@ -5083,7 +5100,8 @@ Wir versuchen auf der einen Seite offen für neue Mitstreiter*nnen zu sein, müs
           <link href="https://chaos-siegen.de/">Chaos Siegen</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/093/original/haecksen_welcome_pattern_herzi_2019-12-28.pdf?1577622915">welcome-patterns-36c3</attachment>
+        </attachments>
       </event>
       <event guid="9af057bd-eb94-41f6-8005-f322ecf66662" id="11178">
         <date>2019-12-29T21:50:00+01:00</date>
@@ -5131,7 +5149,7 @@ The Berlin network Reclaim Club Culture meanwhile is calling for a Facebook Exod
         <track>Art &amp; Culture</track>
         <type>lecture</type>
         <language>en</language>
-        <abstract>Louise Ashcroft will talk through a big bag of props which reveal the strategies and tactics she uses to ‘hack’ public spaces and social conventions in order to suggest new ways of living which challenge rules and hierarchies. </abstract>
+        <abstract>Louise Ashcroft will talk through strategies and tactics she uses to ‘hack’ public spaces and social conventions in order to suggest new ways of living which challenge rules and hierarchies. </abstract>
         <description>Louise Ashcroft is a performance artist and filmmaker whose playfully disruptive fieldwork in public spaces like shopping centres, trade fairs and the street) seek to challenge the socio-economic status-quo and reveal the absurdity of the power systems that govern how we live. For example, mailing boxes of soil from former public land to its new overseas owners, leading 'backwards shopping' workshops, smuggling strange products into supermarkets and attempting to buy them, or running conceptual cleaning services for people's hopes and dreams. Such public interventions are humorously retold in the form of stage performances. Louise has exhibited widely including at Arebyte Gallery, BQ Berlin, Latitude Festival, Supernormal Festival, Wellcome Collection, Museum of London and on BBC radio; residencies include Tate Learning, Camden Arts Centre, and Z.U.T Lisbon. Louise cofounded the free art school AltMFA and teaches art at Goldsmiths College. She hates capitalism but loves sneakers. </description>
         <logo/>
         <persons>
@@ -5141,7 +5159,8 @@ The Berlin network Reclaim Club Culture meanwhile is calling for a Facebook Exod
           <link href="https://www.louiseashcroft.org/">louiseashcroft.org</link>
         </links>
         <attachments>
-</attachments>
+          <attachment href="/system/event_attachments/attachments/000/004/095/original/36C3_talk_Louise_Ashcroft_compressed.pdf?1577623402">Speaking Fiction to Power - Talk slides (for looking at only, copyright Louise Ashcroft)</attachment>
+        </attachments>
       </event>
     </room>
   </day>
@@ -5738,6 +5757,7 @@ Im dritten Teil des Vortrags wird eine Web-Anwendung vorgestellt, die Daten aus 
 </links>
         <attachments>
           <attachment href="/system/event_attachments/attachments/000/003/942/original/Abstract.pdf?1572080591">Abstract als PDF</attachment>
+          <attachment href="/attachments/original/missing.png">file</attachment>
         </attachments>
       </event>
     </room>
