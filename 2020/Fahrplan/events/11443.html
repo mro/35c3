@@ -1,7 +1,189 @@
+<!DOCTYPE html>
 <html>
-<head><title>404 Not Found</title></head>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Lecture: RAMN: Resistant Automotive Miniature Network | Monday | Schedule Remote Chaos Experience
+</title>
+<link rel="stylesheet" media="screen" href="/rc3/2020/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/rc3/2020/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/rc3/2020/Fahrplan/public_schedule_print.css">
+</head>
 <body>
-<center><h1>404 Not Found</h1></center>
-<hr><center>nginx/1.16.1</center>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule Remote Chaos Experience</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/rc3/2020/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/1.html">
+Sunday
+ - 
+<span class="small-font">2020-12-27</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/2.html">
+Monday
+ - 
+<span class="small-font">2020-12-28</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/3.html">
+Tuesday
+ - 
+<span class="small-font">2020-12-29</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/4.html">
+Wednesday
+ - 
+<span class="small-font">2020-12-30</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/timeline.html">timeline</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/booklet.html">book</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version 1.6</p>
+<h2>Lecture: RAMN: Resistant Automotive Miniature Network</h2>
+<h3 class="title">A safe platform to study and research automotive systems</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/rc3/2020/Fahrplan/system/events/logos/000/011/443/large/ramn_poweroff.png"></div>
+<p class="abstract">Studying automotive systems is often expensive and inconvenient, which prevents many people from getting started. To make research and education in automotive systems more accessible, we developed RAMN, an inexpensive open-source testbed that simulates a CAN/CAN-FD network of four Electronic Control Units. In our presentation, we introduce the testbed and demonstrate its use by experimenting with a simple Cruise Control algorithm in C, starting from establishing differential equations all the way to testing it in a driving simulator - all that using only open-source tools. We then use the result as a reference to explain what, concretely, would have been different on actual ECU hardware and software, and why that matters for security.
+</p>
+<p class="description">1) Introduction and motivations (~10 minutes)</p>
+
+<p class="description">We briefly introduce the basics of automotive systems (ECU networks, CAN/CAN-FD), the importance of education and research in automotive security, and our motivations for designing a new testbed.</p>
+
+<p class="description">2) RAMN Introduction (~20 minutes)</p>
+
+<p class="description">In this section, we introduce our new platform. RAMN is an inexpensive CAN/CAN-FD network of four Electronic Control Units (ECU) that can be programmed to simulate an active automotive network in closed-loop with the open-source autonomous driving simulator CARLA. It has the size of a credit card, is powered over USB, and can be recognized as a standard USB-to-CAN adapter. It is contained within one PCB, using only two layers and hand-solderable components. We show several demonstrations, then give details about the hardware (made with KiCAD) and the software (based on STM32 HAL and freeRTOS). </p>
+
+<p class="description">3) Experiments (~10 minutes)</p>
+
+<p class="description">We use Cruise Control as an example algorithm to experiment with, using RAMN and other open-source tools. We analyze the problem, evaluate differential equations using Scilab, establish different control strategies, implement them in C in one of the ECUs and verify the results by connecting RAMN to the driving simulator CARLA, while making measurements on the CAN bus using BUSMASTER.</p>
+
+<p class="description">4) Automotive Grade (~10 minutes)</p>
+
+<p class="description">We use the results of the previous section as a reference to explain what, concretely, would have been different with real ECU hardware and software. We discuss what drives the design of automotive systems, introducing important standards such as ISO26262 and MISRA-C. We explain what alternatives are available to researchers when technologies are hidden behind NDAs or prohibitive costs - and how RAMN makes use of them.</p>
+
+<p class="description">5) Automotive Security (~10 minutes)</p>
+
+<p class="description">We use the content of the sections above to discuss automotive security, using RAMN to show demonstrations of potential activities. </p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/rc3/2020/Fahrplan/schedule/2.html">2020-12-28</a>
+<br>
+<b>Start time:</b>
+12:20
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+rC2
+<br>
+<b>Track:</b>
+<a href="/rc3/2020/Fahrplan/events.html#hardware%20&amp;%20making">Hardware &amp; Making</a>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/rc3/2020/Fahrplan/events/11443.ics">iCalendar</a></li>
+<li><a href="https://github.com/ToyotaInfoTech/RAMN">Github repository of project</a></li>
+<li><a href="https://twitter.com/ramn_auto">Twitter account of project</a></li>
+</ul>
+<h3>Files</h3>
+<ul>
+<li><a href="/rc3/2020/Fahrplan/system/event_attachments/attachments/000/004/168/original/ramn_poweroff.png">RAMN with sensors and actuators</a></li>
+<li><a href="/rc3/2020/Fahrplan/system/event_attachments/attachments/000/004/169/original/blockdiag.mp4">Main board + block diagram</a></li>
+<li><a href="/rc3/2020/Fahrplan/system/event_attachments/attachments/000/004/173/original/demo_usb.mov">RAMN being recognized and used as a standard Linux interface</a></li>
+<li><a href="/rc3/2020/Fahrplan/system/event_attachments/attachments/000/004/181/original/ramn_many_stack.png">RAMN using many stackable boards</a></li>
+<li><a href="/rc3/2020/Fahrplan/system/event_attachments/attachments/000/004/218/original/demo_carla_short.mov">RAMN in closed-loop controls with driving simulator CARLA</a></li>
+<li><a href="/rc3/2020/Fahrplan/system/event_attachments/attachments/000/004/219/original/RAMN.pdf">Introduction paper</a></li>
+</ul>
+<h3>Feedback</h3>
+<p>
+<a href="https://frab.cccv.de/en/rc3/public/events/11443/feedback/new">Click here to let us know how you liked this event.</a>
+</p>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent Events</h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/rc3/2020/Fahrplan/system/people/avatars/000/012/627/small/hitb_profile_300.png"></div></td>
+<td><a href="/rc3/2020/Fahrplan/speakers/12627.html">Camille Gay</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "RAMN: Resistant Automotive Miniature Network",
+  "location" : {
+    "@type" : "Place",
+    "name" : "rC2",
+    "address" : "Remote Chaos Experience"
+  },
+  "startDate" : "2020-12-28T12:20:00+0100",
+  "endDate" : "2020-12-28T13:20:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Camille Gay&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/rc3/public/speakers/12627&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/012/627/small/hitb_profile_300.png?1605828721&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/rc3/public/schedule",
+    "name" : "Remote Chaos Experience",
+    "location" : {
+      "@type" : "Place",
+      "name" : "Remote Chaos Experience",
+      "address" : "Remote Chaos Experience"
+    },
+    "startDate" : "2020-12-27T09:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
 </body>
 </html>

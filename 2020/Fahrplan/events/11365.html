@@ -1,7 +1,208 @@
+<!DOCTYPE html>
 <html>
-<head><title>404 Not Found</title></head>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Lecture: LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection | Sunday | Schedule Remote Chaos Experience
+</title>
+<link rel="stylesheet" media="screen" href="/rc3/2020/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/rc3/2020/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/rc3/2020/Fahrplan/public_schedule_print.css">
+</head>
 <body>
-<center><h1>404 Not Found</h1></center>
-<hr><center>nginx/1.16.1</center>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule Remote Chaos Experience</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/rc3/2020/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/1.html">
+Sunday
+ - 
+<span class="small-font">2020-12-27</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/2.html">
+Monday
+ - 
+<span class="small-font">2020-12-28</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/3.html">
+Tuesday
+ - 
+<span class="small-font">2020-12-29</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/4.html">
+Wednesday
+ - 
+<span class="small-font">2020-12-30</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/timeline.html">timeline</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/booklet.html">book</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version 1.6</p>
+<h2>Lecture: LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection</h2>
+<h3 class="title"></h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/rc3/2020/Fahrplan/system/events/logos/000/011/365/large/logo.png"></div>
+<p class="abstract">Load Value Injection (LVI) is a new class of transient-execution attacks exploiting microarchitectural flaws in modern processors to inject attacker data into a victim program and steal sensitive data and keys from Intel SGX, a secure vault in Intel processors for your personal data. </p>
+<p class="description">Since 2018, we have seen an alarming wave of Meltdown-type attacks: from the
+<br>original Meltdown, breaking kernel isolation, over Foreshadow, breaking virtual
+<br>machine and SGX enclave isolation, to most recently ZombieLoad, breaking
+<br>essentially all of these. All of these attacks exploit CPU vulnerabilities to
+<br>leak data, breaking basically all confidentiality guarantees of CPUs. Luckily,
+<br>there are already widely deployed countermeasures -- either in hardware or
+<br>software -- preventing exploitation of these attacks.</p>
+
+<p class="description">In this talk, we show that despite all countermeasures, the Meltdown effect can
+<br>be turned around to inject attacker-controlled data into the microarchitectural
+<br>state of any application. This technique, called Load Value Injection (LVI),
+<br>smuggles the attacker's data through hidden processor buffers into a victim
+<br>program and allows to hijack both transient control flow as well as the data
+<br>flow. By forcing a (microarchitectural) fault in the victim, the victim
+<br>transiently calculates on maliciously injected data. Especially in the case of
+<br>trusted execution environments, such as Intel SGX, where an attacker has full
+<br>control of the operating system, adversaries can easily trigger a fault in the
+<br>victim and leak arbitrary enclave secrets. We show that this can be exploited
+<br>for all CPUs that were affected by some variant of Meltdown.
+<br>As a result, we can bypass existing Meltdown countermeasures,
+<br>arbitrarily change control flow, and let the application work on
+<br>attacker-controlled data.</p>
+
+<p class="description">We outline the drastic consequences for affected CPUs. After nearly 1
+<br>year of embargo, fully mitigating our attacks requires serializing the
+<br>processor pipeline with memory fence instructions after possibly every
+<br>memory load. Additionally and even worse, due to implicit loads on some
+<br>architectures, specific instructions have to be blacklisted, including
+<br>the ubiquitous x86 ret instruction. Intel's compiler mitigations lead to
+<br>performance impacts of factor 2 to 19. In a demo, we show how LVI can be
+<br>used to leak a cryptographic key.</p>
+
+<p class="description">For more information about our work, including demo videos and a
+<br>trailer, see: </p>
+
+<p class="description">A technical paper about this work appeared at IEEE S&amp;P 2020 and is
+<br>available here: 
+</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/rc3/2020/Fahrplan/schedule/1.html">2020-12-27</a>
+<br>
+<b>Start time:</b>
+19:10
+<br>
+<b>Duration:</b>
+00:40
+<br>
+<b>Room:</b>
+chaosstudio-hamburg
+<br>
+<b>Track:</b>
+<a href="/rc3/2020/Fahrplan/events.html#it-security">IT-Security</a>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/rc3/2020/Fahrplan/events/11365.ics">iCalendar</a></li>
+<li><a href="https://lviattack.eu/">Homepage</a></li>
+<li><a href="https://software.intel.com/security-software-guidance/deep-dives/deep-dive-load-value-injection">Intel Deep Dive</a></li>
+<li><a href="https://www.intel.com/content/www/us/en/security-center/advisory/intel-sa-00334.html">Intel Security Advisory</a></li>
+<li><a href="https://youtu.be/baKHSXeIIaI">Inception-inspired trailer video</a></li>
+</ul>
+<h3>Files</h3>
+<ul>
+<li><a href="/rc3/2020/Fahrplan/system/event_attachments/attachments/000/004/149/original/lvi.pdf">Technical paper</a></li>
+</ul>
+<h3>Feedback</h3>
+<p>
+<a href="https://frab.cccv.de/en/rc3/public/events/11365/feedback/new">Click here to let us know how you liked this event.</a>
+</p>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent Events</h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/rc3/2020/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png"></div></td>
+<td><a href="/rc3/2020/Fahrplan/speakers/12439.html">Jo Van Bulck</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img src="/rc3/2020/Fahrplan/system/people/avatars/000/008/665/small/ykWlP2Gj_400x400.jpg"></div></td>
+<td><a href="/rc3/2020/Fahrplan/speakers/8665.html">Michael Schwarz</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "LVI: Hijacking Transient Execution through Microarchitectural Load Value Injection",
+  "location" : {
+    "@type" : "Place",
+    "name" : "chaosstudio-hamburg",
+    "address" : "Remote Chaos Experience"
+  },
+  "startDate" : "2020-12-27T19:10:00+0100",
+  "endDate" : "2020-12-27T19:50:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Jo Van Bulck&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/rc3/public/speakers/12439&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;},{&quot;name&quot;:&quot;Michael Schwarz&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/rc3/public/speakers/8665&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/008/665/small/ykWlP2Gj_400x400.jpg?1546097983&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/rc3/public/schedule",
+    "name" : "Remote Chaos Experience",
+    "location" : {
+      "@type" : "Place",
+      "name" : "Remote Chaos Experience",
+      "address" : "Remote Chaos Experience"
+    },
+    "startDate" : "2020-12-27T09:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
 </body>
 </html>

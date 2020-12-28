@@ -1,7 +1,178 @@
+<!DOCTYPE html>
 <html>
-<head><title>404 Not Found</title></head>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Lecture: Ramming Enclave Gates: A Systematic Vulnerability Assessment of TEE Shielding Runtimes | Tuesday | Schedule Remote Chaos Experience
+</title>
+<link rel="stylesheet" media="screen" href="/rc3/2020/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/rc3/2020/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/rc3/2020/Fahrplan/public_schedule_print.css">
+</head>
 <body>
-<center><h1>404 Not Found</h1></center>
-<hr><center>nginx/1.16.1</center>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule Remote Chaos Experience</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/rc3/2020/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/1.html">
+Sunday
+ - 
+<span class="small-font">2020-12-27</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/2.html">
+Monday
+ - 
+<span class="small-font">2020-12-28</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/3.html">
+Tuesday
+ - 
+<span class="small-font">2020-12-29</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/4.html">
+Wednesday
+ - 
+<span class="small-font">2020-12-30</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/timeline.html">timeline</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/booklet.html">book</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version 1.6</p>
+<h2>Lecture: Ramming Enclave Gates: A Systematic Vulnerability Assessment of TEE Shielding Runtimes</h2>
+<h3 class="title"></h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/rc3/2020/Fahrplan/system/events/logos/000/011/366/large/tale-png.png"></div>
+<p class="abstract">This talk presents an extensive security analysis of trusted-execution environment shielding runtimes, covering over two years of continuing research and leading to 7 CVE designations in industry-grade Intel SGX enclave SDKs. </p>
+<p class="description">For the first time, we develop a systematic way of reasoning about enclave shielding responsibilities categorized across 11 distinct classes across the ABI and API tiers. Our analysis revealed over 40 new interface sanitization vulnerabilities, and we developed innovative techniques to aid practically exploitation through among others CPU register poisoning, timer-based single-stepping, rogue CPU exception handlers, and side-channel-based cryptanalysis. We finally analyze tendencies across the landscape and find that developers continue to make the same mistakes, calling for improved vulnerability detection and mitigation techniques.</p>
+
+<p class="description">This talk overviews the security and state of practice of today's Trusted Execution Environment (TEE) shielding runtimes from both industry and research. Our systematic analysis uncovered over 40 re-occurring enclave interface sanitization vulnerabilities in 8 major open-source shielding frameworks for Intel SGX, RISC-V, and Sancus TEEs. The resulting vulnerability landscape enables attackers to poison victim programs through both low-level CPU state, including previously overlooked attack vectors through the x86 status flags and floating-point co-processor, as well as through higher-level programming constructs such as untrusted pointer arguments passed into the shared address
+<br>space.</p>
+
+<p class="description">We develop new and improved technique to practically exploit these vulnerabilities in several attack scenarios that leak full cryptographic keys from the enclave or enable arbitrary remote code reuse. Following extended responsible disclosure embargoes, our findings were assigned 7 designated CVE records and led to numerous security patches in the vulnerable open-source projects, including the Intel SGX-SDK, Microsoft's Open Enclave, Google's Asylo, and the Rust compiler. </p>
+
+<p class="description">Our findings highlight that emerging TEE technologies, such as Intel SGX, are _not_ a silver-bullet solution and continue to be misunderstood in both industry and academia. While promising, we explain that TEEs require extra scrutiny from the enclave developer and we set out to identify common pitfalls and constructive recommendations for best practices for enclave interface sanitization. Throughout the talk, we overview shielding responsibilities and argue that proper enclave hygiene will be instrumental to the success of the emerging Intel SGX ecosystem. Additionally, we point to several subtle properties of the Intel x86 complex instruction set considerably increase the attack surface for enclave attackers and require the end developer to be aware of their respective shielding runtime or apply additional sanitizations at the application level itself.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/rc3/2020/Fahrplan/schedule/3.html">2020-12-29</a>
+<br>
+<b>Start time:</b>
+13:00
+<br>
+<b>Duration:</b>
+00:40
+<br>
+<b>Room:</b>
+rC1
+<br>
+<b>Track:</b>
+<a href="/rc3/2020/Fahrplan/events.html#it-security">IT-Security</a>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/rc3/2020/Fahrplan/events/11366.ics">iCalendar</a></li>
+<li><a href="https://www.zdnet.com/article/manual-code-review-finds-35-vulnerabilities-in-8-enclave-sdks/">Manual code review finds 35 vulnerabilities in 8 enclave SDKs</a></li>
+<li><a href="https://github.com/jovanbulck/0xbadc0de">Attack source code #1</a></li>
+<li><a href="https://github.com/fritzalder/faulty-point-unit/">Attack source code #2</a></li>
+</ul>
+<h3>Files</h3>
+<ul>
+<li><a href="/rc3/2020/Fahrplan/system/event_attachments/attachments/000/004/153/original/ccs19-tale.pdf">Technical paper #1</a></li>
+<li><a href="/rc3/2020/Fahrplan/system/event_attachments/attachments/000/004/154/original/2020_faulty-point-unit.pdf">Technical paper #2</a></li>
+</ul>
+<h3>Feedback</h3>
+<p>
+<a href="https://frab.cccv.de/en/rc3/public/events/11366/feedback/new">Click here to let us know how you liked this event.</a>
+</p>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent Events</h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/rc3/2020/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png"></div></td>
+<td><a href="/rc3/2020/Fahrplan/speakers/12439.html">Jo Van Bulck</a></td>
+</tr>
+<tr>
+<td><div class="image small"><img src="/rc3/2020/Fahrplan/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png"></div></td>
+<td><a href="/rc3/2020/Fahrplan/speakers/12440.html">Fritz Alder</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Ramming Enclave Gates: A Systematic Vulnerability Assessment of TEE Shielding Runtimes",
+  "location" : {
+    "@type" : "Place",
+    "name" : "rC1",
+    "address" : "Remote Chaos Experience"
+  },
+  "startDate" : "2020-12-29T13:00:00+0100",
+  "endDate" : "2020-12-29T13:40:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;Jo Van Bulck&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/rc3/public/speakers/12439&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;},{&quot;name&quot;:&quot;Fritz Alder&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/rc3/public/speakers/12440&quot;,&quot;image&quot;:&quot;/assets/person_small-6becbdd9bedc5ac3962dfb66f90e5ebb8fdbb97c287002e97bba3762a122a2bf.png&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/rc3/public/schedule",
+    "name" : "Remote Chaos Experience",
+    "location" : {
+      "@type" : "Place",
+      "name" : "Remote Chaos Experience",
+      "address" : "Remote Chaos Experience"
+    },
+    "startDate" : "2020-12-27T09:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
 </body>
 </html>

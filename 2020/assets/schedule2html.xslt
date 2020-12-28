@@ -24,6 +24,7 @@
         <xsl:when test="'34c3' = conference/acronym">https://events.ccc.de/congress/2017</xsl:when>
         <xsl:when test="'35c3' = conference/acronym">..</xsl:when>
         <xsl:when test="'36c3' = conference/acronym">..</xsl:when>
+        <xsl:when test="'rc3' = conference/acronym">..</xsl:when>
         <xsl:otherwise>foo</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>

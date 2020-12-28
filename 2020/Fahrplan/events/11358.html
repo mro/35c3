@@ -1,7 +1,176 @@
+<!DOCTYPE html>
 <html>
-<head><title>404 Not Found</title></head>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<title>Lecture: Fuzzing the phone in the iPhone | Monday | Schedule Remote Chaos Experience
+</title>
+<link rel="stylesheet" media="screen" href="/rc3/2020/Fahrplan/public_schedule.css">
+<link rel="stylesheet" media="all" href="/rc3/2020/Fahrplan/style.css">
+<link rel="stylesheet" media="print" href="/rc3/2020/Fahrplan/public_schedule_print.css">
+</head>
 <body>
-<center><h1>404 Not Found</h1></center>
-<hr><center>nginx/1.16.1</center>
+<div id="wrapper">
+<div id="banner"></div>
+<div id="header">
+<h1>Schedule Remote Chaos Experience</h1>
+</div>
+<div id="navigation">
+<ul>
+<li>
+<a href="/rc3/2020/Fahrplan/index.html">Overview</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/1.html">
+Sunday
+ - 
+<span class="small-font">2020-12-27</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/2.html">
+Monday
+ - 
+<span class="small-font">2020-12-28</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/3.html">
+Tuesday
+ - 
+<span class="small-font">2020-12-29</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/schedule/4.html">
+Wednesday
+ - 
+<span class="small-font">2020-12-30</span>
+</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/speakers.html">Speakers</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/events.html">Events</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/timeline.html">timeline</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/booklet.html">book</a>
+</li>
+<li>
+<a href="/rc3/2020/Fahrplan/qrcode.html">QR-Code</a>
+</li>
+</ul>
+
+</div>
+<div id="main-content">
+<p class="release">Version 1.6</p>
+<h2>Lecture: Fuzzing the phone in the iPhone</h2>
+<h3 class="title">D-d-d-di-di-d-d-di-d-di-d-di-d-dimm!</h3>
+<div class="column left" id="basic">
+<div class="image large"><img src="/rc3/2020/Fahrplan/system/events/logos/000/011/358/large/iphone.png"></div>
+<p class="abstract">How secure is the interface between baseband chips and iOS?
+<br>While this interface should protect against escalations from the baseband into operating system components, its implementation is
+<br>full of bugs. Fuzzing this interface is not only relevant to security, but also results in various funny effects, since the iPhone looses
+<br>information about its identity and location, and eventually ends up in a state with a few thousand unread SMS that can no longer be deleted.</p>
+<p class="description">The baseband chip is the phone within a smartphone. While users might disable Bluetooth or not join untrusted Wi-Fis to increase security, mobile data and phone calls are always on. Some baseband features remain enabled even without an active data pass or SIM card installed.
+<br>Thus, baseband chips are a popular target for Remote Code Execution (RCE) attacks. Launched over-the-air, they do not leave any trace on intermediate servers.</p>
+
+<p class="description">With recently published tools, emulating and fuzzing baseband firmware has become accessible and gained a lot of attention by security researchers.
+<br>Yet, a critical part of an exploit chain remains escalating from the baseband chip into the operating system. An attacker with code execution in the baseband chip could modify network traffic and escalate with a Web browser exploit. However, wireless communication is already susceptible to manipulation without a baseband exploit due to missing user data integrity protection, as shown by the IMP4GT attacks on LTE.
+<br>Moreover, network traffic manipulation still requires the attacker to wait until their target creates traffic in the context of a Web browser.</p>
+
+<p class="description">More stealthy attacks can be achieved via baseband activity that does not require any user interaction, such as retrieving information about nearby base stations. On an iPhone, the interface forwarding this information comes in two variants for Intel and Qualcomm baseband chips. Both interfaces interact with CommCenter, which is the phone component of the iPhone that parses and forwards phone calls, SMS, and more.</p>
+
+<p class="description">This talk demonstrates how to fuzz these interfaces as well as various challenges and solutions in fuzzing these. The baseband interface is such an integral part of iOS that fuzzing results are not limited to finding issues within CommCenter but also led to discovery of bugs in various daemons connecting to it. Some of these issues might also be triggered by a rouge base station, though, fuzzing the baseband interface locally results in higher performance and more control. </p>
+
+<p class="description">Fuzzing the baseband interface demonstrates fuzzing in a way that is easy to understand even for those who are not familiar with security research. The iPhone under test receives SMS so fast that it will not finish playingthe <i>Dimm</i> notification sound before the next SMS arrives, and, thus,
+<br>this actually sounds like <i>D-d-d-di-di-d-d-di-d-di-d-di-d-dimm!</i> The sound effect when the audio controller hangs up is also quite fun. Exposure notifications are no longer available due to the location change, since the iPhone uses baseband information to determine its region. And due to all the confusion about its identity, it regularly asks for activation.</p>
+
+<p class="description">Besides security analysis, understanding the baseband interface means that it can also be controlled on jailbroken iPhones. Moreover, passive observations are possible on non-jailbroken devices with a baseband debug profile. This opens up these devices for new wireless research opportunities.</p>
+</div>
+<div class="column left" id="details">
+<h3>Info</h3>
+<p>
+<b>Day:</b>
+<a href="/rc3/2020/Fahrplan/schedule/2.html">2020-12-28</a>
+<br>
+<b>Start time:</b>
+13:40
+<br>
+<b>Duration:</b>
+01:00
+<br>
+<b>Room:</b>
+rC2
+<br>
+<b>Track:</b>
+<a href="/rc3/2020/Fahrplan/events.html#it-security">IT-Security</a>
+<br>
+<b>Language:</b>
+en
+</p>
+<h3>Links:</h3>
+<ul>
+<li><a href="/rc3/2020/Fahrplan/events/11358.ics">iCalendar</a></li>
+</ul>
+<h3>Feedback</h3>
+<p>
+<a href="https://frab.cccv.de/en/rc3/public/events/11358/feedback/new">Click here to let us know how you liked this event.</a>
+</p>
+<div class="column left" id="concurrent_events">
+<h3>Concurrent Events</h3>
+<dl class="dl-horizontal">
+</dl>
+</div>
+</div>
+<div class="column right" id="sidebar">
+<h3>Speakers</h3>
+<table class="list">
+<tbody>
+<tr>
+<td><div class="image small"><img src="/rc3/2020/Fahrplan/system/people/avatars/000/004/927/small/jiska.jpg"></div></td>
+<td><a href="/rc3/2020/Fahrplan/speakers/4927.html">jiska</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Event",
+  "name" : "Fuzzing the phone in the iPhone",
+  "location" : {
+    "@type" : "Place",
+    "name" : "rC2",
+    "address" : "Remote Chaos Experience"
+  },
+  "startDate" : "2020-12-28T13:40:00+0100",
+  "endDate" : "2020-12-28T14:40:00+0100",
+  "performer" : [{&quot;name&quot;:&quot;jiska&quot;,&quot;@type&quot;:&quot;Person&quot;,&quot;sameAs&quot;:&quot;/en/rc3/public/speakers/4927&quot;,&quot;image&quot;:&quot;/system/people/avatars/000/004/927/small/jiska.jpg?1608996245&quot;}],
+  "inLanguage" : "en",
+  "superEvent" : {
+    "@type" : "Event",
+    "sameAs" : "/en/rc3/public/schedule",
+    "name" : "Remote Chaos Experience",
+    "location" : {
+      "@type" : "Place",
+      "name" : "Remote Chaos Experience",
+      "address" : "Remote Chaos Experience"
+    },
+    "startDate" : "2020-12-27T09:00:00+0100"
+  }
+}
+
+</script>
+
+<br class="clear">
+</div>
+</div>
+<div id="footer">
+<p>This schedule was generated with <a href="http://frab.github.io/frab/">frab</a>.</p>
+</div>
 </body>
 </html>
