@@ -44,7 +44,7 @@ curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --
 
   curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --user-agent "${USER_AGENT}" "${url}" && {
     rm -rf "${dir}"
-    tar -xzf "${dst}" && mv 35c3 "${dir}"
+    tar -xzf "${dst}" && mv rC3 "${dir}"
     sed -i -e "s:/${evt}/${year}/${dir}/:./:g" "${dir}"/*.html
     sed -i -e "s:/${evt}/${year}/${dir}/:../:g" "${dir}"/*/*.html
 
@@ -95,7 +95,7 @@ curl --silent --location --remote-time --output "${dst}" --time-cond "${dst}" --
   }
 }
 
-sh wiki.sh
+# sh wiki.sh
 
 git add . && git commit -a -m '🐳'
 

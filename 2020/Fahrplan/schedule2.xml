@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="../assets/schedule2html.xslt"?>
 <schedule>
   <generator name="frab" version="0.7"/>
-  <version>1.5</version>
+  <version>1.6</version>
   <conference>
     <acronym>rc3</acronym>
     <title>Remote Chaos Experience</title>
@@ -2469,21 +2469,34 @@ Hinterher habt ihr eine für euch optimierte Liste, mit denen ihr eure Vorbereit
         <start>19:00</start>
         <duration>02:00</duration>
         <room>chaosstudio-hamburg</room>
-        <slug>rc3-11389-twilight_-_midi_broadcasting_ice_sculpture</slug>
+        <slug>rc3-11389-twilight_-_broadcasting_ice_sculpture</slug>
         <url>./events/11389.html</url>
         <recording>
           <license/>
           <optout>false</optout>
         </recording>
-        <title>Twilight - MIDI Broadcasting Ice Sculpture</title>
-        <subtitle>Open Online MIDI Sound Art Happening</subtitle>
+        <title>Twilight - Broadcasting Ice Sculpture</title>
+        <subtitle>Open Online Light Sound Art Happening</subtitle>
         <track>Art &amp; Culture</track>
         <type>concert</type>
         <language>en</language>
         <abstract>Illuminated Ice blockes are melting. 
-The waterdrops trigger sensors. For the first time the data stream is provided as MIDI stream over internet. 
-We invite any artists to use the MIDI stream for sound or other art works and upload them as collective art work.</abstract>
-        <description>Watch videos,, see links below</description>
+The ice/light/sound installation is an ongoing project which started 2009. 
+In my talk I want to give an introduction to my motivation, the global ice melting.
+The installation brings this abstract knowledge as a sensual experience to the people. The integration of sensors and electronics generates sound and data. 
+
+ 
+</abstract>
+        <description>I will show visualizations and numbers of the impact of the climate change on the global ice amount. 
+
+The installation was shown in many collaborations, contexts, galleries, festivals, etc.  
+
+Since a few years I started to work with sensors to count the drops and create sound by sensors and electronics. I will give an overview about my experiences and future ideas. 
+
+I invite artists and data scientists to take part in further developments in sound, light, data and digital participation. Find source code, data and instructions on github.
+
+To get an impression about the installation watch the videos below
+After the talk will be live video streaming. </description>
         <logo>/system/events/logos/000/011/389/large/IMG_20191230_201823.jpg?1605451160</logo>
         <persons>
           <person id="7003">Peggy Sylopp</person>
@@ -2494,6 +2507,7 @@ We invite any artists to use the MIDI stream for sound or other art works and up
           <link href="https://donaugang.wordpress.com/2018/01/29/twilight-sylopp/">Donau Ecke Ganghofer, Projektraum, solo exhibition 2017-2018</link>
           <link href="https://youtu.be/EwxAIooPiBM">"Twilight I" Ice Installation at Gallery "Odra Zoo", Stettin (Polen), 2012 </link>
           <link href="http://www.tanzforumberlin.de/produktion/polar-werkschau/">“POLAR” Tanzforum Berlin, 2009 </link>
+          <link href="https://gh36.de/">In Collaboration with Gallery GH 36 </link>
         </links>
         <attachments>
 </attachments>
@@ -3079,7 +3093,7 @@ Auf der Basis dieser wissenschaftlichen Perspektive einer Medizinerin mit der pr
         </recording>
         <title>Biohacking in art</title>
         <subtitle>An interdisciplinary foray from slime moulds to fungi and cell culture</subtitle>
-        <track>Science</track>
+        <track>Art &amp; Culture</track>
         <type>lecture</type>
         <language>en</language>
         <abstract>With her transdisciplinary works, media artist Theresa Schubert manages to make the fine connective tissue between human / nature on the one hand and science / technology on the other visible and, above all, tangible. Often, organic materials such as slime moulds, fungi or bacteria are the starting point for an experimental exploration via practices of posthuman self-organisation or interspecies communication. In her lecture, she will present some of her art projects and her methodological approaches - such as biohacking, theoretical analysis or performative interpretation.</abstract>
