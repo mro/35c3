@@ -1671,7 +1671,9 @@ schedule:
           - id: 1752
             public_name: andy
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/227/original/20201228-RC3-AMM-CIA-VS-WL.pdf?1609199567"
+            title: Presentation Slides
         chaosstudio-hamburg:
         - url: https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11591.html
           id: 11591
@@ -2292,65 +2294,53 @@ schedule:
             public_name: Arne Vogelgesang
           links: []
           attachments: []
-        - url: https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11460.html
-          id: 11460
-          guid: 596dce9c-c924-477e-a64c-f0a3484ba0c5
+        - url: https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11600.html
+          id: 11600
+          guid: 65c722a1-c90b-4ad1-b8b3-55ba3ea89809
           logo: 
           date: '2020-12-29T18:00:00+01:00'
           start: '18:00'
           duration: '00:40'
           room: rC1
-          slug: rc3-11460-nachrichten_aus_dem_coroninchenbau
-          title: Nachrichten aus dem Coroninchenbau
-          subtitle: Rechte Mobilisierung in Zeiten der Pandemie
+          slug: rc3-11600-nazis_in_games
+          title: Nazis in Games
+          subtitle: Depiction, Normalization, Consequences
           track: Ethics, Society & Politics
           type: lecture
-          language: de
-          abstract: Welche Lessons Learned können wir aus den den Strategien der extremen
-            Rechten im Jahr 2020 ziehen – auch in Bezug auf die Mobilisierung der
-            AfD zur Bundestagswahl?
-          description: "Das Jahr 2020 waren umgerechnet sieben Rechtsextremismusexperinnenjahre.
-            Die Mediale Diskurse drehten sich um Verschwörungsideologen auf Telegram,
-            Mobilisierung gegen Maßnahmen zur Pandemieeindämmung auf der Straße, Reichstagstreppenwettläufe
-            und Bürgerkriegsphantasien. \r\n\r\nAuch wenn sich das Abheften derartiger
-            Phänomene als \"bedauerlicher Einzelfall\" in so mancher Behörde in der
-            Vergangenheit durchaus bewährt haben mag – Es ist wichtig all diese Phänomene
-            als Teil einer gemeinsamen Strategie der extremen Rechten zu begreifen.
-            \r\n\r\nAuch Verschwörungsmythen sind nicht etwa mit Corona plötzlich
-            aus dem Nichts gekommen, sondern schon lange ein elementarer Bestandteil
-            rechtsextremer Weltbilder. Das Narrativ einer angeblichen großen Verschwörung
-            erlaubt es nicht nur, sich selbst als \"erleuchtete\" Gruppe zu inszenieren,
-            die einzig und allein den \"Volkswillen\" kenne und durchsetzen könne.
-            Das Drohszenario einer angeblichen Herrschaft des Unrechts, wird auch
-            dazu benutzt, Gewalt gegen Andersdenkende zu legitimieren. Dass Verschwörungsmythen
-            eine wichtige Rolle bei der Radikalisierung von Attentätern spielen dürfte
-            nicht erst seit Hanau und Halle klar sein. Die Erzählung von einer großen
-            Medienverschwörung immunisiert Anhänger schließlich höchst effektiv gegen
-            Kritik von außen. \r\n\r\nDas paradoxe an rechtsextremen Narrativen zu
-            Corona ist, dass es sich hierbei um Geschichten handelt, in denen man
-            sich zugleich als Held und Opfer sieht. Einerseits wird behauptet, \"das
-            Volk\" stehe hinter einem und einige wenige gezielte Aktionen könnten
-            den Funken für einen Bürgerkrieg entzünden. Andererseits wird das angebliche
-            eigene Leid in der Coronazeit allen ernstes mit dem Holocausts und dem
-            Schicksal von Anne Frank verglichen. Manch einer sieht seinen \"Widerstand\"
-            gegen eine vermeintliche \"Corona-Verschwörung\" gar in der Tradition
-            des Kampfes der Weißen Rose gegen den NS-Terror. \r\n\r\nDie Debatte um
-            die Rolle rechtsextremer Mobilisierung bei den verschwörungsideologischen
-            Demos der letzten Monate zeigt vor allem: Das Bild dessen, was einen Rechtsradikale
-            ausmacht, ist in weiten Teilen der Bevölkerung veraltet. Das Wissen darüber,
-            wie die Szene auf Telegram, Twich, TikTok und Instagram agiert und wie
-            rechtsextreme Mobilisierung funktioniert ist nicht weit verbreitet. Eine
-            der Folgen der ständigen Fokussierung auf einzelne Ereignisse und Phänomene:
-            Mithilfe koordinierter Aktionen können Rechtsextremisten regelmäßig mediale
-            Diskurse kapern. Wie kann das für die Zukunft verhindert werden?\r\n\r\nKarolin
-            Schwarz und Katharina Nocun"
+          language: en
+          abstract: The depiction of Nazis in games tends to downplay their atrocities
+            and facilitate the normalization of fascist aesthetics and ideologies.
+            Even in a playful and lighthearted context, this normalization has consequences
+            that can and should be avoided by everyone in gaming communities – including
+            developers, content creators, and players.
+          description: "World War II might be just one of many historical settings
+            in games, but the representation of Nazis makes it a particularly tricky
+            one. Especially if developers are trying to sell an entertainment product
+            and provide players with all the freedom they might wish for, they frequently
+            decide not to depict the Holocaust, for example. Such a decision, however,
+            contributes to an embellished picture of Nazi Germany, which is then offered
+            to players – some of which are apparently craving Nazi content. Their
+            ideology, weaponry, and aesthetics seem to appeal to certain players in
+            a peculiar way, as can be seen in user-created content, profiles, and
+            discussions. \r\nNo matter what the intention behind such behavior is,
+            the abundance of Nazi representations in gaming communities has harmful
+            consequences. By keeping the line between role-play and actual propagation
+            of fascist ideologies blurry, gaming communities make themselves a rather
+            uncomfortable place for all but the most privileged of players, while
+            at the same time offering an excellent playground for actual fascists.
+            Players, moderators, and developers regularly face backlash when advocating
+            for more inclusive communities – at least whenever making a positive change
+            would require dropping supposedly “edgy” behavior or content in an environment
+            that has long been used to it. \r\nTackling these issues demands more
+            awareness and responsibility from all involved parties, from the players
+            to the developers and their marketing divisions. Luckily, we could recently
+            witness various good practice examples of ways to oppose fascism in gaming.
+            Such examples are still rare, they require effort and dedication, but
+            they harbor promise of a better future for gaming – for everyone except
+            literal Nazis."
           recording_license: ''
-          do_not_record: false
-          persons:
-          - id: 12783
-            public_name: Raeuberhose
-          - id: 8662
-            public_name: Katharina Nocun
+          do_not_record: true
+          persons: []
           links: []
           attachments: []
         - url: https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11342.html
@@ -3024,7 +3014,7 @@ schedule:
         - url: https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11385.html
           id: 11385
           guid: 8055a3c3-f932-4d97-aa61-39cf6d01c352
-          logo: 
+          logo: "/system/events/logos/000/011/385/large/Bildschirmfoto_2020-12-29_um_16.09.47.png?1609254608"
           date: '2020-12-29T17:00:00+01:00'
           start: '17:00'
           duration: '00:40'
@@ -3065,8 +3055,14 @@ schedule:
             public_name: bruttl
           - id: 8577
             public_name: Benjamin Wand
+          - id: 2734
+            public_name: dj-spock
           links: []
-          attachments: []
+          attachments:
+          - url: "/system/event_attachments/attachments/000/004/228/original/folien.md?1609254361"
+            title: folien.md
+          - url: "/attachments/original/missing.png"
+            title: file
         - url: https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11598.html
           id: 11598
           guid: df614837-df5a-4bff-b268-258720eb223a
@@ -3117,19 +3113,19 @@ schedule:
           track: Science
           type: lecture
           language: de
-          abstract: Stromausfall im Münsterland, Corona selbst oder die unterbrochenen
-            weltweiten Lieferketten dadurch. Eine überschaubare Vorbereitung jeder*s
-            Einzelen ist wichtig, denn die Hoffnung, dass "der" Katastrophenschutz
-            es schon richten wird, ist zum Scheitern verurteilt. Hintergründe, Einordnungen,
+          abstract: Stromausfall im Münsterland, aktuell Corona oder die dadurch unterbrochenen
+            weltweiten Lieferketten. Eine überschaubare Vorbereitung jeder*s Einzelnen
+            ist wichtig, denn die Hoffnung, dass "der" Katastrophenschutz es schon
+            richten wird, ist zum Scheitern verurteilt. Hintergründe, Einordnungen,
             praktische Tips, Hinweise zum persönlichen Vorratsregal
           description: "Unsere Abhängigkeit von den KRITIS KRItischenInfrsStrukturen
             ist groß. Doch Bank, Logistik und Verwaltung haben Viele dabei nicht auf
             dem Schirm. Und doch sind sie Systemrelevant. Nicht nur Krankenhäuser,
-            Strom und Wasser. \r\nIch möchte vorstellen, warum ein frühzeitiges, anlassloses
-            vorbereiten wichtig ist, denn sich erst zu kümmern, wenn es soweit ist,
-            ist leider zu spät. Im Frühjahr im Baumarkt schnell ein paar FFP2 Masken
-            holen? Die Regale waren leer. \r\nDamit euch die vorhersehbaren Dinge
-            nicht ausgehen, schauen wir uns gemeinsam die Struktur vom Rettungswesen,
+            Strom und Wasser. \r\n\r\nIch möchte vorstellen, warum ein frühzeitiges,
+            anlassloses vorbereiten wichtig ist, denn sich erst zu kümmern, wenn es
+            soweit ist, ist leider zu spät. Im Frühjahr im Baumarkt schnell ein paar
+            FFP2 Masken holen? Die Regale waren leer. \r\nDamit euch die vorhersehbaren
+            Dinge nicht ausgehen, schauen wir uns gemeinsam die Struktur vom Rettungswesen,
             den Katastrophenschutz und den Verwaltungsebenen an. Warum stoppen Katastrophen
             an Landesgrenzen (sic!) ? Was kann der KatS wirklich?\r\nWelche Dinge
             helfen mir, sicher(er) eine unvorhergesehene Situation zu überstehen?
@@ -3138,14 +3134,18 @@ schedule:
             der gemeinsamen Besprechung ist die Broschüre \"für den Notfall vorgesorgt\"
             von bbk.bund.de . Auch wenn wir papier sparen wollen, es ist Sinnvoll,
             die vorher auszudrucken. Bei Stromausfall können einige Wenige von euch
-            noch drucken, aber das sind die Wenigsten. \r\nHinterher habt ihr eine
-            für euch optimierte Liste, mit denen ihr eure Vorbereitung gut einschätzen
-            könnt und wisst, warum ihr was davon brauchen (könntet)."
+            noch drucken, aber das sind die Wenigsten.  https://www.bbk.bund.de/DE/Service/Publikationen/Broschuerenfaltblaetter/Ratgeber_node.html\r\nHinterher
+            habt ihr eine für euch optimierte Liste, mit denen ihr eure Vorbereitung
+            gut einschätzen könnt und wisst, warum ihr was davon brauchen (könntet)."
           recording_license: ''
           do_not_record: false
           persons:
           - id: 12840
             public_name: kritis
+          - id: 8975
+            public_name: ich@honkhase.de
+          - id: 4630
+            public_name: peter_n2n
           links: []
           attachments: []
         - url: https://fahrplan.events.ccc.de/rc3/2020/Fahrplan/events/11389.html
@@ -3203,9 +3203,9 @@ schedule:
           id: 11501
           guid: 68ce1223-7aaa-4554-bab8-3944e8bb891f
           logo: 
-          date: '2020-12-29T13:30:00+01:00'
-          start: '13:30'
-          duration: '00:40'
+          date: '2020-12-29T18:00:00+01:00'
+          start: '18:00'
+          duration: '01:00'
           room: restrealitaet
           slug: rc3-11501-nazis_in_games
           title: Nazis in Games
